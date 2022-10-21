@@ -20,8 +20,9 @@
         A = ["User1", "User2", "User3"]
 
         A.forEach(user => {
-            
-            d.innerHTML+=t.innerHTML
+            d.innerHTML += t.innerHTML
+            p = d.querySelector("p")
+            p.innerHTML = user
         });
     </script>
 </body>
