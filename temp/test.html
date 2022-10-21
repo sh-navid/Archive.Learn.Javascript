@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <input type="text" />
+    <input type="button" value="Translate" onclick="t()" />
+    <script>
+        A = { "hello": "سلام" }
+
+        i = document.querySelector("input[type=text]")
+
+        function t() {
+            alert(A[i.value])
+        }
+    </script>
+</body>
+
+</html>
