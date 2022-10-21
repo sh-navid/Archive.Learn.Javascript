@@ -6,8 +6,8 @@
     - [Example of auto complete with `.filter()`](concepts/array/js-array-filter-example.html) 
     - [Question](concepts/array/js-array-filter-question.html) , [Answer](concepts/array/js-array-filter-answer.html)
 - `.forEach()`
-    - [Example of create object `template` with `.forEach()`](concepts/array/js-array-foreach-example.html)
-    - Question, Answer
+    - [Example of create object using `template` and `.forEach()`](concepts/array/js-array-foreach-example.html)
+    - [Question](concepts/array/js-array-foreach-question.html), Answer
 - `.map()`
 - `.reduce()`
 - `.find()`
@@ -21,3 +21,13 @@
         - `.createElement()`, `.appendChild()`
     - Events
         - `keydown, click`
+
+## More
+### Tools
+### Concepts
+- PWA, SPA, ...
+### Design Patterns
+### Other
+- Network
+- Browser Extensions
+- Backend Service and SocketIO

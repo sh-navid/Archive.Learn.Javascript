@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="holder"></div>
+    <script>
+        A = ["green", "blue", "red", "yellow", "purple"]
+
+        //با استفاده از آرایه بالا و همینطور
+        //.forEach()
+        //پنج دکمه مختلف در صفحه بسازید که رنگ زمینه هر دکمه مطابق با رنگ های داخل آرایه باشد
+
+        //پاسخ
+        d = document.querySelector(".holder")
+        A.forEach(el => {
+            d.innerHTML += 
+            `<input type="button" value="${el}" style="background-color:${el}" onclick="alert('${el}')"/>`
+        });
+    </script>
+</body>
+
+</html>
