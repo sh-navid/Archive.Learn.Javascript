@@ -6,7 +6,7 @@
     - [Example of auto complete with `.filter()`](concepts/array/js-array-filter-example.html) 
     - [Question](concepts/array/js-array-filter-question.html) , [Answer](concepts/array/js-array-filter-answer.html)
 - `.forEach()`
-    - [Example of create template with `.forEach()`](concepts/array/js-array-foreach-example.html)
+    - [Example of create object `template` with `.forEach()`](concepts/array/js-array-foreach-example.html)
     - Question, Answer
 - `.map()`
 - `.reduce()`
