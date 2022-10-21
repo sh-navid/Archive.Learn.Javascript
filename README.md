@@ -16,10 +16,10 @@
 
 ## Examples
 - [Calculator](concepts/array/js-example-calculator.html)
-    - Methods
+    - Used Methods
         - `.forEach()`, `.concat()`, `.includes()`
         - `.createElement()`, `.appendChild()`
-    - Events
+    - Used Events
         - `keydown, click`
 
 ## More
