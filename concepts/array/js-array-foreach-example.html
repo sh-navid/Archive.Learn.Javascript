@@ -10,8 +10,10 @@
     <div>
     </div>
     <template>
-        <p></p>
-        <input type="button" value="REMOVE" />
+        <div>
+            <p></p>
+            <input type="button" value="REMOVE" onclick="removeThis(this)" />
+        </div>
     </template>
     <script>
         d = document.querySelector("div")
@@ -20,10 +22,14 @@
         A = ["User1", "User2", "User3"]
 
         A.forEach(user => {
-            d.innerHTML += t.innerHTML
+            d.innerHTML = t.innerHTML + d.innerHTML
             p = d.querySelector("p")
             p.innerHTML = user
         });
+
+        const removeThis=(el)=>{
+            el.parentNode.parentNode.removeChild(el.parentNode)
+        }
     </script>
 </body>
 
