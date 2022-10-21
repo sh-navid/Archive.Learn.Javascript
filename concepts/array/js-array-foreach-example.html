@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div>
+    </div>
+    <template>
+        <p></p>
+        <input type="button" value="REMOVE" />
+    </template>
+    <script>
+        d = document.querySelector("div")
+        t = document.querySelector("template")
+
+        A = ["User1", "User2", "User3"]
+
+        A.forEach(user => {
+            
+            d.innerHTML+=t.innerHTML
+        });
+    </script>
+</body>
+
+</html>
