@@ -7,6 +7,10 @@
     - [Question](concepts/array/js-array-filter-question.html) , [Answer](concepts/array/js-array-filter-answer.html)
 - `.forEach()`
     - [Example of create template with `.forEach()`](concepts/array/js-array-foreach-example.html)
+    - Question, Answer
+- `.map()`
+- `.reduce()`
+- `.find()`
 
 
 
