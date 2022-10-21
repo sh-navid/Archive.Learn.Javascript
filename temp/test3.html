@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <script>
+        A = { "hello": "سلام", "hi": "سلام", "hey": "سلام" }
+
+        K = []
+
+        for (key in A) {
+            value = A[key]
+            console.log(key, " - ", value)
+
+            if (!K.includes(value))
+                K.push(value)
+            else
+                alert("We have this value in our list")
+        }
+    </script>
+</body>
+
+</html>
