@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        input {
+            padding: 1em;
+            width: 90%;
+            font-size: 200%;
+        }
+
+        .btn {
+            width: 19%;
+            height: 3em;
+            line-height: 3em;
+            border: 1px solid tomato;
+            border-radius: 2em;
+            display: inline-block;
+            font-size: 200%;
+            cursor: pointer;
+        }
+
+        .calc {
+            max-width: 1024px;
+            margin: 2em auto;
+            text-align: center;
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+    <p>You can use "Keyboard" for this calculator</p>
+    <div class="calc">
+        <input type="text" readonly />
+    </div>
+    <script>
+        A = [
+            "1", "2", "3", "+", "=",
+            "4", "5", "6", "-", "c",
+            "6", "7", "8", "*", "<",
+            ".", "9", "0", "/", ".",
+        ]
+
+        i = document.querySelector("input")
+        d = document.querySelector("div")
+
+        let flag = false
+
+        const calculate = (op) => {
+            if (op == "=") {
+                flag = true
+                i.value = eval(i.value)
+            } else if (op == "<") {
+                i.value = i.value.slice(0, -1)
+            } else if (op == "c") {
+                flag = false
+                i.value = ""
+            } else {
+                if (flag && ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"].includes(op)) {
+                    i.value = ""
+                }
+                flag = false
+                i.value += op
+            }
+        }
+
+        A.forEach(sym => {
+            b = document.createElement("div")
+            b.innerText = sym
+            b.className = "btn"
+            b.onclick = (e) => { calculate(e.target.innerText) }
+            d.appendChild(b)
+        });
+
+        document.addEventListener("keydown", (e) => {
+            if (A.concat(["Backspace", "Enter"]).includes(e.key)) {
+                key = e.key
+                if (key == "Enter") key = "="
+                if (key == "Backspace") key = "<"
+                calculate(key)
+            }
+        })
+    </script>
+</body>
+
+</html>
