@@ -7,7 +7,7 @@
     - [Question](concepts/array/js-array-filter-question.html) , [Answer](concepts/array/js-array-filter-answer.html)
 - `.forEach()`
     - [Example of create object using `template` and `.forEach()`](concepts/array/js-array-foreach-example.html)
-    - [Question](concepts/array/js-array-foreach-question.html), Answer
+    - [Question](concepts/array/js-array-foreach-question.html), [Answer](concepts/array/js-array-foreach-answer.html)
 - `.map()`
 - `.reduce()`
 - `.find()`
