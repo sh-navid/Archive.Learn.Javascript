@@ -25,14 +25,16 @@
 
 ## Browser Extension (Addon)
 - Firefox
+- Chrome
 
 
 ## More
 ### Tools
+- Git, Github
 ### Concepts
 - PWA, SPA, ...
 ### Design Patterns
+- GoF
 ### Other
 - Network
-- Browser Extensions
 - Backend Service and SocketIO
