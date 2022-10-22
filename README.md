@@ -22,6 +22,9 @@
     - Used Events
         - `keydown, click`
 
+## Browser Extension (Addon)
+- Firefox
+
 
 ## More
 ### Tools

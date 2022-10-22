@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTocToe</title>
+    <style>
+        * {
+            user-select: none;
+        }
+
+        td {
+            display: inline-block;
+            width: 2em;
+            height: 2em;
+            line-height: 2em;
+            text-align: center;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td onclick="c(this)"></td>
+            <td onclick="c(this)"></td>
+            <td onclick="c(this)"></td>
+        </tr>
+        <tr>
+            <td onclick="c(this)"></td>
+            <td onclick="c(this)"></td>
+            <td onclick="c(this)"></td>
+        </tr>
+        <tr>
+            <td onclick="c(this)"></td>
+            <td onclick="c(this)"></td>
+            <td onclick="c(this)"></td>
+        </tr>
+    </table>
+    <script>
+        P = ["x", "o"]
+        WIN_CHECK_LIST = ["012", "345", "678", "036", "147", "258", "048", "246"]
+        isGameEnded = false
+
+        const c = (el) => {
+            if (isGameEnded) {
+                alert("Game is ended")
+            }
+            if (!P.includes(el.innerText)) {
+                el.innerText = P[0];
+                checkWinner()
+                checkGameDraw()
+                P.reverse()
+                console.warn("Order of players", P)
+            }
+        }
+
+
+        const getTableData = () => {
+            return Array.from(document.querySelectorAll("td")).map(t => t.innerText);
+        }
+
+
+        const checkWinner = () => {
+            T = getTableData()
+            console.log("Data of game table", T);
+
+            WIN_CHECK_LIST.forEach((items) => {
+                K = items.split("").map(k => parseInt(k))
+                console.info("Check each winning condition", items, T[K[0]], T[K[1]], T[K[2]])
+
+                if (T[K[0]] == T[K[1]] && T[K[1]] == T[K[2]] && P.includes(T[K[0]])) {
+                    alert(P[0] + " is the winner")
+                    isGameEnded = true
+                    return
+                }
+            });
+        }
+
+
+        const checkGameDraw = () => {
+            T = getTableData()
+            sum = T.filter((t) => t == "").length
+
+            if (sum == 0 && !isGameEnded)
+                alert("Game is Draw")
+
+            console.log("Number of filled cells", 9 - sum)
+        }
+    </script>
+</body>
+
+</html>
