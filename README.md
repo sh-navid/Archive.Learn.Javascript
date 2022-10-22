@@ -13,6 +13,7 @@
     - [Question](concepts/array/js-array-map-question.html), [Answer](concepts/array/js-array-map-answer.html)
 - `.reduce()`
     - [Example of summation using `.reduce()`](concepts/array/js-array-reduce-example.html)
+    - [Question](concepts/array/js-array-reduce-question.html), [Answer](concepts/array/js-array-reduce-answer.html)
 - `.find()`
 
 
