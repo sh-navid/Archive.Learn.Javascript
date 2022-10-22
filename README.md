@@ -9,6 +9,7 @@
     - [Example of create object using `template` and `.forEach()`](concepts/array/js-array-foreach-example.html)
     - [Question](concepts/array/js-array-foreach-question.html), [Answer](concepts/array/js-array-foreach-answer.html)
 - `.map()`
+    - [Example of update values using `.map()`](concepts/array/js-array-map-example.html)
 - `.reduce()`
 - `.find()`
 
