@@ -12,6 +12,7 @@
     - [Example of update values using `.map()`](concepts/array/js-array-map-example.html)
     - [Question](concepts/array/js-array-map-question.html), [Answer](concepts/array/js-array-map-answer.html)
 - `.reduce()`
+    - [Example of summation using `.reduce()`](concepts/array/js-array-reduce-example.html)
 - `.find()`
 
 
