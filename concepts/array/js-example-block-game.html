@@ -42,7 +42,6 @@
     <br />
     <div></div>
     <script>
-        // INFO: NOT COMPLETED EXAMPLE
         // 1 is the player
         // 2 is the block
         // 3 is the hole
@@ -50,8 +49,8 @@
             [0, 0, 0, 3, 0],
             [0, 2, 0, 0, 0],
             [0, 0, 1, 0, 0],
-            [0, 0, 0, 0, 0],
-            [0, 0, 2, 0, 0]
+            [0, 0, 2, 0, 0],
+            [0, 0, 0, 0, 0]
         ]
 
         d = document.querySelector("div")
@@ -83,23 +82,27 @@
 
         //mx: -1 or +1 -> amount of movement over X axis
         //my: -1 or +1 -> amount of movement over Y axis
-        const moveToNewPlace = (currentPlace, my, mx) => {
-            c = currentPlace
+        const moveToNewPlace = (c, my, mx) => {
+            // c: current Place
             // n: new Place
-            n = { row: c.row + my, col: c.col + mx }
-            // nb: new place for block
-            // this is helpful when player wants to move a block
-            // this tells me where should i put the moved block
-            nb = { row: c.row + (my * 2), col: c.col + (mx * 2) }
-            console.log(n, c)
+            let n = { row: c.row + my, col: c.col + mx }
+            console.log("c", c, "n", n)
 
             //------------------------------------------------
             if (n.row < A.length && n.row >= 0) {
                 if (n.col < A[n.row].length && n.col >= 0) {
+                    if (A[n.row][n.col] == 2) {
+                        //"Recursive" function call
+                        // Recursive programming is an important concept
+                        // To move Red(Tomato) blocks
+                        moveToNewPlace(n, my, mx)
+                    }
                     if (A[n.row][n.col] != 3) {
                         A[n.row][n.col] = A[c.row][c.col]
                     } else {
-                        alert("Game Over")
+                        if (A[c.row][c.col] == 1) {
+                            alert("Game Over")
+                        }
                     }
 
                     A[c.row][c.col] = 0
