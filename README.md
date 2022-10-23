@@ -29,10 +29,21 @@
         - Events
             - `keydown, click`
 
+- [4 in a line Game](concepts/array/js-example-4-in-a-line-game.html)
+    - Used:
+        - Methods
+            - `.forEach()`, `.map()`, `.reverse()`, `.toString()`, .`.includes()`
+            - `.createElement()`, `.appendChild()`
+            - `.indexOf()`, `.replaceAll()`
+        - Keywords:
+            - `for`, `in`, `of`
+        - Events
+            - `keydown`
+
 - [Block Game](concepts/array/js-example-block-game.html)
     - Used:
         - Methods
-            - `.forEach(), .push()`
+            - `.forEach()`, `.push()`
             - `.createElement()`, `.appendChild()`
         - Keywords:
             - `for`, `in`
