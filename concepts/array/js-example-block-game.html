@@ -40,7 +40,8 @@
         //1 is the player
         //2 is the block
         //3 is the block holder
-        //4 is the block over the block holder
+        //4 is the player over the block holder
+        //5 is the block over the block holder
         A = [
             [0, 0, 0, 3, 0],
             [0, 2, 0, 0, 0],
@@ -80,8 +81,13 @@
             c = currentPlace
             n = newPlace
             console.log(n, c)
-            A[n.row][n.col] = 1
-            A[c.row][c.col] = 0
+            if (n.row < A.length && n.row >= 0) {
+                if (n.col < A[n.row].length && n.col >= 0) {
+                    A[n.row][n.col] = 1
+                    A[c.row][c.col] = 0
+                }
+            }
+            drawGameBoard()
         }
 
         document.addEventListener("keydown", (e) => {
