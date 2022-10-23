@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        color: gray;
+        text-align: center;
+    }
+
+    .cell {
+        width: 3em;
+        height: 3em;
+        display: inline-block;
+        border: 2px solid #eeeeee;
+        border-radius: .25em;
+    }
+
+    .type1 {
+        background-color: royalblue;
+    }
+
+    .type2 {
+        background-color: tomato;
+    }
+
+    hr {
+        height: 0;
+        border: 0px solid transparent;
+        width: 90%;
+        height: 1px;
+        background-color: #eeeeee;
+        margin: 0 auto;
+    }
+
+    .level {
+        display: inline-block;
+        padding: 1em;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    #current-palyer {
+        padding: 1em;
+        color: white;
+    }
+</style>
+
+<body>
+    <br />
+    <h2>4 In A Line Game</h2>
+    <br />
+    <p>Place 4 blocks near each other</p>
+    <br />
+    <hr />
+    <br />
+    <div></div>
+    <br />
+    <br />
+    <p><small>Use 1 to 8 numpad keys to play</small></p>
+    <br />
+    <div id="current-palyer" class="type1">Current Player</div>
+    <br />
+    <script>
+        A = [
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+        ]
+
+        L = [5, 5, 5, 5, 5, 5, 5, 5]
+
+        d = document.querySelector("div")
+        cp = document.querySelector("#current-palyer")
+
+        const drawGameBoard = () => {
+            d.innerHTML = ""
+            A.forEach((row) => {
+                div = document.createElement("div")
+                div.className = "row"
+                row.forEach((c) => {
+                    cell = document.createElement("div")
+                    cell.className = "cell type" + c
+                    div.appendChild(cell)
+                })
+                d.appendChild(div)
+            });
+        }
+
+        players = [1, 2]
+        isGameOn = true
+
+        const checkWinner = () => {
+            V = "", H = "", X = ""
+
+            // Check 4 in each row -> R
+            for (let R of A)
+                V += R.toString().replaceAll(",", "") + "-"
+
+            //check 4 in each column -> C
+            for (let C in A[0])
+                H += A.map((x) => x[C]).toString().replaceAll(",", "") + "-"
+
+            console.log("Horizantal", H)
+            console.log("Vertical", V)
+            console.log("Cross", X)
+
+            All = V + H + X
+            if (All.indexOf("1111") > -1) { alert("Blue is the winner"); isGameOn = false }
+            else if (All.indexOf("2222") > -1) { alert("Red is the winner"); isGameOn = false }
+        }
+
+        const play = (col) => {
+            if (!isGameOn) {
+                alert("Game is not running")
+                return
+            }
+
+            if (L[col - 1] >= 0) {
+                A[L[col - 1]][col - 1] = players[0]
+                L[col - 1] -= 1
+                drawGameBoard()
+                players.reverse()
+                cp.className = "type" + players[0]
+                checkWinner()
+            }
+        }
+
+        document.addEventListener("keydown", (e) => {
+            key = e.key
+            if (["1", "2", "3", "4", "5", "6", "7", "8"].includes(key)) {
+                play(key)
+            }
+        })
+
+        drawGameBoard()
+    </script>
+</body>
+
+</html>
