@@ -9,11 +9,13 @@
     * {
         margin: 0;
         padding: 0;
+        color: gray;
+        text-align: center;
     }
 
     .cell {
-        width: 2em;
-        height: 2em;
+        width: 3em;
+        height: 3em;
         display: inline-block;
         border: 2px solid #eeeeee;
         border-radius: .25em;
@@ -33,21 +35,23 @@
 </style>
 
 <body>
+    <h2>Block Game</h2>
+    <h3>Place all blocks in the hole</h3>
     <p>Use arrow keys to play</p>
+    <hr />
+    <br />
     <div></div>
     <script>
-        //INFO: NOT COMPLETED EXAMPLE
-        //1 is the player
-        //2 is the block
-        //3 is the block holder
-        //4 is the player over the block holder
-        //5 is the block over the block holder
+        // INFO: NOT COMPLETED EXAMPLE
+        // 1 is the player
+        // 2 is the block
+        // 3 is the hole
         A = [
             [0, 0, 0, 3, 0],
             [0, 2, 0, 0, 0],
             [0, 0, 1, 0, 0],
             [0, 0, 0, 0, 0],
-            [0, 0, 2, 3, 0]
+            [0, 0, 2, 0, 0]
         ]
 
         d = document.querySelector("div")
@@ -83,8 +87,13 @@
             console.log(n, c)
             if (n.row < A.length && n.row >= 0) {
                 if (n.col < A[n.row].length && n.col >= 0) {
-                    A[n.row][n.col] = 1
                     A[c.row][c.col] = 0
+
+                    if (A[n.row][n.col] != 3) {
+                        A[n.row][n.col] = 1
+                    } else {
+                        alert("Game Over")
+                    }
                 }
             }
             drawGameBoard()
