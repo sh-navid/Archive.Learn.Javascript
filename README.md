@@ -1,4 +1,5 @@
 # JS Instructor
+***Disclaimer: The content of this repository is provided only for the purpose of teaching students and with an educational perspective.***
 ## Extra Homeworks
 ### Array
 #### Methods
