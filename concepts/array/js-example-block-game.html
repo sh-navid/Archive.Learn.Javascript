@@ -39,7 +39,14 @@
         width: 90%;
         height: 1px;
         background-color: #eeeeee;
-        margin:0 auto;
+        margin: 0 auto;
+    }
+
+    .level{
+        display: inline-block;
+        padding:1em;
+        cursor: pointer;
+        user-select: none;
     }
 </style>
 
@@ -53,12 +60,19 @@
     <br />
     <div></div>
     <br />
+    <br />
     <p><small>Use arrow keys to play</small></p>
+    <br />
+    <div class="levels">
+        <small class="level" onclick="setGameLevel(0)">Level 1</small>
+        <small class="level" onclick="setGameLevel(1)">Level 2</small>
+        <small class="level" onclick="setGameLevel(2)">Level 3</small>
+    </div>
     <script>
         // 1 is the player
         // 2 is the block
         // 3 is the hole
-        A = [
+        L1 = [
             [0, 0, 0, 3, 0],
             [0, 2, 0, 0, 0],
             [0, 0, 1, 0, 0],
@@ -66,8 +80,36 @@
             [0, 0, 0, 0, 0]
         ]
 
+        L2 = [
+            [0, 0, 0, 0, 0, 0],
+            [0, 2, 0, 0, 0, 0],
+            [0, 0, 1, 0, 2, 0],
+            [0, 0, 2, 0, 2, 0],
+            [0, 0, 2, 0, 0, 0],
+            [0, 0, 0, 3, 0, 0]
+        ]
+
+        L3 = [
+            [0, 0, 0, 0, 0, 0, 0],
+            [0, 2, 0, 0, 0, 0, 0],
+            [0, 0, 1, 0, 0, 0, 0],
+            [0, 0, 2, 0, 2, 0, 0],
+            [0, 0, 2, 2, 2, 0, 0],
+            [0, 0, 2, 0, 2, 0, 0],
+            [0, 0, 0, 0, 3, 0, 0]
+        ]
+
+        // Stores the array of Current Level
+        A = null;
+
         d = document.querySelector("div")
 
+        const setGameLevel = (level) => {
+            L = [L1, L2, L3];
+            A = Array.from(L[level]);
+            drawGameBoard()
+        }
+        
         // To draw the game board at first
         // And redraw it later in the game
         const drawGameBoard = () => {
@@ -145,6 +187,7 @@
                 moveToNewPlace(place, 0, -1)
         })
 
+        setGameLevel(0)
         drawGameBoard()
     </script>
 </body>
