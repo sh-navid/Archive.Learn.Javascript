@@ -21,23 +21,25 @@
 
 ## Examples
 - [Calculator](concepts/array/js-example-calculator.html)
-    - Used Methods
-        - `.forEach()`, `.concat()`, `.includes()`
-        - `.createElement()`, `.appendChild()`
-    - Used Events
-        - `keydown, click`
+    - Used:
+        - Methods
+            - `.forEach()`, `.concat()`, `.includes()`
+            - `.createElement()`, `.appendChild()`
+        - Events
+            - `keydown, click`
 
 - [Block Game](concepts/array/js-example-block-game.html)
-    - Used Methods
-        - `.forEach(), .push()`
-        - `.createElement()`, `.appendChild()`
-    - Used Keywords:
-        - `for`, `in`
-    - Used Events
-        - `keydown`
-    - Used Concepts
-        - Recursive Programming (***Important***)
-    - TODO
+    - Used:
+        - Methods
+            - `.forEach(), .push()`
+            - `.createElement()`, `.appendChild()`
+        - Keywords:
+            - `for`, `in`
+        - Events
+            - `keydown`
+        - Concepts
+            - Recursive Programming (***Important***)
+    - TODO:
         - [ ] How to make a Progressive Web App (PWA) from this project?
         - [ ] How to make a native android application (APK) from this project?
         - [ ] How to make a chrome or firefox extension (Addon) from this project?
