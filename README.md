@@ -1,4 +1,4 @@
-# JS
+# JS Instructor
 ## Extra Homeworks
 ### Array
 #### Methods
