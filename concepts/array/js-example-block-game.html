@@ -81,19 +81,28 @@
             return founded
         }
 
-        const moveToNewPlace = (currentPlace, newPlace) => {
+        //mx: -1 or +1 -> amount of movement over X axis
+        //my: -1 or +1 -> amount of movement over Y axis
+        const moveToNewPlace = (currentPlace, my, mx) => {
             c = currentPlace
-            n = newPlace
+            // n: new Place
+            n = { row: c.row + my, col: c.col + mx }
+            // nb: new place for block
+            // this is helpful when player wants to move a block
+            // this tells me where should i put the moved block
+            nb = { row: c.row + (my * 2), col: c.col + (mx * 2) }
             console.log(n, c)
+
+            //------------------------------------------------
             if (n.row < A.length && n.row >= 0) {
                 if (n.col < A[n.row].length && n.col >= 0) {
-                    A[c.row][c.col] = 0
-
                     if (A[n.row][n.col] != 3) {
-                        A[n.row][n.col] = 1
+                        A[n.row][n.col] = A[c.row][c.col]
                     } else {
                         alert("Game Over")
                     }
+
+                    A[c.row][c.col] = 0
                 }
             }
             drawGameBoard()
@@ -102,15 +111,14 @@
         document.addEventListener("keydown", (e) => {
             key = e.key
             place = findGameBlock(1)[0]
-            if (key == "ArrowUp") {
-                moveToNewPlace(place, { row: place.row - 1, col: place.col })
-            } else if (key == "ArrowRight") {
-                moveToNewPlace(place, { row: place.row, col: place.col + 1 })
-            } else if (key == "ArrowDown") {
-                moveToNewPlace(place, { row: place.row + 1, col: place.col })
-            } else if (key == "ArrowLeft") {
-                moveToNewPlace(place, { row: place.row, col: place.col - 1 })
-            }
+            if (key == "ArrowUp")
+                moveToNewPlace(place, -1, 0)
+            else if (key == "ArrowRight")
+                moveToNewPlace(place, 0, +1)
+            else if (key == "ArrowDown")
+                moveToNewPlace(place, +1, 0)
+            else if (key == "ArrowLeft")
+                moveToNewPlace(place, 0, -1)
         })
 
         drawGameBoard()

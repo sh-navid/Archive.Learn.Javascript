@@ -37,8 +37,9 @@
         - `keydown`
 
 ## Browser Extension (Addon)
-- Firefox
-- Chrome
+- How to make a custom extension for browsers?
+    - Firefox
+    - Chrome
 
 
 ## More
