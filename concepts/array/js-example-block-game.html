@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .cell {
+        width: 2em;
+        height: 2em;
+        display: inline-block;
+        border: 2px solid #eeeeee;
+        border-radius: .25em;
+    }
+
+    .type1 {
+        background-color: royalblue;
+    }
+
+    .type2 {
+        background-color: tomato;
+    }
+
+    .type3 {
+        border: 2px solid tomato;
+    }
+</style>
+
+<body>
+    <p>Use arrow keys to play</p>
+    <div></div>
+    <script>
+        //INFO: NOT COMPLETED EXAMPLE
+        //1 is the player
+        //2 is the block
+        //3 is the block holder
+        //4 is the block over the block holder
+        A = [
+            [0, 0, 0, 3, 0],
+            [0, 2, 0, 0, 0],
+            [0, 0, 1, 0, 0],
+            [0, 0, 0, 0, 0],
+            [0, 0, 2, 3, 0]
+        ]
+
+        d = document.querySelector("div")
+
+        const drawGameBoard = () => {
+            d.innerHTML = ""
+            A.forEach((row) => {
+                div = document.createElement("div")
+                div.className = "row"
+                row.forEach((c) => {
+                    cell = document.createElement("div")
+                    cell.className = "cell type" + c
+                    div.appendChild(cell)
+                })
+                d.appendChild(div)
+            });
+        }
+
+        const findGameBlock = (typeNo) => {
+            founded = []
+            for (r in A) {
+                for (c in A[r]) {
+                    if (A[r][c] == typeNo)
+                        founded.push({ "row": parseInt(r), "col": parseInt(c) })
+                }
+            }
+            return founded
+        }
+
+        const moveToNewPlace = (currentPlace, newPlace) => {
+            c = currentPlace
+            n = newPlace
+            console.log(n, c)
+            A[n.row][n.col] = 1
+            A[c.row][c.col] = 0
+        }
+
+        document.addEventListener("keydown", (e) => {
+            key = e.key
+            place = findGameBlock(1)[0]
+            if (key == "ArrowUp") {
+                moveToNewPlace(place, { row: place.row - 1, col: place.col })
+            } else if (key == "ArrowRight") {
+                moveToNewPlace(place, { row: place.row, col: place.col + 1 })
+            } else if (key == "ArrowDown") {
+                moveToNewPlace(place, { row: place.row + 1, col: place.col })
+            } else if (key == "ArrowLeft") {
+                moveToNewPlace(place, { row: place.row, col: place.col - 1 })
+            }
+        })
+
+        drawGameBoard()
+    </script>
+</body>
+
+</html>

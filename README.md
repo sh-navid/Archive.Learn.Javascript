@@ -15,6 +15,7 @@
     - [Example of summation using `.reduce()`](concepts/array/js-array-reduce-example.html)
     - [Question](concepts/array/js-array-reduce-question.html), [Answer](concepts/array/js-array-reduce-answer.html)
 - `.find()`
+    - [Example of `.find()` item in array](concepts/array/js-array-find-example.html)
 
 
 
@@ -26,6 +27,8 @@
     - Used Events
         - `keydown, click`
 
+- [Block Game](concepts/array/js-example-block-game.html)
+
 ## Browser Extension (Addon)
 - Firefox
 - Chrome
@@ -33,9 +36,17 @@
 
 ## More
 ### Tools
-- Git, Github
+- Git
+- Github
+    - GitPage (Static Website)
 ### Concepts
 - PWA, SPA, ...
+- Test
+    - Unit Test
+    - Integration Test
+    - UI Test
+    - TDD
+- Documentation
 ### Design Patterns
 - GoF
 ### Other
