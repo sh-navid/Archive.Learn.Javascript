@@ -37,6 +37,10 @@
         - `keydown`
     - Used Concepts
         - Recursive Programming (***Important***)
+    ___
+    - [ ] TODO: How to make a Progressive Web App (PWA) from this project?
+    - [ ] TODO: How to make a native android application (APK) from this project?
+    - [ ] TODO: How to make a chrome or firefox extension (Addon) from this project?
 
 ## Browser Extension (Addon)
 - How to make a custom extension for browsers?
