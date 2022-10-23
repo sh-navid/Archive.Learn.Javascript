@@ -28,6 +28,11 @@
         - `keydown, click`
 
 - [Block Game](concepts/array/js-example-block-game.html)
+    - Used Methods
+        - `.forEach()`
+        - `.createElement()`, `.appendChild()`
+    - Used Events
+        - `keydown`
 
 ## Browser Extension (Addon)
 - Firefox
