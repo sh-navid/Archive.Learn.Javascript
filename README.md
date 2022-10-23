@@ -31,6 +31,8 @@
     - Used Methods
         - `.forEach()`
         - `.createElement()`, `.appendChild()`
+    - Used Keywords:
+        - `for`, `in`
     - Used Events
         - `keydown`
 
