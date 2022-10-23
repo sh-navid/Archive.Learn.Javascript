@@ -36,7 +36,7 @@
     - Used Events
         - `keydown`
     - Used Concepts
-        - Recursive Programing (***Important***)
+        - Recursive Programming (***Important***)
 
 ## Browser Extension (Addon)
 - How to make a custom extension for browsers?

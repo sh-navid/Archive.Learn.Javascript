@@ -55,6 +55,8 @@
 
         d = document.querySelector("div")
 
+        // To draw the game board at first
+        // And redraw it later in the game
         const drawGameBoard = () => {
             d.innerHTML = ""
             A.forEach((row) => {
@@ -80,8 +82,13 @@
             return founded
         }
 
-        //mx: -1 or +1 -> amount of movement over X axis
-        //my: -1 or +1 -> amount of movement over Y axis
+        const checkWinning = () => {
+            if (findGameBlock(2).length == 0)
+                alert("You won the game")
+        }
+
+        // mx: -1 or +1 -> amount of movement over X axis
+        // my: -1 or +1 -> amount of movement over Y axis
         const moveToNewPlace = (c, my, mx) => {
             // c: current Place
             // n: new Place
@@ -94,7 +101,7 @@
                     if (A[n.row][n.col] == 2) {
                         //"Recursive" function call
                         // Recursive programming is an important concept
-                        // To move [Red(Tomato)] blocks
+                        // To move [Red(Tomato)] blocks with [Blue[Player]]
                         moveToNewPlace(n, my, mx)
                     }
                     if (A[n.row][n.col] != 3) {
@@ -109,6 +116,7 @@
                 }
             }
             drawGameBoard()
+            checkWinning()
         }
 
         document.addEventListener("keydown", (e) => {
