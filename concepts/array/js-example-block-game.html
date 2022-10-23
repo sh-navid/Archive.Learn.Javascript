@@ -42,9 +42,9 @@
         margin: 0 auto;
     }
 
-    .level{
+    .level {
         display: inline-block;
-        padding:1em;
+        padding: 1em;
         cursor: pointer;
         user-select: none;
     }
@@ -109,7 +109,7 @@
             A = Array.from(L[level]);
             drawGameBoard()
         }
-        
+
         // To draw the game board at first
         // And redraw it later in the game
         const drawGameBoard = () => {
@@ -150,6 +150,7 @@
             let n = { row: c.row + my, col: c.col + mx }
             console.log("c", c, "n", n)
 
+            moved = false
             //------------------------------------------------
             if (n.row < A.length && n.row >= 0) {
                 if (n.col < A[n.row].length && n.col >= 0) {
@@ -157,9 +158,13 @@
                         //"Recursive" function call
                         // Recursive programming is an important concept
                         // To move [Red(Tomato)] blocks with [Blue[Player]]
-                        moveToNewPlace(n, my, mx)
+                        if (!moveToNewPlace(n, my, mx))
+                            // This means these is a traffic of blocks
+                            // ahead of the player and it cannot move forward
+                            return false
                     }
-                    if (A[n.row][n.col] != 3) {
+
+                    if (A[n.row][n.col] != 3/*hole*/) {
                         A[n.row][n.col] = A[c.row][c.col]
                     } else {
                         if (A[c.row][c.col] == 1) {
@@ -168,10 +173,12 @@
                     }
 
                     A[c.row][c.col] = 0
+                    moved = true
                 }
             }
             drawGameBoard()
             checkWinning()
+            return moved
         }
 
         document.addEventListener("keydown", (e) => {
