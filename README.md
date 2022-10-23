@@ -29,12 +29,14 @@
 
 - [Block Game](concepts/array/js-example-block-game.html)
     - Used Methods
-        - `.forEach()`
+        - `.forEach(), .push()`
         - `.createElement()`, `.appendChild()`
     - Used Keywords:
         - `for`, `in`
     - Used Events
         - `keydown`
+    - Used Concepts
+        - Recursive Programing (***Important***)
 
 ## Browser Extension (Addon)
 - How to make a custom extension for browsers?
