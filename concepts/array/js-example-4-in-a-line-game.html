@@ -16,8 +16,10 @@
     .cell {
         width: 3em;
         height: 3em;
+        line-height: 3em;
         display: inline-block;
         border: 2px solid #eeeeee;
+        color: #cccccc;
         border-radius: .25em;
     }
 
@@ -86,9 +88,10 @@
             A.forEach((row) => {
                 div = document.createElement("div")
                 div.className = "row"
-                row.forEach((c) => {
+                row.forEach((c, index) => {
                     cell = document.createElement("div")
                     cell.className = "cell type" + c
+                    cell.innerText = c == 0 ? index + 1 : "-"
                     div.appendChild(cell)
                 })
                 d.appendChild(div)
@@ -105,7 +108,7 @@
             for (let R of A)
                 V += R.toString().replaceAll(",", "") + "-"
 
-            //check 4 in each column -> C
+            // check 4 in each column -> C
             for (let C in A[0])
                 H += A.map((x) => x[C]).toString().replaceAll(",", "") + "-"
 
