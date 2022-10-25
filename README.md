@@ -19,8 +19,23 @@
     - `array.reduce((X,x) => X+x)`
     - [Example of summation using `.reduce()`](concepts/array/js-array-reduce-example.html)
     - [Question](concepts/array/js-array-reduce-question.html), [Answer](concepts/array/js-array-reduce-answer.html)
-- `.find()`
-    <!-- - [Example of `.find()` item in array](concepts/array/js-array-find-example.html) -->
+- `.reduceRight()`
+- `.includes()`
+- `.find()`, `findIndex()`
+- `.indexOf()`, `lastIndexOf()`
+- `.push()`, `pop()`
+- `.unshift()`, `shift()`
+- `.every()`, `some()`
+- `.entries()`, `keys()`, `valueOf()`
+- `.from()`
+- `.reverse()`
+- `.sort()`
+- `.concat()`
+- `.join()`
+- `.fill()`
+- `.toString()`
+- `.slice()`, `.splice()`
+- `.copyWithin()`
 
 
 
