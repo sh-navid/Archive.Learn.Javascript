@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div>
+        CSR
+        <hr />
+    </div>
+    <script>
+        fetch("server.php?data=true").then((res) => res.text()
+        ).then((res) => {
+            console.log(res)
+
+            d = document.querySelector("div")
+            res = res.split(",")
+            res.forEach(element => {
+                d.innerHTML += element + "<hr/>"
+            });
+        })
+    </script>
+</body>
+
+</html>

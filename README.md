@@ -21,6 +21,8 @@
 
 
 ## Examples
+- [Simple CSR with PHP Backend](examples/csr-with-php/README.md)
+- [Simple SSR with PHP Backend](examples/ssr-with-php/README.md)
 - [Calculator](concepts/array/js-example-calculator.html)
     - Used:
         - Methods
@@ -28,11 +30,13 @@
             - `.createElement()`, `.appendChild()`
         - Events
             - `keydown, click`
+    - TODO:
+        - [ ] Fix UI
 
 - [4 in a line Game](concepts/array/js-example-4-in-a-line-game.html)
     - Used:
         - Methods
-            - `.forEach()`, `.map()`, `.reverse()`, `.toString()`, .`.includes()`
+            - `.forEach()`, `.map()`, `.reverse()`, `.toString()`, `.includes()`
             - `.createElement()`, `.appendChild()`
             - `.indexOf()`, `.replaceAll()`
         - Keywords:
