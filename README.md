@@ -92,7 +92,9 @@
 - `keyup`, `keydown`, `keypress`
 - `mouseover`, `mouseout`
 - [`submit`](concepts/events/js-event-submit-example.html)
-- [`scroll`](concepts/events/js-event-scroll-example.html)
+- `scroll`
+    - [Vertical Example](concepts/events/js-event-scroll-example.html)
+    - [Horizantal Example](concepts/events/js-event-scroll-h-example.html)
 - [`resize`](concepts/events/js-event-resize-example.html)
 ### Async
 - Callback
