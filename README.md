@@ -160,6 +160,10 @@
 ### Regex
 - [ ] TODO: complete this section
 
+### Window
+- [`prompt()`](concepts/window/js-window-prompt-example.html)
+- `alert()`
+
 ## Best Practices
 - Avoid using `with` keyword
 
