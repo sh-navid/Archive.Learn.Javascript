@@ -21,8 +21,6 @@
 
 
 ## Examples
-- [Simple CSR with PHP Backend](examples/csr-with-php/README.md)
-- [Simple SSR with PHP Backend](examples/ssr-with-php/README.md)
 - [Calculator](concepts/array/js-example-calculator.html)
     - Used:
         - Methods
@@ -60,27 +58,30 @@
         - [ ] How to make a WebView android application (APK) from this project?
         - [ ] How to make a chrome or firefox extension (Addon) from this project?
 
-## Browser Extension (Addon)
-- How to make a custom extension for browsers?
-    - Firefox
-    - Chrome
-
-
 ## More
+### Browser Extension
+- How to make a custom extension for browsers?
+    - [ ] Firefox
+    - [ ] Chrome
+### Backend
+- [ ] PHP
+    - [ ] [CSR](examples/csr-with-php/README.md)
+    - [ ] [SSR](examples/ssr-with-php/README.md)
+- [ ] Node + SocketIO
+- [ ] Flask
 ### Tools
-- Git
-- Github
+- [ ] Git
+- [x] Github
     - GitPage (Static Website)
 ### Concepts
-- PWA, SPA, ...
-- Test
-    - Unit Test
-    - Integration Test
-    - UI Test
-    - TDD
-- Documentation
+- [ ] PWA, SPA, ...
+- [ ] Test
+    - [ ] Unit Test
+    - [ ] Integration Test
+    - [ ] UI Test
+    - [ ] TDD
+- [ ] Documentation
 ### Design Patterns
-- GoF
+- [ ] GoF
 ### Other
-- Network
-- Backend Service and SocketIO
+- [ ] Network
