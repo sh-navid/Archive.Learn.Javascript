@@ -89,10 +89,13 @@
     - [ ] [SSR](examples/ssr-with-php/README.md)
 - [ ] Node + SocketIO
 - [ ] Flask
+- [ ] CMS
 ### Tools
 - [ ] Git
 - [x] Github
     - GitPage (Static Website)
+- [ ] Lighthouse
+- [ ] Trello
 ### Concepts
 - [ ] PWA, SPA, ...
 - [ ] Test
