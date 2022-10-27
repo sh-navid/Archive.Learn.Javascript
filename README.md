@@ -119,7 +119,7 @@
 - [throw](concepts/keywords/js-keyword-throw-example.html)
 - [try, catch, finally](concepts/keywords/js-keyword-try-catch-example.html)
 - if, else
-- switch, case, default
+- [switch, case, default, break](concepts/keywords/js-keyword-switch-case-default-example.html)
 - with
 - [of, in](concepts/keywords/js-keyword-of-in-example.html)
 - [instanceof, typeof](concepts/keywords/js-keyword-type-example.html)

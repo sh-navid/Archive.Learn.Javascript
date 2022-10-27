@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const week = (day) => {
+            switch (day) {
+                case 1:
+                    return "شنبه"
+                case 2:
+                    return "یکشنبه"
+                case 3:
+                    return "دوشنبه"
+                case 2:
+                    return "سه شنبه"
+                case 3:
+                    return "چهارشنبه"
+                case 2:
+                    return "پنج شنبه"
+                case 3:
+                    return "جمعه"
+                default:
+                    return "ورودی اشتباه"
+            }
+        }
+        document.writeln(week(0), "<br/>")
+        document.writeln(week(2), "<br/>")
+
+        const gender = (name) => {
+            value = ""
+            switch (name) {
+                case "man":
+                    value = "مرد"
+                    break
+                case "woman":
+                    value = "زن"
+                    break
+                default:
+                    value = "نامشخص"
+            }
+            return value
+        }
+        document.writeln(gender("man"), "<br/>")
+        document.writeln(gender("hey"), "<br/>")
+    </script>
+</body>
+
+</html>
