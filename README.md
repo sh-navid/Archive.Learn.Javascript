@@ -37,16 +37,30 @@
 - `.slice()`, `.splice()`
 - `.copyWithin()`
 ### Class
-- class
+- Object Oriented Programming (OOP)
+    - Inheritance
+    - Abstraction
+    - Polymorphism
+    - Encapsulation
+- Object
     - [Example](concepts/class/js-class-create-example.html)
-- cunstructor
+- Cunstructor
     - [Example](concepts/class/js-class-constructor-example.html)
 - `.name`
     - [Example](concepts/class/js-class-name-example.html)
 - `instanceof`, `typeof`, `.prototype.isPrototypeOf()`
     - [Example](concepts/class/js-class-name-example.html)
-- method
+- Method
     - [Example](concepts/class/js-class-method-example.html)
+- Inheritance
+    - `extend`
+        - [Example](concepts/class/js-class-inheritance-example.html)
+    - `prototype`
+        - [Example](concepts/class/js-class-prototype-example.html)
+- Override
+    - [Example](concepts/class/js-class-override-example.html)
+- Overload
+- Accessor
 ### Async
 - Callback
 - Promise
