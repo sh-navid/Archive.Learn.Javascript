@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <script>
+        let obj = {
+            name: "JavaScript",
+            version: 12,
+            date: "0000/00/00"
+        }
+
+        str = JSON.stringify(obj)
+        alert(str)
+
+        obj = JSON.parse(str)
+        alert(obj.name)
+    </script>
+</body>
+
+</html>

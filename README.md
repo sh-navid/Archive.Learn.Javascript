@@ -64,46 +64,44 @@
         - [Example](concepts/class/js-class-overload-method-example.html), Q, A
     - Operator
         - Seems javaScript does not support operator overloading.
-- Accessor
+- Accessor (Access Modifier)
+    - Public
+    - Private
+    - Protected
+- Interface
+    - ?
+### Events
+- `onload`
 ### Async
 - Callback
 - Promise
+### JSON
+- Object
+    - [Example](concepts/object/js-json-define-example.html)
+    - `this`
+        - [Example](concepts/object/js-json-this-example.html)
+- Access
+    - [Example](concepts/object/js-json-access-example.html)
+- Change
+    - [Example](concepts/object/js-json-change-example.html)
+- Remove
+    - [Example](concepts/object/js-json-remove-example.html)
+- Array
+    - [Example](concepts/object/js-json-array-example.html)
+- Convert
+    - `JSON.parse()`, `JSON.stringify()`
+        - [Example](concepts/object/js-json-parse-example.html)
 
+
+
+## Best Practices
+- Avoid using `with` keyword
 
 
 ## Examples
 - [Calculator](concepts/array/js-example-calculator.html)
-    - Used:
-        - Methods
-            - `.forEach()`, `.concat()`, `.includes()`
-            - `.createElement()`, `.appendChild()`
-        - Events
-            - `keydown, click`
-    - TODO:
-        - [ ] Fix UI
-
 - [4 in a line Game](concepts/array/js-example-4-in-a-line-game.html)
-    - Used:
-        - Methods
-            - `.forEach()`, `.map()`, `.reverse()`, `.toString()`, `.includes()`
-            - `.createElement()`, `.appendChild()`
-            - `.indexOf()`, `.replaceAll()`
-        - Keywords:
-            - `for`, `in`, `of`
-        - Events
-            - `keydown`
-
 - [Block Game](concepts/array/js-example-block-game.html)
-    - Used:
-        - Methods
-            - `.forEach()`, `.push()`
-            - `.createElement()`, `.appendChild()`
-        - Keywords:
-            - `for`, `in`
-        - Events
-            - `keydown`
-        - Concepts
-            - Recursive Programming (***Important***)
     - TODO:
         - [ ] How to make a Progressive Web App (PWA) from this project?
         - [ ] How to make a mobile app with React Native?
@@ -125,7 +123,7 @@
 ### Tools
 - [ ] Git
 - [x] Github
-    - GitPage (Static Website)
+    - [ ] GitPage (Static Website)
 - [ ] Lighthouse
 - [ ] Trello
 ### Concepts
