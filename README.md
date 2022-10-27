@@ -63,6 +63,7 @@
     - Method
         - [Example](concepts/class/js-class-overload-method-example.html)
     - Operator
+        - Seems javaScript does not support operator overloading.
 - Accessor
 ### Async
 - Callback
