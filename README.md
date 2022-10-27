@@ -121,8 +121,8 @@
 - if, else
 - switch, case, default
 - with
-- instanceof, typeof
-- class, [extends](concepts/keywords/js-keyword-extends-example.html)), [new](concepts/keywords/js-keyword-new-example.html)), [function](concepts/keywords/js-keyword-function-example.html)), [this](concepts/keywords/js-keyword-this-example.html)), [super](concepts/keywords/js-keyword-super-example.html)), static ([1](concepts/class/js-class-static-attr-example.html), [2](concepts/class/js-class-static-method-example.html))
+- [instanceof, typeof](concepts/keywords/js-keyword-type-example.html))
+- [class](concepts/keywords/js-keyword-extends-example.html)), [extends](concepts/keywords/js-keyword-extends-example.html)), [new](concepts/keywords/js-keyword-new-example.html)), [function](concepts/keywords/js-keyword-function-example.html)), [this](concepts/keywords/js-keyword-this-example.html)), [super](concepts/keywords/js-keyword-super-example.html)), static ([1](concepts/class/js-class-static-attr-example.html), [2](concepts/class/js-class-static-method-example.html))
 - void, debugger, in, delete 
 
 ## Best Practices
