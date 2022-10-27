@@ -36,6 +36,16 @@
 - `.toString()`
 - `.slice()`, `.splice()`
 - `.copyWithin()`
+### Class
+- class
+    - [Example](concepts/class/js-class-create-example.html)
+- cunstructor
+    - [Example](concepts/class/js-class-constructor-example.html)
+- `.name`
+    - [Example](concepts/class/js-class-name-example.html)
+### Async
+- Callback
+- Promise
 
 
 
