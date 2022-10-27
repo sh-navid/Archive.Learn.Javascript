@@ -64,6 +64,9 @@
         - [Example](concepts/class/js-class-overload-method-example.html), Q, A
     - Operator
         - Seems javaScript does not support operator overloading.
+- Static
+    - [Attribute](concepts/class/js-class-static-attr-example.html)
+    - [Method](concepts/class/js-class-static-method-example.html)
 - Accessor (Access Modifier)
     - Public
     - Private
@@ -101,8 +104,27 @@
     - `with`
         - [Example](concepts/other/js-strict-with-example.html)
 ### Hoisting
-- JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. <small>***<sup>[[Mozilla 10/27/2022](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)]<sup>***</small>
+- JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. <small>***<sup>[[Mozilla Glossary 10/27/2022](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)]<sup>***</small>
 - [Example](concepts/other/js-hoisting-example.html)
+
+### Keywords
+- Keywords:
+- return, yield
+- import, export
+- null
+- true, false
+- var, let, const
+- async, await
+- do, while, continue, break
+- for, continue, break
+- try, catch, finally
+- throw
+- if, else
+- switch, case, default
+- with
+- instanceof, typeof
+- class, extends, new, function, this, super, static ([1](concepts/class/js-class-static-attr-example.html), [2](concepts/class/js-class-static-method-example.html))
+- void, debugger, in, delete 
 
 ## Best Practices
 - Avoid using `with` keyword
@@ -125,8 +147,8 @@
     - [ ] Chrome
 ### Backend
 - [ ] PHP
-    - [ ] [CSR](examples/csr-with-php/README.md)
-    - [ ] [SSR](examples/ssr-with-php/README.md)
+    - [x] [CSR](examples/csr-with-php/README.md)
+    - [x] [SSR](examples/ssr-with-php/README.md)
 - [ ] Node + SocketIO
 - [ ] Flask
 - [ ] CMS

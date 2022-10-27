@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <script>
+        class Shape {
+            x = 12
+            static y = 14
+
+            func1() {
+                return "Normal Func1 x=" + this.x + ", y=" + this.y
+            }
+
+            static func2() {
+                return "Static Func2 x=" + this.x + ", y=" + this.y
+            }
+        }
+
+        console.log(Shape.func2()) // "Shape" do not access to func1 directly
+
+        // "Instance of Shape" do not access to func2 directly
+        console.log(new Shape().func1()) 
+    </script>
+</body>
+
+</html>

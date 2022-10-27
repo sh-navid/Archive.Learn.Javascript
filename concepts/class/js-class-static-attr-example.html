@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <script>
+        class Shape {
+            x = 12
+            static y = 14
+        }
+
+        console.log(Shape.y, Shape.x)
+        Shape.y += 1
+        console.log(Shape.y, Shape.x)
+
+
+        console.log("------")
+
+
+        a = new Shape()
+        console.log(a.y, a.x)
+        a.y += 1
+        console.log(a.y, a.x)
+
+
+        console.log("------")
+
+        
+        console.log(Shape.y, Shape.x)
+        Shape.y += 1
+        console.log(Shape.y, Shape.x)
+    </script>
+</body>
+
+</html>
