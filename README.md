@@ -43,25 +43,25 @@
     - Polymorphism
     - Encapsulation
 - Object
-    - [Example](concepts/class/js-class-create-example.html)
+    - [Example](concepts/class/js-class-create-example.html), Q, A
 - Cunstructor
-    - [Example](concepts/class/js-class-constructor-example.html)
+    - [Example](concepts/class/js-class-constructor-example.html), Q, A
 - `.name`
-    - [Example](concepts/class/js-class-name-example.html)
+    - [Example](concepts/class/js-class-name-example.html), Q, A
 - `instanceof`, `typeof`, `.prototype.isPrototypeOf()`
-    - [Example](concepts/class/js-class-name-example.html)
+    - [Example](concepts/class/js-class-name-example.html), Q, A
 - Method
-    - [Example](concepts/class/js-class-method-example.html)
+    - [Example](concepts/class/js-class-method-example.html), Q, A
 - Inheritance
     - `extend`
-        - [Example](concepts/class/js-class-inheritance-example.html)
+        - [Example](concepts/class/js-class-inheritance-example.html), Q, A
     - `prototype`
-        - [Example](concepts/class/js-class-prototype-example.html)
+        - [Example](concepts/class/js-class-prototype-example.html), Q, A
 - Override
-    - [Example](concepts/class/js-class-override-example.html)
+    - [Example](concepts/class/js-class-override-example.html), Q, A
 - Overload
     - Method
-        - [Example](concepts/class/js-class-overload-method-example.html)
+        - [Example](concepts/class/js-class-overload-method-example.html), Q, A
     - Operator
         - Seems javaScript does not support operator overloading.
 - Accessor
