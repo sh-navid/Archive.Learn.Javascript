@@ -61,6 +61,7 @@
     - [Example](concepts/class/js-class-override-example.html)
 - Overload
     - Method
+        - [Example](concepts/class/js-class-overload-method-example.html)
     - Operator
 - Accessor
 ### Async
