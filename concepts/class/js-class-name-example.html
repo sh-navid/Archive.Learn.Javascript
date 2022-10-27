@@ -24,9 +24,12 @@
         b = new Square()
 
         console.log(a.name, b.name)
+        console.log(a.constructor.name, b.constructor.name)
 
-        console.log(a instanceof Shape)
-        console.log(a instanceof Square)
+
+        console.log(a instanceof Shape, a instanceof Square)
+        console.log(typeof a, typeof Shape)
+        console.log(Shape.prototype.isPrototypeOf(a), Shape.prototype.isPrototypeOf(b))
     </script>
 </body>
 

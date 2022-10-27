@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class Shape {
+            w = 0
+
+            constructor(w, h) {
+                this.w = w
+                this.h = h
+            }
+
+            area() {
+                return this.w * this.h
+            }
+        }
+
+        // console.log(Shape.area()) // Error
+        s1 = new Shape(10, 12)
+        s2 = new Shape(10, 15)
+
+        console.log(s1.area(), s2.area(), s1, s2)
+    </script>
+</body>
+
+</html>

@@ -43,6 +43,10 @@
     - [Example](concepts/class/js-class-constructor-example.html)
 - `.name`
     - [Example](concepts/class/js-class-name-example.html)
+- `instanceof`, `typeof`, `.prototype.isPrototypeOf()`
+    - [Example](concepts/class/js-class-name-example.html)
+- method
+    - [Example](concepts/class/js-class-method-example.html)
 ### Async
 - Callback
 - Promise
