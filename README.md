@@ -43,25 +43,25 @@
     - Polymorphism
     - Encapsulation
 - Object
-    - [Example](concepts/class/js-class-create-example.html), Q, A
+    - [Example](concepts/class/js-class-create-example.html)
 - Cunstructor
-    - [Example](concepts/class/js-class-constructor-example.html), Q, A
+    - [Example](concepts/class/js-class-constructor-example.html)
 - `.name`
-    - [Example](concepts/class/js-class-name-example.html), Q, A
+    - [Example](concepts/class/js-class-name-example.html)
 - `instanceof`, `typeof`, `.prototype.isPrototypeOf()`
-    - [Example](concepts/class/js-class-name-example.html), Q, A
+    - [Example](concepts/class/js-class-name-example.html)
 - Method
-    - [Example](concepts/class/js-class-method-example.html), Q, A
+    - [Example](concepts/class/js-class-method-example.html)
 - Inheritance
     - `extend`
-        - [Example](concepts/class/js-class-inheritance-example.html), Q, A
+        - [Example](concepts/class/js-class-inheritance-example.html)
     - `prototype`
-        - [Example](concepts/class/js-class-prototype-example.html), Q, A
+        - [Example](concepts/class/js-class-prototype-example.html)
 - Override
-    - [Example](concepts/class/js-class-override-example.html), Q, A
+    - [Example](concepts/class/js-class-override-example.html)
 - Overload
     - Method
-        - [Example](concepts/class/js-class-overload-method-example.html), Q, A
+        - [Example](concepts/class/js-class-overload-method-example.html)
     - Operator
         - Seems javaScript does not support operator overloading.
 - Static
@@ -108,7 +108,6 @@
 - [Example](concepts/other/js-hoisting-example.html)
 
 ### Keywords
-- Keywords:
 - return, yield
 - import, export
 - null
@@ -123,7 +122,7 @@
 - switch, case, default
 - with
 - instanceof, typeof
-- class, extends, new, function, this, super, static ([1](concepts/class/js-class-static-attr-example.html), [2](concepts/class/js-class-static-method-example.html))
+- class, extends, new, function, [this](concepts/keywords/js-keyword-this-example.html)), [super](concepts/keywords/js-keyword-super-example.html)), static ([1](concepts/class/js-class-static-attr-example.html), [2](concepts/class/js-class-static-method-example.html))
 - void, debugger, in, delete 
 
 ## Best Practices
