@@ -60,6 +60,8 @@
 - Override
     - [Example](concepts/class/js-class-override-example.html)
 - Overload
+    - Method
+    - Operator
 - Accessor
 ### Async
 - Callback
