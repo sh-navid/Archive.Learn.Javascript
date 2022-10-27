@@ -92,7 +92,14 @@
     - `JSON.parse()`, `JSON.stringify()`
         - [Example](concepts/object/js-json-parse-example.html)
 ### Strict Mode
-    `"use strict";`
+- `"use strict";`
+    - Variables
+        - [Example 1](concepts/other/js-strict-example.html)
+        - [Example 2](concepts/other/js-strict-variables-example.html)
+    - `eval()`
+        - [Example](concepts/other/js-strict-eval-example.html)
+    - `with`
+        - [Example](concepts/other/js-strict-with-example.html)
 
 ## Best Practices
 - Avoid using `with` keyword

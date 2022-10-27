@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <script>
+        const func1 = () => {
+            with (console) {
+                log("Func1")
+            }
+        }
+        func1()
+
+        const func2 = () => {
+            "use strict";
+            //'with' statements are not allowed in strict mode.
+            console.log("Func2")
+        }
+        func2()
+    </script>
+</body>
+
+</html>
