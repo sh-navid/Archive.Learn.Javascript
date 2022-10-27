@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class Shape {
+            size = 12
+        }
+
+        shape1 = new Shape()
+        shape2 = new Shape()
+        shape2.size = 13
+
+        console.log(shape1.size)
+        console.log(shape2.size)
+        console.log(Shape.size)
+        console.log(new Shape().size)
+    </script>
+</body>
+
+</html>

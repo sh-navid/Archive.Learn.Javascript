@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta value="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class Shape {
+            size = 12
+
+            constructor(_size, _value) {
+                this.size = _size
+                this.value = _value
+            }
+        }
+
+        shape1 = new Shape(120, "Square")
+        shape2 = new Shape(130, "Rectangle")
+        shape2.size = 13
+
+        console.log(shape1.size, shape1.value)
+        console.log(shape2.size, shape2.value)
+        console.log(Shape.size, Shape.value)
+        console.log(new Shape().size, new Shape().value)
+    </script>
+</body>
+
+</html>
