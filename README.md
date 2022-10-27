@@ -91,8 +91,8 @@
 - Convert
     - `JSON.parse()`, `JSON.stringify()`
         - [Example](concepts/object/js-json-parse-example.html)
-
-
+### Strict Mode
+    `"use strict";`
 
 ## Best Practices
 - Avoid using `with` keyword
