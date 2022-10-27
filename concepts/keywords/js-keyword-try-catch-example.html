@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const calc = (x, y) => {
+            if (y == 0)
+                throw "Divide by zero problem"
+
+            return x / y
+        }
+
+
+        try {
+            console.log(calc(12, 0))
+        } catch (ex) {
+            console.log(ex)
+        } finally {
+            console.log("Done")
+        }
+    </script>
+</body>
+
+</html>

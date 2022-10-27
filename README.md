@@ -116,8 +116,8 @@
 - async, await
 - do, while, continue, break
 - for, continue, break
-- try, catch, finally
-- throw
+- [throw](concepts/keywords/js-keyword-throw-example.html)
+- [try, catch, finally](concepts/keywords/js-keyword-try-catch-example.html)
 - if, else
 - switch, case, default
 - with
