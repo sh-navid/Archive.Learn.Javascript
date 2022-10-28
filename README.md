@@ -82,7 +82,7 @@
     - `(2 + 4) * 6`
     - `2 + (4 * 6)`
 ### Events
-- [`load`](concepts/events/js-event-load-example.html)
+- [`load`](concepts/events/js-event-load-example.html), `beforeunload`
 - `drag`, `dragstart`, `dragend`
 - `dragover`, `dragleave`, `dragenter`, `drop`
 - `copy`, `cut`, `paste`, `select`
