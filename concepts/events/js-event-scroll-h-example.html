@@ -94,15 +94,20 @@
         MAX = p.offsetWidth * 3
 
         L = 0, O = 60;
-        $(window).bind("mousewheel", (e) => {
-            e = e.originalEvent
+        const move = (e) => {
             L += (e.wheelDelta > 0 || e.detail < 0) ? +O : -O;
             if (L > 0)
                 L = 0
-            else if (L <- MAX)
+            else if (L < - MAX)
                 L = -MAX
             _.style.left = L + "px"
-        })
+        }
+
+        // Edge and Chrome
+        $(window).bind("mousewheel", (e) => move(e.originalEvent))
+
+        // Firefox
+        $(window).bind("DOMMouseScroll", (e) => move(e.originalEvent))
     </script>
 </body>
 
