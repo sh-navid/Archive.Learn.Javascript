@@ -78,6 +78,9 @@
     - Protected
 - Interface
     - ?
+### Calculation Order
+    - `(2 + 4) * 6`
+    - `2 + (4 * 6)`
 ### Events
 - [`load`](concepts/events/js-event-load-example.html)
 - `drag`, `dragstart`, `dragend`
