@@ -79,14 +79,18 @@
 - Interface
     - ?
 ### Events
-- `onload`
+- [`load`](concepts/events/js-event-load-example.html)
 - `drag`, `dragstart`, `dragend`
 - `dragover`, `dragleave`, `dragenter`, `drop`
-- `copy`, `cut`, `paste`
+- `copy`, `cut`, `paste`, `select`
 - `beforeinput`, `input`, `change`
-- `click`, `focus`, `blur`
+- `click`, `dblclick`, `focus`, `blur`
 - `mousemove`, `mouseup`, `mousedown`
-- `keyup`, `keydown`
+- `keyup`, `keydown`, `keypress`
+- `mouseover`, `mouseout`
+- `submit`
+- `scroll`
+- [`resize`](concepts/events/js-event-resize-example.html)
 ### Async
 - Callback
 - Promise
