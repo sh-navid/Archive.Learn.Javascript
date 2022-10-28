@@ -114,7 +114,7 @@
 - true, false
 - var, let, const
 - async, await
-- do, while, continue, break
+- do, [while](concepts/keywords/js-keyword-while-example.html), continue, break
 - for, continue, break
 - [throw](concepts/keywords/js-keyword-throw-example.html)
 - [try, catch, finally](concepts/keywords/js-keyword-try-catch-example.html)
