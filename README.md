@@ -2,40 +2,45 @@
 ***Disclaimer: The content of this repository is provided only for the purpose of teaching students and with an educational perspective.***
 ## Extra Homeworks
 ### Array
-#### Methods
-- `.filter()`
-    - `array.filter((x) => x>X)`
-    - [Example of auto complete with `.filter()`](concepts/array/js-array-filter-example.html) 
-    - [Question](concepts/array/js-array-filter-question.html) , [Answer](concepts/array/js-array-filter-answer.html)
-- `.forEach()`
-    - `array.forEach((x) => console.log(x))`
-    - [Example of create object using `template` and `.forEach()`](concepts/array/js-array-foreach-example.html)
-    - [Question](concepts/array/js-array-foreach-question.html), [Answer](concepts/array/js-array-foreach-answer.html)
-- `.map()`
-    - `array.map((x) => x*2)`
-    - [Example of update values using `.map()`](concepts/array/js-array-map-example.html)
-    - [Question](concepts/array/js-array-map-question.html), [Answer](concepts/array/js-array-map-answer.html)
-- `.reduce()`
-    - `array.reduce((X,x) => X+x)`
-    - [Example of summation using `.reduce()`](concepts/array/js-array-reduce-example.html)
-    - [Question](concepts/array/js-array-reduce-question.html), [Answer](concepts/array/js-array-reduce-answer.html)
-- `.reduceRight()`
-- `.includes()`
-- `.find()`, `findIndex()`
-- `.indexOf()`, `lastIndexOf()`
-- `.push()`, `pop()`
-- `.unshift()`, `shift()`
-- `.every()`, `some()`
-- `.entries()`, `keys()`, `valueOf()`
-- `.from()`
-- `.reverse()`
-- `.sort()`
-- `.concat()`
-- `.join()`
-- `.fill()`
-- `.toString()`
-- `.slice()`, `.splice()`
-- `.copyWithin()`
+- Dimensions of array
+- Iterate over array
+- Behaviors
+    - Access
+    - Change
+- Methods
+    - `.filter()`
+        - `array.filter((x) => x>X)`
+        - [Example of auto complete with `.filter()`](concepts/array/js-array-filter-example.html) 
+        - [Question](concepts/array/js-array-filter-question.html) , [Answer](concepts/array/js-array-filter-answer.html)
+    - `.forEach()`
+        - `array.forEach((x) => console.log(x))`
+        - [Example of create object using `template` and `.forEach()`](concepts/array/js-array-foreach-example.html)
+        - [Question](concepts/array/js-array-foreach-question.html), [Answer](concepts/array/js-array-foreach-answer.html)
+    - `.map()`
+        - `array.map((x) => x*2)`
+        - [Example of update values using `.map()`](concepts/array/js-array-map-example.html)
+        - [Question](concepts/array/js-array-map-question.html), [Answer](concepts/array/js-array-map-answer.html)
+    - `.reduce()`
+        - `array.reduce((X,x) => X+x)`
+        - [Example of summation using `.reduce()`](concepts/array/js-array-reduce-example.html)
+        - [Question](concepts/array/js-array-reduce-question.html), [Answer](concepts/array/js-array-reduce-answer.html)
+    - `.reduceRight()`
+    - `.includes()`
+    - `.find()`, `findIndex()`
+    - `.indexOf()`, `lastIndexOf()`
+    - `.push()`, `pop()`
+    - `.unshift()`, `shift()`
+    - `.every()`, `some()`
+    - `.entries()`, `keys()`, `valueOf()`
+    - `.from()`
+    - `.reverse()`
+    - `.sort()`
+    - `.concat()`
+    - `.join()`
+    - `.fill()`
+    - `.toString()`
+    - `.slice()`, `.splice()`
+    - `.copyWithin()`
 ### Class
 - Object Oriented Programming (OOP)
     - Inheritance
@@ -165,6 +170,7 @@
     - [ ] GitPage (Static Website)
 - [ ] Lighthouse
 - [ ] Trello
+- [ ] Markdown
 ### Concepts
 - [ ] PWA, SPA, ...
 - [ ] Test
