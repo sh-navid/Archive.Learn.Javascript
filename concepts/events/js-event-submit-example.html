@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <input name="_name" type="text" value="name" />
+        <input name="_last" type="text" value="last name" />
+        <input type="submit" />
+    </form>
+    <script>
+        f = document.querySelector("form")
+        f.addEventListener("submit", (e) => {
+            e.preventDefault()
+
+            fd = new FormData(e.target).entries()
+            alert(fd.next().value)
+            alert(fd.next().value)
+        })
+    </script>
+</body>
+
+</html>

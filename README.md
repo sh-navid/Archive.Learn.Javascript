@@ -88,7 +88,7 @@
 - `mousemove`, `mouseup`, `mousedown`
 - `keyup`, `keydown`, `keypress`
 - `mouseover`, `mouseout`
-- `submit`
+- [`submit`](concepts/events/js-event-submit-example.html)
 - [`scroll`](concepts/events/js-event-scroll-example.html)
 - [`resize`](concepts/events/js-event-resize-example.html)
 ### Async
