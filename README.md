@@ -75,6 +75,13 @@
     - ?
 ### Events
 - `onload`
+- `drag`, `dragstart`, `dragend`
+- `dragover`, `dragleave`, `dragenter`, `drop`
+- `copy`, `cut`, `paste`
+- `beforeinput`, `input`, `change`
+- `click`, `focus`, `blur`
+- `mousemove`, `mouseup`, `mousedown`
+- `keyup`, `keydown`
 ### Async
 - Callback
 - Promise
