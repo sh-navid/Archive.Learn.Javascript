@@ -145,6 +145,20 @@
 - [class](concepts/keywords/js-keyword-extends-example.html), [extends](concepts/keywords/js-keyword-extends-example.html), [new](concepts/keywords/js-keyword-new-example.html), [function](concepts/keywords/js-keyword-function-example.html), [this](concepts/keywords/js-keyword-this-example.html), [super](concepts/keywords/js-keyword-super-example.html), static ([1](concepts/class/js-class-static-attr-example.html), [2](concepts/class/js-class-static-method-example.html))
 - void, [debugger](concepts/keywords/js-keyword-debugger-example.html), [delete](concepts/object/js-json-remove-example.html)
 
+### Map
+- Knows the order of elements
+- [Create](concepts/map/js-map-create-example.html)
+- Attributes
+    - [`.size`](concepts/map/js-map-length-example.html)
+- Methods
+    - [`.get()`, `.set()`](concepts/map/js-map-get-set-example.html)
+    - [`.has()`]()
+    - [`.entries()`](concepts/map/js-map-entries-example.html)
+    - [`.delete()`](concepts/map/js-map-delete-example.html)
+
+
+### Regex
+
 ## Best Practices
 - Avoid using `with` keyword
 

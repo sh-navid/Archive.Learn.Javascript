@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        map = new Map([
+            ["R", "RED"],
+            ["G", "GREEN"],
+            ["B", "BLUE"],
+        ])
+
+        for (color of map) {
+            console.log(color, color[0], color[1])
+        }
+
+        for (color of map.entries()) {
+            console.log(color, color[0], color[1])
+        }
+
+        map.forEach((color, key) => {
+            console.log(key, color)
+        });
+    </script>
+</body>
+
+</html>
