@@ -152,7 +152,7 @@
     - [`.size`](concepts/map/js-map-length-example.html)
 - Methods
     - [`.get()`, `.set()`](concepts/map/js-map-get-set-example.html)
-    - [`.has()`]()
+    - [`.has()`](concepts/map/js-map-has-example.html)
     - [`.entries()`](concepts/map/js-map-entries-example.html)
     - [`.delete()`](concepts/map/js-map-delete-example.html)
 
