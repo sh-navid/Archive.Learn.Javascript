@@ -108,7 +108,7 @@
 - [Example](concepts/other/js-hoisting-example.html)
 
 ### Keywords
-- return, yield
+- return, [yield](concepts/keywords/js-keyword-yield-example.html)
 - import, export
 - null
 - true, false
@@ -124,7 +124,7 @@
 - [of, in](concepts/keywords/js-keyword-of-in-example.html)
 - [instanceof, typeof](concepts/keywords/js-keyword-type-example.html)
 - [class](concepts/keywords/js-keyword-extends-example.html), [extends](concepts/keywords/js-keyword-extends-example.html), [new](concepts/keywords/js-keyword-new-example.html), [function](concepts/keywords/js-keyword-function-example.html), [this](concepts/keywords/js-keyword-this-example.html), [super](concepts/keywords/js-keyword-super-example.html), static ([1](concepts/class/js-class-static-attr-example.html), [2](concepts/class/js-class-static-method-example.html))
-- void, debugger, [delete](concepts/object/js-json-remove-example.html)
+- void, [debugger](concepts/keywords/js-keyword-debugger-example.html), [delete](concepts/object/js-json-remove-example.html)
 
 ## Best Practices
 - Avoid using `with` keyword
