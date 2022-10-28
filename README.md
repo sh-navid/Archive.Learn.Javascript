@@ -158,6 +158,7 @@
 
 
 ### Regex
+- [ ] TODO: complete this section
 
 ## Best Practices
 - Avoid using `with` keyword
