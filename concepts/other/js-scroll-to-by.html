@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        html {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .cell {
+            width: 100%;
+            height: 50%;
+            line-height: 100%;
+            display: block;
+            font-size: 1000%;
+            color: white;
+        }
+
+        .c1 {
+            background-color: coral;
+        }
+
+        .c2 {
+            background-color: violet;
+        }
+
+        .c3 {
+            background-color: yellowgreen;
+        }
+
+        .c4 {
+            background-color: springgreen;
+        }
+
+        .c5 {
+            background-color: slateblue;
+        }
+
+        .c6 {
+            background-color: tan;
+        }
+
+        .holder {
+            position: fixed;
+            float: right;
+        }
+
+        input {
+            padding: 2em;
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="holder">
+        <input type="button" value="1" onclick="call(this)" />
+        <input type="button" value="2" onclick="call(this)" />
+        <input type="button" value="3" onclick="call(this)" />
+        <input type="button" value="4" onclick="call(this)" />
+        <input type="button" value="5" onclick="call(this)" />
+        <input type="button" value="6" onclick="call(this)" />
+    </div>
+    <div class="cell c1">1</div>
+    <div class="cell c2">2</div>
+    <div class="cell c3">3</div>
+    <div class="cell c4">4</div>
+    <div class="cell c5">5</div>
+    <div class="cell c6">6</div>
+    <div class="cell c7">7</div>
+
+    <script>
+        t = 0;
+        const call = (el) => {
+            i = parseInt(el.value);
+            d = document.querySelector(".c" + i);
+            t = d.offsetTop;
+            //window.scrollTo(0, t);
+            //alert(window.scrollY);
+
+            clearInterval(int);
+            setInterval(move, 5);
+        }
+
+        speed = 10;
+        const move = () => {
+            if (window.scrollY + speed < t)
+                window.scrollBy(0, speed);
+            else if (window.scrollY - speed > t)
+                window.scrollBy(0, -speed);
+            else {
+                clearInterval(int);
+                window.scrollTo(0, t);
+            }
+        }
+
+        int = null;
+    </script>
+</body>
+
+</html>
