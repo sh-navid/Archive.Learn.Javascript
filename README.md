@@ -96,6 +96,7 @@
     - [Vertical Example](concepts/events/js-event-scroll-example.html)
     - [Horizantal Example](concepts/events/js-event-scroll-h-example.html)
     - [Scroll to/by Example](concepts/other/js-scroll-to-by.html)
+    - [Scroll to/by Example 2](concepts/other/js-scroll-to-by-2.html)
 - [`resize`](concepts/events/js-event-resize-example.html)
 ### Async
 - Callback
