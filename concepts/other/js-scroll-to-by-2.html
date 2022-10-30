@@ -117,6 +117,8 @@
     <script>
         t = 0;
         int = null;
+        counter = null;
+        d = null;
 
         h = document.querySelector(".progress");
         b = document.querySelector(".bar");
@@ -128,6 +130,18 @@
 
             clearInterval(int);
             int = setInterval(move, 5);
+
+            clearInterval(counter);
+            d.innerText = el.value;
+            setTimeout(() => {
+                counter = setInterval(count, 250)
+            }, 3000);
+        }
+
+        const count = () => {
+            x = parseInt(d.innerText);
+            x++;
+            d.innerText = x;
         }
 
         speed = 10;
