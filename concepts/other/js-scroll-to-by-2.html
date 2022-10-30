@@ -7,12 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            transition: 300ms;
+        }
+
         body,
         html {
             width: 100%;
             height: 100%;
             padding: 0;
             margin: 0;
+            user-select: none;
         }
 
         .cell {
@@ -22,6 +27,8 @@
             display: block;
             font-size: 1000%;
             color: white;
+            text-align: center;
+            padding-top: .75em;
         }
 
         .c1,
@@ -29,24 +36,59 @@
         .c5,
         .c7 {
             background-color: #212121;
-            color: "#efefef"
+            color: #efefef;
         }
 
         .c2,
         .c4,
         .c6 {
             background-color: #efefef;
-            color: "#212121"
+            color: #212121;
         }
 
         .holder {
             position: fixed;
-            float: right;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, 0);
         }
 
         input {
-            padding: 2em;
-            background-color: transparent;
+            padding: .5em;
+            border-radius: 10em;
+            background-color: #efefef;
+            font-size: 200%;
+            font-weight: bold;
+            color: #212121;
+            border: .5em solid #212121;
+        }
+
+        *::-webkit-scrollbar {
+            display: none;
+        }
+
+        * {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        .progress,
+        .bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1em;
+            border-bottom: 1px solid #424242;
+        }
+
+        .bar {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 10em;
+            background-color: #424242;
         }
     </style>
 </head>
@@ -67,10 +109,17 @@
     <div class="cell c5">5</div>
     <div class="cell c6">6</div>
     <div class="cell c7">7</div>
-
+    <div class="progress">
+        <div class="bar">
+            <span div="percentage"></span>
+        </div>
+    </div>
     <script>
         t = 0;
         int = null;
+
+        h = document.querySelector(".progress");
+        b = document.querySelector(".bar");
 
         const call = (el) => {
             i = parseInt(el.value);
