@@ -134,6 +134,7 @@
         </div>
     </div>
     <script>
+        speed = 10;
         t = 0;
         intMove = null;
         intCount = null;
@@ -167,27 +168,25 @@
 
         const count = () => {
             x = parseInt(cc.innerText);
-            x++;
-            cc.innerText = x;
+            cc.innerText = x++;
         }
 
-        speed = 10;
         const move = () => {
-            if (window.scrollY + speed < t)
-                window.scrollBy(0, speed);
-            else if (window.scrollY - speed > t)
-                window.scrollBy(0, -speed);
+            if (window.scrollY + speed < t) { window.scrollBy(0, speed); }
+            else if (window.scrollY - speed > t) { window.scrollBy(0, -speed); }
             else {
                 clearInterval(intMove);
                 window.scrollTo(0, t);
             }
         }
 
-        window.addEventListener("scroll", (e) => {
+        const progress = () => {
             console.log(window.scrollY, document.body.scrollHeight);
-            maxHeight = document.body.scrollHeight - d.clientHeight-100;
+            maxHeight = document.body.scrollHeight - d.clientHeight - 100;
             b.style.width = (window.scrollY / maxHeight * 100) + "%";
-        });
+        }
+
+        window.addEventListener("scroll", progress);
     </script>
 </body>
 
