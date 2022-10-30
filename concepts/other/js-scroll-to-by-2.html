@@ -134,45 +134,41 @@
         </div>
     </div>
     <script>
-        speed = 10;
-        t = 0;
-        intMove = null;
-        d = document.querySelector(".c1");
-        h = document.querySelector(".progress");
-        b = document.querySelector(".bar");
-        inputs = document.querySelectorAll("input[type=button]");
+        let SPEED = 10;
+        let nextPlaceToScroll = 0;
+        let intMove = null;
+        let elCurrentDiv = document.querySelector(".c1");
+        let elProgress = document.querySelector(".progress");
+        let elBar = document.querySelector(".bar");
+        let elInputs = document.querySelectorAll("input[type=button]");
+        let isCounterEnabled = [false, false, false, false, false, false]
 
-        const call = (el) => {
-            i = parseInt(el.value);
-            d = document.querySelector(".c" + i);
-            t = d.offsetTop;
+        const call = (inputButton) => {
+            let v = parseInt(inputButton.value);
+            elCurrentDiv = document.querySelector(".c" + v);
+            nextPlaceToScroll = elCurrentDiv.offsetTop;
 
-            inputs.forEach(inp => {
-                inp.className = "x" + ((i % 2) == 1 ? 1 : 2);
+            elInputs.forEach(button => {
+                button.className = "x" + ((v % 2) == 1 ? 1 : 2);
             });
 
             clearInterval(intMove);
             intMove = setInterval(move, 5);
         }
 
-        const count = () => {
-            x = parseInt(cc.innerText);
-            cc.innerText = x++;
-        }
-
         const move = () => {
-            if (window.scrollY + speed < t) { window.scrollBy(0, speed); }
-            else if (window.scrollY - speed > t) { window.scrollBy(0, -speed); }
+            if (window.scrollY + SPEED < nextPlaceToScroll) { window.scrollBy(0, SPEED); }
+            else if (window.scrollY - SPEED > nextPlaceToScroll) { window.scrollBy(0, -SPEED); }
             else {
                 clearInterval(intMove);
-                window.scrollTo(0, t);
+                window.scrollTo(0, nextPlaceToScroll);
             }
         }
 
         const progress = () => {
             console.log(window.scrollY, document.body.scrollHeight);
-            maxHeight = document.body.scrollHeight - d.clientHeight - 100;
-            b.style.width = (window.scrollY / maxHeight * 100) + "%";
+            maxHeight = document.body.scrollHeight - elCurrentDiv.clientHeight - 100;
+            elBar.style.width = (window.scrollY / maxHeight * 100) + "%";
         }
 
         window.addEventListener("scroll", progress);
