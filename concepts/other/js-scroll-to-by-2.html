@@ -152,6 +152,7 @@
             elInputs.forEach(button => {
                 button.className = "x" + ((v % 2) == 1 ? 1 : 2);
             });
+            inputButton.className = "x" + ((v % 2) == 1 ? 2 : 1);
 
             clearInterval(intMove);
             intMove = setInterval(move, 5);
