@@ -153,7 +153,7 @@
         </div>
     </div>
     <script>
-        let SPEED = 10;
+        let SPEED = 20;
         let nextPlaceToScroll = 0;
         let intMove = null;
         let elCurrentDiv = document.querySelector(".c1");
@@ -167,14 +167,17 @@
             let v = parseInt(inputButton.value);
             elCurrentDiv = document.querySelector(".c" + v);
             nextPlaceToScroll = elCurrentDiv.offsetTop;
+            //setActiveButton(inputButton);
+            clearInterval(intMove);
+            intMove = setInterval(move, 5);
+        }
 
+        const setActiveButton = (inputButton) => {
+            let v = parseInt(inputButton.value);
             elButtons.forEach(button => {
                 button.className = "x" + ((v % 2) == 1 ? 1 : 2);
             });
             inputButton.className = "x" + ((v % 2) == 1 ? 2 : 1);
-
-            clearInterval(intMove);
-            intMove = setInterval(move, 5);
         }
 
         const move = () => {
@@ -195,6 +198,13 @@
                 if (window.scrollY >= (index * elCurrentDiv.clientHeight) - 100)
                     isCounterEnabled[index] = true;
             })
+
+            for (let i = 0; i < 6; i++) {
+                range = i * elCurrentDiv.offsetHeight;
+                if(window.scrollY>=range && window.scrollY<=range+elCurrentDiv.offsetHeight){
+                    setActiveButton(elButtons[i])
+                }
+            }
         }
 
         setInterval(() => {
