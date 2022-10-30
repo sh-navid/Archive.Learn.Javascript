@@ -8,7 +8,7 @@
     <title>Document</title>
     <style>
         * {
-            transition: 300ms;
+            transition: 600ms;
         }
 
         body,
@@ -22,7 +22,7 @@
 
         .cell {
             width: 100%;
-            height: 75%;
+            height: 100%;
             line-height: 100%;
             display: block;
             font-size: 1000%;
@@ -59,11 +59,21 @@
         input {
             padding: .5em;
             border-radius: 10em;
-            background-color: #efefef;
             font-size: 200%;
             font-weight: bold;
+            cursor: pointer;
+        }
+
+        .x1 {
+            background-color: #efefef;
             color: #212121;
             border: .5em solid #212121;
+        }
+
+        .x2 {
+            background-color: #212121;
+            color: #efefef;
+            border: .5em solid #efefef;
         }
 
         *::-webkit-scrollbar {
@@ -105,12 +115,12 @@
 
 <body>
     <div class="holder">
-        <input type="button" value="1" onclick="call(this)" />
-        <input type="button" value="2" onclick="call(this)" />
-        <input type="button" value="3" onclick="call(this)" />
-        <input type="button" value="4" onclick="call(this)" />
-        <input type="button" value="5" onclick="call(this)" />
-        <input type="button" value="6" onclick="call(this)" />
+        <input type="button" class="x1" value="1" onclick="call(this)" />
+        <input type="button" class="x1" value="2" onclick="call(this)" />
+        <input type="button" class="x1" value="3" onclick="call(this)" />
+        <input type="button" class="x1" value="4" onclick="call(this)" />
+        <input type="button" class="x1" value="5" onclick="call(this)" />
+        <input type="button" class="x1" value="6" onclick="call(this)" />
     </div>
     <div class="cell c1"><span class="counter">0</span>1</div>
     <div class="cell c2"><span class="counter">0</span>2</div>
@@ -118,7 +128,6 @@
     <div class="cell c4"><span class="counter">0</span>4</div>
     <div class="cell c5"><span class="counter">0</span>5</div>
     <div class="cell c6"><span class="counter">0</span>6</div>
-    <div class="cell c7"><span class="counter">0</span>7</div>
     <div class="progress">
         <div class="bar">
             <span div="percentage"></span>
@@ -126,13 +135,15 @@
     </div>
     <script>
         t = 0;
-        int = null;
-        counter = null;
-        d = null;
+        intMove = null;
+        intCount = null;
+        d = document.querySelector(".c1");
         cc = null;
 
         h = document.querySelector(".progress");
         b = document.querySelector(".bar");
+
+        inputs = document.querySelectorAll("input[type=button]");
 
         const call = (el) => {
             i = parseInt(el.value);
@@ -140,18 +151,21 @@
             cc = document.querySelector(".c" + i + " .counter");
             t = d.offsetTop;
 
-            clearInterval(int);
-            int = setInterval(move, 5);
+            inputs.forEach(inp => {
+                inp.className = "x" + ((i % 2) == 1 ? 1 : 2);
+            });
 
-            clearInterval(counter);
+            clearInterval(intMove);
+            intMove = setInterval(move, 5);
+
+            clearInterval(intCount);
             cc.innerText = "0";
             setTimeout(() => {
-                counter = setInterval(count, 250)
+                intCount = setInterval(count, 250)
             }, 5000);
         }
 
         const count = () => {
-            console.log(cc);
             x = parseInt(cc.innerText);
             x++;
             cc.innerText = x;
@@ -164,10 +178,16 @@
             else if (window.scrollY - speed > t)
                 window.scrollBy(0, -speed);
             else {
-                clearInterval(int);
+                clearInterval(intMove);
                 window.scrollTo(0, t);
             }
         }
+
+        window.addEventListener("scroll", (e) => {
+            console.log(window.scrollY, document.body.scrollHeight);
+            maxHeight = document.body.scrollHeight - d.clientHeight-100;
+            b.style.width = (window.scrollY / maxHeight * 100) + "%";
+        });
     </script>
 </body>
 
