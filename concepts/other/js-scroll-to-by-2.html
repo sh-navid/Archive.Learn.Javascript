@@ -29,6 +29,8 @@
             color: white;
             text-align: center;
             padding-top: .75em;
+            position: relative;
+            z-index: 0;
         }
 
         .c1,
@@ -51,6 +53,7 @@
             left: 50%;
             top: 50%;
             transform: translate(-50%, 0);
+            z-index: 1000;
         }
 
         input {
@@ -90,6 +93,13 @@
             width: 10em;
             background-color: #424242;
         }
+
+        .counter {
+            font-size: 40%;
+            left: 1em;
+            top: .4em;
+            position: absolute;
+        }
     </style>
 </head>
 
@@ -102,13 +112,13 @@
         <input type="button" value="5" onclick="call(this)" />
         <input type="button" value="6" onclick="call(this)" />
     </div>
-    <div class="cell c1">1</div>
-    <div class="cell c2">2</div>
-    <div class="cell c3">3</div>
-    <div class="cell c4">4</div>
-    <div class="cell c5">5</div>
-    <div class="cell c6">6</div>
-    <div class="cell c7">7</div>
+    <div class="cell c1"><span class="counter">0</span>1</div>
+    <div class="cell c2"><span class="counter">0</span>2</div>
+    <div class="cell c3"><span class="counter">0</span>3</div>
+    <div class="cell c4"><span class="counter">0</span>4</div>
+    <div class="cell c5"><span class="counter">0</span>5</div>
+    <div class="cell c6"><span class="counter">0</span>6</div>
+    <div class="cell c7"><span class="counter">0</span>7</div>
     <div class="progress">
         <div class="bar">
             <span div="percentage"></span>
@@ -119,6 +129,7 @@
         int = null;
         counter = null;
         d = null;
+        cc = null;
 
         h = document.querySelector(".progress");
         b = document.querySelector(".bar");
@@ -126,22 +137,24 @@
         const call = (el) => {
             i = parseInt(el.value);
             d = document.querySelector(".c" + i);
+            cc = document.querySelector(".c" + i + " .counter");
             t = d.offsetTop;
 
             clearInterval(int);
             int = setInterval(move, 5);
 
             clearInterval(counter);
-            d.innerText = el.value;
+            cc.innerText = "0";
             setTimeout(() => {
                 counter = setInterval(count, 250)
-            }, 3000);
+            }, 5000);
         }
 
         const count = () => {
-            x = parseInt(d.innerText);
+            console.log(cc);
+            x = parseInt(cc.innerText);
             x++;
-            d.innerText = x;
+            cc.innerText = x;
         }
 
         speed = 10;
