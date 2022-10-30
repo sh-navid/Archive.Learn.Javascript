@@ -100,7 +100,7 @@
             left: 0;
             top: 0;
             bottom: 0;
-            width: 10em;
+            width: 0;
             background-color: #424242;
         }
 
@@ -141,6 +141,7 @@
         let elProgress = document.querySelector(".progress");
         let elBar = document.querySelector(".bar");
         let elInputs = document.querySelectorAll("input[type=button]");
+        let elCounters = document.querySelectorAll(".counter");
         let isCounterEnabled = [false, false, false, false, false, false]
 
         const call = (inputButton) => {
@@ -169,6 +170,17 @@
             console.log(window.scrollY, document.body.scrollHeight);
             maxHeight = document.body.scrollHeight - elCurrentDiv.clientHeight - 100;
             elBar.style.width = (window.scrollY / maxHeight * 100) + "%";
+
+
+            elCounters.forEach((span, index) => {
+                if (window.scrollY >= (index * elCurrentDiv.clientHeight) - 150) {
+                    isCounterEnabled[index] = true;
+                }
+                if (isCounterEnabled[index]) {
+                    num = parseInt(span.innerText);
+                    span.innerText = num++;
+                }
+            })
         }
 
         window.addEventListener("scroll", progress);
