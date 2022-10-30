@@ -137,8 +137,6 @@
         speed = 10;
         t = 0;
         intMove = null;
-        intCount = null;
-        cc = null;
         d = document.querySelector(".c1");
         h = document.querySelector(".progress");
         b = document.querySelector(".bar");
@@ -147,7 +145,6 @@
         const call = (el) => {
             i = parseInt(el.value);
             d = document.querySelector(".c" + i);
-            cc = document.querySelector(".c" + i + " .counter");
             t = d.offsetTop;
 
             inputs.forEach(inp => {
@@ -156,12 +153,6 @@
 
             clearInterval(intMove);
             intMove = setInterval(move, 5);
-
-            clearInterval(intCount);
-            cc.innerText = "0";
-            setTimeout(() => {
-                intCount = setInterval(count, 250)
-            }, 5000);
         }
 
         const count = () => {
