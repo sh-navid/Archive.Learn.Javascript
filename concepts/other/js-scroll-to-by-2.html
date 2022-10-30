@@ -111,10 +111,10 @@
             position: absolute;
         }
 
-        p{
+        p {
             position: absolute;
             bottom: 10%;
-            left:5%;
+            left: 5%;
             font-size: 12%;
         }
     </style>
@@ -130,17 +130,23 @@
         <input type="button" class="x1" value="6" onclick="call(this)" />
     </div>
     <div class="cell c1"><span class="counter">0</span>1
-        <p>You can click on each button to scroll</p></div>
+        <p>You can click on each button to scroll</p>
+    </div>
     <div class="cell c2"><span class="counter">0</span>2
-        <p>Or use the mouse wheel to scroll</p></div>
+        <p>Or use the mouse wheel to scroll</p>
+    </div>
     <div class="cell c3"><span class="counter">0</span>3
-        <p>Also you can use your keyboard numpad; number 1 to 6</p></div>
+        <p>Also you can use your keyboard numpad; number 1 to 6</p>
+    </div>
     <div class="cell c4"><span class="counter">0</span>4
-        <p>This is an example with pure JS by sh-navid</p></div>
+        <p>This is an example with pure JS by sh-navid</p>
+    </div>
     <div class="cell c5"><span class="counter">0</span>5
-        <p>Javascript is powerfull but hard to understand</p></div>
+        <p>Javascript is powerfull but hard to understand</p>
+    </div>
     <div class="cell c6"><span class="counter">0</span>6
-        <p>Keep practice every day...</p></div>
+        <p>Keep practice every day...</p>
+    </div>
     <div class="progress">
         <div class="bar">
             <span div="percentage"></span>
@@ -200,11 +206,11 @@
 
         window.addEventListener("scroll", progress);
 
-        window.addEventListener("keypress",(e)=>{
-            key=e.key;
-            if(["1","2","3","4","5","6"].includes(key)){
-                key=parseInt(key);
-                call(elButtons[key-1]);
+        window.addEventListener("keypress", (e) => {
+            key = e.key;
+            if (["1", "2", "3", "4", "5", "6"].includes(key)) {
+                key = parseInt(key);
+                call(elButtons[key - 1]);
             }
         })
     </script>
