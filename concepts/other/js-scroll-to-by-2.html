@@ -110,6 +110,13 @@
             top: .4em;
             position: absolute;
         }
+
+        p{
+            position: absolute;
+            bottom: 10%;
+            left:5%;
+            font-size: 12%;
+        }
     </style>
 </head>
 
@@ -122,12 +129,18 @@
         <input type="button" class="x1" value="5" onclick="call(this)" />
         <input type="button" class="x1" value="6" onclick="call(this)" />
     </div>
-    <div class="cell c1"><span class="counter">0</span>1</div>
-    <div class="cell c2"><span class="counter">0</span>2</div>
-    <div class="cell c3"><span class="counter">0</span>3</div>
-    <div class="cell c4"><span class="counter">0</span>4</div>
-    <div class="cell c5"><span class="counter">0</span>5</div>
-    <div class="cell c6"><span class="counter">0</span>6</div>
+    <div class="cell c1"><span class="counter">0</span>1
+        <p>You can click on each button to scroll</p></div>
+    <div class="cell c2"><span class="counter">0</span>2
+        <p>Or use the mouse wheel to scroll</p></div>
+    <div class="cell c3"><span class="counter">0</span>3
+        <p>Also you can use your keyboard numpad; number 1 to 6</p></div>
+    <div class="cell c4"><span class="counter">0</span>4
+        <p>This is an example with pure JS by sh-navid</p></div>
+    <div class="cell c5"><span class="counter">0</span>5
+        <p>Javascript is powerfull but hard to understand</p></div>
+    <div class="cell c6"><span class="counter">0</span>6
+        <p>Keep practice every day...</p></div>
     <div class="progress">
         <div class="bar">
             <span div="percentage"></span>
@@ -140,7 +153,7 @@
         let elCurrentDiv = document.querySelector(".c1");
         let elProgress = document.querySelector(".progress");
         let elBar = document.querySelector(".bar");
-        let elInputs = document.querySelectorAll("input[type=button]");
+        let elButtons = document.querySelectorAll("input[type=button]");
         let elCounters = document.querySelectorAll(".counter");
         let isCounterEnabled = [true, false, false, false, false, false]
 
@@ -149,7 +162,7 @@
             elCurrentDiv = document.querySelector(".c" + v);
             nextPlaceToScroll = elCurrentDiv.offsetTop;
 
-            elInputs.forEach(button => {
+            elButtons.forEach(button => {
                 button.className = "x" + ((v % 2) == 1 ? 1 : 2);
             });
             inputButton.className = "x" + ((v % 2) == 1 ? 2 : 1);
@@ -172,7 +185,6 @@
             maxHeight = document.body.scrollHeight - elCurrentDiv.clientHeight - 100;
             elBar.style.width = (window.scrollY / maxHeight * 100) + "%";
 
-
             elCounters.forEach((span, index) => {
                 if (window.scrollY >= (index * elCurrentDiv.clientHeight) - 100)
                     isCounterEnabled[index] = true;
@@ -187,6 +199,14 @@
         }, 100)
 
         window.addEventListener("scroll", progress);
+
+        window.addEventListener("keypress",(e)=>{
+            key=e.key;
+            if(["1","2","3","4","5","6"].includes(key)){
+                key=parseInt(key);
+                call(elButtons[key-1]);
+            }
+        })
     </script>
 </body>
 
