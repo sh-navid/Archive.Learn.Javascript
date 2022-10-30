@@ -142,7 +142,7 @@
         let elBar = document.querySelector(".bar");
         let elInputs = document.querySelectorAll("input[type=button]");
         let elCounters = document.querySelectorAll(".counter");
-        let isCounterEnabled = [false, false, false, false, false, false]
+        let isCounterEnabled = [true, false, false, false, false, false]
 
         const call = (inputButton) => {
             let v = parseInt(inputButton.value);
@@ -173,15 +173,17 @@
 
 
             elCounters.forEach((span, index) => {
-                if (window.scrollY >= (index * elCurrentDiv.clientHeight) - 150) {
+                if (window.scrollY >= (index * elCurrentDiv.clientHeight) - 100)
                     isCounterEnabled[index] = true;
-                }
-                if (isCounterEnabled[index]) {
-                    num = parseInt(span.innerText);
-                    span.innerText = num++;
-                }
             })
         }
+
+        setInterval(() => {
+            elCounters.forEach((span, index) => {
+                if (isCounterEnabled[index])
+                    span.innerText = parseInt(span.innerText) + 1;
+            })
+        }, 100)
 
         window.addEventListener("scroll", progress);
     </script>
