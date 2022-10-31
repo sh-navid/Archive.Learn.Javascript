@@ -31,6 +31,9 @@
 ## Redux Headings
 - Store
 
+___
+
+
 ## Best Practices
 - Avoid using `with` keyword
 
