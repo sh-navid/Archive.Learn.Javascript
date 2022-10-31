@@ -13,11 +13,7 @@
 - [Hoisting](concepts/hoisting/README.md)
 - [Map](concepts/map/README.md)
 - Regex
-
-### Window
-- [`prompt()`](concepts/window/js-window-prompt-example.html)
-- `alert()`
-
+- [window](concepts/window/README.md)
 
 ## JQ Headings
 - JQ
