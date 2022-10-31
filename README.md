@@ -1,38 +1,14 @@
 # JS Instructor
 ***Disclaimer: The content of this repository is provided only for the purpose of teaching students and with an educational perspective.***
+
+## JS Headings
 - [Array](concepts/array/README.md)
 - [Class](concepts/class/README.md)
 - [Order](concepts/order/README.md)
 - [Events](concepts/events/README.md)
-
-### Async
-- Callback
-- Promise
-### JSON
-- Object
-    - [Example](concepts/object/js-json-define-example.html)
-    - `this`
-        - [Example](concepts/object/js-json-this-example.html)
-- Access
-    - [Example](concepts/object/js-json-access-example.html)
-- Change
-    - [Example](concepts/object/js-json-change-example.html)
-- Remove
-    - [Example](concepts/object/js-json-remove-example.html)
-- Array
-    - [Example](concepts/object/js-json-array-example.html)
-- Convert
-    - `JSON.parse()`, `JSON.stringify()`
-        - [Example](concepts/object/js-json-parse-example.html)
-### Strict Mode
-- `"use strict";`
-    - Variables
-        - [Example 1](concepts/other/js-strict-example.html)
-        - [Example 2](concepts/other/js-strict-variables-example.html)
-    - `eval()`
-        - [Example](concepts/other/js-strict-eval-example.html)
-    - `with`
-        - [Example](concepts/other/js-strict-with-example.html)
+- [Async](concepts/async/README.md)
+- [JSON](concepts/json/README.md)
+- [Strict Mode](concepts/strict/README.md)
 ### Hoisting
 - JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. <small>***<sup>[[Mozilla Glossary 10/27/2022](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)]<sup>***</small>
 - [Example](concepts/other/js-hoisting-example.html)
@@ -75,9 +51,13 @@
 - [`prompt()`](concepts/window/js-window-prompt-example.html)
 - `alert()`
 
+
+## JQ Headings
+
+## React Headings
+
 ## Best Practices
 - Avoid using `with` keyword
-
 
 ## Examples
 - [Calculator](concepts/array/js-example-calculator.html)
