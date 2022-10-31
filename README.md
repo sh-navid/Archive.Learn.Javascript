@@ -31,7 +31,7 @@
 ## Redux Headings
 - Store
 
-___
+![](assets/spacer.png)
 
 
 ## Best Practices
@@ -47,7 +47,7 @@ ___
         - [ ] How to make a WebView android application (APK) from this project?
         - [ ] How to make a chrome or firefox extension (Addon) from this project?
 
-___
+![](assets/spacer.png)
 
 ## More
 ### Browser Extension
