@@ -1,29 +1,10 @@
 # JS Instructor
 ***Disclaimer: The content of this repository is provided only for the purpose of teaching students and with an educational perspective.***
-## Extra Homeworks
-### [Array](concepts/array/README.md)
-### [Class](concepts/class/README.md)
+- [Array](concepts/array/README.md)
+- [Class](concepts/class/README.md)
+- [Order](concepts/order/README.md)
+- [Events](concepts/events/README.md)
 
-### Calculation Order
-    - `(2 + 4) * 6`
-    - `2 + (4 * 6)`
-### Events
-- [`load`](concepts/events/js-event-load-example.html), `beforeunload`
-- `drag`, `dragstart`, `dragend`
-- `dragover`, `dragleave`, `dragenter`, `drop`
-- `copy`, `cut`, `paste`, `select`
-- `beforeinput`, `input`, `change`
-- `click`, `dblclick`, `focus`, `blur`
-- `mousemove`, `mouseup`, `mousedown`
-- `keyup`, `keydown`, `keypress`
-- `mouseover`, `mouseout`
-- [`submit`](concepts/events/js-event-submit-example.html)
-- `scroll`
-    - [Vertical Example](concepts/events/js-event-scroll-example.html)
-    - [Horizantal Example](concepts/events/js-event-scroll-h-example.html)
-    - [Scroll to/by Example](concepts/other/js-scroll-to-by.html)
-    - [Scroll to/by Example 2](concepts/other/js-scroll-to-by-2.html)
-- [`resize`](concepts/events/js-event-resize-example.html)
 ### Async
 - Callback
 - Promise
