@@ -1,6 +1,32 @@
 # JQuery
 ## Events
-- .bind()
-- .click(), .dblclick()
-- .focus(), .blur()
-- .input(), .change()
+- Event on DOM
+    - Methods
+        - .on(), .off()??
+        - .bind()
+        - .click(), .dblclick()
+        - .focus(), .blur()
+        - .input(), .change()
+        - .live(), .die()
+    - Attributes
+        - ...
+- Event Object
+    - Methods
+        - event.preventDefault()
+            - event.isDefaultPrevented()
+        - event.stopPropagation()
+            - event.isPropagationStopped()
+        - event.stopImmediatePropagation()
+            - event.isImmediatePropagationStopped()
+    - Attributes
+        - Target
+            - event.relatedTarget
+            - event.currentTarget
+            - event.delegateTarget
+        - Position
+            - event.pageX
+            - event.pageY
+        - Other
+            - event.result
+            - event.data
+            - event.metaKey
