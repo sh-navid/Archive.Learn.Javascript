@@ -17,7 +17,8 @@
 
 ## JQ Headings
 - JQ
-    - Events
+    - [Introduction](frameworks/jquery/introduction/README.md)
+    - [Events](frameworks/jquery/events/README.md)
     - Effects
     - Ajax
 - JQ UI
