@@ -19,6 +19,9 @@
 - JQ
 - JQ UI
 
+## NodeJS Headings
+- API
+
 ## React Headings
 - Class Components
 - Function Components
@@ -37,6 +40,8 @@
         - [ ] How to make a mobile app with React Native?
         - [ ] How to make a WebView android application (APK) from this project?
         - [ ] How to make a chrome or firefox extension (Addon) from this project?
+
+___
 
 ## More
 ### Browser Extension
