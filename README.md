@@ -20,8 +20,14 @@
 
 
 ## JQ Headings
+- JQ
+- JQ UI
 
 ## React Headings
+- Class Components
+- Function Components
+- Params
+- Hooks
 
 ## Best Practices
 - Avoid using `with` keyword
