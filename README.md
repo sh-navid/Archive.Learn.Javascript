@@ -17,7 +17,14 @@
 
 ## JQ Headings
 - JQ
+    - Events
+    - Effects
+    - Ajax
 - JQ UI
+    - Rotate
+    - Drag
+    - Resize
+- JQ Mobile
 
 ## NodeJS Headings
 - API
