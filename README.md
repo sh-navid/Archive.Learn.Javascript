@@ -9,28 +9,13 @@
 - [Async](concepts/async/README.md)
 - [JSON](concepts/json/README.md)
 - [Strict Mode](concepts/strict/README.md)
+- [Keywords](concepts/keywords/README.md)
 ### Hoisting
 - JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. <small>***<sup>[[Mozilla Glossary 10/27/2022](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)]<sup>***</small>
 - [Example](concepts/other/js-hoisting-example.html)
 
-### Keywords
-- return, [yield](concepts/keywords/js-keyword-yield-example.html)
-- import, export
-- null
-- true, false
-- var, let, const
-- async, await
-- do, [while](concepts/keywords/js-keyword-while-example.html), continue, break
-- for, continue, break
-- [throw](concepts/keywords/js-keyword-throw-example.html)
-- [try, catch, finally](concepts/keywords/js-keyword-try-catch-example.html)
-- if, else
-- [switch, case, default, break](concepts/keywords/js-keyword-switch-case-default-example.html)
-- with
-- [of, in](concepts/keywords/js-keyword-of-in-example.html)
-- [instanceof, typeof](concepts/keywords/js-keyword-type-example.html)
-- [class](concepts/keywords/js-keyword-extends-example.html), [extends](concepts/keywords/js-keyword-extends-example.html), [new](concepts/keywords/js-keyword-new-example.html), [function](concepts/keywords/js-keyword-function-example.html), [this](concepts/keywords/js-keyword-this-example.html), [super](concepts/keywords/js-keyword-super-example.html), static ([1](concepts/class/js-class-static-attr-example.html), [2](concepts/class/js-class-static-method-example.html))
-- void, [debugger](concepts/keywords/js-keyword-debugger-example.html), [delete](concepts/object/js-json-remove-example.html)
+
+
 
 ### Map
 - Knows the order of elements
