@@ -10,27 +10,9 @@
 - [JSON](concepts/json/README.md)
 - [Strict Mode](concepts/strict/README.md)
 - [Keywords](concepts/keywords/README.md)
-### Hoisting
-- JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. <small>***<sup>[[Mozilla Glossary 10/27/2022](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)]<sup>***</small>
-- [Example](concepts/other/js-hoisting-example.html)
-
-
-
-
-### Map
-- Knows the order of elements
-- [Create](concepts/map/js-map-create-example.html)
-- Attributes
-    - [`.size`](concepts/map/js-map-length-example.html)
-- Methods
-    - [`.get()`, `.set()`](concepts/map/js-map-get-set-example.html)
-    - [`.has()`](concepts/map/js-map-has-example.html)
-    - [`.entries()`](concepts/map/js-map-entries-example.html)
-    - [`.delete()`](concepts/map/js-map-delete-example.html)
-
-
-### Regex
-- [ ] TODO: complete this section
+- [Hoisting](concepts/hoisting/README.md)
+- [Map](concepts/map/README.md)
+- Regex
 
 ### Window
 - [`prompt()`](concepts/window/js-window-prompt-example.html)
