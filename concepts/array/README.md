@@ -1,0 +1,41 @@
+# Javascript
+## Array
+- Dimensions of array
+- Iterate over array
+- Behaviors
+    - Access
+    - Change
+- Methods
+    - `.filter()`
+        - `array.filter((x) => x>X)`
+        - [Example of auto complete with `.filter()`](js-array-filter-example.html) 
+        - [Question](js-array-filter-question.html) , [Answer](js-array-filter-answer.html)
+    - `.forEach()`
+        - `array.forEach((x) => console.log(x))`
+        - [Example of create object using `template` and `.forEach()`](js-array-foreach-example.html)
+        - [Question](js-array-foreach-question.html), [Answer](js-array-foreach-answer.html)
+    - `.map()`
+        - `array.map((x) => x*2)`
+        - [Example of update values using `.map()`](js-array-map-example.html)
+        - [Question](js-array-map-question.html), [Answer](js-array-map-answer.html)
+    - `.reduce()`
+        - `array.reduce((X,x) => X+x)`
+        - [Example of summation using `.reduce()`](js-array-reduce-example.html)
+        - [Question](js-array-reduce-question.html), [Answer](js-array-reduce-answer.html)
+    - `.reduceRight()`
+    - `.includes()`
+    - `.find()`, `findIndex()`
+    - `.indexOf()`, `lastIndexOf()`
+    - `.push()`, `pop()`
+    - `.unshift()`, `shift()`
+    - `.every()`, `some()`
+    - `.entries()`, `keys()`, `valueOf()`
+    - `.from()`
+    - `.reverse()`
+    - `.sort()`
+    - `.concat()`
+    - `.join()`
+    - `.fill()`
+    - `.toString()`
+    - `.slice()`, `.splice()`
+    - `.copyWithin()`
