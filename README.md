@@ -31,6 +31,10 @@
 ## Redux Headings
 - Store
 
+## NextJS Headings
+- Routing
+- API
+
 ![](assets/spacer.png)
 
 
