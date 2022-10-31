@@ -13,6 +13,6 @@
 - `scroll`
     - [Vertical Example](js-event-scroll-example.html)
     - [Horizantal Example](js-event-scroll-h-example.html)
-    - [Scroll to/by Example](js-scroll-to-by.html)
-    - [Scroll to/by Example 2](js-scroll-to-by-2.html)
+    - [Scroll to/by Example](../other/js-scroll-to-by.html)
+    - [Scroll to/by Example 2](../other/js-scroll-to-by-2.html)
 - [`resize`](js-event-resize-example.html)
