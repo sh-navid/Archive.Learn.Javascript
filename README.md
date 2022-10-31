@@ -28,6 +28,9 @@
 - Params
 - Hooks
 
+## Redux Headings
+- Store
+
 ## Best Practices
 - Avoid using `with` keyword
 
