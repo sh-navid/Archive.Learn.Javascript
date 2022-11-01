@@ -13,10 +13,10 @@
     - [Form](jq-form.html)
         - `.submit()`
     - Bind
-        - `.on()`
-        - `.off()`
+        - [`.on()`](jq-bind-on.html)
+        - [`.off()`](jq-bind-off.html)
         - `.one()`
-        - `.bind()`, `.unbind()`
+        - ~~`.bind()`, `.unbind()`~~
     - Edit
         - `.input()`
         - `.change()`
