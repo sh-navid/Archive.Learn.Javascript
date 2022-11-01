@@ -7,14 +7,19 @@
 
 <body>
     <input />
+    <br />
     <div></div>
+    <br />
     <div></div>
-    <input id="_focus" value="Focus"/>
-    <input id="_blur" value="Blur"/>
+    <br />
+    <input type="button" value="Focus" />
+    <input type="button" value="Blur" />
     <script>
         let i = $("input")
         let d1 = $("div").first()
         let d2 = $("div").last()
+        let b1 = $("button").first()
+        let b2 = $("button").last()
 
         i.focus(() => {
             d1.text("Focus")
@@ -32,6 +37,13 @@
             d2.text("FocusOut")
         })
 
+        b1.click(() => {
+            i.focus()
+        })
+
+        b2.click(() => {
+            i.blur()
+        })
     </script>
 </body>
 
