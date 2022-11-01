@@ -7,7 +7,7 @@
         - `.focusin()`
         - `.focusout()`
     - Click
-        - `.toggle()`
+        - ~~`.toggle()`~~
         - `.click()`
         - `.dblclick()`
     - Form
@@ -16,7 +16,7 @@
         - `.on()`
         - `.off()`
         - `.one()`
-        - `.bind()`
+        - `.bind()`, `.unbind()`
     - Edit
         - `.input()`
         - `.change()`
@@ -38,9 +38,12 @@
         - `.scroll()`
         - `.ready()`
         - `.hover()`
+        - `.trigger()`
+        - `.triggerHandler()`
     - Deprecated
-        - ~~`.live(), .die()`~~
-        - ~~`.load()`~~
+        - ~~`.live()`, `.die()`~~
+        - ~~`.load()`, `.unload()`~~
+        - ~~`.delegate()`, `.undelegate()`~~
 - Event Object
     - Methods
         - `event.preventDefault()`
