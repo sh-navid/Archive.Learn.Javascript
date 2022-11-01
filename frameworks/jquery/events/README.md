@@ -27,7 +27,7 @@
         - `.keydown()`
         - `.keyup()`
         - `.keypress()`
-    - Mouse
+    - [Mouse](jq-mouse.html)
         - `.mouseleave()`
         - `.mousedown()`
         - `.mouseenter()`

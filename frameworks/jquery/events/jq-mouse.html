@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        div {
+            width: 25em;
+            height: 3em;
+            border: 1px dotted orange;
+            text-align: center;
+            line-height: 3em;
+            font-size: 200%;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <p>Press a key on your keyboard</p>
+        <div></div>
+        <div></div>
+    </form>
+    <script>
+        h = $("div")
+        h1 = $("div").first()
+        h2 = $("div").last()
+
+        h.mouseleave((e) => {
+            h1.text("MouseLeave - Left:" + e.pageX + " - Top:" + e.pageY + " - Mouse Btn " + e.which)
+        })
+
+        h.mousedown((e) => {
+            h1.text("MouseDown - Left:" + e.pageX + " - Top:" + e.pageY + " - Mouse Btn " + e.which)
+        })
+
+        h.mouseup((e) => {
+            h1.text("MouseUp - Left:" + e.pageX + " - Top:" + e.pageY + " - Mouse Btn " + e.which)
+        })
+
+        h.mouseenter((e) => {
+            h1.text("MouseEnter - Left:" + e.pageX + " - Top:" + e.pageY + " - Mouse Btn " + e.which)
+        })
+
+        h.mousemove((e) => {
+            h1.text("MouseMove - Left:" + e.pageX + " - Top:" + e.pageY + " - Mouse Btn " + e.which)
+        })
+
+        h.mouseout((e) => {
+            h2.text("MouseOut - Left:" + e.pageX + " - Top:" + e.pageY + " - Mouse Btn " + e.which)
+        })
+
+        h.mouseover((e) => {
+            h2.text("MouseOver - Left:" + e.pageX + " - Top:" + e.pageY + " - Mouse Btn " + e.which)
+        })
+    </script>
+</body>
+
+</html>
