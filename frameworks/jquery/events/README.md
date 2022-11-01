@@ -35,8 +35,11 @@
         - `.mouseout()`
         - `.mouseover()`
         - `.mouseup()`
+    - Window
+        - [`$(window).resize()`](jq-resize.html)
+            - $(window).width()
+            - $(window).height()
     - Other
-        - `.resize()`
         - `.scroll()`
         - `.ready()`
         - `.hover()`
