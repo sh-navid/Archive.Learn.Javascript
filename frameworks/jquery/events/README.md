@@ -70,5 +70,7 @@
                 - _`true` if `window` key is down_
             - `e.timeStamp`
             - `e.type`
+            - [`e.key`](jq-keyboard.html)
+                - _Keyboard key symbol_
             - [`e.which`](jq-keyboard.html)
                 - _Keyboard key code_
