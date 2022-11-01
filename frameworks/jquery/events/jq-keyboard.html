@@ -5,11 +5,11 @@
     <script src="../jquery-3.6.1.min.js"></script>
     <style>
         div {
-            width: 10em;
-            height: 5em;
+            width: 15em;
+            height: 3em;
             border: 1px solid black;
             text-align: center;
-            line-height: 5em;
+            line-height: 3em;
             font-size: 300%;
         }
     </style>
@@ -19,21 +19,24 @@
     <form>
         <p>Press a key on your keyboard</p>
         <div></div>
+        <br />
+        <div></div>
     </form>
     <script>
         d = $(document)
-        h = $("div")
+        h = $("div").first()
+        h2 = $("div").last()
 
         d.keydown((e) => {
-            h.text(e.which + " - "+ e.metaKey)
+            h.text("KeyDown - " + e.which + " - " + e.metaKey + " - " + e.key)
         })
 
         d.keyup((e) => {
-
+            h.text("KeyUp - " + e.which + " - " + e.metaKey + " - " + e.key)
         })
 
         d.keypress((e) => {
-
+            h2.text("KeyPress - " + e.which + " - " + e.metaKey + " - " + e.key)
         })
     </script>
 </body>
