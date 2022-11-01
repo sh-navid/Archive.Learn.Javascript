@@ -13,7 +13,7 @@
 - [Hoisting](concepts/hoisting/README.md)
 - [Map](concepts/map/README.md)
 - Regex
-- [window](concepts/window/README.md)
+- [Window](concepts/window/README.md)
 
 ## JQ Headings
 - JQ
