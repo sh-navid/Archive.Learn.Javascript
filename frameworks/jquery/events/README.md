@@ -1,11 +1,12 @@
 # JQuery
 ## Events
 - Event on DOM
-    - Focus
-        - `.focus()`
-        - `.blur()`
+    - [Focus](jq-focus.html)
         - `.focusin()`
+            - `.focus()` + _Also can be a Trigger_
         - `.focusout()`
+            - `.blur()` + _Also can be a Trigger_
+        - fadeto
     - Click
         - ~~`.toggle()`~~
         - `.click()`

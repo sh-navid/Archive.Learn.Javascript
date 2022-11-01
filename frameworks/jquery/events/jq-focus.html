@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <input />
+    <div></div>
+    <div></div>
+    <script>
+        let i = $("input")
+        let d1 = $("div").first()
+        let d2 = $("div").last()
+
+        i.focus(() => {
+            d1.text("Focus")
+        })
+
+        i.blur(() => {
+            d1.text("Blur")
+        })
+
+        i.focusin(() => {
+            d2.text("FocusIn")
+        })
+
+        i.focusout(() => {
+            d2.text("FocusOut")
+        })
+
+    </script>
+</body>
+
+</html>
