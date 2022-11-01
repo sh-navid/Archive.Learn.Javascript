@@ -6,20 +6,18 @@
 </head>
 
 <body>
-    <input />
+    <input type="text"/>
     <br />
     <div></div>
     <br />
     <div></div>
     <br />
-    <input type="button" value="Focus" />
-    <input type="button" value="Blur" />
+    <input type="button" value="'Focus' And Wait to 'Blur'" />
     <script>
-        let i = $("input")
+        let i = $("input[type=text]")
         let d1 = $("div").first()
         let d2 = $("div").last()
-        let b1 = $("button").first()
-        let b2 = $("button").last()
+        let b1 = $("input[type=button]")
 
         i.focus(() => {
             d1.text("Focus")
@@ -39,11 +37,12 @@
 
         b1.click(() => {
             i.focus()
+
+            setTimeout(()=>{
+i.blur()
+            },2000)
         })
 
-        b2.click(() => {
-            i.blur()
-        })
     </script>
 </body>
 
