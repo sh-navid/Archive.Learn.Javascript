@@ -9,7 +9,7 @@
     - .focus(), .blur()
     - .focusin(), .focusout()
     - .input(), .change()
-    - .live(), .die()
+    - ~~.live(), .die()~~
     - .hover()
     - Keyboard
         - .keydown()
