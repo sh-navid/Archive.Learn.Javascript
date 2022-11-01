@@ -42,7 +42,7 @@
     - Other
         - [`.scroll()`](jq-scroll.html)
             - `.scrollTop()` _Getter or Setter_
-        - `.ready()`
+        - [`.ready()`](jq-ready.html)
         - `.hover()`
         - `.trigger()`
         - `.triggerHandler()`
