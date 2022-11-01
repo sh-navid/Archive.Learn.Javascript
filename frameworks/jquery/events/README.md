@@ -14,24 +14,24 @@
         - `.one()`
         - `.bind()`
     - Edit
-        - .input()
-        - .change()
-        - .select()
+        - `.input()`
+        - `.change()`
+        - `.select()`
     - Keyboard
-        - .keydown()
-        - .keyup()
-        - .keypress()
+        - `.keydown()`
+        - `.keyup()`
+        - `.keypress()`
     - Mouse
-        - .mouseleave()
-        - .mousedown()
-        - .mouseenter()
-        - .mousemove()
-        - .mouseout()
-        - .mouseover()
-        - .mouseup()
+        - `.mouseleave()`
+        - `.mousedown()`
+        - `.mouseenter()`
+        - `.mousemove()`
+        - `.mouseout()`
+        - `.mouseover()`
+        - `.mouseup()`
     - Deprecated
-        - ~~.live(), .die()~~
-        - ~~.load()~~
+        - ~~`.live(), .die()`~~
+        - ~~`.load()`~~
 - Event Object
     - Methods
         - event.preventDefault()
