@@ -4,10 +4,15 @@
     - `.resize()`
     - `.scroll()`
     - `.ready()`
-    - `.click(), .dblclick()`
     - `.focus(), .blur()`
     - `.focusin(), .focusout()`
     - `.hover()`
+    - Click
+        - `.toggle()`
+        - `.click()`
+        - `.dblclick()`
+    - Form
+        - `.submit()`
     - Bind
         - `.on()`
         - `.off()`
