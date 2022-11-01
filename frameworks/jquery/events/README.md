@@ -1,15 +1,20 @@
 # JQuery
 ## Events
+- JQuery
+    - jQuery.ready
 - Event on DOM
-    - Methods
-        - .on(), .off()??
-        - .bind()
-        - .click(), .dblclick()
-        - .focus(), .blur()
-        - .input(), .change()
-        - .live(), .die()
-    - Attributes
-        - ...
+    - .on(), .off()??
+    - .bind()
+    - .click(), .dblclick()
+    - .focus(), .blur()
+    - .focusin(), .focusout()
+    - .input(), .change()
+    - .live(), .die()
+    - .hover()
+    - Keyboard
+        - .keydown()
+        - .keyup()
+        - .keypress()
 - Event Object
     - Methods
         - event.preventDefault()
@@ -20,6 +25,7 @@
             - event.isImmediatePropagationStopped()
     - Attributes
         - Target
+            - event.target
             - event.relatedTarget
             - event.currentTarget
             - event.delegateTarget
@@ -30,3 +36,6 @@
             - event.result
             - event.data
             - event.metaKey
+            - event.timeStamp
+            - event.type
+            - event.which
