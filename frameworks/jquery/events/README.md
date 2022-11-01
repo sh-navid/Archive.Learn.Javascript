@@ -1,18 +1,18 @@
 # JQuery
 ## Events
 - Event on DOM
-    - .resize()
-    - .scroll()
-    - .ready()
-    - .click(), .dblclick()
-    - .focus(), .blur()
-    - .focusin(), .focusout()
-    - .hover()
+    - `.resize()`
+    - `.scroll()`
+    - `.ready()`
+    - `.click(), .dblclick()`
+    - `.focus(), .blur()`
+    - `.focusin(), .focusout()`
+    - `.hover()`
     - Bind
-        - .on()
-        - .off()
-        - .one()
-        - .bind()
+        - `.on()`
+        - `.off()`
+        - `.one()`
+        - `.bind()`
     - Edit
         - .input()
         - .change()
