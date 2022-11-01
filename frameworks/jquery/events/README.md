@@ -13,8 +13,9 @@
     - [Form](jq-form.html)
         - `.submit()`
     - Bind
-        - [`.on()`](jq-bind-on.html)
-        - [`.off()`](jq-bind-off.html)
+        - [**`.on("event",()=>{})`**](jq-bind-on.html)
+        - [**`.off("event",()=>{})`**](jq-bind-off.html)
+            - `.off()` - To remove all events
         - `.one()`
         - ~~`.bind()`, `.unbind()`~~
     - Edit
