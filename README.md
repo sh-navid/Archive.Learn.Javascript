@@ -80,6 +80,16 @@
 - [ ] Lighthouse
 - [ ] Trello
 - [ ] Markdown
+<!-- 
+### Analytic Tools
+- [ ] Microsoft
+    - Clarity
+- [ ] Google 
+    - Analytics 
+    - Data Studio
+    - Search Console
+    - Tag Manager
+-->
 ### Concepts
 - [ ] PWA, SPA, ...
 - [ ] Test
