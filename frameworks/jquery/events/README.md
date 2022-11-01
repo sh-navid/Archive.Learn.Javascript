@@ -1,12 +1,11 @@
 # JQuery
 ## Events
 - Event on DOM
-    - `.resize()`
-    - `.scroll()`
-    - `.ready()`
-    - `.focus(), .blur()`
-    - `.focusin(), .focusout()`
-    - `.hover()`
+    - Focus
+        - `.focus()`
+        - `.blur()`
+        - `.focusin()`
+        - `.focusout()`
     - Click
         - `.toggle()`
         - `.click()`
@@ -34,6 +33,11 @@
         - `.mouseout()`
         - `.mouseover()`
         - `.mouseup()`
+    - Other
+        - `.resize()`
+        - `.scroll()`
+        - `.ready()`
+        - `.hover()`
     - Deprecated
         - ~~`.live(), .die()`~~
         - ~~`.load()`~~
