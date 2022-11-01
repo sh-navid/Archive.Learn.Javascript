@@ -1,18 +1,22 @@
 # JQuery
 ## Events
-- JQuery
-    - jQuery.ready()
 - Event on DOM
-    - .on(), .off()
-    - .one()
-    - .bind()
+    - .resize()
+    - .scroll()
+    - .ready()
     - .click(), .dblclick()
     - .focus(), .blur()
     - .focusin(), .focusout()
-    - .input(), .change()
-    - ~~.live(), .die()~~
     - .hover()
-    - ~~.load()~~
+    - Bind
+        - .on()
+        - .off()
+        - .one()
+        - .bind()
+    - Edit
+        - .input()
+        - .change()
+        - .select()
     - Keyboard
         - .keydown()
         - .keyup()
@@ -25,6 +29,9 @@
         - .mouseout()
         - .mouseover()
         - .mouseup()
+    - Deprecated
+        - ~~.live(), .die()~~
+        - ~~.load()~~
 - Event Object
     - Methods
         - event.preventDefault()
