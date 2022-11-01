@@ -15,7 +15,7 @@
     - Bind
         - [**`.on("event",()=>{})`**](jq-bind-on.html)
         - [**`.off("event",()=>{})`**](jq-bind-off.html)
-            - `.off()` - To remove all events
+            - `.off()` - _To remove all events_
         - `.one()`
         - ~~`.bind()`, `.unbind()`~~
     - Edit
