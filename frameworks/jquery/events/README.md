@@ -1,9 +1,10 @@
 # JQuery
 ## Events
 - JQuery
-    - jQuery.ready
+    - jQuery.ready()
 - Event on DOM
-    - .on(), .off()??
+    - .on(), .off()
+    - .one()
     - .bind()
     - .click(), .dblclick()
     - .focus(), .blur()
@@ -11,10 +12,19 @@
     - .input(), .change()
     - ~~.live(), .die()~~
     - .hover()
+    - ~~.load()~~
     - Keyboard
         - .keydown()
         - .keyup()
         - .keypress()
+    - Mouse
+        - .mouseleave()
+        - .mousedown()
+        - .mouseenter()
+        - .mousemove()
+        - .mouseout()
+        - .mouseover()
+        - .mouseup()
 - Event Object
     - Methods
         - event.preventDefault()
