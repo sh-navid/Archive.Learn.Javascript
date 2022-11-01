@@ -47,25 +47,25 @@
         - ~~`.delegate()`, `.undelegate()`~~
 - Event Object
     - Methods
-        - `event.preventDefault()`
-            - `event.isDefaultPrevented()`
-        - `event.stopPropagation()`
-            - `event.isPropagationStopped()`
-        - `event.stopImmediatePropagation()`
-            - `event.isImmediatePropagationStopped()`
+        - `e.preventDefault()`
+            - `e.isDefaultPrevented()`
+        - `e.stopPropagation()`
+            - `e.isPropagationStopped()`
+        - `e.stopImmediatePropagation()`
+            - `e.isImmediatePropagationStopped()`
     - Attributes
         - Target
-            - `event.target`
-            - `event.relatedTarget`
-            - `event.currentTarget`
-            - `event.delegateTarget`
+            - `e.target`
+            - `e.relatedTarget`
+            - `e.currentTarget`
+            - `e.delegateTarget`
         - Position
-            - `event.pageX`
-            - `event.pageY`
+            - `e.pageX`
+            - `e.pageY`
         - Other
-            - `event.result`
-            - `event.data`
-            - `event.metaKey`
-            - `event.timeStamp`
-            - `event.type`
-            - `event.which`
+            - `e.result`
+            - `e.data`
+            - `e.metaKey`
+            - `e.timeStamp`
+            - `e.type`
+            - `e.which`
