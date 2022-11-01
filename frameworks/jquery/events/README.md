@@ -10,7 +10,7 @@
         - ~~`.toggle()`~~
         - `.click()`
         - `.dblclick()`
-    - Form
+    - [Form](jq-form.html)
         - `.submit()`
     - Bind
         - `.on()`
