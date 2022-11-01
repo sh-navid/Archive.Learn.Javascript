@@ -71,4 +71,4 @@
             - `e.timeStamp`
             - `e.type`
             - [`e.which`](jq-keyboard.html)
-                _Keyboard key code_
+                - _Keyboard key code_
