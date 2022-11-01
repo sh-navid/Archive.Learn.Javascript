@@ -34,25 +34,25 @@
         - ~~`.load()`~~
 - Event Object
     - Methods
-        - event.preventDefault()
-            - event.isDefaultPrevented()
-        - event.stopPropagation()
-            - event.isPropagationStopped()
-        - event.stopImmediatePropagation()
-            - event.isImmediatePropagationStopped()
+        - `event.preventDefault()`
+            - `event.isDefaultPrevented()`
+        - `event.stopPropagation()`
+            - `event.isPropagationStopped()`
+        - `event.stopImmediatePropagation()`
+            - `event.isImmediatePropagationStopped()`
     - Attributes
         - Target
-            - event.target
-            - event.relatedTarget
-            - event.currentTarget
-            - event.delegateTarget
+            - `event.target`
+            - `event.relatedTarget`
+            - `event.currentTarget`
+            - `event.delegateTarget`
         - Position
-            - event.pageX
-            - event.pageY
+            - `event.pageX`
+            - `event.pageY`
         - Other
-            - event.result
-            - event.data
-            - event.metaKey
-            - event.timeStamp
-            - event.type
-            - event.which
+            - `event.result`
+            - `event.data`
+            - `event.metaKey`
+            - `event.timeStamp`
+            - `event.type`
+            - `event.which`
