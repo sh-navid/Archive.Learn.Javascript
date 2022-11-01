@@ -6,8 +6,7 @@
             - `.focus()` + _Also can be a Trigger_
         - `.focusout()`
             - `.blur()` + _Also can be a Trigger_
-        - fadeto
-    - Click
+    - [Click](jq-click.html)
         - ~~`.toggle()`~~
         - `.click()`
         - `.dblclick()`
