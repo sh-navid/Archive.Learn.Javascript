@@ -35,6 +35,7 @@
         - `.mouseout()`
         - `.mouseover()`
         - `.mouseup()`
+        - [`.hover()`](jq-hover.html)
     - Window
         - [**`$(window).resize()`**](jq-resize.html)
             - $(window).width()
@@ -43,7 +44,6 @@
         - [`.scroll()`](jq-scroll.html)
             - `.scrollTop()` _Getter or Setter_
         - [`.ready()`](jq-ready.html)
-        - `.hover()`
         - `.trigger()`
         - `.triggerHandler()`
     - Deprecated
