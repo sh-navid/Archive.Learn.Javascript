@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        div {
+            height: 10em;
+            line-height: 10em;
+            text-align: center;
+            border:1em solid royalblue;
+            font-size: 300%;
+        }
+
+        label{
+            position:fixed;
+            top:0;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <label>
+            <span>-</span>
+        <input type="button" value="Scroll to Top" onclick="w.scrollTop(0)"/>
+        <input type="button" value="Scroll to 1" onclick="$('div')[0].scroll()"/>
+        <input type="button" value="Scroll to 2" onclick="w.scrollTop(0)"/>
+        <input type="button" value="Scroll to 3" onclick="w.scrollTop(0)"/>
+        </label>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </form>
+    <script>
+        w = $(window)
+        d = $("span")
+
+        w.scroll((e) => {
+            d.text("Scroll " + w.scrollTop())
+        })
+
+    
+    </script>
+</body>
+
+</html>

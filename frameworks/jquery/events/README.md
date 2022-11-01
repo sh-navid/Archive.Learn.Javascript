@@ -3,9 +3,9 @@
 - Event on DOM
     - [Focus](jq-focus.html)
         - `.focusin()`
-            - `.focus()` + _Also can be a Trigger_
+            - `.focus()` + _Event or Trigger_
         - `.focusout()`
-            - `.blur()` + _Also can be a Trigger_
+            - `.blur()` + _Event or Trigger_
     - [Click](jq-click.html)
         - ~~`.toggle()`~~
         - `.click()`
@@ -36,11 +36,12 @@
         - `.mouseover()`
         - `.mouseup()`
     - Window
-        - [`$(window).resize()`](jq-resize.html)
+        - [**`$(window).resize()`**](jq-resize.html)
             - $(window).width()
             - $(window).height()
     - Other
-        - `.scroll()`
+        - [`.scroll()`](jq-scroll.html)
+            - `.scrollTop()` _Getter or Setter_
         - `.ready()`
         - `.hover()`
         - `.trigger()`
