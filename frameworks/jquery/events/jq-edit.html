@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <form>
+        <input type="Text" />
+        <div></div>
+    </form>
+    <script>
+        $("input").on("input",(e) => {
+            $("div").text(e.target.value + " -- INPUT")
+        })
+
+        $("input").change((e) => {
+            $("div").text(e.target.value + " -- CHANGE")
+        })
+
+        $("input").select((e) => {
+            $("div").text(window.getSelection().toString() + " -- SELECT")
+        })
+    </script>
+</body>
+
+</html>

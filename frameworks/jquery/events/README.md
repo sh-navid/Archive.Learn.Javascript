@@ -16,11 +16,11 @@
         - [**`.on("event",()=>{})`**](jq-bind-on.html)
         - [**`.off("event",()=>{})`**](jq-bind-off.html)
             - `.off()` - _To remove all events_
-        - `.one()`
+        - [**`.one()`**](jq-bind-one.html)
         - ~~`.bind()`, `.unbind()`~~
-    - Edit
-        - `.input()`
-        - `.change()`
+    - [Edit](jq-edit.html)
+        - **`on("input",(e) => {})`**
+        - **`.change()`**
         - `.select()`
     - Keyboard
         - `.keydown()`
