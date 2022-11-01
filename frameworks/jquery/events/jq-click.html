@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+
+    <input type="button" value="Click" />
+    <input type="button" value="Double Click" />
+    <script>
+        b1 = $("input").first()
+        b2 = $("input").last()
+
+        b1.click(() => {
+            alert("Click")
+        })
+
+        b2.dblclick(() => {
+            alert("Double Click")
+        })
+    </script>
+</body>
+
+</html>
