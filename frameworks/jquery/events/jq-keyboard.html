@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        div {
+            width: 10em;
+            height: 5em;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 5em;
+            font-size: 300%;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <p>Press a key on your keyboard</p>
+        <div></div>
+    </form>
+    <script>
+        d = $(document)
+        h = $("div")
+
+        d.keydown((e) => {
+            h.text(e.which + " - "+ e.metaKey)
+        })
+
+        d.keyup((e) => {
+
+        })
+
+        d.keypress((e) => {
+
+        })
+    </script>
+</body>
+
+</html>

@@ -15,14 +15,15 @@
     - Bind
         - [**`.on("event",()=>{})`**](jq-bind-on.html)
         - [**`.off("event",()=>{})`**](jq-bind-off.html)
-            - `.off()` - _To remove all events_
+            - `.off()`
+                - _To remove all events_
         - [**`.one()`**](jq-bind-one.html)
         - ~~`.bind()`, `.unbind()`~~
     - [Edit](jq-edit.html)
         - **`on("input",(e) => {})`**
         - **`.change()`**
         - `.select()`
-    - Keyboard
+    - [Keyboard](jq-keyboard.html)
         - `.keydown()`
         - `.keyup()`
         - `.keypress()`
@@ -55,7 +56,7 @@
             - `e.isImmediatePropagationStopped()`
     - Attributes
         - Target
-            - `e.target`
+            - [`e.target`](jq-edit.html)
             - `e.relatedTarget`
             - `e.currentTarget`
             - `e.delegateTarget`
@@ -65,7 +66,9 @@
         - Other
             - `e.result`
             - `e.data`
-            - `e.metaKey`
+            - [`e.metaKey`](jq-keyboard.html)
+                - _`true` if `window` key is down_
             - `e.timeStamp`
             - `e.type`
-            - `e.which`
+            - [`e.which`](jq-keyboard.html)
+                _Keyboard key code_
