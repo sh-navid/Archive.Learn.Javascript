@@ -18,9 +18,12 @@
 ## JQ Headings
 - JQ
     - [Introduction](frameworks/jquery/introduction/README.md)
+    - [Class](frameworks/jquery/class/README.md)
+    - [Attributes](frameworks/jquery/attributes/README.md)
     - [QuerySelector](frameworks/jquery/selector/README.md)
     - [Events](frameworks/jquery/events/README.md)
-    - Effects
+    - [Effects](frameworks/jquery/effects/README.md)
+
     - Ajax
 - JQ UI
     - Rotate
