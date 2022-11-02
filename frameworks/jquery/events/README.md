@@ -62,7 +62,7 @@
         - [`e.stopImmediatePropagation()`](jq-stop-immediate-propagation.html)
             - _Like `e.stopPropagation()` but disables all other scopes of the same event_
             - `e.isImmediatePropagationStopped()`
-    - Attributes
+    - Properties
         - Target
             - [`e.target`](jq-edit.html)
             - [`e.relatedTarget`](jq-related-target.html)
@@ -71,7 +71,7 @@
         - [Position](jq-mouse.html)
             - `e.pageX`
             - `e.pageY`
-        - Other
+        - Other Properties
             - `e.result`
             - `e.data`
             - [`e.metaKey`](jq-keyboard.html)
