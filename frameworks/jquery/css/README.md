@@ -1,4 +1,3 @@
 # JQuery
 ## CSS
-- .css()
-- jQuery.cssHooks
+- [`.css()`](jq-css.html)
