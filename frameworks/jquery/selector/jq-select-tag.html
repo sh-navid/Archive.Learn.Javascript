@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        path {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <p>1</p>
+    <p>2</p>
+    <p>3</p>
+    <p>4</p>
+    <script>
+        $("p").text("Prg")
+
+        $("p").each((i, el) => {
+            el = $(el)
+            el.text(el.text() + " " + i)
+        })
+    </script>
+</body>
+
+</html>

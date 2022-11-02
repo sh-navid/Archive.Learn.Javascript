@@ -1,7 +1,7 @@
 # JQuery
 ## Selectors
 - [`*`](jq-select-all.html)
-- `tag`
+- [`tag`](jq-select-tag.html)
 - `.class`
 - `#id`
 - `mix .of #all`
