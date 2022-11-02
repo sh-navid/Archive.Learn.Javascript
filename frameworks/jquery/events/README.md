@@ -56,7 +56,8 @@
     - Methods
         - [`e.preventDefault()`](jq-prevent-default.html)
             - `e.isDefaultPrevented()`
-        - `e.stopPropagation()`
+        - [`e.stopPropagation()`](jq-stop-propagation.html)
+            - _Stop bubbling up the same event_
             - `e.isPropagationStopped()`
         - `e.stopImmediatePropagation()`
             - `e.isImmediatePropagationStopped()`
