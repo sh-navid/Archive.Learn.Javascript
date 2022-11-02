@@ -18,6 +18,7 @@
 ## JQ Headings
 - JQ
     - [Introduction](frameworks/jquery/introduction/README.md)
+    - [QuerySelector](frameworks/jquery/selector/README.md)
     - [Events](frameworks/jquery/events/README.md)
     - Effects
     - Ajax

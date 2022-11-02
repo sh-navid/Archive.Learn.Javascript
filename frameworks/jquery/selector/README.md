@@ -1,0 +1,10 @@
+# JQuery
+## Selectors
+- `*`
+- Attribute
+    - tag[attr|="NAME"]
+    - tag[attr*="NAME"]
+    - tag[attr^="NAME"]
+    - tag[attr$="NAME"]
+    - tag[attr!="NAME"]
+    - tag[attr~="NAME"]
