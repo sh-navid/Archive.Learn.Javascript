@@ -32,7 +32,7 @@
         - [`element[attr*="VALUE"]`](jq-attr-contains-2.html)
             - _`attr` value contains the word `VALUE`; Case sensitive_
 - Form
-    - `:input`
+    - [`:input`](jq-form-general-input.html)
         - _Button, Input, TextArea and Select_
     - `:button`
         - Equivalent 1 is `input[type="button"]`
