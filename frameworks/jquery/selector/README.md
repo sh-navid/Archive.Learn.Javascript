@@ -34,7 +34,7 @@
 - Form
     - [`:input`](jq-form-general-input.html)
         - _Button, Input, TextArea and Select_
-    - `:button`
+    - [`:button`](jq-form-button-1.html)
         - Equivalent 1 is `input[type="button"]`
         - Equivalent 2 is `input:button`
     - `:checkbox`
