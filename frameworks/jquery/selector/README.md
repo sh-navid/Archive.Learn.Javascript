@@ -42,7 +42,7 @@
     - [`:checkbox`](jq-form-checkbox.html)
     - [`:file`](jq-form-file.html)
     - [`:password`](jq-form-password.html)
-    - `:image`
+    - [`:image`](jq-form-image.html)
     - `:hidden`
     - `:radio`
     - `:text`
