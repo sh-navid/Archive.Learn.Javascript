@@ -25,7 +25,7 @@
         <div id="p2">
             <div id="p1">
                 <div id="counter">
-                    1
+                    0
                 </div>
             </div>
         </div>
@@ -33,30 +33,25 @@
     <br />
     <br />
     <input type="checkbox" id="ch" />
-    <label for="ch">StopImmediatePropagation</label>
-    <br />
-    <br />
-    <br />
-    <p>isImmediatePropagationStopped()</p>
-    <span></span>
+    <label for="ch">StopPropagation</label>
     <script>
         c = $("input")
         d = $("div")
-        s = $("span")
         _ = $("#counter")
 
         d.click((e) => {
             if (c.prop("checked"))
-                e.stopImmediatePropagation()
+                e.stopPropagation()
 
             _.text(parseInt(_.text()) + 1)
-            s.text(e.isImmediatePropagationStopped())
         })
 
-        // if e.isImmediatePropagationStopped() is true
-        // then disables this event
         d.click((e) => {
-            console.log(e.target.id)
+            console.log("Target", e.target)
+            console.log("Related", e.relatedTarget)
+            console.log("CurrentTarget", e.currentTarget)
+            console.log("Delegate", e.delegateTarget)
+            console.log("---------------------------")
         })
     </script>
 </body>

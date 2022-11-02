@@ -63,7 +63,7 @@
             - _Like `e.stopPropagation()` but disables all other scopes of the same event_
             - `e.isImmediatePropagationStopped()`
     - Attributes
-        - Target
+        - [Target](jq-target.html)
             - [`e.target`](jq-edit.html)
             - `e.relatedTarget`
             - `e.currentTarget`
