@@ -11,10 +11,12 @@
         - _Include border + padding_
     - `.outerHeight()`
         - _Include border + padding_
-- Coordinates
+- [Coordinates](jq-value-coordinates.html)
     - `.offset()`
     - `.offsetParent()`
     - `.position()`
+        - `.left`
+        - `.top`
 - Scroll
     - `.scrollLeft()`
     - `.scrollTop()`
