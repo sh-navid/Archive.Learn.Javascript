@@ -22,3 +22,5 @@
 - .type()
 - .unique()
 - .uniqueSort()
+- $.cssNumber
+- $.cssHooks
