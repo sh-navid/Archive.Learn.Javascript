@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <div>
+            <p>
+                <span id="test" name="test">Span</span>
+            </p>
+        </div>
+        <div>
+            <p>
+                <span id="test2">Span</span>
+            </p>
+        </div>
+    </div>
+    <script>
+        $("span[id$='st']").html("Ends with 'st'")
+    </script>
+</body>
+
+</html>

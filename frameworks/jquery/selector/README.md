@@ -16,18 +16,16 @@
         - _Child_
     - ~~`:parent`~~, [`.parent()`](jq-select-parent.html)
 - Attribute
-    - Has
-        - `tag[attr]`
-    - Multi Attr
-        - `tag[attr1][attr2]`
+    - [`tag[attr]`](jq-attr-has-attr.html)
+    - [`tag[attr1][attr2]`](jq-attr-multi-attr.html)
     - `tag[attr|="NAME"]`
     - `tag[attr*="NAME"]`
-    - `tag[attr^="NAME"]`
-        - _Begin with word `attr`_
-    - `tag[attr$="NAME"]`
-        - _Ends with word `attr`_
-    - `tag[attr~="NAME"]`
-        - _Contains word `attr`_
+    - [`tag[attr^="NAME"]`](jq-attr-begin-with.html)
+        - _`attr` value begins with word `NAME`; Case sensitive_
+    - [`tag[attr$="NAME"]`](jq-attr-ends-with.html)
+        - _`attr` value ends with word `NAME`; Case sensitive_
+    - [`tag[attr~="NAME"]`](jq-attr-contains.html)
+        - _`attr` value contains the word `NAME` surrounded by spaces; Case sensitive_
     - `tag[attr!="NAME"]`
         - _Do Not have `attr` or `NAME` value_
 - Form
