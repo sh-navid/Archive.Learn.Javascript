@@ -26,9 +26,10 @@
     - [QuerySelector](frameworks/jquery/selector/README.md)
     - [Events](frameworks/jquery/events/README.md)
     - [Effects](frameworks/jquery/effects/README.md)
-    - Callbacks -> TODO: Check original references
-    - Core -> TODO: Check original references
-    - Ajax -> TODO: Check original references
+    - Callbacks -> _**TODO**: Check original references_
+    - Deferred -> _**TODO**: Check original references_
+    - Core -> _**TODO**: Check original references_
+    - Ajax -> _**TODO**: Check original references_
 - JQ UI
     - Rotate
     - Drag

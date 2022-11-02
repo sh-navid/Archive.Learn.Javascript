@@ -10,4 +10,7 @@
 - Coordinates
     - .offset()
     - .position()
+- Scroll
+    - .scrollLeft()
+    - .scrollTop()
 - jQuery.cssNumber
