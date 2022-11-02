@@ -2,17 +2,22 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
 </head>
 
 <body>
     <div></div>
-    <input type="button" value="Trigger 'A' Character"/>
+    <input type="button" value="Trigger 'A' Character" />
     <script>
-        $(document).keypress((e) => {
+        $(document).keyup((e) => {
             $("div").text(e.key)
         })
 
-        $("input").trigger("keypress", { keyCode: 65 });
+        e = $.Event("keyup")
+        e.key = "A"
+        $("input[type=button]").click(() => {
+            $(document).trigger(e)
+        });
     </script>
 </body>
 
