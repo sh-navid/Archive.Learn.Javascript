@@ -39,16 +39,16 @@
             - _But seems not support `<button>`_
         - Equivalent 2 is `input:button`
             - _But seems not support `<button>`_
-    - `:checkbox`
-    - `:file`
-    - `:hidden`
-    - `:password`
+    - [`:checkbox`](jq-form-checkbox.html)
+    - [`:file`](jq-form-file.html)
+    - [`:password`](jq-form-password.html)
     - `:image`
     - `:hidden`
     - `:radio`
     - `:text`
     - `:reset`
     - `:submit`
+    - [`input:hidden`](jq-form-hidden.html)
 - State
     - `:checked`
         - Checkbox
