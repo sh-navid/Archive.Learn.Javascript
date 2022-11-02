@@ -1,8 +1,8 @@
 # JQuery
 ## Values
 - [Dimension](jq-value-dimensions.html)
-    - `.width()`
-    - `.height()`
+    - [`.width()`](jq-value-set-size.html)
+    - [`.height()`](jq-value-set-size.html)
     - `.innerWidth()`
         - _Include padding_
     - `.innerHeight()`
