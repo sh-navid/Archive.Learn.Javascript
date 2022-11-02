@@ -6,15 +6,16 @@
 </head>
 
 <body>
-    <p>Open dev console to check</p>
-    <input type="text"/>
-    <input type="button" value="Add Attr"/>
-    <input type="button" value="Remove Attr"/>
+    <p>Open dev elements to check</p>
+    <input type="text" />
+    <input type="button" value="Add Attr" />
+    <input type="button" value="Remove Attr" />
     <script>
-        b1=$("input:button").first().click(()=>{
-            $(":text").attr("my-new-attr","my-value")
+        b1 = $("input:button").first().click(() => {
+            $(":text").attr("my-new-attr", "my-value")
         })
-        b2=$("input:button").last().click(()=>{
+
+        b2 = $("input:button").last().click(() => {
             $(":text").removeAttr("my-new-attr")
         })
     </script>
