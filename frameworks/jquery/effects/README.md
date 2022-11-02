@@ -12,7 +12,7 @@
     - .clearQueue()
     - .queue()
     - .dequeue()
-- Fade
+- [Fade](jq-effect-fade.html)
     - .fadeIn()
     - .fadeOut()
     - .fadeTo()
