@@ -1,7 +1,10 @@
 # JQuery
 ## Selectors
 - [`*`](jq-select-all.html)
-- [`tag`](jq-select-tag.html)
+- Tag
+    - [`tag`](jq-select-tag.html)
+    - `:header`
+        - _H1 to H6_
 - `.class`
 - `#id`
 - `mix .of #all`
@@ -10,6 +13,8 @@
 - Parent
     - `:parent`
 - Attribute
+    - Has
+        - `tag[attr]`
     - `tag[attr|="NAME"]`
     - `tag[attr*="NAME"]`
     - `tag[attr^="NAME"]`
@@ -29,6 +34,7 @@
     - `:hidden`
     - `:password`
     - `:image`
+    - `:hidden`
     - `:radio`
     - `:text`
 - State
@@ -38,6 +44,9 @@
         - Select
     - `:disabled`
     - `:enabled`
+    - `:focus`
+    - `:visible`
+    - `:hidden` + _Can be confused with *Form* hidden?_
 - Edit
     - `:contains('text')`
         _Search a text_
@@ -46,8 +55,9 @@
 - Select
     - `:even`
     - `:odd`
-    - `:first-child`, `.first()`
-    - `:last-child`, `.last()`
+    - `:first-child`, `:first`, `.first()`
+    - `:last-child`, `:last`, `.last()`
+    - `:has()`
     - By Index
         - `:eq()`, `.eq()`
             _Starts from zero_
@@ -57,3 +67,11 @@
         - `:lt()`
         - `:gt()`
     
+
+____
+
+Not for this repo- just to remember for now
+.toggleClass()
+.attr()
+.css()
+.is()
