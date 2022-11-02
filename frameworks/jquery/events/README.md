@@ -72,7 +72,7 @@
             - `e.pageX`
             - `e.pageY`
         - Other Properties
-            - `e.result`
+            - [`e.result`](jq-result.html)
             - `e.data`
             - [`e.metaKey`](jq-keyboard.html)
                 - _`true` if `window` key is down_
