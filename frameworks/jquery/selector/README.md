@@ -66,9 +66,9 @@
         - Checkbox
         - RadioButton
         - Select
-    - `:disabled`
-    - `:enabled`
-    - `:selected`
+    - [`:disabled`](js-state-general.html)
+    - [`:enabled`](js-state-general.html)
+    - [`:selected`](js-state-general.html)
     - `:focus`
     - `:visible`
     - `:hidden`
