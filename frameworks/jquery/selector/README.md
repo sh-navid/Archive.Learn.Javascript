@@ -46,7 +46,7 @@
     - [`:radio`](jq-form-radio.html)
     - [`:text`](jq-form-text.html)
     - [`:reset`](jq-form-reset.html)
-    - `:submit`
+    - [`:submit`](jq-form-submit.html)
     - [`input:hidden`](jq-form-hidden.html)
 - State
     - `:checked`
