@@ -9,6 +9,7 @@
     - .outerHeight()
 - Coordinates
     - .offset()
+    - .offsetParent()
     - .position()
 - Scroll
     - .scrollLeft()

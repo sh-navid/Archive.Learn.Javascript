@@ -31,6 +31,7 @@
     - [ ] [Form](frameworks/jquery/form/README.md)
     - [ ] Callbacks -> _**TODO**: Check original references_
     - [ ] Deferred -> _**TODO**: Check original references_
+    - [ ] Traversing -> _**TODO**: Check original references_
     - [ ] Core -> _**TODO**: Check original references_
     - [ ] Ajax -> _**TODO**: Check original references_
 - JQ UI
