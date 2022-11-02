@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <input type="button" value="1" />
+    <input type="button" value="Trigger" />
+    <script>
+        i1 = $("input").first()
+        i2 = $("input").last()
+
+        i1.click(() => {
+            i1.val(parseInt(i1.val()) + 1)
+        })
+
+        i2.click(() => {
+            i1.trigger("click")
+        })
+    </script>
+</body>
+
+</html>

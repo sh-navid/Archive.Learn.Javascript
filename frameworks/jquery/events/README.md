@@ -43,8 +43,9 @@
     - Other
         - [`.scroll()`](jq-scroll.html)
             - `.scrollTop()` _Getter or Setter_
-        - [`.ready()`](jq-ready.html)
-        - `.trigger()`
+        - [**`.ready()`**](jq-ready.html)
+        - [**`.trigger()`**](jq-trigger.html) 
+            - _To invoke an event manually_
         - `.triggerHandler()`
     - Deprecated
         - ~~`.live()`, `.die()`~~
