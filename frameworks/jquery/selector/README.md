@@ -1,6 +1,6 @@
 # JQuery
 ## Selectors
-- `*`
+- [`*`](jq-select-all.html)
 - `tag`
 - `.class`
 - `#id`
