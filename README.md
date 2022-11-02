@@ -18,7 +18,7 @@
 ## JQ Headings
 - JQ
     - [x] [Introduction](frameworks/jquery/introduction/README.md)
-    - [ ] [Outout](frameworks/jquery/echo/README.md)
+    - [x] [Outout](frameworks/jquery/echo/README.md) ***MAKE EXAMPLES***
     - [ ] [Class](frameworks/jquery/class/README.md)
     - [ ] [CSS](frameworks/jquery/css/README.md)
     - [ ] [Values](frameworks/jquery/values/README.md)
@@ -29,11 +29,13 @@
     - [ ] [Manipulations](frameworks/jquery/manipulations/README.md)
     - [ ] [Collection](frameworks/jquery/collection/README.md)
     - [ ] [Form](frameworks/jquery/form/README.md)
+    - [ ] [Parse](frameworks/jquery/parse/README.md)
     - [ ] Callbacks -> _**TODO**: Check original references_
     - [ ] Deferred -> _**TODO**: Check original references_
     - [ ] Traversing -> _**TODO**: Check original references_
     - [ ] Core -> _**TODO**: Check original references_
     - [ ] Ajax -> _**TODO**: Check original references_
+    - [ ] [UNCATEGORIZED](frameworks/jquery/uncategorized/README.md)
 - JQ UI
     - Rotate
     - Drag
