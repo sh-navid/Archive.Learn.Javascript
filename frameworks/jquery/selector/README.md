@@ -70,8 +70,8 @@
     - [`:enabled`](js-state-general.html)
     - [`:selected`](js-state-general.html)
     - `:focus`
-    - `:visible`
-    - `:hidden`
+    - [`:visible`](js-state-general.html)
+    - [`:hidden`](js-state-general.html)
 - Edit
     - `:contains('text')`
         - _Search a text_

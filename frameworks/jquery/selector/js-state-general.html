@@ -7,9 +7,11 @@
 
 <body>
     <form>
-        <input type="text"/>
+        <input type="text" />
         <input type="button" value="-">
         <input type="button" value="-" disabled>
+        <div>-</div>
+        <div hidden>-</div>
     </form>
     <script>
         $(":enabled").val("Enabled")
@@ -18,6 +20,9 @@
         $(":text").select((e) => {
             alert(JSON.stringify($(":selected")))
         })
+
+        $("div").filter(":hidden").removeAttr("hidden")
+        $("div").filter(":visible").text("I am Visible")
     </script>
 </body>
 
