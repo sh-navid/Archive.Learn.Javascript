@@ -48,6 +48,19 @@
     - [`:reset`](jq-form-reset.html)
     - [`:submit`](jq-form-submit.html)
     - [`input:hidden`](jq-form-hidden.html)
+    - [Other Inputs](jq-form-access-other-inputs.html)
+        - `input[type=color]`
+        - `input[type=date]`
+        - `input[type=datetime]`
+        - `input[type=email]`
+        - `input[type=number]`
+        - `input[type=month]`
+        - `input[type=range]`
+        - `input[type=search]`
+        - `input[type=tel]`
+        - `input[type=time]`
+        - `input[type=url]`
+
 - State
     - `:checked`
         - Checkbox

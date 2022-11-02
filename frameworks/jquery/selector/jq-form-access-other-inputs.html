@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <form>
+        <input type="color" />
+        <input type="date" />
+        <input type="datetime" />
+        <input type="email" />
+        <input type="number" />
+        <input type="month" />
+        <input type="range" />
+        <input type="search" />
+        <input type="tel" />
+        <input type="time" />
+        <input type="url" />
+
+    </form>
+    <script>
+        $("input[type=color]").val("#00ffaa")
+        $("input[type=date]").val("2022-11-02")
+        $("input[type=datetime]").val("2022-11-02 18:02")
+        $("input[type=email]").val("EMail")
+        $("input[type=month]").val("2022-11")
+        $("input[type=range]").on('input change',(e)=>{
+            $("input[type=number").val(e.target.value)
+        })
+        $("input[type=search]").val("Search Value")
+        $("input[type=tel]").val("0000")
+        $("input[type=time]").val("12:20")
+        $("input[type=url]").val("URL Text")
+
+        $(":input").css({display:"block"})
+    </script>
+</body>
+
+</html>
