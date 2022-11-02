@@ -45,7 +45,7 @@
     - [`:image`](jq-form-image.html)
     - [`:radio`](jq-form-radio.html)
     - [`:text`](jq-form-text.html)
-    - `:reset`
+    - [`:reset`](jq-form-reset.html)
     - `:submit`
     - [`input:hidden`](jq-form-hidden.html)
 - State
