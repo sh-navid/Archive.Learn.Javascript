@@ -14,11 +14,11 @@
 - [Coordinates](jq-value-coordinates.html)
     - `.offset()`
         - _Relative to document_
-    - `.offsetParent()`
+        - `.offsetParent()`
     - `.position()`
         - _Relative to parant_
         - `.left`
         - `.top`
-- Scroll
+- [Scroll](jq-value-scroll.html)
     - `.scrollLeft()`
     - `.scrollTop()`

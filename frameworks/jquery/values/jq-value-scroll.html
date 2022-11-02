@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        body {
+            width: 1000em;
+            height: 1000em;
+        }
+
+        div {
+            position: fixed;
+            font-size: 300%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Scroll this page</p>
+        <span>-</span>
+    </div>
+    <script>
+        p = $("span")
+        $(document).scroll((e) => {
+            el = $(e.target)
+            p.html(`Scroll Left: ${el.scrollLeft()} - Scroll Top: ${el.scrollTop()}`)
+        })
+    </script>
+</body>
+
+</html>
