@@ -1,0 +1,28 @@
+# Jquery
+## Effects
+- .animate()
+- .delay()
+- .finish()
+- .stop()
+- .toggle()
+- Visibility
+    - .show()
+    - .hide()
+- Queue
+    - .clearQueue()
+    - .queue()
+    - .dequeue()
+- Fade
+    - .fadeIn()
+    - .fadeOut()
+    - .fadeTo()
+    - .fadeToggle()
+- Slide
+    - .slideDown()
+    - .slideToggle()
+    - .slideUp()
+- Animation
+    - jQuery.fx.off
+    - jQuery.speed
+- Deprecated
+    - ~~jQuery.fx.interval~~
