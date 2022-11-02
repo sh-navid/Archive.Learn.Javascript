@@ -7,7 +7,8 @@
         - _H1 to H6_
 - `.class`
 - `#id`
-- `mix .of #all`
+- `mixture .of #all`
+- `.multiple,.selection`
 - Child
     - `>`
 - Parent
@@ -15,6 +16,8 @@
 - Attribute
     - Has
         - `tag[attr]`
+    - Multi Attr
+        - `tag[attr1][attr2]`
     - `tag[attr|="NAME"]`
     - `tag[attr*="NAME"]`
     - `tag[attr^="NAME"]`
@@ -26,6 +29,8 @@
     - `tag[attr!="NAME"]`
         - _Do Not have `attr` or `value`_
 - Form
+    - `:input`
+        - _Button, Input, TextArea and Select_
     - `:button`
         - Equivalent 1 is `input[type="button"]`
         - Equivalent 2 is `input:button`
@@ -37,6 +42,7 @@
     - `:hidden`
     - `:radio`
     - `:text`
+    - `:reset`
 - State
     - `:checked`
         - Checkbox
@@ -44,6 +50,7 @@
         - Select
     - `:disabled`
     - `:enabled`
+    - `:selected`
     - `:focus`
     - `:visible`
     - `:hidden` + _Can be confused with *Form* hidden?_
@@ -64,8 +71,11 @@
             _Can get negative number_
         - `:nth-child()`
             _Starts from one_
+        - `:nth-last-child()`
+        - `:only-child`
         - `:lt()`
         - `:gt()`
+    - Of Type
     
 
 ____
