@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        * {
+            user-select: none;
+        }
+
+        div {
+            border: 1px solid black;
+            width: 5em;
+            height: 5em;
+            line-height: 5em;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Open dev console and test this file</p>
+    <div></div>
+    <script>
+        t = $("div")
+
+        t.mouseover((e) => {
+            console.log("Target", e.target)
+            console.log("RelatedTarget", e.relatedTarget)
+            console.log("CurrentTarget", e.currentTarget)
+            console.log("---------------------------")
+        })
+
+        t.mouseleave((e) => {
+            console.log("Target", e.target)
+            console.log("RelatedTarget", e.relatedTarget)
+            console.log("CurrentTarget", e.currentTarget)
+            console.log("---------------------------")
+        })
+    </script>
+</body>
+
+</html>
