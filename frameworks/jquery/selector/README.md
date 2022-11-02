@@ -14,7 +14,7 @@
 - Siblings
     - [`>`](jq-select-child-arrow.html)
         - _Child_
-    - `:parent`
+    - ~~`:parent`~~, [`.parent()`](jq-select-parent.html)
 - Attribute
     - Has
         - `tag[attr]`
