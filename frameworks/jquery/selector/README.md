@@ -26,7 +26,7 @@
         - _`attr` value ends with word `NAME`; Case sensitive_
     - [`tag[attr~="NAME"]`](jq-attr-contains.html)
         - _`attr` value contains the word `NAME` surrounded by spaces; Case sensitive_
-    - `tag[attr!="NAME"]`
+    - [`tag[attr!="NAME"]`](jq-attr-not-equal.html)
         - _Do Not have `attr` or `NAME` value_
 - Form
     - `:input`
