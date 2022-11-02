@@ -9,13 +9,38 @@
     <div>
         <textarea>TextArea</textarea>
         <button>Button</button>
-        <input type="text" value="InputText"/>
-        <select>
-
+        <input type="text" value="InputText" />
+        <label for="Selection"></label>
+        <select id="selection">
+            <optgroup label="Group A">
+                <option>Case A1</option>
+                <option>Case A2</option>
+            </optgroup>
+            <optgroup label="Group B">
+                <option>Case B1</option>
+                <option>Case B2</option>
+            </optgroup>
         </select>
     </div>
     <script>
-        $(":input").text("hello")
+        $(":input").each((i, el) => {
+            el = $(el)
+            if (el.is("select")) {
+                el.html(
+                    el.html()+
+                    `
+                    <optgroup label="Group C">
+                        <option>Case C1</option>
+                        <option>Case C2</option>
+                    </optgroup>
+                    `
+                )
+            } else if (el.is(":text")) {
+                el.val("Hey")
+            } else {
+                el.html("hey")
+            }
+        })
     </script>
 </body>
 
