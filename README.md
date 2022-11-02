@@ -22,7 +22,7 @@
     - [x] [Class](frameworks/jquery/class/README.md)
     - [x] [CSS](frameworks/jquery/css/README.md)
     - [x] [Values](frameworks/jquery/values/README.md)
-    - [ ] [Attributes](frameworks/jquery/attributes/README.md)
+    - [x] [Attributes](frameworks/jquery/attributes/README.md)
     - [ ] [QuerySelector](frameworks/jquery/selector/README.md)
     - [x] [Events](frameworks/jquery/events/README.md)
     - [ ] [Effects](frameworks/jquery/effects/README.md)
