@@ -5,19 +5,38 @@
     <script src="../jquery-3.6.1.min.js"></script>
     <style>
         div {
+            height: 20em;
+            width: 30em;
+            display: inline-block;
+            border: 2px solid tomato;
+            position: relative;
+            left: 100px;
+            top: 100px;
+        }
+
+        p {
             height: 10em;
-            width: 10em;
+            width: 20em;
             display: inline-block;
             border: 2px solid yellow;
+            position: relative;
+            left: 30px;
+            top: 20px;
         }
     </style>
 </head>
 
 <body>
-    <div>1</div>
+    <div>
+        <p>1</p>
+    </div>
     <script>
-        d = $("div")
-        d.text(d.position().left + " - " + d.position().top)
+        d = $("p")
+        s = "Pos Left: " + d.position().left + " - Pos Top" + d.position().top + "<hr/>"
+        s += "Off Left: " + d.offset().left + " - Off Top" + d.offset().top + "<hr/>"
+        d.html(s)
+
+        d.offsetParent().css({ backgroundColor: "violet" })
     </script>
 </body>
 

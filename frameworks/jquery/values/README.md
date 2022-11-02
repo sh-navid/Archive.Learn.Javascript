@@ -13,8 +13,10 @@
         - _Include border + padding_
 - [Coordinates](jq-value-coordinates.html)
     - `.offset()`
+        - _Relative to document_
     - `.offsetParent()`
     - `.position()`
+        - _Relative to parant_
         - `.left`
         - `.top`
 - Scroll
