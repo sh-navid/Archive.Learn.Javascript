@@ -57,9 +57,9 @@
     - `:hidden` + _Can be confused with *Form* hidden?_
 - Edit
     - `:contains('text')`
-        _Search a text_
+        - _Search a text_
     - `:empty`
-        _Without a text_
+        - _Without a text_
 - Select
     - [`:even`](jq-select-mixture.html)
     - [`:odd`](jq-select-mixture.html)
@@ -69,10 +69,10 @@
     - `:not`
     - By Index
         - `:eq()`, `.eq()`
-            _Starts from zero_
-            _Can get negative number_
+            - _Starts from zero_
+            - _Can get negative number_
         - `:nth-child()`
-            _Starts from one_
+            - _Starts from one_
         - `:nth-last-child()`
         - `:only-child`
         - `:lt()`
@@ -88,7 +88,7 @@
 ____
 
 Not for this repo- just to remember for now
-.toggleClass()
-.attr()
-.css()
-.is()
+- .toggleClass()
+- .attr()
+- .css()
+- .is()
