@@ -54,7 +54,7 @@
         - ~~`.delegate()`, `.undelegate()`~~
 - Event Object
     - Methods
-        - `e.preventDefault()`
+        - [`e.preventDefault()`](jq-prevent-default.html)
             - `e.isDefaultPrevented()`
         - `e.stopPropagation()`
             - `e.isPropagationStopped()`
