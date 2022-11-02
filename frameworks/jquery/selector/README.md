@@ -3,7 +3,7 @@
 - [`*`](jq-select-all.html)
 - Tag
     - [`tag`](jq-select-tag.html)
-    - `:header`
+    - [`:header`](jq-select-header.html)
         - _H1 to H6_
 - `.class`
 - `#id`
