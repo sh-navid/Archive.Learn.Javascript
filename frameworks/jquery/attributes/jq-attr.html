@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <p>Open dev console to check</p>
+    <input type="text"/>
+    <input type="button" value="Add Attr"/>
+    <input type="button" value="Remove Attr"/>
+    <script>
+        b1=$("input:button").first().click(()=>{
+            $(":text").attr("my-new-attr","my-value")
+        })
+        b2=$("input:button").last().click(()=>{
+            $(":text").removeAttr("my-new-attr")
+        })
+    </script>
+</body>
+
+</html>

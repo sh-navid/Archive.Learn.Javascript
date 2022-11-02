@@ -1,5 +1,5 @@
 # JQuery
-## Attributes
+## [Attributes](jq-attr.html)
 - `.attr()`
 - `.removeAttr()`
 ## Properties
