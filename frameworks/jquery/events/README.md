@@ -76,8 +76,8 @@
             - [`e.data`](jq-data.html)
             - [`e.metaKey`](jq-keyboard.html)
                 - _`true` if `window` key is down_
-            - `e.timeStamp`
-            - `e.type`
+            - [`e.timeStamp`](jq-timestamp.html)
+            - [`e.type`](jq-type.html)
             - [`e.key`](jq-keyboard.html)
                 - _Keyboard key symbol_
             - [`e.which`](jq-keyboard.html)
