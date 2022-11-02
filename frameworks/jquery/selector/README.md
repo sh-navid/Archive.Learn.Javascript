@@ -105,8 +105,5 @@
 ____
 
 Not for this repo- just to remember for now
-- .toggleClass()
-- .attr()
-- .removeAttr()
 - .css()
 - .is()

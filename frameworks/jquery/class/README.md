@@ -3,3 +3,4 @@
 - `.addClass()`
 - `.hasClass()`
 - `.removeClass()`
+- `.toggleClass()`
