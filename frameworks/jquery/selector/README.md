@@ -12,8 +12,8 @@
 - [`Mixture .of #all`](jq-select-mixture.html)
 - [`.multiple,.selection`](jq-select-multiple.html)
 - Siblings
-    - `>`
-        - Child
+    - [`>`](jq-select-child-arrow.html)
+        - _Child_
     - `:parent`
 - Attribute
     - Has
