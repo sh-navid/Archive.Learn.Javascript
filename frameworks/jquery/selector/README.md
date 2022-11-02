@@ -62,7 +62,7 @@
         - `input[type=url]`
 
 - State
-    - `:checked`
+    - [`:checked`](js-state-checked.html)
         - Checkbox
         - RadioButton
         - Select
@@ -71,7 +71,7 @@
     - `:selected`
     - `:focus`
     - `:visible`
-    - `:hidden` + _Can be confused with *Form* hidden?_
+    - `:hidden`
 - Edit
     - `:contains('text')`
         - _Search a text_

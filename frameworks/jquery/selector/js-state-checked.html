@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <form>
+        <select>
+            <option>Hello</option>
+            <option>Goodbye</option>
+        </select>
+        <div>
+            <input type="radio" name="group" id="r1" />
+            <label for="r1">Radio 1</label>
+            <input type="radio" name="group" id="r2" />
+            <label for="r2">Radio 2</label>
+            <input type="radio" name="group" id="r3" />
+            <label for="r3">Radio 3</label>
+        </div>
+        <div>
+            <input type="checkbox" id="c1" />
+            <label for="c1">Check 1</label>
+            <input type="checkbox" id="c2" />
+            <label for="c2">Check 2</label>
+        </div>
+    </form>
+    <script>
+        $("select").change(() => {
+            alert($("select>:checked").html())
+        })
+
+        $(":radio").change(() => {
+            btn = $(":radio:checked").first()
+            id = btn.attr("id")
+            alert($(`label[for=${id}]`).html())
+        })
+
+        $(":checkbox").change(() => {
+            $(":checkbox:checked").each((i, el) => {
+                alert($(`label[for=${el.id}]`).html())
+            })
+        })
+    </script>
+</body>
+
+</html>
