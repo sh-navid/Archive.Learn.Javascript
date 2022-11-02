@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        div {
+            width: 25em;
+            height: 3em;
+            border: 1px dotted orange;
+            text-align: center;
+            line-height: 3em;
+            font-size: 200%;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <input type="button" value="click" />
+    </form>
+    <script>
+        i = $("input")
+
+        i.click({ a: 12, b: 14 }, (e) => {
+            alert(JSON.stringify(e.data))
+        })
+
+    </script>
+</body>
+
+</html>

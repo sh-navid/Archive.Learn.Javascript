@@ -73,7 +73,7 @@
             - `e.pageY`
         - Other Properties
             - [`e.result`](jq-result.html)
-            - `e.data`
+            - [`e.data`](jq-data.html)
             - [`e.metaKey`](jq-keyboard.html)
                 - _`true` if `window` key is down_
             - `e.timeStamp`
