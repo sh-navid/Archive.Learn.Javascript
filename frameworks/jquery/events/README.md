@@ -46,7 +46,8 @@
         - [**`.ready()`**](jq-ready.html)
         - [**`.trigger()`**](jq-trigger.html) 
             - _To invoke an event manually_
-        - `.triggerHandler()`
+            - [`.triggerHandler()`](jq-trigger-handler.html)
+                - _Same as trigger without bubbling the DOM; Works on the first element_
     - Deprecated
         - ~~`.live()`, `.die()`~~
         - ~~`.load()`, `.unload()`~~
