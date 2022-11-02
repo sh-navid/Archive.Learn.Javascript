@@ -43,8 +43,7 @@
     - [`:file`](jq-form-file.html)
     - [`:password`](jq-form-password.html)
     - [`:image`](jq-form-image.html)
-    - `:hidden`
-    - `:radio`
+    - [`:radio`](jq-form-radio.html)
     - `:text`
     - `:reset`
     - `:submit`

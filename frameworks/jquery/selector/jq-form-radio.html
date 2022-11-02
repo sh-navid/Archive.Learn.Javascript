@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <input type="radio" name="group" id="r1" />
+        <label for="r1">Radio 1</label>
+        <input type="radio" name="group" id="r2" />
+        <label for="r2">Radio 2</label>
+        <input type="radio" name="group" id="r3" />
+        <label for="r3">Radio 3</label>
+    </div>
+    <script>
+        alert($(":radio").length)
+
+        $(":radio").change((e) => {
+            alert(e.target.id)
+            console.log($(":checked")[0].id)
+        })
+    </script>
+</body>
+
+</html>
