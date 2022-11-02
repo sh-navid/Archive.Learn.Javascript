@@ -60,7 +60,6 @@
         - `input[type=tel]`
         - `input[type=time]`
         - `input[type=url]`
-
 - State
     - [`:checked`](js-state-checked.html)
         - Checkbox
