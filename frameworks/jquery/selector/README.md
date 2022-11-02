@@ -4,6 +4,7 @@
 - `tag`
 - `.class`
 - `#id`
+- `mix .of #all`
 - Child
     - `>`
 - Parent
@@ -36,9 +37,23 @@
         - RadioButton
         - Select
     - `:disabled`
+    - `:enabled`
 - Edit
     - `:contains('text')`
         _Search a text_
     - `:empty`
         _Without a text_
+- Select
+    - `:even`
+    - `:odd`
+    - `:first-child`, `.first()`
+    - `:last-child`, `.last()`
+    - By Index
+        - `:eq()`, `.eq()`
+            _Starts from zero_
+            _Can get negative number_
+        - `:nth-child()`
+            _Starts from one_
+        - `:lt()`
+        - `:gt()`
     
