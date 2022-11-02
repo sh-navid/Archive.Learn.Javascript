@@ -8,8 +8,8 @@
     - [`:root`](jq-select-root.html)
         - _Is HTML tag_
 - [`.class`](jq-select-class.html)
-- `#id`
-- `Mixture .of #all`
+- [`#id`](jq-select-id.html)
+- [`Mixture .of #all`](jq-select-mixture.html)
 - `.multiple,.selection`
 - Child
     - `>`
@@ -63,8 +63,8 @@
     - `:empty`
         _Without a text_
 - Select
-    - `:even`
-    - `:odd`
+    - [`:even`](jq-select-mixture.html)
+    - [`:odd`](jq-select-mixture.html)
     - `:first-child`, `:first`, `.first()`
     - `:last-child`, `:last`, `.last()`
     - `:has()`
