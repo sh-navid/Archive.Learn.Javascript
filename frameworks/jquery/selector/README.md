@@ -66,6 +66,9 @@
     - `:first-child`, `:first`, `.first()`
     - `:last-child`, `:last`, `.last()`
     - `:has()`
+    - `:not`
+    - `:root`
+        - _Usually is HTML tag_ ?? ~~prof it~~
     - By Index
         - `:eq()`, `.eq()`
             _Starts from zero_
