@@ -5,6 +5,8 @@
     - [`tag`](jq-select-tag.html)
     - [`:header`](jq-select-header.html)
         - _H1 to H6_
+    - [`:root`](jq-select-root.html)
+        - _Is HTML tag_
 - `.class`
 - `#id`
 - `mixture .of #all`
@@ -67,8 +69,6 @@
     - `:last-child`, `:last`, `.last()`
     - `:has()`
     - `:not`
-    - `:root`
-        - _Usually is HTML tag_ ?? ~~prof it~~
     - By Index
         - `:eq()`, `.eq()`
             _Starts from zero_
