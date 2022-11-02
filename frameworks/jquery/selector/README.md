@@ -7,9 +7,9 @@
         - _H1 to H6_
     - [`:root`](jq-select-root.html)
         - _Is HTML tag_
-- `.class`
+- [`.class`](jq-select-class.html)
 - `#id`
-- `mixture .of #all`
+- `Mixture .of #all`
 - `.multiple,.selection`
 - Child
     - `>`
@@ -29,7 +29,7 @@
     - `tag[attr~="NAME"]`
         - _Contains word `attr`_
     - `tag[attr!="NAME"]`
-        - _Do Not have `attr` or `value`_
+        - _Do Not have `attr` or `NAME` value_
 - Form
     - `:input`
         - _Button, Input, TextArea and Select_
