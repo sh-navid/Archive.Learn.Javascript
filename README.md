@@ -20,7 +20,7 @@
     - [x] [Introduction](frameworks/jquery/introduction/README.md)
     - [x] [Outout](frameworks/jquery/echo/README.md) ***MAKE EXAMPLES***
     - [x] [Class](frameworks/jquery/class/README.md)
-    - [ ] [CSS](frameworks/jquery/css/README.md)
+    - [x] [CSS](frameworks/jquery/css/README.md)
     - [ ] [Values](frameworks/jquery/values/README.md)
     - [ ] [Attributes](frameworks/jquery/attributes/README.md)
     - [ ] [QuerySelector](frameworks/jquery/selector/README.md)
