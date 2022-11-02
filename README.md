@@ -26,6 +26,9 @@
     - [ ] [QuerySelector](frameworks/jquery/selector/README.md)
     - [x] [Events](frameworks/jquery/events/README.md)
     - [ ] [Effects](frameworks/jquery/effects/README.md)
+    - [ ] [Manipulations](frameworks/jquery/manipulations/README.md)
+    - [ ] [Collection](frameworks/jquery/collection/README.md)
+    - [ ] [Form](frameworks/jquery/form/README.md)
     - [ ] Callbacks -> _**TODO**: Check original references_
     - [ ] Deferred -> _**TODO**: Check original references_
     - [ ] Core -> _**TODO**: Check original references_
