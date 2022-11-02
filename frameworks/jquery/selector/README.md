@@ -44,7 +44,7 @@
     - [`:password`](jq-form-password.html)
     - [`:image`](jq-form-image.html)
     - [`:radio`](jq-form-radio.html)
-    - `:text`
+    - [`:text`](jq-form-text.html)
     - `:reset`
     - `:submit`
     - [`input:hidden`](jq-form-hidden.html)
