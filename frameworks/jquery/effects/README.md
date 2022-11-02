@@ -1,9 +1,5 @@
 # Jquery
 ## Effects
-- .animate()
-- .delay()
-- .finish()
-- .stop()
 - [Visibility](jq-effect-visibility.html)
     - `.show()`
     - `.hide()`
@@ -21,7 +17,12 @@
     - `.slideDown()`
     - `.slideToggle()`
     - `.slideUp()`
-- Animation
+- [Animation](jq-effect-animation.html)
+    - `.animate()`
+        - Chain of animation
+    - `.delay()`
+    - `.finish()`
+    - `.stop()`
     - `$.fx.off`
     - `$.speed`
 - Deprecated

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        p {
+            position: absolute;
+            top: 50px;
+            left:10px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>This is a text</p>
+    <input type="button" value="Animate" />
+    <input type="button" value="Stop" />
+    <input type="button" value="Finish" />
+    <script>
+        $(":button").eq(0).click(() => {
+            $("p")
+                .animate({ top: "300px" },300)
+                .animate({ left: "300px" },600)
+                .delay(1000)
+                .animate({ top: "50px" },900)
+                .animate({ left: "10px" },150)
+        })
+
+        $(":button").eq(1).click(() => {
+            $("p").stop()
+        })
+
+        $(":button").eq(2).click(() => {
+            $("p").finish()
+        })
+    </script>
+</body>
+
+</html>
