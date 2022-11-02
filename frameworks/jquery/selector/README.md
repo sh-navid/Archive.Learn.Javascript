@@ -16,18 +16,21 @@
         - _Child_
     - ~~`:parent`~~, [`.parent()`](jq-select-parent.html)
 - Attribute
-    - [`tag[attr]`](jq-attr-has-attr.html)
-    - [`tag[attr1][attr2]`](jq-attr-multi-attr.html)
-    - `tag[attr|="VALUE"]`
-    - `tag[attr*="VALUE"]`
-    - [`tag[attr^="VALUE"]`](jq-attr-begin-with.html)
+    - [`element[attr]`](jq-attr-has-attr.html)
+    - [`element[attr1][attr2]`](jq-attr-multi-attr.html)
+    - [`element[attr|="PRE"]`](jq-attr-contains-prefix.html)
+        - _`attr` contains `PRE-` prefix_
+    - [`element[attr^="VALUE"]`](jq-attr-begin-with.html)
         - _`attr` value begins with word `VALUE`; Case sensitive_
-    - [`tag[attr$="VALUE"]`](jq-attr-ends-with.html)
+    - [`element[attr$="VALUE"]`](jq-attr-ends-with.html)
         - _`attr` value ends with word `VALUE`; Case sensitive_
-    - [`tag[attr~="VALUE"]`](jq-attr-contains.html)
-        - _`attr` value contains the word `VALUE` surrounded by spaces; Case sensitive_
-    - [`tag[attr!="VALUE"]`](jq-attr-not-equal.html)
-        - _Do Not have `attr` or `VALUE` value_
+    - [`element[attr!="VALUE"]`](jq-attr-not-equal.html)
+        - _This `element` does not have `attr` or `VALUE`_
+    - Contains
+        - [`element[attr~="VALUE"]`](jq-attr-contains.html)
+            - _`attr` value contains the word `VALUE` surrounded by spaces; Case sensitive_
+        - [`element[attr*="VALUE"]`](jq-attr-contains-2.html)
+            - _`attr` value contains the word `VALUE`; Case sensitive_
 - Form
     - `:input`
         - _Button, Input, TextArea and Select_
