@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <p>This is a text</p>
+    <input type="button" value="Slide Down" />
+    <input type="button" value="Slide Up" />
+    <input type="button" value="Slide Toggle" />
+    <script>
+        $(":button").eq(0).click(() => {
+            $("p").slideDown(500)
+        })
+
+        $(":button").eq(1).click(() => {
+            $("p").slideUp(500)
+        })
+
+        $(":button").eq(2).click(() => {
+            $("p").slideToggle(500)
+        })
+    </script>
+</body>
+
+</html>

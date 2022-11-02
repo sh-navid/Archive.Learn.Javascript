@@ -17,7 +17,7 @@
     - .fadeOut()
     - .fadeTo()
     - .fadeToggle()
-- Slide
+- [Slide](jq-effect-slide.html)
     - .slideDown()
     - .slideToggle()
     - .slideUp()
