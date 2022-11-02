@@ -36,7 +36,9 @@
         - _Button, Input, TextArea and Select_
     - [`:button`](jq-form-button-1.html)
         - Equivalent 1 is `input[type="button"]`
+            - _But seems not support `<button>`_
         - Equivalent 2 is `input:button`
+            - _But seems not support `<button>`_
     - `:checkbox`
     - `:file`
     - `:hidden`
