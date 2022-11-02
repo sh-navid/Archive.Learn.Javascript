@@ -4,24 +4,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../jquery-3.6.1.min.js"></script>
     <style>
-        p,
-        span,
-        label,
-        div {
+        path {
             display: block;
         }
     </style>
 </head>
 
 <body>
-    <p>1</p>
-    <span>2</span>
-    <label>3</label>
-    <div>4</div>
-    <div>5</div>
+    <p>Open dev console</p>
     <script>
         $("*").each((i, el) => {
-            el.text(el.text() + "-")
+            console.log(el)
         })
     </script>
 </body>
