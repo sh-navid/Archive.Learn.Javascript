@@ -43,6 +43,7 @@
     - `:radio`
     - `:text`
     - `:reset`
+    - `:submit`
 - State
     - `:checked`
         - Checkbox
