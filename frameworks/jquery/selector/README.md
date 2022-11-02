@@ -78,6 +78,11 @@
         - `:lt()`
         - `:gt()`
     - Of Type
+        - `:first-of-type`
+        - `:nth-of-type()`
+        - `:nth-last-of-type()`
+        - `:only-of-type`
+        - `:last-of-type`
     
 
 ____
