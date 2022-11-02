@@ -104,7 +104,6 @@
 ____
 
 Not for this repo- just to remember for now
-- .css()
 - .is()
 - jQuery.escapeSelector()
 - .data()

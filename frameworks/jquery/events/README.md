@@ -48,6 +48,7 @@
             - _To invoke an event manually_
             - [`.triggerHandler()`](jq-trigger-handler.html)
                 - _Same as trigger without bubbling the DOM; Works on the first element_
+            - [Trigger keyboard keys manually](jq-trigger-keyboard-key.html)
     - Deprecated
         - ~~`.live()`, `.die()`~~
         - ~~`.load()`, `.unload()`~~

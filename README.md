@@ -17,19 +17,19 @@
 
 ## JQ Headings
 - JQ
-    - [Introduction](frameworks/jquery/introduction/README.md)
-    - [Outout](frameworks/jquery/echo/README.md)
-    - [Class](frameworks/jquery/class/README.md)
-    - [CSS](frameworks/jquery/css/README.md)
-    - [Values](frameworks/jquery/values/README.md)
-    - [Attributes](frameworks/jquery/attributes/README.md)
-    - [QuerySelector](frameworks/jquery/selector/README.md)
-    - [Events](frameworks/jquery/events/README.md)
-    - [Effects](frameworks/jquery/effects/README.md)
-    - Callbacks -> _**TODO**: Check original references_
-    - Deferred -> _**TODO**: Check original references_
-    - Core -> _**TODO**: Check original references_
-    - Ajax -> _**TODO**: Check original references_
+    - [x] [Introduction](frameworks/jquery/introduction/README.md)
+    - [ ] [Outout](frameworks/jquery/echo/README.md)
+    - [ ] [Class](frameworks/jquery/class/README.md)
+    - [ ] [CSS](frameworks/jquery/css/README.md)
+    - [ ] [Values](frameworks/jquery/values/README.md)
+    - [ ] [Attributes](frameworks/jquery/attributes/README.md)
+    - [ ] [QuerySelector](frameworks/jquery/selector/README.md)
+    - [x] [Events](frameworks/jquery/events/README.md)
+    - [ ] [Effects](frameworks/jquery/effects/README.md)
+    - [ ] Callbacks -> _**TODO**: Check original references_
+    - [ ] Deferred -> _**TODO**: Check original references_
+    - [ ] Core -> _**TODO**: Check original references_
+    - [ ] Ajax -> _**TODO**: Check original references_
 - JQ UI
     - Rotate
     - Drag
