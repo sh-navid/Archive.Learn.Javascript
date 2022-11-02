@@ -1,5 +1,5 @@
 # JQuery
-## Class
+## [Class](jq-class.html)
 - `.addClass()`
 - `.hasClass()`
 - `.removeClass()`
