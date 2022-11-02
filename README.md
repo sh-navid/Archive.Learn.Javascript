@@ -20,12 +20,15 @@
     - [Introduction](frameworks/jquery/introduction/README.md)
     - [Outout](frameworks/jquery/echo/README.md)
     - [Class](frameworks/jquery/class/README.md)
+    - [CSS](frameworks/jquery/css/README.md)
+    - [Values](frameworks/jquery/values/README.md)
     - [Attributes](frameworks/jquery/attributes/README.md)
     - [QuerySelector](frameworks/jquery/selector/README.md)
     - [Events](frameworks/jquery/events/README.md)
     - [Effects](frameworks/jquery/effects/README.md)
-
-    - Ajax
+    - Callbacks -> TODO: Check original references
+    - Core -> TODO: Check original references
+    - Ajax -> TODO: Check original references
 - JQ UI
     - Rotate
     - Drag
