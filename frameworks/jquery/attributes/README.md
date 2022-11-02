@@ -3,3 +3,4 @@
 - `.attr()`
 - `.removeAttr()`
 - `.prop()`
+- `.removeProp()`

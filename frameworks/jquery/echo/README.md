@@ -1,4 +1,5 @@
 # JQuery
-## Echo
+## Output
 - `.html()`
 - `.text()`
+- `.val()`
