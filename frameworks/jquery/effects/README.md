@@ -19,11 +19,11 @@
     - `.slideUp()`
 - [Animation](jq-effect-animation.html)
     - `.animate()`
-        - Chain of animation
+        - Chain of animations
     - `.delay()`
     - `.finish()`
     - `.stop()`
-    - `$.fx.off`
-    - `$.speed`
+    - `$.fx.off` [ ] TODO: Check this later
+    - `$.speed`  [ ] TODO: Check this later
 - Deprecated
     - ~~$.fx.interval~~
