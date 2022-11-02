@@ -29,12 +29,14 @@
             </div>
         </div>
     </div>
+    <br />
+    <br />
     <input type="checkbox" id="ch" />
-    <label for="ch">StopPropagation</label>
+    <label for="ch">StopImmediatePropagation</label>
     <br />
     <br />
     <br />
-    <p>isPropagationStopped()</p>
+    <p>isImmediatePropagationStopped()</p>
     <span></span>
     <script>
         c = $("input")
@@ -44,13 +46,14 @@
 
         d.click((e) => {
             if (c.prop("checked"))
-                e.stopPropagation()
+                e.stopImmediatePropagation()
 
             _.text(parseInt(_.text()) + 1)
-            s.text(e.isPropagationStopped())
+            s.text(e.isImmediatePropagationStopped())
         })
 
-
+        // if e.isImmediatePropagationStopped() is true
+        // then disables this event
         d.click((e) => {
             console.log(e.target.id)
         })

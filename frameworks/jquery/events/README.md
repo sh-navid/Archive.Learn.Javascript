@@ -59,7 +59,8 @@
         - [`e.stopPropagation()`](jq-stop-propagation.html)
             - _Stop bubbling up the same event_
             - `e.isPropagationStopped()`
-        - `e.stopImmediatePropagation()`
+        - [`e.stopImmediatePropagation()`](jq-stop-immediate-propagation.html)
+            - _Like `e.stopPropagation()` but disables all other scopes of the same event_
             - `e.isImmediatePropagationStopped()`
     - Attributes
         - Target
