@@ -4,25 +4,25 @@
 - .delay()
 - .finish()
 - .stop()
-- .toggle()
-- Visibility
-    - .show()
-    - .hide()
+- [Visibility](jq-effect-visibility.html)
+    - `.show()`
+    - `.hide()`
+    - `.toggle()`
 - Queue
-    - .clearQueue()
-    - .queue()
-    - .dequeue()
+    - `.clearQueue()`
+    - `.queue()`
+    - `.dequeue()`
 - [Fade](jq-effect-fade.html)
-    - .fadeIn()
-    - .fadeOut()
-    - .fadeTo()
-    - .fadeToggle()
+    - `.fadeIn()`
+    - `.fadeOut()`
+    - `.fadeTo()`
+    - `.fadeToggle()`
 - [Slide](jq-effect-slide.html)
-    - .slideDown()
-    - .slideToggle()
-    - .slideUp()
+    - `.slideDown()`
+    - `.slideToggle()`
+    - `.slideUp()`
 - Animation
-    - jQuery.fx.off
-    - jQuery.speed
+    - `$.fx.off`
+    - `$.speed`
 - Deprecated
-    - ~~jQuery.fx.interval~~
+    - ~~$.fx.interval~~
