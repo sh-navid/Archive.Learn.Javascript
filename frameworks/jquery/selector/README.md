@@ -10,7 +10,7 @@
 - [`.class`](jq-select-class.html)
 - [`#id`](jq-select-id.html)
 - [`Mixture .of #all`](jq-select-mixture.html)
-- `.multiple,.selection`
+- [`.multiple,.selection`](jq-select-multiple.html)
 - Siblings
     - `>`
         - Child
