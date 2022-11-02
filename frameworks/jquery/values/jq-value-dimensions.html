@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        div {
+            height: 200px;
+            width:200px;
+            display: inline-block;
+            border: 100px solid yellow;
+            margin: 0px;
+            padding: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>1</div>
+    <script>
+        d = $("div")
+        s = "";
+        s += `Width: ${d.width()} <br/>`
+        s += `InnerWidth: ${d.innerWidth()} <br/>`
+        s += `OuterHidth: ${d.outerWidth()} <br/>`
+        d.html(s)
+    </script>
+</body>
+
+</html>

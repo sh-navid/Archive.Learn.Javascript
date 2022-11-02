@@ -1,6 +1,6 @@
 # JQuery
 ## Values
-- Dimension
+- [Dimension](jq-value-dimensions.html)
     - `.width()`
     - `.height()`
     - `.innerWidth()`
@@ -8,9 +8,9 @@
     - `.innerHeight()`
         - _Include padding_
     - `.outerWidth()`
-        - _Include padding + border + margin_
+        - _Include border + padding_
     - `.outerHeight()`
-        - _Include padding + border + margin_
+        - _Include border + padding_
 - Coordinates
     - `.offset()`
     - `.offsetParent()`
