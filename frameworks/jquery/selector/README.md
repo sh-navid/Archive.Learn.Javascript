@@ -79,12 +79,12 @@
 - Select
     - [`:even`](jq-select-mixture.html)
     - [`:odd`](jq-select-mixture.html)
-    - `:first-child`, `:first`, `.first()`
-    - `:last-child`, `:last`, `.last()`
+    - `:first-child`, `:first`, [`.first()`](jq-method-first-last.eq.html)
+    - `:last-child`, `:last`, [`.last()`](jq-method-first-last.eq.html)
     - `:has()`
     - `:not`
     - By Index
-        - `:eq()`, `.eq()`
+        - `:eq()`, [`.eq()`](jq-method-first-last.eq.html)
             - _Starts from zero_
             - _Can get negative number_
         - `:nth-child()`

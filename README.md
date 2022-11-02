@@ -19,7 +19,7 @@
 - JQ
     - [x] [Introduction](frameworks/jquery/introduction/README.md)
     - [x] [Outout](frameworks/jquery/echo/README.md) ***MAKE EXAMPLES***
-    - [ ] [Class](frameworks/jquery/class/README.md)
+    - [x] [Class](frameworks/jquery/class/README.md)
     - [ ] [CSS](frameworks/jquery/css/README.md)
     - [ ] [Values](frameworks/jquery/values/README.md)
     - [ ] [Attributes](frameworks/jquery/attributes/README.md)
