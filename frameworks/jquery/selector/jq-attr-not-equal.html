@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <div>
+            <p>
+                <span amount="info">Span</span>
+            </p>
+        </div>
+        <div>
+            <p>
+                <span amount="info">Span</span>
+            </p>
+        </div>
+        <div>
+            <p>
+                <span amount="warn">Span</span>
+            </p>
+        </div>
+    </div>
+    <script>
+        $("span[amount!='warn']").html("Amount attr is not equal to 'warn'")
+    </script>
+</body>
+
+</html>
