@@ -30,7 +30,7 @@
     - `.last()`
     - [`.has()`](jq-has.html)
     - [`.is()`](jq-is.html)
-    - [`.not()`]
+    - [`.not()`](jq-not.html)
     - [`.map()`]
     - [`.even()`]
     - `.odd()`
