@@ -18,16 +18,17 @@
     <div style="border:5px solid black">Drag Me</div>
     <div style="border:5px solid gold">Drop Here</div>
     <script>
-        dragEl=$("div").first()
-        dropEl=$("div").last()
-        
+        dragEl = $("div").first()
+        dropEl = $("div").last()
+
         dragEl.draggable()
         dropEl.droppable({
             drop: (e, ui) => {
                 dropEl.empty()
                 dropEl.append(dragEl.detach())
                 dragEl.draggable("destroy")
-                //dragEl.css({position:"fixed"})
+                dragEl.css({ left: 0 })
+                dragEl.css({ top: 0 })
             }
         })
     </script>
