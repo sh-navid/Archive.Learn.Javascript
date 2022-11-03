@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        div {
+            height: 10em;
+            width: 10em;
+            display: block;
+            border: 1px solid yellow;
+            float:left;
+        }
+
+        .holder {
+            background-color: tomato;
+            color: white;
+            border: 1px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>P1</p>
+    </div>
+    <div>
+        <p>P1</p>
+        <p>P2</p>
+    </div>
+    <script>
+        $("p:only-child").css({backgroundColor:"royalblue"})
+    </script>
+</body>
+
+</html>
