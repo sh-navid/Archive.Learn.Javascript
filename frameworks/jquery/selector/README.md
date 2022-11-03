@@ -81,8 +81,8 @@
     - [`:odd`](jq-select-mixture.html)
     - [`:first-child`](jq-select-first-last-child.html), [`:first`](jq-select-first-last.html), [`.first()`](jq-method-first-last.eq.html)
     - [`:last-child`](jq-select-first-last-child.html), [`:last`](jq-select-first-last.html), [`.last()`](jq-method-first-last.eq.html)
-    - `:has()`
-    - `:not`
+    - [`:has()`](jq-select-has.html)
+    - [`:not`](jq-select-not.html)
     - By Index
         - [`:eq()`](jq-select-index-eq.html), [`.eq()`](jq-method-first-last.eq.html)
             - _Starts from zero_
