@@ -66,7 +66,7 @@
 - API
 
 ## GitHub
-- Git
+- [Git](more/git/introduction/README.md)
 - Markdown
 - Projects
     - Scrum
