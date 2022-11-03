@@ -1,8 +1,9 @@
 # JQuery
 ## Collection
-- .size()
-- .get()
-- .index()
+- ~~.size()~~
+- [.length](jq-size.html)
+- [.get()](jq-get.html)
+- [.index()](jq-index.html)
 
 ## Array
 - .toArray()
