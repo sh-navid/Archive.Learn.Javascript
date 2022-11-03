@@ -27,23 +27,7 @@
     <div>6</div>
     <div>7</div>
     <script>
-        d = $("div")
-
-        $("button").first().click(() => {
-            d.addClass("holder")
-        })
-
-        $("button").eq(1).click(() => {
-            d.removeClass("holder")
-        })
-
-        $("button").eq(2).click(() => {
-            alert(d.hasClass("holder"))
-        })
-
-        $("button").last().click(() => {
-            d.toggleClass("holder")
-        })
+        $("div:eq(1)").text("Changed")
     </script>
 </body>
 
