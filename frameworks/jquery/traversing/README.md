@@ -25,7 +25,7 @@
     - [`.each()`](jq-children.html)
 - Filtering
     - `.eq()`
-    - [`.filter()`]
+    - [`.filter()`] [ ] TODO: Check
     - `.first()`
     - `.last()`
     - [`.has()`](jq-has.html)
@@ -34,4 +34,4 @@
     - [`.map()`](jq-map.html)
     - [`.even()`](jq-even.html)
     - [`.odd()`](jq-even.html)
-    - [`.slice()`]
+    - [`.slice()`](jq-slice.html)
