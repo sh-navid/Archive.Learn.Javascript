@@ -51,6 +51,13 @@
 
         render()
 
+        // row -> this is the starter ROW to check
+        // col -> this is the starter COLUMN to check
+        // We want to make a 4*4 block to check
+        const checkRange = (row, col) => {
+            check[A]
+        }
+
         $(document).keydown((e) => {
             if (["0", "1", "2", "3", "4", "5"].includes(e.key)) {
                 col = parseInt(e.key) - 1
@@ -62,6 +69,10 @@
                 }
             }
             render()
+            checkRange(0, 0)
+            checkRange(0, 1)
+            checkRange(1, 0)
+            checkRange(1, 1)
         })
     </script>
 </body>
