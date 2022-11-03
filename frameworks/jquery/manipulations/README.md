@@ -14,7 +14,7 @@
     - [`.empty()`](jq-empty.html)
     - [`.remove()`](jq-remove.html)
     - `.detach()` [ ] TODO: check
-        - _Like remove but keep ref??_
+        - _Like remove but keeps ref??_
 - Replace
     - [`.replaceWith()`](jq-replace-with.html)
         - [`.replaceAll()`](jq-replace-all.html)
