@@ -19,7 +19,7 @@
     - [`.replaceWith()`](jq-replace-with.html)
     - [`.replaceAll()`](jq-replace-all.html)
 - Wrap
-    - `.unwrap()`
-    - `.wrap()`
+    - [`.unwrap()`](jq-unwrap.html)
+    - [`.wrap()`](jq-wrap.html)
     - `.wrapAll()`
     - `.wrapInner()`
