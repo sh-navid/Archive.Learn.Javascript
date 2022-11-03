@@ -6,9 +6,9 @@
     - `.hide()`
     - `.toggle()`
 - Queue
-    - `.clearQueue()`   [ ] TODO: Check this later
-    - `.queue()`        [ ] TODO: Check this later
-    - `.dequeue()`      [ ] TODO: Check this later
+    - `.clearQueue()`   [ ] TODO: Check
+    - `.queue()`        [ ] TODO: Check
+    - `.dequeue()`      [ ] TODO: Check
 - [Fade](jq-effect-fade.html)
     - `.fadeIn()`
     - `.fadeOut()`
@@ -24,7 +24,7 @@
     - `.delay()`
     - `.finish()`
     - `.stop()`
-    - `$.fx.off`       [ ] TODO: Check this later
-    - `$.speed`        [ ] TODO: Check this later
+    - `$.fx.off`       [ ] TODO: Check
+    - `$.speed`        [ ] TODO: Check
 - Deprecated
     - ~~$.fx.interval~~

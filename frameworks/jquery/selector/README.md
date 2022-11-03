@@ -94,8 +94,8 @@
         - [`:lt()`](jq-select-lt.html)
         - [`:gt()`](jq-select-gt.html)
     - Of Type
-        - `:first-of-type`
-        - `:nth-of-type()`
-        - `:nth-last-of-type()`
-        - `:only-of-type`
-        - `:last-of-type`
+        - `:first-of-type`      [ ] TODO: Check
+        - `:nth-of-type()`      [ ] TODO: Check
+        - `:nth-last-of-type()` [ ] TODO: Check
+        - `:only-of-type`       [ ] TODO: Check
+        - `:last-of-type`       [ ] TODO: Check

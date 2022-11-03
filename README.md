@@ -30,12 +30,12 @@
     - [ ] [Collection](frameworks/jquery/collection/README.md)
     - [ ] [Form](frameworks/jquery/form/README.md)
     - [ ] [Parse](frameworks/jquery/parse/README.md)
-    - [ ] Callbacks -> _**TODO**: Check original references_
-    - [ ] Deferred -> _**TODO**: Check original references_
-    - [ ] Traversing -> _**TODO**: Check original references_
-    - [ ] Core -> _**TODO**: Check original references_
-    - [ ] Ajax -> _**TODO**: Check original references_
-    - [ ] NoConflict -> _**TODO**: Check original references_
+    - [ ] Callbacks -> _**TODO**: Check_
+    - [ ] Deferred -> _**TODO**: Check_
+    - [ ] Traversing -> _**TODO**: Check_
+    - [ ] Core -> _**TODO**: Check_
+    - [ ] Ajax -> _**TODO**: Check_
+    - [ ] NoConflict -> _**TODO**: Check_
     - [ ] [UNCATEGORIZED](frameworks/jquery/uncategorized/README.md)
 - JQ UI
     - Rotate
