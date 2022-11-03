@@ -1,37 +1,37 @@
 # JQuery
 ## Traversing
 - Add
-    - .add()
-    - .addBack()
+    - `.add()`
+    - `.addBack()`
 - Tree 
-    - .children()
-    - .closest()
-    - .find()
-    - .offsetParent()
-    - .parent()
-    - .parents()
-        - .parentsUntil()
-    - .next()
-        - .nextAll()
-        - .nextUntil()
-    - .prev()
-        - .prevAll()
-        - .prevUntil()
-    - .siblings()
+    - `.children()`
+    - `.closest()`
+    - `.find()`
+    - `.offsetParent()`
+    - `.parent()`
+    - `.parents()`
+        - `.parentsUntil()`
+    - `.next()`
+        - `.nextAll()`
+        - `.nextUntil()`
+    - `.prev()`
+        - `.prevAll()`
+        - `.prevUntil()`
+    - `.siblings()`
 - Other
-    - .contents()
-    - .end()
+    - `.contents()`
+    - `.end()`
 - Collection
-    - .each()
+    - `.each()`
 - Filtering
-    - .eq()
-    - .filter()
-    - .first()
-    - .last()
-    - .has()
-    - .is()
-    - .not()
-    - .map()
-    - .even()
-    - .odd()
-    - .slice()
+    - `.eq()`
+    - `.filter()`
+    - `.first()`
+    - `.last()`
+    - `.has()`
+    - `.is()`
+    - `.not()`
+    - `.map()`
+    - `.even()`
+    - `.odd()`
+    - `.slice()`

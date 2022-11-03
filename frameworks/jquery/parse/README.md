@@ -1,5 +1,5 @@
 # JQuery
 ## Parse
-- .parseHTML()
-- ~~.parseJSON()~~
-- .parseXML()
+- `.parseHTML()`
+- ~~`.parseJSON()`~~
+- `.parseXML()`
