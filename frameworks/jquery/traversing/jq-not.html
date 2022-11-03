@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <span id>Span</span>
+        <span>Span</span>
+    </div>
+    <div>
+        <span>Span</span>
+        <span>Span</span>
+        <label>Label</label>
+    </div>
+    <script>
+        $("div").children().not("label").text("Hello")
+    </script>
+</body>
+
+</html>
