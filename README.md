@@ -62,8 +62,22 @@
 
 ## NextJS Headings
 - [Introduction](frameworks/nextjs/introduction/README.md)
-- Routing
-- API
+- Init, Express, Router, Params, Middleware
+- File, Stream
+- CRUD
+- NoSQL - Level
+- Callback, Promise, EventEmmiter
+- NEDB
+- Socket.IO
+- ServerSideRendering (SSR) - EJS
+- GraphQL
+- SQLite, Sequelize
+- Commander
+- PDF Conversion
+- Multi File Uploader
+- JEST - Unit Testing
+- Validator
+- Fork, Exec, Spawn, LoadBlancer
 
 ## GitHub
 - [Git](more/git/introduction/README.md)
