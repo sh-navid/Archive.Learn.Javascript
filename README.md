@@ -26,7 +26,7 @@
     - [x] [QuerySelector](frameworks/jquery/selector/README.md)
     - [x] [Events](frameworks/jquery/events/README.md)
     - [x] [Effects](frameworks/jquery/effects/README.md)
-    - [ ] [Manipulations](frameworks/jquery/manipulations/README.md)
+    - [x] [Manipulations](frameworks/jquery/manipulations/README.md)
     - [ ] [Collection](frameworks/jquery/collection/README.md)
     - [ ] [Form](frameworks/jquery/form/README.md)
     - [ ] [Parse](frameworks/jquery/parse/README.md)
@@ -42,6 +42,7 @@
     - Drag
     - Resize
 - JQ Mobile
+    - ?
 
 ## NodeJS Headings
 - [Introduction](frameworks/nodejs/introduction/README.md)
