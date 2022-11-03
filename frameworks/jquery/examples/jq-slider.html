@@ -9,14 +9,10 @@
         body {
             margin: 0;
             padding: 0;
-        }
-
-        .slider {
-            width: 100%;
             overflow-x: hidden;
         }
 
-        .slide {
+        .page {
             display: block;
             width: 40%;
             color: white;
@@ -29,31 +25,31 @@
 <body>
     <table>
         <div class="slider">
-            <div class="slide" style="background-color:darkorange">SLIDE 1</div>
-            <div class="slide" style="background-color:tomato">SLIDE 2</div>
-            <div class="slide" style="background-color:deeppink">SLIDE 3</div>
-            <div class="slide" style="background-color:darkviolet">SLIDE 4</div>
+            <div class="page" style="background-color:darkorange">SLIDE 1</div>
+            <div class="page" style="background-color:tomato">SLIDE 2</div>
+            <div class="page" style="background-color:deeppink">SLIDE 3</div>
+            <div class="page" style="background-color:darkviolet">SLIDE 4</div>
         </div>
     </table>
     <script>
         slider = $(".slider")
-        slide = $(".slide")
-        x = 0, w = slide.width()
+        pages = $(".page")
+        x = 0, w = pages.width()
 
         const place = (i) => {
-            slide.eq(0).animate({ left: (i * w) + (w * 0) + "px" })
-            slide.eq(1).animate({ left: (i * w) + (w * 1) + "px" })
-            slide.eq(2).animate({ left: (i * w) + (w * 2) + "px" })
-            slide.eq(3).animate({ left: (i * w) + (w * 3) + "px" })
+            pages.eq(0).animate({ left: (i * w) + (w * 0) + "px" })
+            pages.eq(1).animate({ left: (i * w) + (w * 1) + "px" })
+            pages.eq(2).animate({ left: (i * w) + (w * 2) + "px" })
+            pages.eq(3).animate({ left: (i * w) + (w * 3) + "px" })
         }
 
         place(x);
 
         $(document).keydown((e) => {
             if (e.key == "ArrowRight")
-                place(++x)
-            else if (e.key == "ArrowLeft")
                 place(--x)
+            else if (e.key == "ArrowLeft")
+                place(++x)
         })
     </script>
 </body>
