@@ -48,15 +48,15 @@
             slide.eq(3).animate({ left: L + (w * 3) + "px" })
         }
 
-        place(0);
-
-        place(1);
+        place(x);
 
         $(document).keydown((e) => {
             if (e.key == "ArrowRight") {
-
+                x++;
+                place(x)
             } else if (e.key == "ArrowLeft") {
-
+                x--;
+                place(x)
             }
         })
     </script>
