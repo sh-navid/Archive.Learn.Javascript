@@ -17,6 +17,7 @@
 
 ## JQ Headings
 - JQ
+    - [ ] FIXME: Check if each item is in TRUE category
     - [x] [Introduction](frameworks/jquery/introduction/README.md)
     - [x] [Output](frameworks/jquery/echo/README.md) ***MAKE EXAMPLES***
     - [x] [Class](frameworks/jquery/class/README.md)

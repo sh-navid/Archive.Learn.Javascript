@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <form>
+        <input type="text" name="user"/>
+        <input type="password" name="pass"/>
+    </form>
+    <button>Serialize</button>
+    <script>
+        $("button").click(()=>{
+            alert($("form").serialize())
+        })
+    </script>
+</body>
+
+</html>
