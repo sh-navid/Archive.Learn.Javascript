@@ -109,9 +109,9 @@
 - [Calculator](concepts/array/js-example-calculator.html)
 - [4 in a line Game](concepts/array/js-example-4-in-a-line-game.html)
 - [4 in a line Game JQ](frameworks/jquery/examples/jq-example-4-in-a-line-game.html)
-- [Slider1 JQ](frameworks/jquery/examples/jq-slider.html)
-- [Slider2 JQ](frameworks/jquery/examples/jq-slider-2.html)
-- [Slider3 JQ](frameworks/jquery/examples/jq-slider-3.html)
+- [Slider 1 JQ](frameworks/jquery/examples/jq-slider.html)
+- [Slider 2 JQ](frameworks/jquery/examples/jq-slider-2.html)
+- [Slider 3 JQ](frameworks/jquery/examples/jq-slider-3.html)
 - [Block Game](concepts/array/js-example-block-game.html)
     - TODO:
         - [ ] How to make a Progressive Web App (PWA) from this project?
