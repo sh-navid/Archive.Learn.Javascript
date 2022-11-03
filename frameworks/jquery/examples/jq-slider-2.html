@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        html,
+        body {
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        .page {
+            width: 40%;
+            height: 20em;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <div class="slider">
+            <div class="page" style="background-color:darkorange">SLIDE 1</div>
+            <div class="page" style="background-color:tomato">SLIDE 2</div>
+            <div class="page" style="background-color:deeppink">SLIDE 3</div>
+            <div class="page" style="background-color:darkviolet">SLIDE 4</div>
+        </div>
+    </table>
+    <script>
+        slider = $(".slider")
+        pages = $(".slider>.page")
+
+        currentLeft=0,width=pages.width()
+
+        const move = () => {
+            pages.each((i, el) => {
+                $(el).animate({left:100+"px"})
+            })
+        }
+
+        move(0)
+    </script>
+</body>
+
+</html>
