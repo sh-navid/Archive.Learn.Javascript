@@ -9,12 +9,39 @@
         body {
             margin: 0;
             overflow-x: hidden;
+            user-select: none;
         }
 
         .page {
-            width: 40%;
+            width: 60%;
             height: 20em;
+            line-height: 20em;
+            text-align: center;
             position: absolute;
+            color:white;
+            font-weight: bold;
+        }
+
+        label {
+            width: 4em;
+            height: 4em;
+            line-height: 4em;
+            text-align: center;
+            display: block;
+            position: absolute;
+            z-index: 1000;
+            border-radius: 10em;
+            border: 1em solid white;
+            color: white;
+            top: 7em;
+            left: 1em;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        label:nth-child(2) {
+            left: auto;
+            right: 1em;
         }
     </style>
 </head>
@@ -22,6 +49,8 @@
 <body>
     <table>
         <div class="slider">
+            <label>Left</label>
+            <label>Right</label>
             <div class="page" style="background-color:darkorange">SLIDE 1</div>
             <div class="page" style="background-color:tomato">SLIDE 2</div>
             <div class="page" style="background-color:deeppink">SLIDE 3</div>
@@ -32,15 +61,25 @@
         slider = $(".slider")
         pages = $(".slider>.page")
 
-        currentLeft=0,width=pages.width()
+        let L = 0, W = pages.width()
 
         const move = () => {
             pages.each((i, el) => {
-                $(el).animate({left:100+"px"})
+                $(el).animate({ left: (L * W) + (i * W) + "px" })
             })
         }
 
-        move(0)
+        move(L)
+
+        $("label").first().click(() => {
+            L++;
+            move(L);
+        })
+
+        $("label").last().click(() => {
+            L--;
+            move(L);
+        })
     </script>
 </body>
 
