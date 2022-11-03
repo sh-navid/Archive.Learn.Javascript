@@ -1,13 +1,15 @@
 # JQuery
 ## Manipulations
-- `.before()`
-- `.after()`
-- `.insertBefore()`
-- `.insertAfter()`
-- `.append()`
-- `.appendTo()`
-- `.prepend()`
-- `.prependTo()`
+- Insert Around
+    - `.after()`
+    - [`.insertAfter()`](jq-insert-after.html)
+    - `.before()`
+    - [`.insertBefore()`](jq-insert-before.html)
+- Insert Into
+    - [`.append()`](jq-append.html)
+    - [`.appendTo()`](jq-append-to.html)
+    - [`.prepend()`](jq-prepend.html)
+    - [`.prependTo()`](jq-prepend-to.html)
 - `.clone()`
 - `.detach()`
 - Delete
