@@ -79,8 +79,8 @@
 - Select
     - [`:even`](jq-select-mixture.html)
     - [`:odd`](jq-select-mixture.html)
-    - `:first-child`, `:first`, [`.first()`](jq-method-first-last.eq.html)
-    - `:last-child`, `:last`, [`.last()`](jq-method-first-last.eq.html)
+    - [`:first-child`](jq-select-first-last-child.html), [`:first`](jq-select-first-last.html), [`.first()`](jq-method-first-last.eq.html)
+    - [`:last-child`](jq-select-first-last-child.html), [`:last`](jq-select-first-last.html), [`.last()`](jq-method-first-last.eq.html)
     - `:has()`
     - `:not`
     - By Index
