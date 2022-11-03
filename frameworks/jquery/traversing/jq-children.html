@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <span>Span</span>
+        <span>Span</span>
+    </div>
+    <script>
+        $("div").children().each((i, el) => {
+            $(el).text(`Child ${i}`)
+        })
+    </script>
+</body>
+
+</html>
