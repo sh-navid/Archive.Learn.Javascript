@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        html,
+        body {
+            margin: 0;
+            overflow-x: hidden;
+            user-select: none;
+        }
+
+        .page {
+            width: 60%;
+            height: 20em;
+            line-height: 20em;
+            text-align: center;
+            position: absolute;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <div class="slider">
+            <div class="page" style="background-color:darkorange">USE MOUSE WHEEL 1</div>
+            <div class="page" style="background-color:tomato">USE MOUSE WHEEL 2</div>
+            <div class="page" style="background-color:deeppink">USE MOUSE WHEEL 3</div>
+            <div class="page" style="background-color:darkviolet">USE MOUSE WHEEL 4</div>
+        </div>
+    </table>
+    <script>
+        slider = $(".slider")
+        pages = $(".slider>.page")
+        let idx = 0, W = pages.width()
+
+        const move = () => {
+            pages.each((i, el) => {
+                $(el).animate({ left: (idx * W) + (i * W) + "px" })
+            })
+        }
+
+        move(idx)
+
+        // Helper link
+        // https://stackoverflow.com/questions/8189840/get-mouse-wheel-events-in-jquery
+        slider.bind('mousewheel DOMMouseScroll', (e) => {
+            pages.stop();
+            if (e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
+                idx--;
+                if (idx < -3)
+                    idx = -3
+                move(idx);
+            }
+            else {
+                idx++;
+                if (idx > 0)
+                    idx = 0
+                move(idx);
+            }
+        });
+    </script>
+</body>
+
+</html>
