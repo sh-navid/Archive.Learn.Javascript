@@ -23,4 +23,4 @@
     - [`.wrap()`](jq-wrap.html)
     - [`.wrapAll()`](jq-wrap-all.html)
     - [`.wrapInner()`](jq-wrap-inner.html)
-- `.clone()` [ ] TODO: check
+- [`.clone()`](jq-clone.html)
