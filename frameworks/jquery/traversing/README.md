@@ -9,8 +9,8 @@
     - `.find()`
     - `.offsetParent()`
     - [`.parent()`](../selector/jq-select-parent.html)
-    - `.parents()`
-        - `.parentsUntil()`
+    - [`.parents()`](jq-parents.html)
+        - [`.parentsUntil()`](jq-parents.html)
     - [`.next()`](jq-next.html)
         - [`.nextAll()`](jq-next.html)
         - [`.nextUntil()`](jq-next-until.html)
