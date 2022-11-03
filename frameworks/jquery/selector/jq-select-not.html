@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        div {
+            height: 10em;
+            width: 10em;
+            display: inline-block;
+        }
+
+        .holder {
+            background-color: tomato;
+            color: white;
+            border: 1px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <div><span>1</span></div>
+    <div><span>2</span></div>
+    <div>
+        <p>3</p>
+    </div>
+    <div><span>4</span></div>
+    <div><span>5</span></div>
+    <div><span>6</span></div>
+    <div><span>7</span></div>
+    <script>
+        $("div>*:not('p')").text("Not P")
+    </script>
+</body>
+
+</html>
