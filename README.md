@@ -32,7 +32,7 @@
     - [ ] [Parse](frameworks/jquery/parse/README.md)
     - [ ] Callbacks -> _**TODO**: Check_
     - [ ] Deferred -> _**TODO**: Check_
-    - [ ] Traversing -> _**TODO**: Check_
+    - [ ] [Traversing](frameworks/jquery/traversing/README.md)
     - [ ] Core -> _**TODO**: Check_
     - [ ] Ajax -> _**TODO**: Check_
     - [ ] NoConflict -> _**TODO**: Check_

@@ -1,0 +1,37 @@
+# JQuery
+## Traversing
+- Add
+    - .add()
+    - .addBack()
+- Tree 
+    - .children()
+    - .closest()
+    - .find()
+    - .offsetParent()
+    - .parent()
+    - .parents()
+        - .parentsUntil()
+    - .next()
+        - .nextAll()
+        - .nextUntil()
+    - .prev()
+        - .prevAll()
+        - .prevUntil()
+    - .siblings()
+- Other
+    - .contents()
+    - .end()
+- Collection
+    - .each()
+- Filtering
+    - .eq()
+    - .filter()
+    - .first()
+    - .last()
+    - .has()
+    - .is()
+    - .not()
+    - .map()
+    - .even()
+    - .odd()
+    - .slice()
