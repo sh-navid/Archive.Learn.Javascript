@@ -1,4 +1,4 @@
 # JQuery
 ## Form
 - [`.serialize()`](jq-serialize.html)
-- `.serializeArray()`
+- [`.serializeArray()`](jq-serialize-array.html)

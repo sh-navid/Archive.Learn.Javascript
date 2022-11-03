@@ -29,7 +29,7 @@
     - [x] [Effects](frameworks/jquery/effects/README.md)
     - [x] [Manipulations](frameworks/jquery/manipulations/README.md)
     - [x] [Collection](frameworks/jquery/collection/README.md)
-    - [ ] [Form](frameworks/jquery/form/README.md)
+    - [x] [Form](frameworks/jquery/form/README.md)
     - [ ] [Parse](frameworks/jquery/parse/README.md)
     - [ ] [Traversing](frameworks/jquery/traversing/README.md)
     - [ ] Callbacks -> _**TODO**: Check_
