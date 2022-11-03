@@ -30,7 +30,7 @@
     - [x] [Manipulations](frameworks/jquery/manipulations/README.md)
     - [x] [Collection](frameworks/jquery/collection/README.md)
     - [x] [Form](frameworks/jquery/form/README.md)
-    - [ ] [Traversing](frameworks/jquery/traversing/README.md)
+    - [x] [Traversing](frameworks/jquery/traversing/README.md)
     - [ ] Callbacks -> _**TODO**: Check_
     - [ ] Deferred -> _**TODO**: Check_
     - [ ] Core -> _**TODO**: Check_
