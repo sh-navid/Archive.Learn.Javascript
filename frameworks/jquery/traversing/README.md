@@ -1,10 +1,10 @@
 # JQuery
 ## Traversing
 - Add
-    - `.add()`
-    - `.addBack()`
+    - [`.add()`](jq-add.html) FIXME
+    - [`.addBack()`](jq-add-back.html) FIXME
 - Tree 
-    - `.children()`
+    - [`.children()`](jq-children.html)
     - `.closest()`
     - `.find()`
     - `.offsetParent()`
