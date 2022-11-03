@@ -76,6 +76,8 @@
 ## Redux Headings
 - [Introduction](frameworks/redux/introduction/README.md)
 - Store
+- Action
+- Reducer
 
 ## NextJS Headings
 - [Introduction](frameworks/nextjs/introduction/README.md)
