@@ -10,8 +10,9 @@
 - `.prependTo()`
 - `.clone()`
 - `.detach()`
-- `.empty()`
-- `.remove()`
+- Delete
+    - `.empty()`
+    - `.remove()`
 - Replace
     - `.replaceWith()`
     - `.replaceAll()`
