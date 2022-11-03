@@ -1,20 +1,22 @@
 # JQuery
 ## Manipulations
-- .before()
-- .after()
-- .insertBefore()
-- .insertAfter()
-- .append()
-- .appendTo()
-- .prepend()
-- .prependTo()
-- .clone()
-- .detach()
-- .empty()
-- .remove()
-- .replaceAll()
-- .replaceAll()
-- .unwrap()
-- .wrap()
-- .wrapAll()
-- .wrapInner()
+- `.before()`
+- `.after()`
+- `.insertBefore()`
+- `.insertAfter()`
+- `.append()`
+- `.appendTo()`
+- `.prepend()`
+- `.prependTo()`
+- `.clone()`
+- `.detach()`
+- `.empty()`
+- `.remove()`
+- Replace
+    - `.replaceWith()`
+    - `.replaceAll()`
+- Wrap
+    - `.unwrap()`
+    - `.wrap()`
+    - `.wrapAll()`
+    - `.wrapInner()`
