@@ -8,5 +8,5 @@
 ## Array
 - [.toArray()](jq-to-array.html)
 - [.inArray()](jq-in-array.html)
-- [.isArray()]
+- [.isArray()](jq-is-array.html)
 - [.makeArray()]
