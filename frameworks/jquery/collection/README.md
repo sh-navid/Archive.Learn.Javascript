@@ -9,4 +9,4 @@
 - [`.toArray()`](jq-to-array.html)
 - [`.inArray()`](jq-in-array.html)
 - [`.isArray()`](jq-is-array.html)
-- [**`.makeArray()`**]
+- [**`.makeArray()`**](jq-make-array.html)
