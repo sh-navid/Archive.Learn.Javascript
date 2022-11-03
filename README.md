@@ -37,7 +37,7 @@
     - [ ] Ajax -> _**TODO**: Check_
     - [ ] NoConflict -> _**TODO**: Check_
     - [ ] [UNCATEGORIZED](frameworks/jquery/uncategorized/README.md)
-    - [ ] Plugin
+    - [ ] Plugins
 - JQ UI
     - Rotate
     - Drag
