@@ -18,7 +18,7 @@
 ## JQ Headings
 - JQ
     - [x] [Introduction](frameworks/jquery/introduction/README.md)
-    - [x] [Outout](frameworks/jquery/echo/README.md) ***MAKE EXAMPLES***
+    - [x] [Output](frameworks/jquery/echo/README.md) ***MAKE EXAMPLES***
     - [x] [Class](frameworks/jquery/class/README.md)
     - [x] [CSS](frameworks/jquery/css/README.md)
     - [x] [Values](frameworks/jquery/values/README.md)
