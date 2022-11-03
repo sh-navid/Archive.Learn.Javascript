@@ -7,6 +7,6 @@
 
 ## Array
 - [.toArray()](jq-to-array.html)
-- .inArray()
-- .isArray()
-- .makeArray()
+- [.inArray()](jq-in-array.html)
+- [.isArray()]
+- [.makeArray()]
