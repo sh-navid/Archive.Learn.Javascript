@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        td {
+            width: 1em;
+            height: 1em;
+            line-height: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+
+    </table>
+    <script>
+        A = [
+            [0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0],
+        ]
+
+        B = [4, 4, 4, 4, 4]
+
+        D = {
+            0: "-",
+            1: "@",
+            2: "#"
+        }
+
+        P=[1,2]
+
+        table = $("table")
+
+        const render = () => {
+            table.empty()
+            for (row of A) {
+                tr = $("<tr></tr>")
+                for (cell of row)
+                    tr.append($(`<td>${D[cell]}</td>`))
+                table.append(tr)
+            }
+        }
+
+        render()
+
+        $(document).keydown((e) => {
+            if (["0", "1", "2", "3", "4"].includes(e.key)) {
+                col = parseInt(e.key)
+                row = B[col]
+                A[row][col] = P[0]
+                B[col] -= 1
+                P.reverse()
+            }
+            render()
+        })
+    </script>
+</body>
+
+</html>
