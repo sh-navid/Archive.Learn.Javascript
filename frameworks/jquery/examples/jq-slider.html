@@ -9,33 +9,19 @@
         body {
             margin: 0;
             padding: 0;
+            transition: 300ms;
         }
 
         #slider {
-            width:100%;
+            width: 100%;
         }
 
-        span {
+        #slider>div {
             display: block;
-            width: 100%;
+            width: 50%;
             color: white;
             height: 15em;
-        }
-
-        span:nth-child(1) {
-            background-color: darkorange;
-        }
-
-        span:nth-child(2) {
-            background-color: tomato;
-        }
-
-        span:nth-child(3) {
-            background-color: deeppink;
-        }
-
-        span:nth-child(4) {
-            background-color: darkviolet;
+            position: absolute;
         }
     </style>
 </head>
@@ -43,18 +29,24 @@
 <body>
     <table>
         <div id="slider">
-
+            <div style="background-color:darkorange ;">SLIDE 1</div>
+            <div style="background-color:tomato;">SLIDE 2</div>
+            <div style="background-color:deeppink ;">SLIDE 3</div>
+            <div style="background-color:darkviolet ;">SLIDE 4</div>
         </div>
     </table>
     <script>
-        A = ["SLIDE 1", "SLIDE 2", "SLIDE 3", "SLIDE 4"]
-
         slider = $("#slider")
 
-        for (a of A) {
-            d = $(`<span>${a}</span>`)
-            slider.append(d)
+        x = 0, w = slider.width()
+        console.log(x, w)
+        const place = () => {
+            slider.eq(0).css({ left: x + w * 0 })
+            slider.eq(1).css({ left: x + w * 1 })
+            slider.eq(2).css({ left: x + w * 2 })
+            slider.eq(3).css({ left: x + w * 3 })
         }
+
 
 
     </script>
