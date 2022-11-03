@@ -50,7 +50,9 @@
 - Simple API
 - Init, Express, Router, Params, Middleware
 - File, Stream
+- Video Stream
 - CRUD
+- SQL - Sqlite
 - NoSQL - Level
 - Callback, Promise, EventEmmiter
 - NEDB
@@ -64,6 +66,8 @@
 - JEST - Unit Testing
 - Validator
 - Fork, Exec, Spawn, LoadBlancer
+- Security
+- Modules
 
 ## ReactJS Headings
 - [Introduction](frameworks/reactjs/introduction/README.md)
