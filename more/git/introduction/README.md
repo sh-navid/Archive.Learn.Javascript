@@ -1,4 +1,5 @@
 # GIT
+- _**Disclaimer**: This section is not an official resource and is for educational purposes only. The codes may be wrong or not suitable for a non-educational environment._
 ### Connect an offline folder 2 git repo
 ~~~git
 git init
