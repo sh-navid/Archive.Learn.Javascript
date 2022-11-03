@@ -35,6 +35,7 @@
     - [ ] Traversing -> _**TODO**: Check original references_
     - [ ] Core -> _**TODO**: Check original references_
     - [ ] Ajax -> _**TODO**: Check original references_
+    - [ ] NoConflict -> _**TODO**: Check original references_
     - [ ] [UNCATEGORIZED](frameworks/jquery/uncategorized/README.md)
 - JQ UI
     - Rotate

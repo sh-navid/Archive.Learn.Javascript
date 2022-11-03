@@ -10,8 +10,6 @@
 - .isFunction()
 - .isNumeric()
 - .isPlainObject()
-- .inArray()
-- .isArray()
 - .makeArray()
 - .isWindow()
 - .map()
