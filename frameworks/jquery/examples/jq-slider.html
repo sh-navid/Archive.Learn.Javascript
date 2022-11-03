@@ -12,11 +12,11 @@
             transition: 300ms;
         }
 
-        #slider {
+        .slider {
             width: 100%;
         }
 
-        #slider>div {
+        .slide {
             display: block;
             width: 50%;
             color: white;
@@ -28,26 +28,28 @@
 
 <body>
     <table>
-        <div id="slider">
-            <div style="background-color:darkorange ;">SLIDE 1</div>
-            <div style="background-color:tomato;">SLIDE 2</div>
-            <div style="background-color:deeppink ;">SLIDE 3</div>
-            <div style="background-color:darkviolet ;">SLIDE 4</div>
+        <div class="slider">
+            <div class="slide" style="background-color:darkorange">SLIDE 1</div>
+            <div class="slide" style="background-color:tomato">SLIDE 2</div>
+            <div class="slide" style="background-color:deeppink">SLIDE 3</div>
+            <div class="slide" style="background-color:darkviolet">SLIDE 4</div>
         </div>
     </table>
     <script>
-        slider = $("#slider")
-
-        x = 0, w = slider.width()
-        console.log(x, w)
-        const place = () => {
-            slider.eq(0).css({ left: x + w * 0 })
-            slider.eq(1).css({ left: x + w * 1 })
-            slider.eq(2).css({ left: x + w * 2 })
-            slider.eq(3).css({ left: x + w * 3 })
+        slider = $(".slider")
+        slide = $(".slide")
+        x = 0, w = slide.width()
+        
+        const place = (L) => {
+            slide.eq(0).animate({ left: L + (w * 0) +"px"})
+            slide.eq(1).animate({ left: L + (w * 1) +"px"})
+            slide.eq(2).animate({ left: L + (w * 2) +"px"})
+            slide.eq(3).animate({ left: L + (w * 3) +"px"})
         }
 
-
+        place(0);
+        
+        
 
     </script>
 </body>
