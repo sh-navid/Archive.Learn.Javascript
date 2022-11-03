@@ -22,4 +22,4 @@
     - [`.unwrap()`](jq-unwrap.html)
     - [`.wrap()`](jq-wrap.html)
     - [`.wrapAll()`](jq-wrap-all.html)
-    - `.wrapInner()`
+    - [`.wrapInner()`](jq-wrap-inner.html)
