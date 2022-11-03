@@ -9,7 +9,6 @@
         body {
             margin: 0;
             padding: 0;
-            transition: 300ms;
         }
 
         .slider {
@@ -39,18 +38,18 @@
         slider = $(".slider")
         slide = $(".slide")
         x = 0, w = slide.width()
-        
-        const place = (L) => {
-            slide.eq(0).animate({ left: L + (w * 0) +"px"})
-            slide.eq(1).animate({ left: L + (w * 1) +"px"})
-            slide.eq(2).animate({ left: L + (w * 2) +"px"})
-            slide.eq(3).animate({ left: L + (w * 3) +"px"})
+
+        const place = (i) => {
+            L = (i * w)
+            slide.eq(0).animate({ left: L + (w * 0) + "px" })
+            slide.eq(1).animate({ left: L + (w * 1) + "px" })
+            slide.eq(2).animate({ left: L + (w * 2) + "px" })
+            slide.eq(3).animate({ left: L + (w * 3) + "px" })
         }
 
         place(0);
-        
-        
 
+        place(1);
     </script>
 </body>
 
