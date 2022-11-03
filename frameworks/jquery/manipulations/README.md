@@ -10,11 +10,11 @@
         - [`.appendTo()`](jq-append-to.html)
     - [`.prepend()`](jq-prepend.html)
         - [`.prependTo()`](jq-prepend-to.html)
-- `.clone()`
-- `.detach()`
 - Delete
     - [`.empty()`](jq-empty.html)
     - [`.remove()`](jq-remove.html)
+    - `.detach()` [ ] TODO: check
+        - _Like remove but keep ref??_
 - Replace
     - [`.replaceWith()`](jq-replace-with.html)
         - [`.replaceAll()`](jq-replace-all.html)
@@ -23,3 +23,4 @@
     - [`.wrap()`](jq-wrap.html)
     - [`.wrapAll()`](jq-wrap-all.html)
     - [`.wrapInner()`](jq-wrap-inner.html)
+- `.clone()` [ ] TODO: check
