@@ -13,7 +13,7 @@
 - `.clone()`
 - `.detach()`
 - Delete
-    - `.empty()`
+    - [`.empty()`](jq-empty.html)
     - `.remove()`
 - Replace
     - [`.replaceWith()`](jq-replace-with.html)
