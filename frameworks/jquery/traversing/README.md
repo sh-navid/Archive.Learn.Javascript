@@ -25,7 +25,7 @@
     - [`.each()`](jq-children.html)
 - Filtering
     - `.eq()`
-    - [`.filter()`] [ ] TODO: Check
+    - `.filter()` [ ] TODO: Check
     - `.first()`
     - `.last()`
     - [`.has()`](jq-has.html)
