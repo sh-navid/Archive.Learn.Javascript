@@ -14,7 +14,7 @@
 - `.detach()`
 - Delete
     - [`.empty()`](jq-empty.html)
-    - `.remove()`
+    - [`.remove()`](jq-remove.html)
 - Replace
     - [`.replaceWith()`](jq-replace-with.html)
     - [`.replaceAll()`](jq-replace-all.html)
