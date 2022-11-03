@@ -13,8 +13,8 @@
 - Delete
     - [`.empty()`](jq-empty.html)
     - [`.remove()`](jq-remove.html)
-    - `.detach()` [ ] TODO: check
-        - _Like remove but keeps ref??_
+    - [`.detach()`](jq-detach.html)
+        - _Like remove but keeps ref_
 - Replace
     - [`.replaceWith()`](jq-replace-with.html)
         - [`.replaceAll()`](jq-replace-all.html)
