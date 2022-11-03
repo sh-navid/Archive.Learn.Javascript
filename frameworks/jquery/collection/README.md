@@ -8,3 +8,4 @@
 - .toArray()
 - .inArray()
 - .isArray()
+- .makeArray()

@@ -30,14 +30,14 @@
     - [ ] [Collection](frameworks/jquery/collection/README.md)
     - [ ] [Form](frameworks/jquery/form/README.md)
     - [ ] [Parse](frameworks/jquery/parse/README.md)
+    - [ ] [Traversing](frameworks/jquery/traversing/README.md)
     - [ ] Callbacks -> _**TODO**: Check_
     - [ ] Deferred -> _**TODO**: Check_
-    - [ ] [Traversing](frameworks/jquery/traversing/README.md)
     - [ ] Core -> _**TODO**: Check_
     - [ ] Ajax -> _**TODO**: Check_
     - [ ] NoConflict -> _**TODO**: Check_
+    - [ ] Plugins -> _**TODO**: Check_
     - [ ] [UNCATEGORIZED](frameworks/jquery/uncategorized/README.md)
-    - [ ] Plugins
 - JQ UI
     - [Intractions](frameworks/jquery/ui/intractions/README.md)
 - JQ Mobile
