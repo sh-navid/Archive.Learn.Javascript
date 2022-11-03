@@ -13,12 +13,12 @@
 
         .slider {
             width: 100%;
-            overflow: hidden;
+            overflow-x: hidden;
         }
 
         .slide {
             display: block;
-            width: 50%;
+            width: 40%;
             color: white;
             height: 15em;
             position: absolute;
@@ -41,23 +41,19 @@
         x = 0, w = slide.width()
 
         const place = (i) => {
-            L = (i * w)
-            slide.eq(0).animate({ left: L + (w * 0) + "px" })
-            slide.eq(1).animate({ left: L + (w * 1) + "px" })
-            slide.eq(2).animate({ left: L + (w * 2) + "px" })
-            slide.eq(3).animate({ left: L + (w * 3) + "px" })
+            slide.eq(0).animate({ left: (i * w) + (w * 0) + "px" })
+            slide.eq(1).animate({ left: (i * w) + (w * 1) + "px" })
+            slide.eq(2).animate({ left: (i * w) + (w * 2) + "px" })
+            slide.eq(3).animate({ left: (i * w) + (w * 3) + "px" })
         }
 
         place(x);
 
         $(document).keydown((e) => {
-            if (e.key == "ArrowRight") {
-                x++;
-                place(x)
-            } else if (e.key == "ArrowLeft") {
-                x--;
-                place(x)
-            }
+            if (e.key == "ArrowRight")
+                place(++x)
+            else if (e.key == "ArrowLeft")
+                place(--x)
         })
     </script>
 </body>
