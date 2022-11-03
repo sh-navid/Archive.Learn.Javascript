@@ -87,10 +87,10 @@
         - [`:eq()`](jq-select-index-eq.html), [`.eq()`](jq-method-first-last.eq.html)
             - _Starts from zero_
             - _Can get negative number_
-        - `:nth-child()`
+        - [`:nth-child()`](jq-select-nth-child.html)
             - _Starts from one_
-        - `:nth-last-child()`
-        - `:only-child`
+        - [`:nth-last-child()`](jq-select-nth-last-child.html)
+        - [`:only-child`](jq-select-only-child.html)
         - `:lt()`
         - `:gt()`
     - Of Type
