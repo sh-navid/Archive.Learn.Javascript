@@ -91,8 +91,8 @@
             - _Starts from one_
         - [`:nth-last-child()`](jq-select-nth-last-child.html)
         - [`:only-child`](jq-select-only-child.html)
-        - `:lt()`
-        - `:gt()`
+        - [`:lt()`](jq-select-lt.html)
+        - [`:gt()`](jq-select-gt.html)
     - Of Type
         - `:first-of-type`
         - `:nth-of-type()`
