@@ -1,3 +1,4 @@
 # NodeJS
 ## Simple API Example
-- [Server](server.js)
+- [server.js](server.js)
+- [index.html](index.html)
