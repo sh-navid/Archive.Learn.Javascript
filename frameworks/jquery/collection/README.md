@@ -6,7 +6,7 @@
 - [.index()](jq-index.html)
 
 ## Array
-- .toArray()
+- [.toArray()](jq-to-array.html)
 - .inArray()
 - .isArray()
 - .makeArray()
