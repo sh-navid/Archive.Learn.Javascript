@@ -28,8 +28,8 @@
     - [`.filter()`]
     - `.first()`
     - `.last()`
-    - [`.has()`]
-    - [`.is()`]
+    - [`.has()`](jq-has.html)
+    - [`.is()`](jq-is.html)
     - [`.not()`]
     - [`.map()`]
     - [`.even()`]
