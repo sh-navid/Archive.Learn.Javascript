@@ -14,7 +14,7 @@
         - `.submit()`
     - Bind
         - [**`.on("event",()=>{})`**](jq-bind-on.html)
-        - [**`.off("event",()=>{})`**](jq-bind-off.html)
+        - [**`.off("event")`**](jq-bind-off.html)
             - `.off()`
                 - _To remove all events_
         - [**`.one()`**](jq-bind-one.html)
