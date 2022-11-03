@@ -35,7 +35,7 @@
             2: "#"
         }
 
-        P=[1,2]
+        P = [1, 2]
 
         table = $("table")
 
@@ -52,12 +52,14 @@
         render()
 
         $(document).keydown((e) => {
-            if (["0", "1", "2", "3", "4"].includes(e.key)) {
-                col = parseInt(e.key)
-                row = B[col]
-                A[row][col] = P[0]
-                B[col] -= 1
-                P.reverse()
+            if (["0", "1", "2", "3", "4", "5"].includes(e.key)) {
+                col = parseInt(e.key) - 1
+                if (col >= 0) {
+                    row = B[col]
+                    A[row][col] = P[0]
+                    B[col] -= 1
+                    P.reverse()
+                }
             }
             render()
         })
