@@ -16,8 +16,8 @@
     - `.empty()`
     - `.remove()`
 - Replace
-    - `.replaceWith()`
-    - `.replaceAll()`
+    - [`.replaceWith()`](jq-replace-with.html)
+    - [`.replaceAll()`](jq-replace-all.html)
 - Wrap
     - `.unwrap()`
     - `.wrap()`
