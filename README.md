@@ -39,9 +39,7 @@
     - [ ] [UNCATEGORIZED](frameworks/jquery/uncategorized/README.md)
     - [ ] Plugins
 - JQ UI
-    - Rotate
-    - Drag
-    - Resize
+    - [Intractions](frameworks/jquery/ui/intractions/README.md)
 - JQ Mobile
     - ?
 
