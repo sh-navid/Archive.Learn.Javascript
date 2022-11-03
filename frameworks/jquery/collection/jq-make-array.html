@@ -21,6 +21,7 @@
     <script>
         let elements = $.makeArray($("p").detach())
         elements.reverse()
+        alert($.isArray(elements))
         $("div").replaceWith(elements)
     </script>
 </body>
