@@ -8,21 +8,21 @@
     - `.closest()`
     - `.find()`
     - `.offsetParent()`
-    - `.parent()`
+    - [`.parent()`](../selector/jq-select-parent.html)
     - `.parents()`
         - `.parentsUntil()`
-    - `.next()`
-        - `.nextAll()`
-        - `.nextUntil()`
-    - `.prev()`
-        - `.prevAll()`
-        - `.prevUntil()`
+    - [`.next()`](jq-next.html)
+        - [`.nextAll()`](jq-next.html)
+        - [`.nextUntil()`](jq-next-until.html)
+    - [`.prev()`](jq-next.html)
+        - [`.prevAll()`](jq-next.html)
+        - [`.prevUntil()`](jq-next-until.html)
     - `.siblings()`
 - Other
     - `.contents()`
     - `.end()`
 - Collection
-    - `.each()`
+    - [`.each()`](jq-children.html)
 - Filtering
     - `.eq()`
     - `.filter()`
