@@ -93,6 +93,7 @@
 - Markdown
 - Projects
     - Scrum
+- GitPage (Static Website)
 
 ## Progressive Web App (PWA)
 - Introduction
@@ -129,12 +130,8 @@
 - [ ] Flask
 - [ ] CMS
 ### Tools
-- [ ] Git
-- [x] Github
-    - [ ] GitPage (Static Website)
 - [ ] Lighthouse
 - [ ] Trello
-- [ ] Markdown
 <!-- 
 ### Analytic Tools
 - [ ] Microsoft
