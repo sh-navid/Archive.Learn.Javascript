@@ -31,7 +31,7 @@
     - [`.has()`](jq-has.html)
     - [`.is()`](jq-is.html)
     - [`.not()`](jq-not.html)
-    - [`.map()`]
-    - [`.even()`]
-    - `.odd()`
+    - [`.map()`](jq-map.html)
+    - [`.even()`](jq-even.html)
+    - [`.odd()`](jq-even.html)
     - [`.slice()`]
