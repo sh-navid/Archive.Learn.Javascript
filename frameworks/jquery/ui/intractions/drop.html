@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../jquery-ui.min.css">
+    <script src="../../jquery-3.6.1.min.js"></script>
+    <script src="../../jquery-ui.min.js"></script>
+    <style>
+        div {
+            display: inline-block;
+            min-width: 10em;
+            min-height: 10em;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="border:5px solid black">Drag Me</div>
+    <div style="border:5px solid gold">Drop Here</div>
+    <script>
+        dragEl=$("div").first()
+        dropEl=$("div").last()
+        
+        dragEl.draggable()
+        dropEl.droppable({
+            drop: (e, ui) => {
+                dropEl.empty()
+                dropEl.append(dragEl.detach())
+                //dragEl.draggable("disable")
+                //dragEl.css({position:"fixed"})
+            }
+        })
+    </script>
+</body>
+
+</html>

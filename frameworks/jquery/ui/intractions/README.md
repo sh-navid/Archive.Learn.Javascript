@@ -1,4 +1,7 @@
 # JQuery UI
 ## Intractions
-- [Drag](drag.html)
-- [Resize](resize.html)
+- [`.draggable()`](drag.html)
+    - `enable`
+    - `disable`
+- [`.droppable()`](drop.html)
+- [`.resizable()`](resize.html)
