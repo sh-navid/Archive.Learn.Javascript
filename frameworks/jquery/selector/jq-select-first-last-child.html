@@ -19,6 +19,13 @@
 </head>
 
 <body>
+    <script>
+        // It seems that cause script is the first child, first-child does not work
+        $(document).ready(() => {
+            $("div:first-child").text("First")
+            $("div:last-child").text("Last")
+        })
+    </script>
     <div>1</div>
     <div>2</div>
     <div>3</div>
@@ -26,10 +33,7 @@
     <div>5</div>
     <div>6</div>
     <div>7</div>
-    <script>
-        $("div:first-child").text("First")
-        $("div:last-child").text("Last")
-    </script>
+
 </body>
 
 </html>
