@@ -20,18 +20,18 @@
     - [`.siblings()`](jq-siblings.html)
 - Other
     - [`.contents()`](jq-contents.html)
-    - `.end()`
+    - `.end()` [ ] TODO: Check
 - Collection
     - [`.each()`](jq-children.html)
 - Filtering
     - `.eq()`
-    - `.filter()`
+    - [`.filter()`]
     - `.first()`
     - `.last()`
-    - `.has()`
-    - `.is()`
-    - `.not()`
-    - `.map()`
-    - `.even()`
+    - [`.has()`]
+    - [`.is()`]
+    - [`.not()`]
+    - [`.map()`]
+    - [`.even()`]
     - `.odd()`
-    - `.slice()`
+    - [`.slice()`]
