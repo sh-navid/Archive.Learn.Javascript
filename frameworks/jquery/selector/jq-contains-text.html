@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <form>
+        <div id="d1">Hello World</div>
+        <div id="d2"></div>
+    </form>
+    <script>
+        d1 = $("div:contains('Hello')")
+        d1.text(d1.text()+" of Mine")
+
+        d2 = $("div:empty")
+        d2.text("No longer empty")
+    </script>
+</body>
+
+</html>

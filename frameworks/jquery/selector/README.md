@@ -71,7 +71,7 @@
     - `:focus`
     - [`:visible`](js-state-general.html)
     - [`:hidden`](js-state-general.html)
-- Edit
+- [Contains](jq-contains-text.html)
     - `:contains('text')`
         - _Search a text_
     - `:empty`
