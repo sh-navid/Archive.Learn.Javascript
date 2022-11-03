@@ -51,16 +51,22 @@
 
         render()
 
-        // R -> this is the starter ROW to check
-        // C -> this is the starter COLUMN to check
-        // We want to make a 4*4 block to check
+
+        const check=(AP)=>{
+            
+        }
+
+
         const range = (r, c) => {
+            c0 = c, c1 = c + 1, c2 = c + 2, c3 = c + 3
+            r0 = r, r1 = r + 1, r2 = r + 2, r3 = r + 3
             AP = [
-                [A[r + 0, c + 0], A[r + 0, c + 1], A[r + 0, c + 2], A[r + 0, c + 3]],
-                [A[r + 1, c + 0], A[r + 1, c + 1], A[r + 1, c + 2], A[r + 1, c + 3]],
-                [A[r + 2, c + 0], A[r + 2, c + 1], A[r + 2, c + 2], A[r + 2, c + 3]],
-                [A[r + 3, c + 0], A[r + 3, c + 1], A[r + 3, c + 2], A[r + 3, c + 3]],
+                [A[r0, c0], A[r0, c1], A[r0, c2], A[r0, c3]],
+                [A[r1, c0], A[r1, c1], A[r1, c2], A[r1, c3]],
+                [A[r2, c0], A[r2, c1], A[r2, c2], A[r2, c3]],
+                [A[r3, c0], A[r3, c1], A[r3, c2], A[r3, c3]],
             ]
+            check(AP)
         }
 
         $(document).keydown((e) => {
