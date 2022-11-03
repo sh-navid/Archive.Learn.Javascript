@@ -84,7 +84,7 @@
     - `:has()`
     - `:not`
     - By Index
-        - `:eq()`, [`.eq()`](jq-method-first-last.eq.html)
+        - [`:eq()`](jq-select-index-eq.html), [`.eq()`](jq-method-first-last.eq.html)
             - _Starts from zero_
             - _Can get negative number_
         - `:nth-child()`
