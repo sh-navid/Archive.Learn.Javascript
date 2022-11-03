@@ -26,7 +26,7 @@
             drop: (e, ui) => {
                 dropEl.empty()
                 dropEl.append(dragEl.detach())
-                //dragEl.draggable("disable")
+                dragEl.draggable("destroy")
                 //dragEl.css({position:"fixed"})
             }
         })
