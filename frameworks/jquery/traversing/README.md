@@ -17,9 +17,9 @@
     - [`.prev()`](jq-next.html)
         - [`.prevAll()`](jq-next.html)
         - [`.prevUntil()`](jq-next-until.html)
-    - `.siblings()`
+    - [`.siblings()`](jq-siblings.html)
 - Other
-    - `.contents()`
+    - [`.contents()`](jq-contents.html)
     - `.end()`
 - Collection
     - [`.each()`](jq-children.html)

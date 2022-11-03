@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        span {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div>
+            <p>
+                P
+            </p>
+            <span>
+                Span
+            </span>
+            <label>
+                Label
+            </label>
+        </div>
+    </div>
+    <script>
+        $("span").siblings().append("Hello")
+    </script>
+</body>
+
+</html>
