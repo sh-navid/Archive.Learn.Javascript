@@ -35,7 +35,7 @@
     - [ ] [Deferred Object](frameworks/jquery/deferred/README.md)
     - [ ] Ajax -> _**TODO**: Check_
     - [ ] NoConflict -> _**TODO**: Check_
-    - [ ] Plugins -> _**TODO**: Check_
+    - [x] [Custom Plugin](frameworks/jquery/examples/jq-rotatable.html)
     - [ ] [UNCATEGORIZED](frameworks/jquery/uncategorized/README.md)
 - JQ UI
     - [Intractions](frameworks/jquery/ui/intractions/README.md)
