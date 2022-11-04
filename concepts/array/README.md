@@ -18,6 +18,7 @@
     - ![](../../-/2.png) [`.map()`](js-array-map-example.html)
         > How to change every item in an array?
     - ![](../../-/4.png) [`.reduce()`](js-array-reduce-example.html)
+        > How to reduce multiple values to one value?
     - ![](../../-/4.png) `.reduceRight()`
     - ![](../../-/1.png) `.includes()`
     - ![](../../-/1.png) `.find()`, `findIndex()`

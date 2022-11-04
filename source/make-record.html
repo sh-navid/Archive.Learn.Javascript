@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .holder {}
+
+        .record {}
+
+        .summation,
+        .entity,
+        .amount,
+        .remove,
+        .add {
+            padding: 1em;
+            border: 1px dashed black;
+            width: 30%;
+            display: inline-block;
+        }
+
+        .amount {}
+
+        .remove,
+        .add {
+            border: 1px solid white;
+            background-color: tomato;
+            color: white;
+            cursor: pointer;
+        }
+
+        .add {
+            background-color: royalblue;
+        }
+
+        .summation {
+            background-color: springgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="holder"></div>
+    <div class="add" onclick="add(this)">ADD</div>
+    <div class="summation">-</div>
+    <template>
+        <div class="record">
+            <div class="entity" contenteditable="true">[ENTITY]</div>
+            <div class="amount" contenteditable="true">[AMOUNT]</div>
+            <div class="remove" onclick="remove(this)">REMOVE</div>
+        </div>
+    </template>
+    <script>
+        h = document.querySelector(".holder")
+        s = document.querySelector(".summation")
+
+        const makeRecord = (entity, amount) => {
+            t = document.querySelector("template").innerHTML
+            t = t.replace("[ENTITY]", entity)
+            t = t.replace("[AMOUNT]", amount)
+            h.innerHTML += t
+        }
+
+        A = ["ماست", "شیر", "دوغ"]
+        B = [65000, 34000, 21000]
+
+        for (idx in A) {
+            makeRecord(A[idx], B[idx])
+        }
+
+        const add = () => {
+            makeRecord("UN_NAMED", 10000)
+        }
+
+        const remove = (el) => {
+            el.parentNode.remove(el)
+        }
+
+        const calculate = () => {
+            V = Array.from(document.querySelectorAll(".amount")).map((v) => parseInt(v.innerHTML))
+            console.log(V)
+            sum = V.reduce((total, value) => total + value)
+            s.innerText = sum
+        }
+
+        //BAD PRACTICE
+        setInterval(calculate, 1000)
+    </script>
+</body>
+
+</html>

@@ -103,7 +103,6 @@
 - Dynamic
 
 
-
 ![](assets/spacer.png)
 
 
@@ -119,7 +118,8 @@
 - [Slider 3 JQ](frameworks/jquery/examples/jq-slider-3.html)
 - [Rotate JQ](frameworks/jquery/examples/jq-rotate.html)
 - [Rotatable Plugin JQ](frameworks/jquery/examples/jq-rotatable.html) [ ] FIXME: cannot work independently on each element
-- [Auto complete JS](source/auto-complete.html)
+- [Auto complete JS](source/auto-complete.html) [ ] TODO: think about this for next session
+- [Make record JS](source/make-record.html) [ ] TODO: think about this for next session
 - [Block Game](concepts/array/js-example-block-game.html)
     - TODO:
         - [ ] How to make a Progressive Web App (PWA) from this project?
