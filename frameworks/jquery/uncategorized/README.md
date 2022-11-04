@@ -1,9 +1,12 @@
 - .escapeSelector()
+
 - .data()
 - .hasData()
 - .removeData()
+
 - .extend()
 
+- .type()
 - .isXMLDoc()
 - .isEmptyObject()
 - .isFunction()
@@ -16,8 +19,8 @@
 - .noop()
 - .now()
 - .trim()
-- .type()
 - .unique()
 - .uniqueSort()
+
 - $.cssNumber
 - $.cssHooks
