@@ -11,9 +11,12 @@
     - ![](../../-/1.png) Dimensions of array
         > How to make and access to a multi dimensional array?
 - Methods
-    - ![](../../-/2.png) [`.filter()`](js-array-filter-example.html) 
+    - ![](../../-/2.png) [`.filter()`](js-array-filter-example.html)
+        > How to get array items with condition 
     - ![](../../-/1.png) [`.forEach()`](js-array-foreach-example.html)
+        > How to iterate over array items?
     - ![](../../-/2.png) [`.map()`](js-array-map-example.html)
+        > How to change every item in an array?
     - ![](../../-/4.png) [`.reduce()`](js-array-reduce-example.html)
     - ![](../../-/4.png) `.reduceRight()`
     - ![](../../-/1.png) `.includes()`

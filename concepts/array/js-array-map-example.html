@@ -2,59 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            text-align: center;
-        }
-
-        span {
-            padding: 1em;
-            border: 1px solid slateblue;
-        }
-
-        .btn {
-            padding: .7em;
-            margin: 1em;
-            background-color: slateblue;
-            color: white;
-            user-select: none;
-            cursor: pointer;
-            border-radius: 10em;
-        }
-    </style>
 </head>
-<div class="holder"></div>
-<div class="btn reset" onclick="reset()">Reset</div>
-<div class="btn update" onclick="update()">Update X2</div>
 
 <body>
     <script>
-        with (document) {
-            h = querySelector(".holder")
-            r = querySelector(".reset")
-            u = querySelector(".update")
-        }
-
-        A = null
-
-        const insert = () => {
-            h.innerHTML = ""
-            A.forEach(a => h.innerHTML += `<span>${a}</span>`);
-        }
-
-        const reset = () => {
-            A = [1, 2, 4, 8, 16, 32,64]
-            insert()
-        }
-
-        const update = () => {
-            A = Array.from(document.querySelectorAll("span")).map((span) => parseInt(span.innerHTML) * 2)
-            insert()
-        }
-
-        reset()
+        A = [1, 2, 4, 8, 16, 32, 64]
+        A = A.map((a) => a + 100)
+        console.log(A)
     </script>
 </body>
 
