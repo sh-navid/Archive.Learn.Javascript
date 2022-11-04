@@ -1,8 +1,12 @@
 # JS Instructor
 ***Disclaimer: The content of this repository is provided only for the purpose of teaching students and with an educational perspective.***
+- Symbols
+    - ![](-/i.png) Included keywords, methods, ...
+    - ![](-/d.png) Documented
+    - ![](-/e.png) Have complete examples
 
 ## JS Headings
-- [Array](concepts/array/README.md)
+- ![](-/i.png) [Array](concepts/array/README.md)
 - [Class](concepts/class/README.md)
 - [Order](concepts/order/README.md)
 - [Events](concepts/events/README.md)
