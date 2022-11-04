@@ -1,0 +1,14 @@
+# JQuery
+## Callbacks
+- $.Callbacks()
+    - .add()
+        - .remove()
+    - .lock()
+        - .locked()
+    - .fire()
+        - .fireWith()
+        - .fired()
+    - .has()
+    - .empty()
+    - .disable()
+        - .disabled()
