@@ -23,21 +23,21 @@
     - ![](-/1.png) [Output](frameworks/jquery/echo/README.md) ***MAKE EXAMPLES***
     - ![](-/1.png) [Class](frameworks/jquery/class/README.md)
     - ![](-/1.png) [CSS](frameworks/jquery/css/README.md)
-    - ![](-/1.png) [Values](frameworks/jquery/values/README.md)
-    - ![](-/1.png) [Attributes](frameworks/jquery/attributes/README.md)
-    - ![](-/2.png) [QuerySelector](frameworks/jquery/selector/README.md)
-    - ![](-/2.png) [Events](frameworks/jquery/events/README.md)
-    - ![](-/1.png) [Effects](frameworks/jquery/effects/README.md)
-    - ![](-/2.png) [Manipulations](frameworks/jquery/manipulations/README.md)
-    - ![](-/2.png) [Collection](frameworks/jquery/collection/README.md)
-    - ![](-/1.png) [Form](frameworks/jquery/form/README.md)
-    - ![](-/3.png) [Traversing](frameworks/jquery/traversing/README.md)
-    - ![](-/3.png) [Callbacks](frameworks/jquery/callbacks/README.md) -> _**TODO**: Check_
-    - ![](-/4.png) [Deferred Object](frameworks/jquery/deferred/README.md) -> _**TODO**: Check_
-    - ![](-/2.png) Ajax -> _**TODO**: Check_
-    - ![](-/2.png) NoConflict -> _**TODO**: Check_
-    - ![](-/3.png) [Custom Plugin](frameworks/jquery/examples/jq-rotatable.html)
-    - ![](-/2.png) [UNCATEGORIZED](frameworks/jquery/uncategorized/README.md)
+    - [Values](frameworks/jquery/values/README.md)
+    - [Attributes](frameworks/jquery/attributes/README.md)
+    - [QuerySelector](frameworks/jquery/selector/README.md)
+    - [Events](frameworks/jquery/events/README.md)
+    - [Effects](frameworks/jquery/effects/README.md)
+    - [Manipulations](frameworks/jquery/manipulations/README.md)
+    - [Collection](frameworks/jquery/collection/README.md)
+    - [Form](frameworks/jquery/form/README.md)
+    - [Traversing](frameworks/jquery/traversing/README.md)
+    - [Callbacks](frameworks/jquery/callbacks/README.md) -> _**TODO**: Check_
+    - [Deferred Object](frameworks/jquery/deferred/README.md) -> _**TODO**: Check_
+    - Ajax -> _**TODO**: Check_
+    - NoConflict -> _**TODO**: Check_
+    - [Custom Plugin](frameworks/jquery/examples/jq-rotatable.html)
+    - [UNCATEGORIZED](frameworks/jquery/uncategorized/README.md)
 - JQ UI
     - [Intractions](frameworks/jquery/ui/intractions/README.md)
 - JQ Mobile

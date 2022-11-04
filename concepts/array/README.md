@@ -1,41 +1,29 @@
 # Javascript
 ## Array
-- Dimensions of array
-- Iterate over array
+- ![](../../-/1.png) Dimensions of array
+- ![](../../-/1.png) Iterate over array
 - Behaviors
-    - Access
-    - Change
+    - ![](../../-/1.png) Access
+    - ![](../../-/1.png) Change
 - Methods
-    - `.filter()`
-        - `array.filter((x) => x>X)`
-        - [Example of auto complete with `.filter()`](js-array-filter-example.html) 
-        - [Question](js-array-filter-question.html) , [Answer](js-array-filter-answer.html)
-    - `.forEach()`
-        - `array.forEach((x) => console.log(x))`
-        - [Example of create object using `template` and `.forEach()`](js-array-foreach-example.html)
-        - [Question](js-array-foreach-question.html), [Answer](js-array-foreach-answer.html)
-    - `.map()`
-        - `array.map((x) => x*2)`
-        - [Example of update values using `.map()`](js-array-map-example.html)
-        - [Question](js-array-map-question.html), [Answer](js-array-map-answer.html)
-    - `.reduce()`
-        - `array.reduce((X,x) => X+x)`
-        - [Example of summation using `.reduce()`](js-array-reduce-example.html)
-        - [Question](js-array-reduce-question.html), [Answer](js-array-reduce-answer.html)
-    - `.reduceRight()`
-    - `.includes()`
-    - `.find()`, `findIndex()`
-    - `.indexOf()`, `lastIndexOf()`
-    - `.push()`, `pop()`
-    - `.unshift()`, `shift()`
-    - `.every()`, `some()`
-    - `.entries()`, `keys()`, `valueOf()`
-    - `.from()`
-    - `.reverse()`
-    - `.sort()`
-    - `.concat()`
-    - `.join()`
-    - `.fill()`
-    - `.toString()`
-    - `.slice()`, `.splice()`
-    - `.copyWithin()`
+    - ![](../../-/2.png) [`.filter()`](js-array-filter-example.html) 
+    - ![](../../-/1.png) [`.forEach()`](js-array-foreach-example.html)
+    - ![](../../-/2.png) [`.map()`](js-array-map-example.html)
+    - ![](../../-/3.png) [`.reduce()`](js-array-reduce-example.html)
+    - ![](../../-/2.png) `.reduceRight()`
+    - ![](../../-/1.png) `.includes()`
+    - ![](../../-/1.png) `.find()`, `findIndex()`
+    - ![](../../-/1.png) `.indexOf()`, `lastIndexOf()`
+    - ![](../../-/1.png) `.push()`, `pop()`
+    - ![](../../-/1.png) `.unshift()`, `shift()`
+    - ![](../../-/2.png) `.every()`, `some()`
+    - ![](../../-/2.png) `.entries()`, `keys()`, `valueOf()`
+    - ![](../../-/2.png) `.from()`
+    - ![](../../-/1.png) `.reverse()`
+    - ![](../../-/2.png) `.sort()`
+    - ![](../../-/2.png) `.concat()`
+    - ![](../../-/2.png) `.join()`
+    - ![](../../-/2.png) `.fill()`
+    - ![](../../-/1.png) `.toString()`
+    - ![](../../-/2.png) `.slice()`, `.splice()`
+    - ![](../../-/3.png) `.copyWithin()`
