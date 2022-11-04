@@ -14,8 +14,8 @@
     - ![](../../-/2.png) [`.filter()`](js-array-filter-example.html) 
     - ![](../../-/1.png) [`.forEach()`](js-array-foreach-example.html)
     - ![](../../-/2.png) [`.map()`](js-array-map-example.html)
-    - ![](../../-/3.png) [`.reduce()`](js-array-reduce-example.html)
-    - ![](../../-/2.png) `.reduceRight()`
+    - ![](../../-/4.png) [`.reduce()`](js-array-reduce-example.html)
+    - ![](../../-/4.png) `.reduceRight()`
     - ![](../../-/1.png) `.includes()`
     - ![](../../-/1.png) `.find()`, `findIndex()`
     - ![](../../-/1.png) `.indexOf()`, `lastIndexOf()`
