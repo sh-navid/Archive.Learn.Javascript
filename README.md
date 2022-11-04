@@ -57,7 +57,7 @@
 - Socket.IO
 - ServerSideRendering (SSR) - EJS
 - GraphQL
-- SQLite, Sequelize
+- ORM, Sequelize, Prisma
 - Commander
 - PDF Conversion
 - Multi File Uploader
