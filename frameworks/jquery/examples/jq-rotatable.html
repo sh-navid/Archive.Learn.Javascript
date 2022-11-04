@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        .rotatable {
+
+            position: relative;
+            left: 7em;
+            top: 7em;
+            width: 7em;
+            line-height: 7em;
+            border: 1px solid black;
+            text-align: center;
+            user-select: none;
+        }
+
+        .anchor {
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 1em;
+            height: 1em;
+            border: 1px solid black;
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rotatable">
+        <span>Rotatable</span>
+        <div class="anchor">
+        </div>
+    </div>
+
+    <div class="rotatable">
+        <span>Rotatable</span>
+        <div class="anchor">
+        </div>
+    </div>
+    <script>
+        $.fn.rotatable = function () {
+            isRotating = false;
+            degree = 0
+            x = 0
+            element=this;
+
+            $(this).find(".anchor").mousedown((e) => {
+                isRotating = true;
+                x = e.pageX
+            })
+
+            $(document).mouseup((e) => {
+                isRotating = false;
+            })
+
+            $(document).mousemove((e) => {
+                $(this).find("span").text(isRotating ? "rotating" : "not rotating")
+                if (isRotating) {
+                    d = x - e.pageX
+                    degree += d
+                    x = e.pageX
+                }
+                $(this).css({ 'transform': `rotate(${degree}deg)` })
+            })
+        }
+
+        $(".rotatable").rotatable()
+    </script>
+</body>
+
+</html>
