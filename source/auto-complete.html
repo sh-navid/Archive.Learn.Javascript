@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <p>Type to check this example of auto complete</p>
+    <p>You can type something like "hat" or "happy"</p>
+    <input type="text" />
+    <div></div>
+    <script>
+        i = document.querySelector("input[type=text]")
+        d = document.querySelector("div")
+
+        arr = ["hi", "head", "happen", "hello", "how", "hat", "hack", "hammer", "house", "hand", "happy", "home", "horse"]
+
+        i.addEventListener("input", (e) => {
+            d.innerText = arr.filter((x) => x.startsWith(i.value))
+        })
+    </script>
+</body>
+
+</html>
