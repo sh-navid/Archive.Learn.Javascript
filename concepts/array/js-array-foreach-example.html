@@ -7,29 +7,12 @@
 </head>
 
 <body>
-    <div>
-    </div>
-    <template>
-        <div>
-            <p></p>
-            <input type="button" value="REMOVE" onclick="removeThis(this)" />
-        </div>
-    </template>
     <script>
-        d = document.querySelector("div")
-        t = document.querySelector("template")
+        A = [1, 2, 3, 4, 5]
 
-        A = ["User1", "User2", "User3"]
-
-        A.forEach(user => {
-            d.innerHTML = t.innerHTML + d.innerHTML
-            p = d.querySelector("p")
-            p.innerHTML = user
+        A.forEach(a => {
+            console.log(a)
         });
-
-        const removeThis=(el)=>{
-            el.parentNode.parentNode.removeChild(el.parentNode)
-        }
     </script>
 </body>
 
