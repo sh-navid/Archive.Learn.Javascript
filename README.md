@@ -14,6 +14,7 @@
 - [Map](concepts/map/README.md)
 - Regex
 - [Window](concepts/window/README.md)
+- SVG
 
 ## JQ Headings
 - JQ
@@ -95,6 +96,7 @@
 ## Progressive Web App (PWA)
 - Introduction
 - [Good to know](more/pwa/good-to-know/README.md)
+
 
 ## SEO
 - Static
