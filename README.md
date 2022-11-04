@@ -7,15 +7,15 @@
 
 ## JS Headings
 - ![](-/i.png) [Array](concepts/array/README.md)
-- [Class](concepts/class/README.md)
-- [Order](concepts/order/README.md)
+- ![](-/i.png) [Class](concepts/class/README.md)
+- ![](-/i.png) [Order](concepts/order/README.md)
 - [Events](concepts/events/README.md)
 - [Async](concepts/async/README.md)
-- [JSON](concepts/json/README.md)
+- ![](-/i.png) [JSON](concepts/json/README.md)
 - [Strict Mode](concepts/strict/README.md)
 - [Keywords](concepts/keywords/README.md)
 - [Hoisting](concepts/hoisting/README.md)
-- [Map](concepts/map/README.md)
+- ![](-/i.png) [Map](concepts/map/README.md)
 - Regex
 - [Window](concepts/window/README.md)
 - SVG
