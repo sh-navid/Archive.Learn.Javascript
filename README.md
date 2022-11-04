@@ -119,7 +119,7 @@
 - [Slider 3 JQ](frameworks/jquery/examples/jq-slider-3.html)
 - [Rotate JQ](frameworks/jquery/examples/jq-rotate.html)
 - [Rotatable Plugin JQ](frameworks/jquery/examples/jq-rotatable.html) [ ] FIXME: cannot work independently on each element
-- [Auto complete](source/auto-complete.html)
+- [Auto complete JS](source/auto-complete.html)
 - [Block Game](concepts/array/js-example-block-game.html)
     - TODO:
         - [ ] How to make a Progressive Web App (PWA) from this project?
