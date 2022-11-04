@@ -1,12 +1,15 @@
 # Javascript
 ## Array
-- ![](../../-/1.png) Dimensions of array
-- ![](../../-/1.png) Iterate over array
 - Behaviors
     - ![](../../-/1.png) Access
         > How to access an item in array?
     - ![](../../-/1.png) Change
         > How to change an item in array?
+    - ![](../../-/1.png) Iterate over array
+        > How to loop over and read each indivisual in array?
+- Other
+    - ![](../../-/1.png) Dimensions of array
+        > How to make and access to a multi dimensional array?
 - Methods
     - ![](../../-/2.png) [`.filter()`](js-array-filter-example.html) 
     - ![](../../-/1.png) [`.forEach()`](js-array-foreach-example.html)
