@@ -30,25 +30,27 @@
 </head>
 
 <body>
-    <div class="rotatable">
+    <div class="rotatable r1">
         <span>Rotatable</span>
         <div class="anchor">
         </div>
     </div>
 
-    <div class="rotatable">
+    <div class="rotatable r2">
         <span>Rotatable</span>
         <div class="anchor">
         </div>
     </div>
     <script>
+
         $.fn.rotatable = function () {
             isRotating = false;
             degree = 0
             x = 0
-            element=this;
+            self = this
 
-            $(this).find(".anchor").mousedown((e) => {
+
+            $(self).find(".anchor").mousedown((e) => {
                 isRotating = true;
                 x = e.pageX
             })
@@ -58,17 +60,19 @@
             })
 
             $(document).mousemove((e) => {
-                $(this).find("span").text(isRotating ? "rotating" : "not rotating")
+                $(self).find("span").text(isRotating ? "rotating" : "not rotating")
                 if (isRotating) {
                     d = x - e.pageX
                     degree += d
                     x = e.pageX
                 }
-                $(this).css({ 'transform': `rotate(${degree}deg)` })
+                $(self).css({ 'transform': `rotate(${degree}deg)` })
             })
+
+            return this;//To be able to be chanable
         }
 
-        $(".rotatable").rotatable()
+        $(".r1,.r2").rotatable()
     </script>
 </body>
 
