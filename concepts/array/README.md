@@ -2,24 +2,25 @@
 ## Array
 - Behaviors
     - ![](../../-/1.png) Access
-        > How to access an item in array?
+        > How to access an item in array ?
     - ![](../../-/1.png) Change
-        > How to change an item in array?
+        > How to change an item in array ?
     - ![](../../-/1.png) Iterate over array
-        > How to loop over and read each indivisual in array?
+        > How to loop over and read each indivisual in array ?
 - Other
     - ![](../../-/1.png) Dimensions of array
-        > How to make and access to a multi dimensional array?
+        > How to make and access to a multi dimensional array ?
 - Methods
     - ![](../../-/2.png) [`.filter()`](js-array-filter-example.html)
-        > How to get array items with condition 
+        > How to get array items with condition ? 
     - ![](../../-/1.png) [`.forEach()`](js-array-foreach-example.html)
-        > How to iterate over array items?
+        > How to iterate over array items ?
     - ![](../../-/2.png) [`.map()`](js-array-map-example.html)
-        > How to change every item in an array?
+        > How to change every item in an array ?
     - ![](../../-/4.png) [`.reduce()`](js-array-reduce-example.html)
-        > How to reduce multiple values to one value?
-    - ![](../../-/4.png) `.reduceRight()`
+        > How to reduce multiple values to one value ?
+    - ![](../../-/4.png) [`.reduceRight()`](js-array-reduce-example.html)
+        > How to reduce multiple values to one value ?
     - ![](../../-/1.png) `.includes()`
     - ![](../../-/1.png) `.find()`, `findIndex()`
     - ![](../../-/1.png) `.indexOf()`, `lastIndexOf()`
