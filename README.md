@@ -96,6 +96,12 @@
 - Introduction
 - [Good to know](more/pwa/good-to-know/README.md)
 
+## SEO
+- Static
+- Dynamic
+
+
+
 ![](assets/spacer.png)
 
 
