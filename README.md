@@ -109,6 +109,7 @@
 - [Slider 1 JQ](frameworks/jquery/examples/jq-slider.html)
 - [Slider 2 JQ](frameworks/jquery/examples/jq-slider-2.html)
 - [Slider 3 JQ](frameworks/jquery/examples/jq-slider-3.html)
+- [Rotate JQ](frameworks/jquery/examples/jq-rotate.html)
 - [Block Game](concepts/array/js-example-block-game.html)
     - TODO:
         - [ ] How to make a Progressive Web App (PWA) from this project?
