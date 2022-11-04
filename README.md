@@ -32,7 +32,7 @@
     - [x] [Form](frameworks/jquery/form/README.md)
     - [x] [Traversing](frameworks/jquery/traversing/README.md)
     - [ ] Callbacks -> _**TODO**: Check_
-    - [ ] Deferred -> _**TODO**: Check_
+    - [ ] [Deferred Object](frameworks/jquery/deferred/README.md)
     - [ ] Core -> _**TODO**: Check_
     - [ ] Ajax -> _**TODO**: Check_
     - [ ] NoConflict -> _**TODO**: Check_
