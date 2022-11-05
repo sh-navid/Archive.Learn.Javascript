@@ -11,6 +11,7 @@
         - ![](-/2.png) Medium
         - ![](-/3.png) Hard
         - ![](-/4.png) Advanced
+        - ![](-/x.png) Deprecated (No need to learn)
 
 ## JS Headings
 - <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>

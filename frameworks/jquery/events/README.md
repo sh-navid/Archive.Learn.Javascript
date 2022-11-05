@@ -2,67 +2,74 @@
 ## Events
 - Event on DOM
     - [Focus](jq-focus.html)
-        - `.focusin()`
-            - `.focus()` + _Event or Trigger_
-        - `.focusout()`
-            - `.blur()` + _Event or Trigger_
-    - [Click](jq-click.html)
-        - ~~`.toggle()`~~
-        - `.click()`
-        - `.dblclick()`
-    - [Form](jq-form.html)
-        - `.submit()`
+        - ![](../../../-/2.png) `.focusin()`
+            - ![](../../../-/1.png) `.focus()`
+                > _Event or Trigger_
+        - ![](../../../-/2.png) `.focusout()`
+            - ![](../../../-/1.png) `.blur()`
+                > _Event or Trigger_
+    - Click
+        - ![](../../../-/1.png) [`.click()`](jq-click.html)
+        - ![](../../../-/1.png) [`.dblclick()`](jq-click.html)
+    - Form
+        - ![](../../../-/2.png) [`.submit()`](jq-form.html)
     - Bind
-        - [**`.on("event",()=>{})`**](jq-bind-on.html)
-        - [**`.off("event")`**](jq-bind-off.html)
-            - `.off()`
-                - _To remove all events_
-        - [**`.one()`**](jq-bind-one.html)
-        - ~~`.bind()`, `.unbind()`~~
-    - [Edit](jq-edit.html)
-        - **`on("input",(e) => {})`**
-        - **`.change()`**
-        - `.select()`
-    - [Keyboard](jq-keyboard.html)
-        - `.keydown()`
-        - `.keyup()`
-        - `.keypress()`
-    - [Mouse](jq-mouse.html)
-        - `.mouseleave()`
-        - `.mousedown()`
-        - `.mouseenter()`
-        - `.mousemove()`
-        - `.mouseout()`
-        - `.mouseover()`
-        - `.mouseup()`
-        - [`.hover()`](jq-hover.html)
+        - ![](../../../-/1.png) [`.on("event",()=>{})`](jq-bind-on.html)
+        - ![](../../../-/1.png) [`.off("event")`](jq-bind-off.html)
+            > To remove and turn off one event
+            - ![](../../../-/2.png) `.off()`
+                > _To remove all events_
+        - ![](../../../-/2.png) [`.one()`](jq-bind-one.html)
+        - ![](../../../-/x.png) ~~`.bind()`~~
+        - ![](../../../-/x.png) ~~`.unbind()`~~
+    - Edit
+        - ![](../../../-/1.png) [`.on("input",(e) => {})`](jq-edit.html)
+        - ![](../../../-/2.png) [`.change()`](jq-edit.html)
+        - ![](../../../-/2.png) [`.select()`](jq-edit.html)
+    - Keyboard
+        - ![](../../../-/1.png) [`.keydown()`](jq-keyboard.html)
+        - ![](../../../-/1.png) [`.keyup()`](jq-keyboard.html)
+        - ![](../../../-/1.png) [`.keypress()`](jq-keyboard.html)
+    - Mouse
+        - ![](../../../-/2.png) [`.mouseleave()`](jq-mouse.html)
+        - ![](../../../-/1.png) [`.mousedown()`](jq-mouse.html)
+        - ![](../../../-/2.png) [`.mouseenter()`](jq-mouse.html)
+        - ![](../../../-/1.png) [`.mousemove()`](jq-mouse.html)
+        - ![](../../../-/2.png) [`.mouseout()`](jq-mouse.html)
+        - ![](../../../-/2.png) [`.mouseover()`](jq-mouse.html)
+        - ![](../../../-/1.png) [`.mouseup()`](jq-mouse.html)
+        - ![](../../../-/2.png) [`.hover()`](jq-hover.html)
     - Window
-        - [**`$(window).resize()`**](jq-resize.html)
-            - $(window).width()
-            - $(window).height()
+        - ![](../../../-/1.png) [`$(window).resize()`](jq-resize.html)
+            - ![](../../../-/2.png) [`$(window).width()`](jq-resize.html)
+            - ![](../../../-/2.png) [`$(window).height()`](jq-resize.html)
     - Other
-        - [`.scroll()`](jq-scroll.html)
-            - `.scrollTop()` _Getter or Setter_
-        - [**`.ready()`**](jq-ready.html)
-        - [**`.trigger()`**](jq-trigger.html) 
-            - _To invoke an event manually_
-            - [`.triggerHandler()`](jq-trigger-handler.html)
-                - _Same as trigger without bubbling the DOM; Works on the first element_
-            - [Trigger keyboard keys manually](jq-trigger-keyboard-key.html)
+        - ![](../../../-/2.png) [`.scroll()`](jq-scroll.html)
+            - ![](../../../-/2.png) `.scrollTop()`
+                > _Getter or Setter_
+        - ![](../../../-/1.png) [`.ready()`](jq-ready.html)
+        - ![](../../../-/2.png) [`.trigger()`](jq-trigger.html) 
+            > _To invoke an event manually_
+            - ![](../../../-/2.png) [`.triggerHandler()`](jq-trigger-handler.html)
+                > _Same as trigger without bubbling the DOM; Works on the first element_
+            - ![](../../../-/2.png) [Trigger keyboard keys manually](jq-trigger-keyboard-key.html)
     - Deprecated
-        - ~~`.live()`, `.die()`~~
-        - ~~`.load()`, `.unload()`~~
-        - ~~`.delegate()`, `.undelegate()`~~
+        - ![](../../../-/x.png) ~~`.live()`~~
+        - ![](../../../-/x.png) ~~`.die()`~~
+        - ![](../../../-/x.png) ~~`.load()`~~
+        - ![](../../../-/x.png) ~~`.unload()`~~
+        - ![](../../../-/x.png) ~~`.delegate()`,~~
+        - ![](../../../-/x.png) ~~`.undelegate()`~~
 - Event Object
     - Methods
-        - [`e.preventDefault()`](jq-prevent-default.html)
+        - ![](../../../-/2.png) [`e.preventDefault()`](jq-prevent-default.html)
             - `e.isDefaultPrevented()`
-        - [`e.stopPropagation()`](jq-stop-propagation.html)
-            - _Stop bubbling up the same event_
-            - `e.isPropagationStopped()`
-        - [`e.stopImmediatePropagation()`](jq-stop-immediate-propagation.html)
-            - _Like `e.stopPropagation()` but disables all other scopes of the same event_
-            - `e.isImmediatePropagationStopped()`
+        - ![](../../../-/3.png) [`e.stopPropagation()`](jq-stop-propagation.html)
+            > _Stop bubbling up the same event_
+            - ![](../../../-/3.png) `e.isPropagationStopped()`
+        - ![](../../../-/4.png) [`e.stopImmediatePropagation()`](jq-stop-immediate-propagation.html)
+            > _Like `e.stopPropagation()` but disables all other scopes of the same event_
+            - ![](../../../-/4.png) `e.isImmediatePropagationStopped()`
     - Properties
         - Target
             - [`e.target`](jq-edit.html)
