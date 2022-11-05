@@ -53,7 +53,7 @@
     - ![](-/f.png) [CSS](frameworks/jquery/css/README.md)
     - ![](-/f.png) [Values](frameworks/jquery/values/README.md)
     - ![](-/f.png) [Attributes](frameworks/jquery/attributes/README.md)
-    - ![](-/i.png) [QuerySelector](frameworks/jquery/selector/README.md)
+    - ![](-/f.png) [QuerySelector](frameworks/jquery/selector/README.md)
     - ![](-/i.png) [Events](frameworks/jquery/events/README.md)
     - ![](-/i.png) [Effects](frameworks/jquery/effects/README.md)
     - ![](-/i.png) [Manipulations](frameworks/jquery/manipulations/README.md)

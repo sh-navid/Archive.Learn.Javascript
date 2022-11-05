@@ -61,38 +61,38 @@
         - ![](../../../-/2.png) [`input[type=time]`](jq-form-access-other-inputs.html)
         - ![](../../../-/2.png) [`input[type=url]`](jq-form-access-other-inputs.html)
 - State
-    - [`:checked`](js-state-checked.html)
+    - ![](../../../-/2.png) [`:checked`](js-state-checked.html)
         - Checkbox
         - RadioButton
         - Select
-    - [`:disabled`](js-state-general.html)
-    - [`:enabled`](js-state-general.html)
-    - [`:selected`](js-state-general.html)
-    - `:focus`
-    - [`:visible`](js-state-general.html)
-    - [`:hidden`](js-state-general.html)
+    - ![](../../../-/2.png) [`:disabled`](js-state-general.html)
+    - ![](../../../-/2.png) [`:enabled`](js-state-general.html)
+    - ![](../../../-/2.png) [`:selected`](js-state-general.html)
+    - ![](../../../-/2.png) `:focus`
+    - ![](../../../-/2.png) [`:visible`](js-state-general.html)
+    - ![](../../../-/2.png) [`:hidden`](js-state-general.html)
 - [Contains](jq-contains-text.html)
     - `:contains('text')`
-        - _Search a text_
+        > _Search a text_
     - `:empty`
-        - _Without a text_
+        > _Without a text_
 - Select
-    - [`:even`](jq-select-mixture.html)
-    - [`:odd`](jq-select-mixture.html)
-    - [`:first-child`](jq-select-first-last-child.html), [`:first`](jq-select-first-last.html), [`.first()`](jq-method-first-last.eq.html)
-    - [`:last-child`](jq-select-first-last-child.html), [`:last`](jq-select-first-last.html), [`.last()`](jq-method-first-last.eq.html)
-    - [`:has()`](jq-select-has.html)
-    - [`:not()`](jq-select-not.html)
+    - ![](../../../-/1.png) [`:even`](jq-select-mixture.html)
+    - ![](../../../-/1.png) [`:odd`](jq-select-mixture.html)
+    - ![](../../../-/1.png) [`:first-child`](jq-select-first-last-child.html), [`:first`](jq-select-first-last.html), [`.first()`](jq-method-first-last.eq.html)
+    - ![](../../../-/1.png) [`:last-child`](jq-select-first-last-child.html), [`:last`](jq-select-first-last.html), [`.last()`](jq-method-first-last.eq.html)
+    - ![](../../../-/2.png) [`:has()`](jq-select-has.html)
+    - ![](../../../-/2.png) [`:not()`](jq-select-not.html)
     - By Index
-        - [`:eq()`](jq-select-index-eq.html), [`.eq()`](jq-method-first-last.eq.html)
-            - _Starts from zero_
-            - _Can get negative number_
-        - [`:nth-child()`](jq-select-nth-child.html)
-            - _Starts from one_
-        - [`:nth-last-child()`](jq-select-nth-last-child.html)
-        - [`:only-child`](jq-select-only-child.html)
-        - [`:lt()`](jq-select-lt.html)
-        - [`:gt()`](jq-select-gt.html)
+        - ![](../../../-/1.png) [`:eq()`](jq-select-index-eq.html), [`.eq()`](jq-method-first-last.eq.html)
+            > _Starts from zero_  
+            > _Can get negative number_
+        - ![](../../../-/1.png) [`:nth-child()`](jq-select-nth-child.html)
+            > _Starts from one_
+        - ![](../../../-/2.png) [`:nth-last-child()`](jq-select-nth-last-child.html)
+        - ![](../../../-/2.png) [`:only-child`](jq-select-only-child.html)
+        - ![](../../../-/2.png) [`:lt()`](jq-select-lt.html)
+        - ![](../../../-/2.png) [`:gt()`](jq-select-gt.html)
     - Of Type
         - `:first-of-type`      [ ] TODO: Check
         - `:nth-of-type()`      [ ] TODO: Check
