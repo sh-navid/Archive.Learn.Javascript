@@ -2,7 +2,7 @@
 ## Array
 - Properties
     - ![](../../-/3.png) `.prototype`
-    - ![](../../-/1.png) `.length`
+    - ![](../../-/1.png) [`.length`](js-array-length.js)
 - Behaviors
     - ![](../../-/1.png) Access
         > How to access an item in array ?
@@ -27,7 +27,7 @@
             > Imagine something like **Auto Complete**
         - ![](../../-/2.png) `.every()`
             > Check if all items of array have the same condition
-        - ![](../../-/2.png) `some()`
+        - ![](../../-/2.png) `.some()`
             > Check if at least one item of array has a condition
     - ![](../../-/1.png) [`.forEach()`](js-array-foreach-example.html)
         > How to iterate over array items ?
