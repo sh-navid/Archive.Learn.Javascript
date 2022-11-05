@@ -82,6 +82,7 @@
     - Slicing
         - ![](../../-/2.png) `.slice()`
         - ![](../../-/2.png) `.splice()`
-    - ![](../../-/3.png) `.copyWithin()`
+    - ![](../../-/3.png) [`.copyWithin()`](js-array-copy-within.js)
+        > The copyWithin() method shallow copies part of an array to another location in the same array and returns it without modifying its length. <small>***<sup>[[Mozilla Developer 11/05/2022](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin)]<sup>***</small>
     - ![](../../-/2.png) [`.fill()`](js-array-fill.js)
         > To fill array with specific value
