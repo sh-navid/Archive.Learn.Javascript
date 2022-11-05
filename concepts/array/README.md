@@ -1,7 +1,7 @@
 # Javascript
 ## Array
 - Properties
-    - ![](../../-/3.png) `.prototype`
+    - ![](../../-/3.png) [`.prototype`](js-array-prototype.js)
     - ![](../../-/1.png) [`.length`](js-array-length.js)
 - Behaviors
     - ![](../../-/1.png) Access
