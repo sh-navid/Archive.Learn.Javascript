@@ -14,6 +14,7 @@
 ## JS Headings
 - ![](-/i.png) [Syntax](concepts/syntax/README.md)
 - ![](-/i.png) [Output](concepts/output/README.md)
+- ![](-/i.png) [Operators](concepts/operators/README.md)
 - ![](-/i.png) [DataTypes](concepts/datatypes/README.md)
     - ![](-/n.png) [String](concepts/string/README.md)
     - ![](-/i.png) ![](-/d.png) ![](-/e.png) [Array](concepts/array/README.md)
