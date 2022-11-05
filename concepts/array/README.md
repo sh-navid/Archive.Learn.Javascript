@@ -47,5 +47,6 @@
     - ![](../../-/2.png) `.join()`
     - ![](../../-/2.png) `.fill()`
     - ![](../../-/1.png) `.toString()`
+        > Convert array to string
     - ![](../../-/2.png) `.slice()`, `.splice()`
     - ![](../../-/3.png) `.copyWithin()`
