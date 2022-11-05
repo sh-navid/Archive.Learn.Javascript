@@ -3,10 +3,10 @@
 - Event on DOM
     - [Focus](jq-focus.html)
         - ![](../../../-/2.png) `.focusin()`
-            - ![](../../../-/1.png) `.focus()`
+            - ![](../../../-/2.png) `.focus()`
                 > _Event or Trigger_
         - ![](../../../-/2.png) `.focusout()`
-            - ![](../../../-/1.png) `.blur()`
+            - ![](../../../-/2.png) `.blur()`
                 > _Event or Trigger_
     - Click
         - ![](../../../-/1.png) [`.click()`](jq-click.html)
