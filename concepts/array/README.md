@@ -1,6 +1,6 @@
 # Javascript
 ## Array
-Properties
+- Properties
     - ![](../../-/3.png) `.prototype`
     - ![](../../-/1.png) `.length`
 - Behaviors
