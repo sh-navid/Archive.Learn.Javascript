@@ -1,17 +1,16 @@
 # JS Instructor
 ***Disclaimer: The content of this repository is provided only for the purpose of teaching students and with an educational perspective.***
 - Symbols
-| A | B |
-|-|-|
-    - ![](-/i.png) Completed Concept
-    - ![](-/n.png) Not Completed Yet
-    - ![](-/d.png) Level + Documented
-    - ![](-/e.png) With Examples
-    ---
-    - ![](-/1.png) Basic
-    - ![](-/2.png) Medium
-    - ![](-/3.png) Hard
-    - ![](-/4.png) Advanced
+    - Headings
+        - ![](-/i.png) Completed Concept
+        - ![](-/n.png) Not Completed Yet
+        - ![](-/d.png) Level + Documented
+        - ![](-/e.png) With Examples
+    - Concepts
+        - ![](-/1.png) Basic
+        - ![](-/2.png) Medium
+        - ![](-/3.png) Hard
+        - ![](-/4.png) Advanced
 
 ## JS Headings
 - <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
