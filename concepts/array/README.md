@@ -37,7 +37,7 @@
         > How to reduce multiple values to one value ?
     - ![](../../-/4.png) [`.reduceRight()`](js-array-reduce-example.html)
         > How to reduce multiple values to one value ?
-    - ![](../../-/1.png) `.includes()`
+    - ![](../../-/1.png) [`.includes()`](js-array-includes.html)
         > Check if something exists in array
     - ![](../../-/1.png) `.find()`, `findIndex()`
         > Search in array
