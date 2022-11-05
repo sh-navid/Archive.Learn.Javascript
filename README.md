@@ -18,6 +18,7 @@
 - ![](-/i.png) [DataTypes](concepts/datatypes/README.md)
     - ![](-/n.png) [String](concepts/string/README.md)
     - ![](-/i.png) ![](-/d.png) ![](-/e.png) [Array](concepts/array/README.md)
+- ![](-/i.png) [Function](concepts/function/README.md)
 - ![](-/i.png) [Class](concepts/class/README.md)
 - ![](-/i.png) [Order](concepts/order/README.md)
 - ![](-/n.png) [Events](concepts/events/README.md)
