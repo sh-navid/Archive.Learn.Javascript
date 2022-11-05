@@ -1,9 +1,16 @@
 # JS Instructor
 ***Disclaimer: The content of this repository is provided only for the purpose of teaching students and with an educational perspective.***
 - Symbols
-    - ![](-/i.png) Included keywords, methods, ...
+    - ![](-/i.png) Completed Concept
+    - ![](-/n.png) Not Completed Yet
     - ![](-/d.png) Documented
-    - ![](-/e.png) Have complete examples
+    - ![](-/e.png) With Examples
+    ---
+    - ![](-/1.png) Basic
+    - ![](-/2.png) Medium
+    - ![](-/3.png) Hard
+    - ![](-/4.png) Advanced
+    
 
 ## JS Headings
 - ![](-/i.png) [Array](concepts/array/README.md)
@@ -21,8 +28,7 @@
 - SVG
 
 ## JQ Headings
-- JQ
-    - [ ] FIXME: Check if each item is in TRUE category
+- JQ <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
     - [x] [Introduction](frameworks/jquery/introduction/README.md)
     - [x] [Output](frameworks/jquery/echo/README.md) ***MAKE EXAMPLES***
     - [x] [Class](frameworks/jquery/class/README.md)
