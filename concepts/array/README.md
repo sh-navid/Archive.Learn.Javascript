@@ -18,7 +18,7 @@
         - ![](../../-/1.png) [`for` + `of`](js-for-of.js)
         - ![](../../-/1.png) [`.forEach()`](js-for-each.js)
 - Other
-    - ![](../../-/1.png) Make array
+    - Make array
         > How to make a new array ?
         - ![](../../-/1.png) Using [`[]`](js-array-access.js)
         - ![](../../-/2.png) Using [`new Array()`](js-array-new.js)
@@ -55,10 +55,14 @@
             > Returns the index of last founded value
     - Add / Remove
         > Add item in array, Remove item from array
-        - ![](../../-/1.png) `.push()`
-        - ![](../../-/1.png) `.pop()`
-        - ![](../../-/1.png) `.unshift()`
-        - ![](../../-/1.png) `.shift()`
+        - ![](../../-/1.png) [`.push()`](js-array-push.js)
+            > Add item to end of array
+        - ![](../../-/1.png) [`.pop()`](js-array-push.js)
+            > Remove item from end of array
+        - ![](../../-/1.png) [`.unshift()`](js-array-shift.js)
+            > Add item to start of array
+        - ![](../../-/1.png) [`.shift()`](js-array-shift.js)
+            > Remove item from start of array
     - ![](../../-/2.png) `.entries()`, `keys()`, `valueOf()`
         > Get values or indices of an array
     - ![](../../-/2.png) `.from()`
