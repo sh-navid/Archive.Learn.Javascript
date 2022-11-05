@@ -34,9 +34,9 @@
     - ![](../../-/1.png) `.indexOf()`, `lastIndexOf()`
         > Search in array
     - ![](../../-/1.png) `.push()`, `pop()`
-        > Put item into array, Remove item from array
+        > Add item in array, Remove item from array
     - ![](../../-/1.png) `.unshift()`, `shift()`
-        > Put item into array, Remove item from array
+        > Add item in array, Remove item from array
     - ![](../../-/2.png) `.entries()`, `keys()`, `valueOf()`
     - ![](../../-/2.png) `.from()`
     - ![](../../-/1.png) `.reverse()`
