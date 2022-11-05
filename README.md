@@ -62,7 +62,7 @@
     - ![](-/f.png) [Effects](frameworks/jquery/effects/README.md)
     - ![](-/f.png) [Manipulations](frameworks/jquery/manipulations/README.md)
     - ![](-/f.png) [Collection](frameworks/jquery/collection/README.md)
-    - ![](-/i.png) [Form](frameworks/jquery/form/README.md)
+    - ![](-/f.png) [Form](frameworks/jquery/form/README.md)
     - ![](-/i.png) [Traversing](frameworks/jquery/traversing/README.md)
     - ![](-/n.png) [Callbacks](frameworks/jquery/callbacks/README.md)
     - ![](-/n.png) [Deferred Object](frameworks/jquery/deferred/README.md)
