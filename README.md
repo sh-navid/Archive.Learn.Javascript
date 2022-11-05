@@ -28,7 +28,7 @@
 - ![](-/i.png) [Keywords](concepts/keywords/README.md)
 - ![](-/i.png) [Hoisting](concepts/hoisting/README.md)
 - ![](-/i.png) [Map](concepts/map/README.md)
-- ![](-/n.png) Regex
+- ![](-/n.png) [Regex](concepts/regex/README.md)
 - ![](-/n.png) [Dcocument](concepts/document/README.md)
 - ![](-/n.png) [Window](concepts/window/README.md)
 - ![](-/n.png) [SVG](documents/svg/README.md)
