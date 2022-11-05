@@ -30,7 +30,7 @@
 - ![](-/i.png) [Map](concepts/map/README.md)
 - ![](-/n.png) Regex
 - ![](-/n.png) [Window](concepts/window/README.md)
-- ![](-/n.png) SVG
+- ![](-/n.png) [SVG](concepts/document/svg/README.md)
 
 ## JQ Headings
 - JQ <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
