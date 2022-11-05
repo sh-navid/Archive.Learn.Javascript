@@ -13,8 +13,8 @@
 - Methods
     - Conditional
         - ![](../../-/2.png) [`.filter()`](js-array-filter-example.html)
-            > Get items with same condition from array 
-            >> Imagine something like **Auto Complete**
+            > Get items with same condition from array   
+            > Imagine something like **Auto Complete**
         - ![](../../-/2.png) `.every()`
             > Check if all items of array have the same condition
         - ![](../../-/2.png) `some()`
