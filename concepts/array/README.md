@@ -1,4 +1,8 @@
 # Javascript
+- How to run JS files directly with NodeJS and VScode?
+    - Download and install NodeJS.
+    - Download one of VSCode's Runner Extensions.
+    - Run `.js` file directly in VSCode by pressing `PLAY` button.
 ## Array
 - Properties
     - ![](../../-/3.png) [`.prototype`](js-array-prototype.js)
