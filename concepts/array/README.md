@@ -74,12 +74,14 @@
         - ![](../../-/3.png) [Custom Sort](js-array-custom-sort.js)
     - ![](../../-/2.png) [`.concat()`](js-array-concat.js)
         > Add array to array
-    - ![](../../-/2.png) [`.join()`](js-array-join.js)
-        > Make string from array by joining the items
-    - ![](../../-/2.png) `.fill()`
-    - ![](../../-/1.png) [`.toString()`](js-array-to-string.html)
-        > Convert array to string
+    - String
+        - ![](../../-/2.png) [`.join()`](js-array-join.js)
+            > Make string from array by joining the items
+        - ![](../../-/1.png) [`.toString()`](js-array-to-string.html)
+            > Convert array to string
     - Slicing
         - ![](../../-/2.png) `.slice()`
         - ![](../../-/2.png) `.splice()`
     - ![](../../-/3.png) `.copyWithin()`
+    - ![](../../-/2.png) [`.fill()`](js-array-fill.js)
+        > To fill array with specific value
