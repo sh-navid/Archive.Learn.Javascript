@@ -22,15 +22,20 @@
     - ![](../../-/4.png) [`.reduceRight()`](js-array-reduce-example.html)
         > How to reduce multiple values to one value ?
     - ![](../../-/1.png) `.includes()`
+        > Check if something exists in array
     - ![](../../-/1.png) `.find()`, `findIndex()`
+        > Search in array
     - ![](../../-/1.png) `.indexOf()`, `lastIndexOf()`
+        > Search in array
     - ![](../../-/1.png) `.push()`, `pop()`
     - ![](../../-/1.png) `.unshift()`, `shift()`
     - ![](../../-/2.png) `.every()`, `some()`
     - ![](../../-/2.png) `.entries()`, `keys()`, `valueOf()`
     - ![](../../-/2.png) `.from()`
     - ![](../../-/1.png) `.reverse()`
+        > `e.g. [1,2,3] => [3,2,1]`
     - ![](../../-/2.png) `.sort()`
+        > `e.g. [2,3,1] => [1,2,3]`
     - ![](../../-/2.png) `.concat()`
     - ![](../../-/2.png) `.join()`
     - ![](../../-/2.png) `.fill()`
