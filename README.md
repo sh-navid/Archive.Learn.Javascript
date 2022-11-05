@@ -46,10 +46,10 @@
 ## JQ Headings
 - JQ <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
     - ![](-/i.png) ![](-/d.png) ![](-/e.png) [Introduction](frameworks/jquery/introduction/README.md)
-    -  ![](-/i.png) ![](-/d.png) ![](-/e.png) [Output](frameworks/jquery/echo/README.md)
-    - ![](-/i.png) [Class](frameworks/jquery/class/README.md)
-    - ![](-/i.png) [CSS](frameworks/jquery/css/README.md)
-    - ![](-/i.png) [Values](frameworks/jquery/values/README.md)
+    - ![](-/i.png) ![](-/d.png) ![](-/e.png) [Output](frameworks/jquery/echo/README.md)
+    - ![](-/i.png) ![](-/d.png) ![](-/e.png) [Class](frameworks/jquery/class/README.md)
+    - ![](-/i.png) ![](-/d.png) ![](-/e.png) [CSS](frameworks/jquery/css/README.md)
+    - ![](-/i.png) ![](-/d.png) ![](-/e.png) [Values](frameworks/jquery/values/README.md)
     - ![](-/i.png) [Attributes](frameworks/jquery/attributes/README.md)
     - ![](-/i.png) [QuerySelector](frameworks/jquery/selector/README.md)
     - ![](-/i.png) [Events](frameworks/jquery/events/README.md)
