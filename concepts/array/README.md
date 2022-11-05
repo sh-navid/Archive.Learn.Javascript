@@ -45,10 +45,14 @@
         > Check if something exists in array
     - Search:
         > Search in array
-        - ![](../../-/1.png) `.find()`
-        - ![](../../-/1.png) `.findIndex()`
-        - ![](../../-/1.png) `.indexOf()`
-        - ![](../../-/1.png) `.lastIndexOf()`
+        - ![](../../-/1.png) [`.find()`](js-array-find.js)
+            > Returns first founded item
+        - ![](../../-/1.png) [`.findIndex()`](js-array-find-index.js)
+            > Its like `.find()` but returns index instead of value
+        - ![](../../-/1.png) [`.indexOf()`](js-array-index-of.js)
+            > Returns the index of first founded value
+        - ![](../../-/1.png) [`.lastIndexOf()`](js-array-index-of.js)
+            > Returns the index of last founded value
     - Add / Remove
         > Add item in array, Remove item from array
         - ![](../../-/1.png) `.push()`
