@@ -1,0 +1,12 @@
+# JS
+# Output
+- Console
+    - `.log()`
+    - `.warn()`
+    - `.error()`
+    - `.info()`
+- `document.write()`
+- `window.alert()`
+- `.innerText`
+- `.innerHTML`
+- Print
