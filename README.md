@@ -13,6 +13,9 @@
         - ![](-/4.png) Advanced
         - ![](-/x.png) Deprecated (No need to learn)
 
+## Web Roadmap
+- [ ] _**TODO:** Fix this later from another repository of yours_
+
 ## JS Headings
 - <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
 - ![](-/i.png) [Syntax](concepts/syntax/README.md)
@@ -38,13 +41,13 @@
 - ![](-/n.png) [Document](concepts/document/README.md)
 - ![](-/n.png) [Window](concepts/window/README.md)
 - ![](-/n.png) [SVG](documents/svg/README.md)
-- [DOM](documents/dom/README.md)
-- Random
-- Date
-- Math
-- HttpRequest, Ajax, Fetch
-- ES6
-- Canvas
+- ![](-/n.png) [DOM](documents/dom/README.md)
+- ![](-/n.png) Random
+- ![](-/n.png) Date
+- ![](-/n.png) Math
+- ![](-/n.png) HttpRequest, Ajax, Fetch
+- ![](-/n.png) ES6
+- ![](-/n.png) Canvas
 
 ## JQ Headings
 - JQ <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
@@ -57,8 +60,8 @@
     - ![](-/f.png) [QuerySelector](frameworks/jquery/selector/README.md)
     - ![](-/f.png) [Events](frameworks/jquery/events/README.md)
     - ![](-/f.png) [Effects](frameworks/jquery/effects/README.md)
-    - ![](-/i.png) [Manipulations](frameworks/jquery/manipulations/README.md)
-    - ![](-/i.png) [Collection](frameworks/jquery/collection/README.md)
+    - ![](-/f.png) [Manipulations](frameworks/jquery/manipulations/README.md)
+    - ![](-/f.png) [Collection](frameworks/jquery/collection/README.md)
     - ![](-/i.png) [Form](frameworks/jquery/form/README.md)
     - ![](-/i.png) [Traversing](frameworks/jquery/traversing/README.md)
     - ![](-/n.png) [Callbacks](frameworks/jquery/callbacks/README.md)
