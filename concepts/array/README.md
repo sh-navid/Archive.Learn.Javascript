@@ -46,7 +46,7 @@
     - ![](../../-/2.png) `.concat()`
     - ![](../../-/2.png) `.join()`
     - ![](../../-/2.png) `.fill()`
-    - ![](../../-/1.png) `.toString()`
+    - ![](../../-/1.png) [`.toString()`](js-array-to-string.html)
         > Convert array to string
     - ![](../../-/2.png) `.slice()`, `.splice()`
     - ![](../../-/3.png) `.copyWithin()`
