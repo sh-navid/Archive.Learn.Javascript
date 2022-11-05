@@ -1,5 +1,8 @@
 # Javascript
 ## Array
+Properties
+    - ![](../../-/3.png) `.prototype`
+    - ![](../../-/1.png) `.length`
 - Behaviors
     - ![](../../-/1.png) Access
         > How to access an item in array ?

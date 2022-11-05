@@ -27,9 +27,12 @@
 - ![](-/n.png) [Strict Mode](concepts/strict/README.md)
 - ![](-/i.png) [Keywords](concepts/keywords/README.md)
 - ![](-/i.png) [Hoisting](concepts/hoisting/README.md)
-- ![](-/i.png) [Map](concepts/map/README.md)
+- Collections
+    - Array [⇧](concepts/array/README.md)
+    - ![](-/i.png) [Map](concepts/map/README.md)
+    - ![](-/n.png) [Set](concepts/set/README.md)
 - ![](-/n.png) [Regex](concepts/regex/README.md)
-- ![](-/n.png) [Dcocument](concepts/document/README.md)
+- ![](-/n.png) [Document](concepts/document/README.md)
 - ![](-/n.png) [Window](concepts/window/README.md)
 - ![](-/n.png) [SVG](documents/svg/README.md)
 
