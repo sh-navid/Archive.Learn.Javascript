@@ -8,9 +8,9 @@
     - ![](../../-/3.png) [`.prototype`](js-array-prototype.js)
     - ![](../../-/1.png) [`.length`](js-array-length.js)
 - Behaviors
-    - ![](../../-/1.png) Access
+    - ![](../../-/1.png) [Access](js-array-access.js)
         > How to access an item in array ?
-    - ![](../../-/1.png) Change
+    - ![](../../-/1.png) [Change](js-array-change.js)
         > How to change an item in array ?
     - Iterate over array
         - ![](../../-/1.png) `for` + Counter
