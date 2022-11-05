@@ -20,8 +20,8 @@
 - Other
     - ![](../../-/1.png) Make array
         > How to make a new array ?
-        - ![](../../-/1.png) Using `[]`
-        - ![](../../-/2.png) Using `new Array()`
+        - ![](../../-/1.png) Using [`[]`](js-array-access.js)
+        - ![](../../-/2.png) Using [`new Array()`](js-array-new.js)
     - ![](../../-/1.png) MultiDimensional Array
         > How to make and access to a multi dimensional array ?
 - Methods
