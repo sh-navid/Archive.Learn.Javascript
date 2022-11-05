@@ -75,7 +75,7 @@
         - ![](../../../-/1.png) [Position](jq-mouse.html)
             - `e.pageX`
             - `e.pageY`
-        - Other Properties
+        - Other
             - ![](../../../-/4.png) [`e.result`](jq-result.html)
             - ![](../../../-/3.png) [`e.data`](jq-data.html)
             - ![](../../../-/3.png) [`e.metaKey`](jq-keyboard.html)
