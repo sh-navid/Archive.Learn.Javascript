@@ -43,22 +43,27 @@
         > How to reduce multiple values to one value ?
     - ![](../../-/1.png) [`.includes()`](js-array-includes.html)
         > Check if something exists in array
-    - ![](../../-/1.png) `.find()`, `findIndex()`
+    - Search:
         > Search in array
-    - ![](../../-/1.png) `.indexOf()`, `lastIndexOf()`
-        > Search in array
-    - ![](../../-/1.png) `.push()`, `pop()`
+        - ![](../../-/1.png) `.find()`
+        - ![](../../-/1.png) `.findIndex()`
+        - ![](../../-/1.png) `.indexOf()`
+        - ![](../../-/1.png) `.lastIndexOf()`
+    - Add / Remove
         > Add item in array, Remove item from array
-    - ![](../../-/1.png) `.unshift()`, `shift()`
-        > Add item in array, Remove item from array
+        - ![](../../-/1.png) `.push()`
+        - ![](../../-/1.png) `.pop()`
+        - ![](../../-/1.png) `.unshift()`
+        - ![](../../-/1.png) `.shift()`
     - ![](../../-/2.png) `.entries()`, `keys()`, `valueOf()`
         > Get values or indices of an array
     - ![](../../-/2.png) `.from()`
         > Make an array from a collection ???
     - ![](../../-/1.png) `.reverse()`
         > `e.g. [1,2,3] => [3,2,1]`
-    - ![](../../-/2.png) `.sort()`
+    - ![](../../-/1.png) `.sort()`
         > `e.g. [2,3,1] => [1,2,3]`
+        - ![](../../-/2.png) Custom Sort
     - ![](../../-/2.png) `.concat()`
     - ![](../../-/2.png) `.join()`
     - ![](../../-/2.png) `.fill()`
