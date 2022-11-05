@@ -35,6 +35,13 @@
 - ![](-/n.png) [Document](concepts/document/README.md)
 - ![](-/n.png) [Window](concepts/window/README.md)
 - ![](-/n.png) [SVG](documents/svg/README.md)
+- [DOM](documents/dom/README.md)
+- Random
+- Date
+- Math
+- HttpRequest, Ajax, Fetch
+- ES6
+- Canvas
 
 ## JQ Headings
 - JQ <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
