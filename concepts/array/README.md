@@ -67,13 +67,14 @@
         > Get values or indices of an array
     - ![](../../-/2.png) `.from()`
         > Make an array from a collection ???
-    - ![](../../-/1.png) `.reverse()`
+    - ![](../../-/1.png) [`.reverse()`](js-array-reverse.js)
         > `e.g. [1,2,3] => [3,2,1]`
-    - ![](../../-/1.png) `.sort()`
+    - ![](../../-/1.png) [`.sort()`](js-array-sort.js)
         > `e.g. [2,3,1] => [1,2,3]`
-        - ![](../../-/2.png) Custom Sort
+        - ![](../../-/2.png) [Custom Sort](js-array-custom-sort.js)
     - ![](../../-/2.png) `.concat()`
-    - ![](../../-/2.png) `.join()`
+    - ![](../../-/2.png) [`.join()`](js-array-join.js)
+        > Make string from array by joining the items
     - ![](../../-/2.png) `.fill()`
     - ![](../../-/1.png) [`.toString()`](js-array-to-string.html)
         > Convert array to string
