@@ -45,7 +45,9 @@
     - ![](../../-/1.png) `.unshift()`, `shift()`
         > Add item in array, Remove item from array
     - ![](../../-/2.png) `.entries()`, `keys()`, `valueOf()`
+        > Get values or indices of an array
     - ![](../../-/2.png) `.from()`
+        > Make an array from a collection ???
     - ![](../../-/1.png) `.reverse()`
         > `e.g. [1,2,3] => [3,2,1]`
     - ![](../../-/2.png) `.sort()`

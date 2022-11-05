@@ -10,44 +10,43 @@
     - ![](-/2.png) Medium
     - ![](-/3.png) Hard
     - ![](-/4.png) Advanced
-    
 
 ## JS Headings
-- ![](-/i.png) [Array](concepts/array/README.md)
+- ![](-/i.png) ![](-/d.png) ![](-/e.png) [Array](concepts/array/README.md)
 - ![](-/i.png) [Class](concepts/class/README.md)
 - ![](-/i.png) [Order](concepts/order/README.md)
-- [Events](concepts/events/README.md)
-- [Async](concepts/async/README.md)
+- ![](-/n.png) [Events](concepts/events/README.md)
+- ![](-/n.png) [Async](concepts/async/README.md)
 - ![](-/i.png) [JSON](concepts/json/README.md)
-- [Strict Mode](concepts/strict/README.md)
-- [Keywords](concepts/keywords/README.md)
-- [Hoisting](concepts/hoisting/README.md)
+- ![](-/n.png) [Strict Mode](concepts/strict/README.md)
+- ![](-/i.png) [Keywords](concepts/keywords/README.md)
+- ![](-/i.png) [Hoisting](concepts/hoisting/README.md)
 - ![](-/i.png) [Map](concepts/map/README.md)
-- Regex
-- [Window](concepts/window/README.md)
-- SVG
+- ![](-/n.png) Regex
+- ![](-/n.png) [Window](concepts/window/README.md)
+- ![](-/n.png) SVG
 
 ## JQ Headings
 - JQ <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
-    - [x] [Introduction](frameworks/jquery/introduction/README.md)
-    - [x] [Output](frameworks/jquery/echo/README.md) ***MAKE EXAMPLES***
-    - [x] [Class](frameworks/jquery/class/README.md)
-    - [x] [CSS](frameworks/jquery/css/README.md)
-    - [x] [Values](frameworks/jquery/values/README.md)
-    - [x] [Attributes](frameworks/jquery/attributes/README.md)
-    - [x] [QuerySelector](frameworks/jquery/selector/README.md)
-    - [x] [Events](frameworks/jquery/events/README.md)
-    - [x] [Effects](frameworks/jquery/effects/README.md)
-    - [x] [Manipulations](frameworks/jquery/manipulations/README.md)
-    - [x] [Collection](frameworks/jquery/collection/README.md)
-    - [x] [Form](frameworks/jquery/form/README.md)
-    - [x] [Traversing](frameworks/jquery/traversing/README.md)
-    - [ ] [Callbacks](frameworks/jquery/callbacks/README.md)
-    - [ ] [Deferred Object](frameworks/jquery/deferred/README.md)
-    - [ ] Ajax -> _**TODO**: Check_
-    - [ ] NoConflict -> _**TODO**: Check_
-    - [x] [Custom Plugin](frameworks/jquery/examples/jq-rotatable.html)
-    - [ ] [UNCATEGORIZED](frameworks/jquery/uncategorized/README.md)
+    - ![](-/i.png) [Introduction](frameworks/jquery/introduction/README.md)
+    - ![](-/i.png) [Output](frameworks/jquery/echo/README.md) ***MAKE EXAMPLES***
+    - ![](-/i.png) [Class](frameworks/jquery/class/README.md)
+    - ![](-/i.png) [CSS](frameworks/jquery/css/README.md)
+    - ![](-/i.png) [Values](frameworks/jquery/values/README.md)
+    - ![](-/i.png) [Attributes](frameworks/jquery/attributes/README.md)
+    - ![](-/i.png) [QuerySelector](frameworks/jquery/selector/README.md)
+    - ![](-/i.png) [Events](frameworks/jquery/events/README.md)
+    - ![](-/i.png) [Effects](frameworks/jquery/effects/README.md)
+    - ![](-/i.png) [Manipulations](frameworks/jquery/manipulations/README.md)
+    - ![](-/i.png) [Collection](frameworks/jquery/collection/README.md)
+    - ![](-/i.png) [Form](frameworks/jquery/form/README.md)
+    - ![](-/i.png) [Traversing](frameworks/jquery/traversing/README.md)
+    - ![](-/n.png) [Callbacks](frameworks/jquery/callbacks/README.md)
+    - ![](-/n.png) [Deferred Object](frameworks/jquery/deferred/README.md)
+    - ![](-/n.png) Ajax -> _**TODO**: Check_
+    - ![](-/n.png) NoConflict -> _**TODO**: Check_
+    - ![](-/i.png) [Custom Plugin](frameworks/jquery/examples/jq-rotatable.html)
+    - ![](-/n.png) [UNCATEGORIZED](frameworks/jquery/uncategorized/README.md)
 - JQ UI
     - [Intractions](frameworks/jquery/ui/intractions/README.md)
 - JQ Mobile
