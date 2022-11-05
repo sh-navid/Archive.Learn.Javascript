@@ -45,8 +45,8 @@
 
 ## JQ Headings
 - JQ <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
-    - ![](-/i.png) [Introduction](frameworks/jquery/introduction/README.md)
-    - ![](-/i.png) [Output](frameworks/jquery/echo/README.md) ***MAKE EXAMPLES***
+    - ![](-/i.png) ![](-/d.png) ![](-/e.png) [Introduction](frameworks/jquery/introduction/README.md)
+    -  ![](-/i.png) ![](-/d.png) ![](-/e.png) [Output](frameworks/jquery/echo/README.md)
     - ![](-/i.png) [Class](frameworks/jquery/class/README.md)
     - ![](-/i.png) [CSS](frameworks/jquery/css/README.md)
     - ![](-/i.png) [Values](frameworks/jquery/values/README.md)
