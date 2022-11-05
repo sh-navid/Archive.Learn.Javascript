@@ -1,37 +1,37 @@
 # JQuery
 ## Traversing
 - Add
-    - [`.add()`](jq-add.html) [ ] TODO: Check
-    - [`.addBack()`](jq-add-back.html) [ ] TODO: Check
+    - ![](../../../-/3.png) [`.add()`](jq-add.html) [ ] TODO: Check
+    - ![](../../../-/3.png) [`.addBack()`](jq-add-back.html) [ ] TODO: Check
 - Tree 
-    - [`.children()`](jq-children.html)
-    - [`.closest()`](jq-closest.html)
-    - [`.find()`](jq-find.html)
-    - `.offsetParent()`
-    - [`.parent()`](../selector/jq-select-parent.html)
-    - [`.parents()`](jq-parents.html)
-        - [`.parentsUntil()`](jq-parents.html)
-    - [`.next()`](jq-next.html)
-        - [`.nextAll()`](jq-next.html)
-        - [`.nextUntil()`](jq-next-until.html)
-    - [`.prev()`](jq-next.html)
-        - [`.prevAll()`](jq-next.html)
-        - [`.prevUntil()`](jq-next-until.html)
-    - [`.siblings()`](jq-siblings.html)
+    - ![](../../../-/1.png) [`.children()`](jq-children.html)
+    - ![](../../../-/2.png) [`.closest()`](jq-closest.html)
+    - ![](../../../-/1.png) [`.find()`](jq-find.html)
+    - ![](../../../-/2.png) `.offsetParent()`
+    - ![](../../../-/1.png) [`.parent()`](../selector/jq-select-parent.html)
+        - ![](../../../-/2.png) [`.parents()`](jq-parents.html)
+            - ![](../../../-/2.png) [`.parentsUntil()`](jq-parents.html)
+    - ![](../../../-/2.png) [`.next()`](jq-next.html)
+        - ![](../../../-/2.png) [`.nextAll()`](jq-next.html)
+        - ![](../../../-/2.png) [`.nextUntil()`](jq-next-until.html)
+    - ![](../../../-/2.png) [`.prev()`](jq-next.html)
+        - ![](../../../-/2.png) [`.prevAll()`](jq-next.html)
+        - ![](../../../-/2.png) [`.prevUntil()`](jq-next-until.html)
+    - ![](../../../-/2.png) [`.siblings()`](jq-siblings.html)
 - Other
-    - [`.contents()`](jq-contents.html)
-    - `.end()` [ ] TODO: Check
+    - ![](../../../-/3.png) [`.contents()`](jq-contents.html)
+    - ![](../../../-/3.png) `.end()` [ ] TODO: Check
 - Collection
-    - [`.each()`](jq-children.html)
+    - ![](../../../-/1.png) [`.each()`](jq-children.html)
 - Filtering
-    - `.eq()`
-    - `.filter()` [ ] TODO: Check
-    - `.first()`
-    - `.last()`
-    - [`.has()`](jq-has.html)
-    - [`.is()`](jq-is.html)
-    - [`.not()`](jq-not.html)
-    - [`.map()`](jq-map.html)
-    - [`.even()`](jq-even.html)
-    - [`.odd()`](jq-even.html)
-    - [`.slice()`](jq-slice.html)
+    - ![](../../../-/1.png) `.eq()`
+    - ![](../../../-/3.png) `.filter()` [ ] TODO: Check
+    - ![](../../../-/1.png) `.first()`
+    - ![](../../../-/1.png) `.last()`
+    - ![](../../../-/2.png) [`.has()`](jq-has.html)
+    - ![](../../../-/2.png) [`.is()`](jq-is.html)
+    - ![](../../../-/2.png) [`.not()`](jq-not.html)
+    - ![](../../../-/2.png) [`.map()`](jq-map.html)
+    - ![](../../../-/1.png) [`.even()`](jq-even.html)
+    - ![](../../../-/1.png) [`.odd()`](jq-even.html)
+    - ![](../../../-/2.png) [`.slice()`](jq-slice.html)
