@@ -7,6 +7,7 @@
 - Properties
     - ![](../../-/3.png) [`.prototype`](js-array-prototype.js)
     - ![](../../-/1.png) [`.length`](js-array-length.js)
+        > `e.g. [1,2,3,4,3,3].length => 6`
 - Behaviors
     - ![](../../-/1.png) [Access](js-array-access.js)
         > How to access an item in array ?
