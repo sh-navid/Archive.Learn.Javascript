@@ -72,21 +72,21 @@
             - ![](../../../-/4.png) `e.isImmediatePropagationStopped()`
     - Properties
         - Target
-            - [`e.target`](jq-edit.html)
-            - [`e.relatedTarget`](jq-related-target.html)
-            - [`e.currentTarget`](jq-target.html)
-            - [`e.delegateTarget`](jq-target.html)
-        - [Position](jq-mouse.html)
+            - ![](../../../-/1.png) [`e.target`](jq-edit.html)
+            - ![](../../../-/3.png) [`e.relatedTarget`](jq-related-target.html)
+            - ![](../../../-/2.png) [`e.currentTarget`](jq-target.html)
+            - ![](../../../-/3.png) [`e.delegateTarget`](jq-target.html)
+        - ![](../../../-/1.png) [Position](jq-mouse.html)
             - `e.pageX`
             - `e.pageY`
         - Other Properties
-            - [`e.result`](jq-result.html)
-            - [`e.data`](jq-data.html)
-            - [`e.metaKey`](jq-keyboard.html)
-                - _`true` if `window` key is down_
-            - [`e.timeStamp`](jq-timestamp.html)
-            - [`e.type`](jq-type.html)
-            - [`e.key`](jq-keyboard.html)
-                - _Keyboard key symbol_
-            - [`e.which`](jq-keyboard.html)
-                - _Keyboard key code_
+            - ![](../../../-/4.png) [`e.result`](jq-result.html)
+            - ![](../../../-/3.png) [`e.data`](jq-data.html)
+            - ![](../../../-/3.png) [`e.metaKey`](jq-keyboard.html)
+                > _`true` if `window` key is down_
+            - ![](../../../-/3.png) [`e.timeStamp`](jq-timestamp.html)
+            - ![](../../../-/2.png) [`e.type`](jq-type.html)
+            - ![](../../../-/1.png) [`e.key`](jq-keyboard.html)
+                > _Keyboard key symbol_
+            - ![](../../../-/2.png) [`e.which`](jq-keyboard.html)
+                > _Keyboard key code_
