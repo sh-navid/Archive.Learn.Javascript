@@ -21,7 +21,7 @@
             - ![](../../../-/2.png) `.off()`
                 > _To remove all events_
         - ![](../../../-/2.png) [`.one()`](jq-bind-one.html)
-            > Make an event that fires just one time
+            > One time event
         - ![](../../../-/x.png) ~~`.bind()`~~
         - ![](../../../-/x.png) ~~`.unbind()`~~
     - Edit
@@ -45,8 +45,6 @@
         - ![](../../../-/2.png) [`.hover()`](jq-hover.html)
     - Window
         - ![](../../../-/1.png) [`$(window).resize()`](jq-resize.html)
-            > Usefull for responsive designs  
-            > This event fires when you change the size of browser window
             - ![](../../../-/2.png) [`$(window).width()`](jq-resize.html)
             - ![](../../../-/2.png) [`$(window).height()`](jq-resize.html)
     - Other
