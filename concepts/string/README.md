@@ -1,2 +1,42 @@
 # JS
 ## String
+- Actions
+    - Access
+    - Assign
+- Properties
+    - .length
+- Classes
+    - String()
+- Methods
+    - Change
+        - .replace()
+        - .replaceAll()
+    - Slicing
+        - .split()
+        - .slice()
+        - .substring()
+        - .substr()
+    - Format
+        - .toUpperCase()
+        - .toLowerCase()
+        - .padStart()
+        - .padEnd()
+    - Trim
+        - .trim()
+        - .trimStart()
+        - .trimEnd()
+    - Char
+        - .charAt()
+        - .charCodeAt()
+    - Search
+        - .search()
+        - .indexOf()
+        - .lastIndexOf()
+    - Conditions
+        - .startsWith()
+        - .endsWith()
+    - Other
+        - .toString()
+- Escape Chars
+- Template (Format)
+    - `${}`
