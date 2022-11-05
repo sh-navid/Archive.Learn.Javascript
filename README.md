@@ -56,7 +56,7 @@
     - ![](-/f.png) [Attributes](frameworks/jquery/attributes/README.md)
     - ![](-/f.png) [QuerySelector](frameworks/jquery/selector/README.md)
     - ![](-/f.png) [Events](frameworks/jquery/events/README.md)
-    - ![](-/i.png) [Effects](frameworks/jquery/effects/README.md)
+    - ![](-/f.png) [Effects](frameworks/jquery/effects/README.md)
     - ![](-/i.png) [Manipulations](frameworks/jquery/manipulations/README.md)
     - ![](-/i.png) [Collection](frameworks/jquery/collection/README.md)
     - ![](-/i.png) [Form](frameworks/jquery/form/README.md)
