@@ -11,8 +11,14 @@
     - ![](../../-/1.png) Dimensions of array
         > How to make and access to a multi dimensional array ?
 - Methods
-    - ![](../../-/2.png) [`.filter()`](js-array-filter-example.html)
-        > How to get array items with condition ? 
+    - Conditional
+        - ![](../../-/2.png) [`.filter()`](js-array-filter-example.html)
+            > Get items with same condition from array 
+            >> Imagine something like **Auto Complete**
+        - ![](../../-/2.png) `.every()`
+            > Check if all items of array have the same condition
+        - ![](../../-/2.png) `some()`
+            > Check if at least one item of array has a condition
     - ![](../../-/1.png) [`.forEach()`](js-array-foreach-example.html)
         > How to iterate over array items ?
     - ![](../../-/2.png) [`.map()`](js-array-map-example.html)
@@ -28,8 +34,9 @@
     - ![](../../-/1.png) `.indexOf()`, `lastIndexOf()`
         > Search in array
     - ![](../../-/1.png) `.push()`, `pop()`
+        > Put item into array, Remove item from array
     - ![](../../-/1.png) `.unshift()`, `shift()`
-    - ![](../../-/2.png) `.every()`, `some()`
+        > Put item into array, Remove item from array
     - ![](../../-/2.png) `.entries()`, `keys()`, `valueOf()`
     - ![](../../-/2.png) `.from()`
     - ![](../../-/1.png) `.reverse()`
