@@ -1,8 +1,8 @@
 # JS Instructor
 ***Disclaimer: The content of this repository is provided only for the purpose of teaching students and with an educational perspective.***
 - Symbols
-A | B
-|a|b|
+| A | B |
+|-|-|
     - ![](-/i.png) Completed Concept
     - ![](-/n.png) Not Completed Yet
     - ![](-/d.png) Level + Documented
