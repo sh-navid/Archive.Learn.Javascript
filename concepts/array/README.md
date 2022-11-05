@@ -29,9 +29,9 @@
         - ![](../../-/2.png) [`.filter()`](js-array-filter-example.html)
             > Get items with same condition from array   
             > Imagine something like **Auto Complete**
-        - ![](../../-/2.png) `.every()`
+        - ![](../../-/2.png) [`.every()`](js-array-every.js)
             > Check if all items of array have the same condition
-        - ![](../../-/2.png) `.some()`
+        - ![](../../-/2.png) [`.some()`](js-array-some.js)
             > Check if at least one item of array has a condition
     - ![](../../-/1.png) [`.forEach()`](js-array-foreach-example.html)
         > How to iterate over array items ?
