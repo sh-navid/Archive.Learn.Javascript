@@ -3,7 +3,7 @@
 - Symbols
     - ![](-/i.png) Completed Concept
     - ![](-/n.png) Not Completed Yet
-    - ![](-/d.png) Documented
+    - ![](-/d.png) Level + Documented
     - ![](-/e.png) With Examples
     ---
     - ![](-/1.png) Basic
@@ -14,9 +14,9 @@
 ## JS Headings
 - ![](-/i.png) [Syntax](concepts/syntax/README.md)
 - ![](-/i.png) [Output](concepts/output/README.md)
-- ![](-/n.png) DataTypes
-- ![](-/n.png) String
-- ![](-/i.png) ![](-/d.png) ![](-/e.png) [Array](concepts/array/README.md)
+- ![](-/n.png) [DataTypes](concepts/datatypes/README.md)
+    - ![](-/n.png) [String](concepts/datatypes/README.md)
+    - ![](-/i.png) ![](-/d.png) ![](-/e.png) [Array](concepts/array/README.md)
 - ![](-/i.png) [Class](concepts/class/README.md)
 - ![](-/i.png) [Order](concepts/order/README.md)
 - ![](-/n.png) [Events](concepts/events/README.md)
