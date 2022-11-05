@@ -71,12 +71,15 @@
         > `e.g. [1,2,3] => [3,2,1]`
     - ![](../../-/1.png) [`.sort()`](js-array-sort.js)
         > `e.g. [2,3,1] => [1,2,3]`
-        - ![](../../-/2.png) [Custom Sort](js-array-custom-sort.js)
-    - ![](../../-/2.png) `.concat()`
+        - ![](../../-/3.png) [Custom Sort](js-array-custom-sort.js)
+    - ![](../../-/2.png) [`.concat()`](js-array-concat.js)
+        > Add array to array
     - ![](../../-/2.png) [`.join()`](js-array-join.js)
         > Make string from array by joining the items
     - ![](../../-/2.png) `.fill()`
     - ![](../../-/1.png) [`.toString()`](js-array-to-string.html)
         > Convert array to string
-    - ![](../../-/2.png) `.slice()`, `.splice()`
+    - Slicing
+        - ![](../../-/2.png) `.slice()`
+        - ![](../../-/2.png) `.splice()`
     - ![](../../-/3.png) `.copyWithin()`
