@@ -1,12 +1,12 @@
 # JS Instructor
 ***Disclaimer: The content of this repository is provided only for the purpose of teaching students and with an educational perspective.***
-- Symbols
-    - Headings
+- ***Symbols***
+    - **Headings**
         - ![](-/i.png) Completed Concept
         - ![](-/n.png) Not Completed Yet
         - ![](-/d.png) Level + Documented
         - ![](-/e.png) With Examples
-    - Concepts
+    - **Concepts**
         - ![](-/1.png) Basic
         - ![](-/2.png) Medium
         - ![](-/3.png) Hard
@@ -52,7 +52,7 @@
     - ![](-/f.png) [Class](frameworks/jquery/class/README.md)
     - ![](-/f.png) [CSS](frameworks/jquery/css/README.md)
     - ![](-/f.png) [Values](frameworks/jquery/values/README.md)
-    - ![](-/i.png) [Attributes](frameworks/jquery/attributes/README.md)
+    - ![](-/f.png) [Attributes](frameworks/jquery/attributes/README.md)
     - ![](-/i.png) [QuerySelector](frameworks/jquery/selector/README.md)
     - ![](-/i.png) [Events](frameworks/jquery/events/README.md)
     - ![](-/i.png) [Effects](frameworks/jquery/effects/README.md)

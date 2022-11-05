@@ -1,65 +1,65 @@
 # JQuery
 ## Selectors
-- [`*`](jq-select-all.html)
+- ![](../../../-/1.png) [`*`](jq-select-all.html)
 - Tag
-    - [`tag`](jq-select-tag.html)
-    - [`:header`](jq-select-header.html)
-        - _H1 to H6_
-    - [`:root`](jq-select-root.html)
-        - _Is HTML tag_
-- [`.class`](jq-select-class.html)
-- [`#id`](jq-select-id.html)
-- [`Mixture .of #all`](jq-select-mixture.html)
-- [`.multiple,.selection`](jq-select-multiple.html)
+    - ![](../../../-/1.png) [`tag`](jq-select-tag.html)
+    - ![](../../../-/1.png) [`:header`](jq-select-header.html)
+        > _H1 to H6_
+    - ![](../../../-/1.png) [`:root`](jq-select-root.html)
+        > _Returns a ref to HTML tag_
+- ![](../../../-/1.png) [`.class`](jq-select-class.html)
+- ![](../../../-/1.png) [`#id`](jq-select-id.html)
+- ![](../../../-/2.png) [`Mixture .of #all`](jq-select-mixture.html)
+- ![](../../../-/1.png) [`.multiple,.selection`](jq-select-multiple.html)
 - Siblings
-    - [`>`](jq-select-child-arrow.html)
-        - _Child_
-    - ~~`:parent`~~, [`.parent()`](jq-select-parent.html)
+    - ![](../../../-/2.png) [`>`](jq-select-child-arrow.html)
+        > _Child_
+    - ![](../../../-/2.png) ~~`:parent`~~, [`.parent()`](jq-select-parent.html)
 - Attribute
-    - [`element[attr]`](jq-attr-has-attr.html)
-    - [`element[attr1][attr2]`](jq-attr-multi-attr.html)
-    - [`element[attr|="PRE"]`](jq-attr-contains-prefix.html)
-        - _`attr` contains `PRE-` prefix_
-    - [`element[attr^="VALUE"]`](jq-attr-begin-with.html)
-        - _`attr` value begins with word `VALUE`; Case sensitive_
-    - [`element[attr$="VALUE"]`](jq-attr-ends-with.html)
-        - _`attr` value ends with word `VALUE`; Case sensitive_
-    - [`element[attr!="VALUE"]`](jq-attr-not-equal.html)
-        - _This `element` does not have `attr` or `VALUE`_
+    - ![](../../../-/1.png) [`element[attr]`](jq-attr-has-attr.html)
+    - ![](../../../-/2.png) [`element[attr1][attr2]`](jq-attr-multi-attr.html)
+    - ![](../../../-/2.png) [`element[attr|="PRE"]`](jq-attr-contains-prefix.html)
+        > _`attr` contains `PRE-` prefix_
+    - ![](../../../-/2.png) [`element[attr^="VALUE"]`](jq-attr-begin-with.html)
+        > _`attr` value begins with word `VALUE`; Case sensitive_
+    - ![](../../../-/2.png) [`element[attr$="VALUE"]`](jq-attr-ends-with.html)
+        > _`attr` value ends with word `VALUE`; Case sensitive_
+    - ![](../../../-/2.png) [`element[attr!="VALUE"]`](jq-attr-not-equal.html)
+        > _This `element` does not have `attr` or `VALUE`_
     - Contains
-        - [`element[attr~="VALUE"]`](jq-attr-contains.html)
-            - _`attr` value contains the word `VALUE` surrounded by spaces; Case sensitive_
-        - [`element[attr*="VALUE"]`](jq-attr-contains-2.html)
-            - _`attr` value contains the word `VALUE`; Case sensitive_
+        - ![](../../../-/2.png) [`element[attr~="VALUE"]`](jq-attr-contains.html)
+            > _`attr` value contains the word `VALUE` surrounded by spaces; Case sensitive_
+        - ![](../../../-/2.png) [`element[attr*="VALUE"]`](jq-attr-contains-2.html)
+            > _`attr` value contains the word `VALUE`; Case sensitive_
 - Form
-    - [`:input`](jq-form-general-input.html)
-        - _Button, Input, TextArea and Select_
-    - [`:button`](jq-form-button-1.html)
-        - Equivalent 1 is `input[type="button"]`
-            - _But seems not support `<button>`_
-        - Equivalent 2 is `input:button`
-            - _But seems not support `<button>`_
-    - [`:checkbox`](jq-form-checkbox.html)
-    - [`:file`](jq-form-file.html)
-    - [`:password`](jq-form-password.html)
-    - [`:image`](jq-form-image.html)
-    - [`:radio`](jq-form-radio.html)
-    - [`:text`](jq-form-text.html)
-    - [`:reset`](jq-form-reset.html)
-    - [`:submit`](jq-form-submit.html)
-    - [`input:hidden`](jq-form-hidden.html)
-    - [Other Inputs](jq-form-access-other-inputs.html)
-        - `input[type=color]`
-        - `input[type=date]`
-        - `input[type=datetime]`
-        - `input[type=email]`
-        - `input[type=number]`
-        - `input[type=month]`
-        - `input[type=range]`
-        - `input[type=search]`
-        - `input[type=tel]`
-        - `input[type=time]`
-        - `input[type=url]`
+    - ![](../../../-/1.png) [`:input`](jq-form-general-input.html)
+        > _Button, Input, TextArea and Select_
+    - ![](../../../-/1.png) [`:button`](jq-form-button-1.html)
+        - ![](../../../-/1.png) Equivalent 1 is `input[type="button"]`
+            > _But seems not support `<button>`_
+        - ![](../../../-/1.png) Equivalent 2 is `input:button`
+            > _But seems not support `<button>`_
+    - Specific Input Selection
+        - ![](../../../-/2.png) [`:checkbox`](jq-form-checkbox.html) or `input[type=checkbox]`
+        - ![](../../../-/2.png) [`:file`](jq-form-file.html) or `input[type=file]`
+        - ![](../../../-/2.png) [`:password`](jq-form-password.html) or `input[type=password]`
+        - ![](../../../-/2.png) [`:image`](jq-form-image.html) or `input[type=image]`
+        - ![](../../../-/2.png) [`:radio`](jq-form-radio.html) or `input[type=radio]`
+        - ![](../../../-/1.png) [`:text`](jq-form-text.html) or `input[type=text]`
+        - ![](../../../-/2.png) [`:reset`](jq-form-reset.html) or `input[type=reset]`
+        - ![](../../../-/1.png) [`:submit`](jq-form-submit.html) or `input[type=submit]`
+        - ![](../../../-/1.png) [`input:hidden`](jq-form-hidden.html) or `input[type=hidden]`
+        - ![](../../../-/2.png) [`input[type=color]`](jq-form-access-other-inputs.html)
+        - ![](../../../-/2.png) [`input[type=date]`](jq-form-access-other-inputs.html)
+        - ![](../../../-/2.png) [`input[type=datetime]`](jq-form-access-other-inputs.html)
+        - ![](../../../-/2.png) [`input[type=email]`](jq-form-access-other-inputs.html)
+        - ![](../../../-/2.png) [`input[type=number]`](jq-form-access-other-inputs.html)
+        - ![](../../../-/2.png) [`input[type=month]`](jq-form-access-other-inputs.html)
+        - ![](../../../-/2.png) [`input[type=range]`](jq-form-access-other-inputs.html)
+        - ![](../../../-/2.png) [`input[type=search]`](jq-form-access-other-inputs.html)
+        - ![](../../../-/2.png) [`input[type=tel]`](jq-form-access-other-inputs.html)
+        - ![](../../../-/2.png) [`input[type=time]`](jq-form-access-other-inputs.html)
+        - ![](../../../-/2.png) [`input[type=url]`](jq-form-access-other-inputs.html)
 - State
     - [`:checked`](js-state-checked.html)
         - Checkbox
