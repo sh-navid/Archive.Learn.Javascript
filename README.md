@@ -55,33 +55,33 @@
     - ![](-/i.png) [Custom Plugin](frameworks/jquery/examples/jq-rotatable.html)
     - ![](-/n.png) [UNCATEGORIZED](frameworks/jquery/uncategorized/README.md)
 - JQ UI
-    - [Intractions](frameworks/jquery/ui/intractions/README.md)
+    - ![](-/n.png) [Intractions](frameworks/jquery/ui/intractions/README.md)
 - JQ Mobile
     - ?
 
 ## NodeJS Headings
-- [Introduction](frameworks/nodejs/introduction/README.md)
-- [Simple API](frameworks/nodejs/simple-api/README.md)
-- Init, Express, Router, Params, Middleware
-- File, Stream
-- Video Stream
-- CRUD
-- SQL - Sqlite
-- NoSQL - Level
-- Callback, Promise, EventEmmiter
-- NEDB
-- Socket.IO
-- ServerSideRendering (SSR) - EJS
-- GraphQL
-- ORM, Sequelize, Prisma
-- Commander
-- PDF Conversion
-- Multi File Uploader
-- JEST - Unit Testing
-- Validator
-- Fork, Exec, Spawn, LoadBlancer
-- Security
-- Modules
+- ![](-/n.png) [Introduction](frameworks/nodejs/introduction/README.md)
+- ![](-/i.png) [Simple API](frameworks/nodejs/simple-api/README.md)
+- ![](-/n.png) Init, Express, Router, Params, Middleware
+- ![](-/n.png) File, Stream
+- ![](-/n.png) Video Stream
+- ![](-/n.png) CRUD
+- ![](-/n.png) SQL - Sqlite
+- ![](-/n.png) NoSQL - Level
+- ![](-/n.png) Callback, Promise, EventEmmiter
+- ![](-/n.png) NEDB
+- ![](-/n.png) Socket.IO
+- ![](-/n.png) ServerSideRendering (SSR) - EJS
+- ![](-/n.png) GraphQL
+- ![](-/n.png) ORM, Sequelize, Prisma
+- ![](-/n.png) Commander
+- ![](-/n.png) PDF Conversion
+- ![](-/n.png) Multi File Uploader
+- ![](-/n.png) JEST - Unit Testing
+- ![](-/n.png) Validator
+- ![](-/n.png) Fork, Exec, Spawn, LoadBlancer
+- ![](-/n.png) Security
+- ![](-/n.png) Modules
 
 ## ReactJS Headings
 - [Introduction](frameworks/reactjs/introduction/README.md)
