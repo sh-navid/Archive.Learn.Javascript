@@ -12,6 +12,7 @@
     - ![](-/4.png) Advanced
 
 ## JS Headings
+- <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
 - ![](-/i.png) [Syntax](concepts/syntax/README.md)
 - ![](-/i.png) [Output](concepts/output/README.md)
 - ![](-/i.png) [Operators](concepts/operators/README.md)
@@ -70,28 +71,42 @@
     - ?
 
 ## NodeJS Headings
-- ![](-/n.png) [Introduction](frameworks/nodejs/introduction/README.md)
-- ![](-/i.png) [Simple API](frameworks/nodejs/simple-api/README.md)
-- ![](-/n.png) Init, Express, Router, Params, Middleware
-- ![](-/n.png) File, Stream
-- ![](-/n.png) Video Stream
-- ![](-/n.png) CRUD
-- ![](-/n.png) SQL - Sqlite
-- ![](-/n.png) NoSQL - Level
-- ![](-/n.png) Callback, Promise, EventEmmiter
-- ![](-/n.png) NEDB
-- ![](-/n.png) Socket.IO
-- ![](-/n.png) ServerSideRendering (SSR) - EJS
-- ![](-/n.png) GraphQL
-- ![](-/n.png) ORM, Sequelize, Prisma
-- ![](-/n.png) Commander
-- ![](-/n.png) PDF Conversion
-- ![](-/n.png) Multi File Uploader
-- ![](-/n.png) JEST - Unit Testing
-- ![](-/n.png) Validator
-- ![](-/n.png) Fork, Exec, Spawn, LoadBlancer
-- ![](-/n.png) Security
-- ![](-/n.png) Modules
+- NodeJS <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
+    - ![](-/n.png) [Introduction](frameworks/nodejs/introduction/README.md)
+    - ![](-/i.png) [Simple API](frameworks/nodejs/simple-api/README.md)
+    - ![](-/n.png) Init, Express, Router, Params, Middleware
+    - ![](-/n.png) CRUD
+    - ![](-/n.png) Callback, Promise, EventEmmiter
+    - ![](-/n.png) Validator
+    - ![](-/n.png) Fork, Exec, Spawn, LoadBlancer
+    - ![](-/n.png) Security
+    - ![](-/n.png) Modules
+    - ![](-/n.png) Commander
+    - ![](-/n.png) PDF Conversion
+    - ![](-/n.png) Multi File Uploader
+- Testing
+    - ![](-/n.png) JEST, Unit Testing
+- Template Engine
+    - ![](-/n.png) ServerSideRendering (SSR) - EJS
+- API
+    - ![](-/n.png) GraphQL
+- Data
+    - ![](-/n.png) SQL
+        - ![](-/n.png) Sqlite
+        - ![](-/n.png) MariaDB
+        - ![](-/n.png) NEDB
+    - ![](-/n.png) NoSQL
+        - ![](-/n.png) Level
+    - ![](-/n.png) ORM
+        - ![](-/n.png) Sequelize
+        - ![](-/n.png) Prisma
+- Real Time
+    - ![](-/n.png) Socket.IO
+- Stream
+    - ![](-/n.png) File, Stream
+    - ![](-/n.png) Video Stream
+
+
 
 ## ReactJS Headings
 - [Introduction](frameworks/reactjs/introduction/README.md)
