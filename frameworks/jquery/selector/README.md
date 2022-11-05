@@ -1,23 +1,31 @@
 # JQuery
 ## Selectors
 - ![](../../../-/1.png) [`*`](jq-select-all.html)
+    > _Select all elements_
 - Tag
     - ![](../../../-/1.png) [`tag`](jq-select-tag.html)
+        > _Select elements by tag_
     - ![](../../../-/1.png) [`:header`](jq-select-header.html)
-        > _H1 to H6_
+        > _Select H1 to H6_
     - ![](../../../-/1.png) [`:root`](jq-select-root.html)
-        > _Returns a ref to HTML tag_
+        > _Select HTML tag_
 - ![](../../../-/1.png) [`.class`](jq-select-class.html)
+    > _Select elements by class name_
 - ![](../../../-/1.png) [`#id`](jq-select-id.html)
+    > _Select elements by id_
 - ![](../../../-/2.png) [`Mixture .of #all`](jq-select-mixture.html)
+    > _You can mix a valid css query selector_
 - ![](../../../-/1.png) [`.multiple,.selection`](jq-select-multiple.html)
+    > _Select 2 different groups of elements_
 - Siblings
     - ![](../../../-/2.png) [`>`](jq-select-child-arrow.html)
         > _Child_
     - ![](../../../-/2.png) ~~`:parent`~~, [`.parent()`](jq-select-parent.html)
 - Attribute
     - ![](../../../-/1.png) [`element[attr]`](jq-attr-has-attr.html)
+        > Select elements with a specific attributes
     - ![](../../../-/2.png) [`element[attr1][attr2]`](jq-attr-multi-attr.html)
+        > Select elements that have multiple specific attributes
     - ![](../../../-/2.png) [`element[attr|="PRE"]`](jq-attr-contains-prefix.html)
         > _`attr` contains `PRE-` prefix_
     - ![](../../../-/2.png) [`element[attr^="VALUE"]`](jq-attr-begin-with.html)
@@ -40,6 +48,7 @@
         - ![](../../../-/1.png) Equivalent 2 is `input:button`
             > _But seems not support `<button>`_
     - Specific Input Selection
+        > How to select each type of inputs seperately
         - ![](../../../-/2.png) [`:checkbox`](jq-form-checkbox.html) or `input[type=checkbox]`
         - ![](../../../-/2.png) [`:file`](jq-form-file.html) or `input[type=file]`
         - ![](../../../-/2.png) [`:password`](jq-form-password.html) or `input[type=password]`
@@ -61,6 +70,7 @@
         - ![](../../../-/2.png) [`input[type=time]`](jq-form-access-other-inputs.html)
         - ![](../../../-/2.png) [`input[type=url]`](jq-form-access-other-inputs.html)
 - State
+    > Select elements with their current state
     - ![](../../../-/2.png) [`:checked`](js-state-checked.html)
         - Checkbox
         - RadioButton
@@ -72,30 +82,37 @@
     - ![](../../../-/2.png) [`:visible`](js-state-general.html)
     - ![](../../../-/2.png) [`:hidden`](js-state-general.html)
 - [Contains](jq-contains-text.html)
-    - `:contains('text')`
-        > _Search a text_
-    - `:empty`
-        > _Without a text_
-- Select
+    - ![](../../../-/2.png) `:contains('text')`
+        > _Select element with specific text_
+    - ![](../../../-/1.png) `:empty`
+        > _Select elements that have no text_
+- Other Selectors
     - ![](../../../-/1.png) [`:even`](jq-select-mixture.html)
+        > Select every other from zero
     - ![](../../../-/1.png) [`:odd`](jq-select-mixture.html)
+        > Select every other from one
     - ![](../../../-/1.png) [`:first-child`](jq-select-first-last-child.html), [`:first`](jq-select-first-last.html), [`.first()`](jq-method-first-last.eq.html)
     - ![](../../../-/1.png) [`:last-child`](jq-select-first-last-child.html), [`:last`](jq-select-first-last.html), [`.last()`](jq-method-first-last.eq.html)
     - ![](../../../-/2.png) [`:has()`](jq-select-has.html)
     - ![](../../../-/2.png) [`:not()`](jq-select-not.html)
     - By Index
         - ![](../../../-/1.png) [`:eq()`](jq-select-index-eq.html), [`.eq()`](jq-method-first-last.eq.html)
+            > _To select each element from a collection indivisually by its id_  
             > _Starts from zero_  
             > _Can get negative number_
         - ![](../../../-/1.png) [`:nth-child()`](jq-select-nth-child.html)
             > _Starts from one_
         - ![](../../../-/2.png) [`:nth-last-child()`](jq-select-nth-last-child.html)
+            > _Starts from one_
         - ![](../../../-/2.png) [`:only-child`](jq-select-only-child.html)
+            > select element that have only one child
         - ![](../../../-/2.png) [`:lt()`](jq-select-lt.html)
+            > Select elements less than index
         - ![](../../../-/2.png) [`:gt()`](jq-select-gt.html)
+            > Select elements greater than index
     - Of Type
-        - `:first-of-type`      [ ] TODO: Check
-        - `:nth-of-type()`      [ ] TODO: Check
-        - `:nth-last-of-type()` [ ] TODO: Check
-        - `:only-of-type`       [ ] TODO: Check
-        - `:last-of-type`       [ ] TODO: Check
+        - ![](../../../-/2.png) [`:only-of-type`](jq-select-of-type.html)
+        - ![](../../../-/2.png) [`:first-of-type`](jq-select-of-type.html)
+        - ![](../../../-/2.png) [`:last-of-type`](jq-select-of-type.html)
+        - ![](../../../-/2.png) [`:nth-of-type()`](jq-select-of-type.html)
+        - ![](../../../-/2.png) [`:nth-last-of-type()`](jq-select-of-type.html)
