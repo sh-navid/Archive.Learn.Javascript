@@ -112,7 +112,10 @@
             > Select elements greater than index
     - Of Type
         - ![](../../../-/2.png) [`:only-of-type`](jq-select-of-type.html)
-        - ![](../../../-/2.png) [`:first-of-type`](jq-select-of-type.html)
-        - ![](../../../-/2.png) [`:last-of-type`](jq-select-of-type.html)
-        - ![](../../../-/2.png) [`:nth-of-type()`](jq-select-of-type.html)
-        - ![](../../../-/2.png) [`:nth-last-of-type()`](jq-select-of-type.html)
+            > There is only one of its kind in each scope
+        - ![](../../../-/2.png) [`:first-of-type`](jq-select-first-of-type.html)
+            > First of its kind in each scope
+        - ![](../../../-/2.png) [`:last-of-type`](jq-select-first-of-type.html)
+            > Last of its kind in each scope
+        - ![](../../../-/2.png) [`:nth-of-type()`](jq-select-nth-of-type.html)
+        - ![](../../../-/2.png) [`:nth-last-of-type()`](jq-select-nth-of-type.html)
