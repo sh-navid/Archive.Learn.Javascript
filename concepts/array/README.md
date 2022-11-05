@@ -13,9 +13,9 @@
     - ![](../../-/1.png) [Change](js-array-change.js)
         > How to change an item in array ?
     - Iterate over array
-        - ![](../../-/1.png) `for` + Counter
-        - ![](../../-/1.png) `for` + `in`
-        - ![](../../-/1.png) `for` + `of`
+        - ![](../../-/1.png) [`for` + Counter](js-for-counter.js)
+        - ![](../../-/1.png) [`for` + `in`](js-for-in.js)
+        - ![](../../-/1.png) [`for` + `of`](js-for-of.js)
         - ![](../../-/1.png) `.forEach()`
 - Other
     - ![](../../-/1.png) Make array
