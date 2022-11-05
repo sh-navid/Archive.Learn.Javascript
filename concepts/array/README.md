@@ -5,10 +5,17 @@
         > How to access an item in array ?
     - ![](../../-/1.png) Change
         > How to change an item in array ?
-    - ![](../../-/1.png) Iterate over array
-        > How to loop over and read each indivisual in array ?
+    - Iterate over array
+        - ![](../../-/1.png) `for` + Counter
+        - ![](../../-/1.png) `for` + `in`
+        - ![](../../-/1.png) `for` + `of`
+        - ![](../../-/1.png) `.forEach()`
 - Other
-    - ![](../../-/1.png) Dimensions of array
+    - ![](../../-/1.png) Make array
+        > How to make a new array ?
+        - ![](../../-/1.png) Using `[]`
+        - ![](../../-/2.png) Using `new Array()`
+    - ![](../../-/1.png) MultiDimensional Array
         > How to make and access to a multi dimensional array ?
 - Methods
     - Conditional
