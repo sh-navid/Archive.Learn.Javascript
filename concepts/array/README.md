@@ -16,7 +16,7 @@
         - ![](../../-/1.png) [`for` + Counter](js-for-counter.js)
         - ![](../../-/1.png) [`for` + `in`](js-for-in.js)
         - ![](../../-/1.png) [`for` + `of`](js-for-of.js)
-        - ![](../../-/1.png) `.forEach()`
+        - ![](../../-/1.png) [`.forEach()`](js-for-each.js)
 - Other
     - ![](../../-/1.png) Make array
         > How to make a new array ?
