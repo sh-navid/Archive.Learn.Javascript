@@ -18,7 +18,7 @@
 - ![](-/i.png) [Operators](concepts/operators/README.md)
 - ![](-/i.png) [DataTypes](concepts/datatypes/README.md)
     - ![](-/n.png) [String](concepts/string/README.md)
-    - ![](-/i.png) ![](-/d.png) ![](-/e.png) [Array](concepts/array/README.md)
+    - ![](-/f.png) [Array](concepts/array/README.md)
 - ![](-/i.png) [Function](concepts/function/README.md)
 - ![](-/i.png) [Class](concepts/class/README.md)
 - ![](-/i.png) [Order](concepts/order/README.md)
@@ -28,7 +28,7 @@
 - ![](-/i.png) [Keywords](concepts/keywords/README.md)
 - ![](-/i.png) [Hoisting](concepts/hoisting/README.md)
 - Collections
-    - ![](-/i.png) ![](-/d.png) ![](-/e.png) Array [⇧](concepts/array/README.md)
+    - ![](-/f.png) Array [⇧](concepts/array/README.md)
     - ![](-/i.png) [Map](concepts/map/README.md)
     - ![](-/n.png) [Set](concepts/set/README.md)
     - ![](-/i.png) [JSON](concepts/json/README.md)
@@ -46,11 +46,11 @@
 
 ## JQ Headings
 - JQ <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
-    - ![](-/i.png) ![](-/d.png) ![](-/e.png) [Introduction](frameworks/jquery/introduction/README.md)
-    - ![](-/i.png) ![](-/d.png) ![](-/e.png) [Output](frameworks/jquery/echo/README.md)
-    - ![](-/i.png) ![](-/d.png) ![](-/e.png) [Class](frameworks/jquery/class/README.md)
-    - ![](-/i.png) ![](-/d.png) ![](-/e.png) [CSS](frameworks/jquery/css/README.md)
-    - ![](-/i.png) ![](-/d.png) ![](-/e.png) [Values](frameworks/jquery/values/README.md)
+    - ![](-/f.png) [Introduction](frameworks/jquery/introduction/README.md)
+    - ![](-/f.png) [Output](frameworks/jquery/echo/README.md)
+    - ![](-/f.png) [Class](frameworks/jquery/class/README.md)
+    - ![](-/f.png) [CSS](frameworks/jquery/css/README.md)
+    - ![](-/f.png) [Values](frameworks/jquery/values/README.md)
     - ![](-/i.png) [Attributes](frameworks/jquery/attributes/README.md)
     - ![](-/i.png) [QuerySelector](frameworks/jquery/selector/README.md)
     - ![](-/i.png) [Events](frameworks/jquery/events/README.md)
