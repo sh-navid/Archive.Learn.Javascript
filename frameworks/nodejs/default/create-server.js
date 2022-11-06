@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
         res.end();
     } else if (req.url == "/tasks") {
         res.writeHead(200, { 'Content-Type': 'application/json' });
-        res.write({ "data": "This data passed from server to client" });
+        res.write(JSON.stringify({ "data": "This data passed from server to client" }));
         res.end();
     }
 })
