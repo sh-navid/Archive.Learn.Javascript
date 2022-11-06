@@ -78,7 +78,7 @@
 
 ## NodeJS Headings
 - NodeJS <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
-    - ![](-/n.png) [Introduction](frameworks/nodejs/introduction/README.md)
+    - ![](-/f.png) [Introduction](frameworks/nodejs/introduction/README.md)
     - ![](-/i.png) [Simple API](frameworks/nodejs/simple-api/README.md)
     - ![](-/n.png) Init
     - ![](-/n.png) Express
