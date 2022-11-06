@@ -2,11 +2,11 @@
 ***Disclaimer: The content of this repository is provided only for the purpose of teaching students and with an educational perspective.***
 - ***Symbols***
     - **Headings**
-        - ![](-/i.png) Completed
-        - ![](-/p.png) In progress but not completed
-        - ![](-/n.png) Not Started
-        - ![](-/d.png) Level + Document
-        - ![](-/e.png) With Examples
+        - ![](-/i.png) Teaching items are completed
+            - ![](-/d.png) Has Levels + Documentions
+            - ![](-/e.png) Has Examples
+        - ![](-/p.png) Gathering teaching materials is in progress
+        - ![](-/n.png) Not started
     - **Concepts**
         - ![](-/1.png) Basic
         - ![](-/2.png) Medium
