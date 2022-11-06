@@ -1,4 +1,4 @@
-"use strict";
+"use strict"; // for security reasons 
 
 const http = require("http")
 
