@@ -2,9 +2,10 @@
 ***Disclaimer: The content of this repository is provided only for the purpose of teaching students and with an educational perspective.***
 - ***Symbols***
     - **Headings**
-        - ![](-/i.png) Completed Concept
-        - ![](-/n.png) Not Completed Yet
-        - ![](-/d.png) Level + Documented
+        - ![](-/i.png) Completed
+        - ![](-/p.png) In progress but not completed
+        - ![](-/n.png) Not Started
+        - ![](-/d.png) Level + Document
         - ![](-/e.png) With Examples
     - **Concepts**
         - ![](-/1.png) Basic
@@ -28,19 +29,19 @@
 - ![](-/i.png) [Function](concepts/function/README.md)
 - ![](-/i.png) [Class](concepts/class/README.md)
 - ![](-/i.png) [Order](concepts/order/README.md)
-- ![](-/n.png) [Events](concepts/events/README.md)
+- ![](-/p.png) [Events](concepts/events/README.md)
 - ![](-/n.png) [Async](concepts/async/README.md)
-- ![](-/n.png) [Strict Mode](concepts/strict/README.md)
+- ![](-/p.png) [Strict Mode](concepts/strict/README.md)
 - ![](-/i.png) [Keywords](concepts/keywords/README.md)
 - ![](-/i.png) [Hoisting](concepts/hoisting/README.md)
 - Collections
     - ![](-/f.png) Array [⇧](concepts/array/README.md)
     - ![](-/i.png) [Map](concepts/map/README.md)
     - ![](-/n.png) [Set](concepts/set/README.md)
-    - ![](-/i.png) [JSON](concepts/json/README.md)
+    - ![](-/p.png) [JSON](concepts/json/README.md)
 - ![](-/n.png) [Regex](concepts/regex/README.md)
 - ![](-/n.png) [Document](concepts/document/README.md)
-- ![](-/n.png) [Window](concepts/window/README.md)
+- ![](-/p.png) [Window](concepts/window/README.md)
 - ![](-/n.png) [SVG](documents/svg/README.md)
 - ![](-/n.png) [DOM](documents/dom/README.md)
 - ![](-/n.png) Random
@@ -89,7 +90,7 @@
     - ![](-/n.png) Callback, Promise, EventEmmiter
     - ![](-/n.png) Validator
     - ![](-/n.png) Fork, Exec, Spawn, LoadBlancer
-    - ![](-/n.png) Security
+    - ![](-/p.png) [Security](frameworks/nodejs/security/README.md)
     - ![](-/n.png) Modules
     - ![](-/n.png) Commander
     - ![](-/n.png) PDF Conversion
