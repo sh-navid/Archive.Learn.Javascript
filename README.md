@@ -1,5 +1,5 @@
 # JS Instructor
-***Disclaimer: The content of this repository is provided only for the purpose of teaching students and with an educational perspective.***
+***Disclaimer**: The content of this repository is provided only for the purpose of teaching students and with an educational perspective.*
 - ***Symbols***
     - **Headings**
         - ![](-/i.png) Teaching items are completed
@@ -15,8 +15,8 @@
         - ![](-/x.png) Deprecated (No need to learn)
 
 ## Web Roadmap
-- [Frontend](more/roadmap/front/README.md)
-- [Backend](more/roadmap/front/README.md)
+- ![](-/p.png) [Frontend](more/roadmap/front/README.md)
+- ![](-/p.png) [Backend](more/roadmap/front/README.md)
 
 ## JS Headings
 - <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
@@ -80,14 +80,15 @@
 ## NodeJS Headings
 - NodeJS <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
     - ![](-/f.png) [Introduction](frameworks/nodejs/introduction/README.md)
-    - ![](-/i.png) [Simple API](frameworks/nodejs/simple-api/README.md)
-    - ![](-/n.png) Init
+    - ![](-/p.png) [Create Server](frameworks/nodejs/default/README.md)
     - ![](-/n.png) Express
     - ![](-/n.png) Router
     - ![](-/n.png) Params
     - ![](-/n.png) Middleware
     - ![](-/n.png) CRUD
-    - ![](-/n.png) Callback, Promise, EventEmmiter
+    - ![](-/n.png) Callback
+    - ![](-/n.png) Promise
+    - ![](-/n.png) EventEmmiter
     - ![](-/n.png) Validator
     - ![](-/n.png) Fork, Exec, Spawn, LoadBlancer
     - ![](-/p.png) [Security](frameworks/nodejs/security/README.md)
@@ -100,6 +101,7 @@
 - Template Engine
     - ![](-/n.png) ServerSideRendering (SSR) - EJS
 - API
+    - ![](-/p.png) [Simple API](frameworks/nodejs/simple-api/README.md)
     - ![](-/n.png) GraphQL
 - Data
     - ![](-/n.png) SQL
