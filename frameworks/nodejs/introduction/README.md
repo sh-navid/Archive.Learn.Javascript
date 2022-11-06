@@ -6,6 +6,8 @@
     - Ubuntu
         - Open a terminal and Enter
             - `apt install nodejs`
+            - `apt install npm`
+                > You may have to use `sudo`
 - ![](../../../-/1.png) Setup project
     - First Step
         - `npm init`
