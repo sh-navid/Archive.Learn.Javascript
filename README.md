@@ -68,8 +68,8 @@
     - ![](-/f.png) [Traversing](frameworks/jquery/traversing/README.md)
     - ![](-/n.png) [Callbacks](frameworks/jquery/callbacks/README.md)
     - ![](-/n.png) [Deferred Object](frameworks/jquery/deferred/README.md)
-    - ![](-/n.png) Ajax
-    - ![](-/n.png) NoConflict
+    - ![](-/n.png) [Ajax](frameworks/jquery/ajax/README.md)
+    - ![](-/n.png) [NoConflict](frameworks/jquery/conflict/README.md)
     - ![](-/i.png) [Custom Plugin](frameworks/jquery/examples/jq-rotatable.html)
     - ![](-/n.png) [UNCATEGORIZED](frameworks/jquery/uncategorized/README.md)
 - JQ UI
