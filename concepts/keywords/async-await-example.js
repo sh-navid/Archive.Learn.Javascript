@@ -7,9 +7,12 @@ let run = (n) => {
 
 let run_async = async (n) => {
     console.log("Run Async Started " + n)
-    let i = 0
-    while (i++ < 9000000000);
-    console.log("Run Async Ended " + n)
+     new Promise(resolve => {
+        let i = 0
+        while (i++ < 9000000000);
+        console.log("Run Async Ended " + n)
+    })
+    
 }
 
 run(1)

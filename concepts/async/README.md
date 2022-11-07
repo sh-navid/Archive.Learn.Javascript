@@ -2,3 +2,4 @@
 ## Async
 - Callback
 - Promise
+- Async/Await

@@ -30,7 +30,7 @@
 - ![](-/f.png) [Class](concepts/class/README.md)
 - ![](-/f.png) [Order](concepts/order/README.md)
 - ![](-/i.png)![](-/d.png) [Events](concepts/events/README.md)
-- ![](-/n.png) [Async](concepts/async/README.md)
+- ![](-/p.png) [Handle Async Operations](concepts/async/README.md)
 - ![](-/f.png) [Strict Mode](concepts/strict/README.md)
 - ![](-/f.png) [Keywords](concepts/keywords/README.md)
 - ![](-/f.png) [Hoisting](concepts/hoisting/README.md)
