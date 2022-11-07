@@ -1,7 +1,7 @@
 # Javascript
 ## Async Operations
 - ![](../../-/2.png) Callback
-- ![](../../-/3.png) Promise
+- ![](../../-/3.png) [Promise](promise-example.js)
     - States of Promise
         - Pending
         - Resolve
