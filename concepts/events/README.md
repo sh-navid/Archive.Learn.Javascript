@@ -1,18 +1,32 @@
 # Javascript
 ## Events
-- [`load`](js-event-load-example.html), `beforeunload`
-- `drag`, `dragstart`, `dragend`
-- `dragover`, `dragleave`, `dragenter`, `drop`
-- `copy`, `cut`, `paste`, `select`
-- `beforeinput`, `input`, `change`
-- `click`, `dblclick`, `focus`, `blur`
-- `mousemove`, `mouseup`, `mousedown`
-- `keyup`, `keydown`, `keypress`
-- `mouseover`, `mouseout`
-- [`submit`](js-event-submit-example.html)
-- `scroll`
-    - [Vertical Example](js-event-scroll-example.html)
-    - [Horizantal Example](js-event-scroll-h-example.html)
-    - [Scroll to/by Example](../other/js-scroll-to-by.html)
-    - [Scroll to/by Example 2](../other/js-scroll-to-by-2.html)
-- [`resize`](js-event-resize-example.html)
+- Load
+    - ![](../../-/1.png) [`load`](js-event-load-example.html)
+    - ![](../../-/3.png) `beforeunload`
+- Drag
+    - ![](../../-/3.png) `drag`, `dragstart`, `dragend`
+    - ![](../../-/3.png) `dragover`, `dragleave`, `dragenter`, `drop`
+- Edit
+    - ![](../../-/2.png) `copy`
+    - ![](../../-/2.png) `cut`
+    - ![](../../-/2.png) `paste`
+    - ![](../../-/2.png) `select`
+- Input
+    - ![](../../-/1.png) `input`, `change`
+    - ![](../../-/2.png) `beforeinput`
+    - ![](../../-/2.png) `focus`, `blur`
+- Mouse
+    - ![](../../-/2.png) `click`, `dblclick`
+    - ![](../../-/1.png) `mousemove`, `mouseup`, `mousedown`
+    - ![](../../-/2.png) `mouseover`, `mouseout`, `mouseleave`
+- Keyboard
+    - ![](../../-/1.png) `keyup`, `keydown`, `keypress`
+- Form
+    - ![](../../-/2.png) [`submit`](js-event-submit-example.html)
+- ![](../../-/1.png) `scroll`
+    - Examples
+        - ![](../../-/2.png) [Vertical](js-event-scroll-example.html)
+        - ![](../../-/2.png) [Horizantal](js-event-scroll-h-example.html)
+        - ![](../../-/3.png) [Scroll to/by 1](../other/js-scroll-to-by.html)
+        - ![](../../-/4.png) [Scroll to/by 2](../other/js-scroll-to-by-2.html)
+- ![](../../-/1.png) [`resize`](js-event-resize-example.html)

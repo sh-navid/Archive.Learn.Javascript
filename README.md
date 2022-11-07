@@ -2,10 +2,10 @@
 ***Disclaimer**: The content of this repository is provided only for the purpose of teaching students and with an educational perspective.*
 - ***Symbols***
     - **Headings**
-        - ![](-/i.png) Teaching items are completed
+        - ![](-/i.png) Teaching items are completed; However can have more items in the future
             - ![](-/d.png) Has Levels + Documentions
             - ![](-/e.png) Has Examples
-        - ![](-/p.png) Gathering teaching materials is in progress
+        - ![](-/p.png) Gathering the teaching materials is in progress
         - ![](-/n.png) Not started
     - **Concepts**
         - ![](-/1.png) Basic
@@ -28,10 +28,10 @@
     - ![](-/f.png) [Array](concepts/array/README.md)
 - ![](-/i.png)![](-/d.png) [Function](concepts/function/README.md)
 - ![](-/f.png) [Class](concepts/class/README.md)
-- ![](-/i.png) [Order](concepts/order/README.md)
-- ![](-/p.png) [Events](concepts/events/README.md)
+- ![](-/f.png) [Order](concepts/order/README.md)
+- ![](-/i.png)![](-/d.png) [Events](concepts/events/README.md)
 - ![](-/n.png) [Async](concepts/async/README.md)
-- ![](-/p.png) [Strict Mode](concepts/strict/README.md)
+- ![](-/f.png) [Strict Mode](concepts/strict/README.md)
 - ![](-/i.png) [Keywords](concepts/keywords/README.md)
 - ![](-/f.png) [Hoisting](concepts/hoisting/README.md)
 - Collections

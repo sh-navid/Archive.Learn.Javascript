@@ -1,10 +1,10 @@
 # Javascript
 ## Strict
-- `"use strict";`
+- ![](../../-/1.png) `"use strict";`
+    > Put `"use strict";` at the first line of your script
     - Variables
-        - [Example 1](js-strict-example.html)
-        - [Example 2](js-strict-variables-example.html)
-    - `eval()`
-        - [Example](js-strict-eval-example.html)
-    - `with`
-        - [Example](js-strict-with-example.html)
+        - ![](../../-/2.png) [Example 1](js-strict-example.html)
+        - ![](../../-/2.png) [Example 2](js-strict-variables-example.html)
+    - ![](../../-/2.png) [`eval()`](js-strict-eval-example.html)
+    - ![](../../-/2.png) [`with`](js-strict-with-example.html)
+        > Do not use `with` keyword
