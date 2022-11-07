@@ -1,25 +1,18 @@
-let run = (n) => {
-    console.log("Run Started " + n)
-    let i = 0
-    while (i++ < 1000000000);
-    console.log("Run Ended " + n)
-}
+let P = new Promise((resolve, reject) => {
+    setTimeout(() => resolve("Hello World"), 5000)
+})
 
-let run_async = async (n) => {
-    console.log("Run Async Started " + n)
-     new Promise(resolve => {
-        let i = 0
-        while (i++ < 9000000000);
-        console.log("Run Async Ended " + n)
+
+let run = () => {
+    P.then((result) => {
+        console.log("Run - " + result)
     })
-    
 }
 
-run(1)
-run_async(1)
-run(2)
-run(3)
-run(4)
+let run_async = async () => {
+    let result = await P
+    console.log("Run async - " + result)
+}
 
-
-
+run()
+run_async()
