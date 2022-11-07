@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../frameworks/jquery/jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td class="c0">Column 1</td>
+            <td class="c1">Column 2</td>
+            <td class="c2">Column 3</td>
+        </tr>
+        <tr current="2">
+            <td class="c0">Column 1</td>
+            <td class="c1">Column 2</td>
+            <td class="c2">Column 3</td>
+        </tr>
+        <tr current="2">
+            <td class="c0">Column 1</td>
+            <td class="c1">Column 2</td>
+            <td class="c2">Column 3</td>
+        </tr>
+    </table>
+    <script>
+        current = [2, 2, 2]
+
+        $("td").each((i, td) => {
+            td = $(td)
+            td.click((e) => {
+                td = $(e.target)
+                className = td.attr("class")
+                idx = parseInt(className.replace("c", ""))
+
+
+                alert(className + " - " + current[idx] + " - " + `.${className}:eq(${current[idx]})`)
+
+
+                $(`.${className}:eq(${current[idx]})`).text("Fill")
+                current[idx] -= 1
+            })
+        })
+    </script>
+</body>
+
+</html>
