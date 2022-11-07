@@ -33,7 +33,7 @@
 - ![](-/n.png) [Async](concepts/async/README.md)
 - ![](-/p.png) [Strict Mode](concepts/strict/README.md)
 - ![](-/i.png) [Keywords](concepts/keywords/README.md)
-- ![](-/i.png) [Hoisting](concepts/hoisting/README.md)
+- ![](-/f.png) [Hoisting](concepts/hoisting/README.md)
 - Collections
     - ![](-/f.png) Array [⇧](concepts/array/README.md)
     - ![](-/f.png) [Map](concepts/map/README.md)
