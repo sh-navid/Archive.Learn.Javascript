@@ -28,7 +28,7 @@
     - ![](../../-/1.png) [`try`, `catch`, `finally`](js-keyword-try-catch-example.html)
 - Loop
     - ![](../../-/1.png) `for`, `continue`, `break`
-    - ![](../../-/1.png) `do`, [while](js-keyword-while-example.html), `continue`, `break`
+    - ![](../../-/1.png) [`do`, `while`, `continue`, `break`](js-keyword-while-example.js)
 - Conditional
     - ![](../../-/1.png) `if`, `else`
     - ![](../../-/1.png) [`switch`, `case`, `default`, `break`](js-keyword-switch-case-default-example.html)
