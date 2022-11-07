@@ -1,4 +1,4 @@
-let run = async (n) => {
+let run = (n) => {
     console.log("Run Started " + n)
     let i = 0
     while (i++ < 1000000000);
