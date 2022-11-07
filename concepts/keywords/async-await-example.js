@@ -16,3 +16,15 @@ let run_async = async () => {
 
 run()
 run_async()
+
+
+
+//----------------------------------------------------------
+
+let M = (n) => new Promise((resolve, reject) => {
+    setTimeout(() => resolve("Hello World " + n), 5000)
+})
+
+M(2).then((result) => {
+    console.log("Promise - " + result)
+})
