@@ -44,12 +44,12 @@
 - ![](-/p.png) [Window](concepts/window/README.md)
 - ![](-/n.png) [SVG](documents/svg/README.md)
 - ![](-/n.png) [DOM](documents/dom/README.md)
-- ![](-/n.png) Random
-- ![](-/n.png) Date
-- ![](-/n.png) Math
-- ![](-/n.png) HttpRequest, Ajax, Fetch
+- ![](-/n.png) [Random](documents/random/README.md)
+- ![](-/n.png) [Date](documents/date/README.md)
+- ![](-/n.png) [Math](documents/math/README.md)
+- ![](-/n.png) [HttpRequest, Ajax, Fetch](documents/fetch/README.md)
 - ![](-/n.png) ES6
-- ![](-/n.png) Canvas
+- ![](-/n.png) [Canvas](documents/canvas/README.md)
 
 ## JQ Headings
 - JQ <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
