@@ -30,7 +30,7 @@
     - ![](../../-/1.png) [`for`, `continue`, `break`](for-continue-break.js)
     - ![](../../-/1.png) [`do`, `while`, `continue`, `break`](js-keyword-while-example.js)
 - Conditional
-    - ![](../../-/1.png) `if`, `else`
+    - ![](../../-/1.png) [`if`, `else`](if-else.js)
     - ![](../../-/1.png) [`switch`, `case`, `default`, `break`](js-keyword-switch-case-default-example.html)
 - Other
     - ![](../../-/1.png) [`delete`](../json/js-json-remove-example.html)
