@@ -47,7 +47,7 @@
 - ![](-/P.png) [Random](concepts/random/README.md)
 - ![](-/n.png) [Date](concepts/date/README.md)
 - ![](-/n.png) [Math](concepts/math/README.md)
-- ![](-/n.png) [API](concepts/fetch/README.md)
+- ![](-/i.png)![](-/d.png) [API](concepts/fetch/README.md)
 - ![](-/n.png) [ES6](concepts/es6/README.md)
 - ![](-/n.png) [Canvas](concepts/canvas/README.md)
 

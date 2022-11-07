@@ -1,5 +1,7 @@
 # JS
 ## Connect with API
-- HttpRequest
-- Ajax
-- Fetch
+- ![](../../-/3.png) HttpRequest
+    > Old school
+- ![](../../-/2.png) Ajax
+- ![](../../-/1.png) Fetch
+- ![](../../-/2.png) Axios
