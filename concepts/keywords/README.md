@@ -22,7 +22,8 @@
     - ![](../../-/2.png) `static` ([1](../class/js-class-static-attr-example.html), [2](../class/js-class-static-method-example.html))
 - Debug
     - ![](../../-/2.png) [`debugger`](js-keyword-debugger-example.html)
-        > To use as _BREAK POINT_ in browser
+        > To use as _BREAK POINT_ in browser  
+        > To check this feature, Open browser console and reload the page
     - ![](../../-/3.png) [`throw`](js-keyword-throw-example.html)
     - ![](../../-/1.png) [`try`, `catch`, `finally`](js-keyword-try-catch-example.html)
 - Loop
