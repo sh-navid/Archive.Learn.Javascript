@@ -36,7 +36,7 @@
 - ![](-/i.png) [Hoisting](concepts/hoisting/README.md)
 - Collections
     - ![](-/f.png) Array [⇧](concepts/array/README.md)
-    - ![](-/i.png) [Map](concepts/map/README.md)
+    - ![](-/f.png) [Map](concepts/map/README.md)
     - ![](-/n.png) [Set](concepts/set/README.md)
     - ![](-/p.png) [JSON](concepts/json/README.md)
 - ![](-/n.png) [Regex](concepts/regex/README.md)
