@@ -35,21 +35,21 @@
 - ![](-/i.png)![](-/d.png) [Keywords](concepts/keywords/README.md)
 - ![](-/f.png) [Hoisting](concepts/hoisting/README.md)
 - Collections
-    - ![](-/f.png) Array [⇧](concepts/array/README.md)
+    - Array [⇧⇧⇧](concepts/array/README.md)
     - ![](-/f.png) [Map](concepts/map/README.md)
     - ![](-/n.png) [Set](concepts/set/README.md)
     - ![](-/f.png) [JSON](concepts/json/README.md)
 - ![](-/n.png) [Regex](concepts/regex/README.md)
 - ![](-/n.png) [Document](concepts/document/README.md)
 - ![](-/p.png) [Window](concepts/window/README.md)
-- ![](-/n.png) [SVG](documents/svg/README.md)
-- ![](-/n.png) [DOM](documents/dom/README.md)
-- ![](-/n.png) [Random](documents/random/README.md)
-- ![](-/n.png) [Date](documents/date/README.md)
-- ![](-/n.png) [Math](documents/math/README.md)
-- ![](-/n.png) [HttpRequest, Ajax, Fetch](documents/fetch/README.md)
-- ![](-/n.png) ES6
-- ![](-/n.png) [Canvas](documents/canvas/README.md)
+- ![](-/p.png) [SVG](documents/svg/README.md)
+- ![](-/p.png) [DOM](documents/dom/README.md)
+- ![](-/n.png) [Random](concepts/random/README.md)
+- ![](-/n.png) [Date](concepts/date/README.md)
+- ![](-/n.png) [Math](concepts/math/README.md)
+- ![](-/n.png) [HttpRequest, Ajax, Fetch](concepts/fetch/README.md)
+- ![](-/n.png) [ES6](concepts/es6/README.md)
+- ![](-/n.png) [Canvas](concepts/canvas/README.md)
 
 ## JQ Headings
 - JQ <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
