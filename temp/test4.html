@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td class="c1">Column 1</td>
+            <td class="c2">Column 2</td>
+            <td class="c3">Column 3</td>
+        </tr>
+        <tr>
+            <td class="c1">Column 1</td>
+            <td class="c2">Column 2</td>
+            <td class="c3">Column 3</td>
+        </tr>
+        <tr>
+            <td class="c1">Column 1</td>
+            <td class="c2">Column 2</td>
+            <td class="c3">Column 3</td>
+        </tr>
+    </table>
+    <script>
+        document.querySelectorAll("td").forEach((td) => {
+            td.addEventListener("click", (e) => {
+                _td = e.target
+                alert(_td.className)
+            })
+        })
+    </script>
+</body>
+
+</html>
