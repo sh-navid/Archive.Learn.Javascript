@@ -5,31 +5,25 @@
     - Abstraction
     - Polymorphism
     - Encapsulation
-- Object
-    - [Example](js-class-create-example.html)
-- Cunstructor
-    - [Example](js-class-constructor-example.html)
-- `.name`
-    - [Example](js-class-name-example.html)
-- `instanceof`, `typeof`, `.prototype.isPrototypeOf()`
-    - [Example](js-class-name-example.html)
-- Method
-    - [Example](js-class-method-example.html)
+- ![](../../-/1.png) [Object](js-class-create-example.html)
+- ![](../../-/1.png) [Cunstructor](js-class-constructor-example.html)
+- ![](../../-/2.png) [`.name`](js-class-name-example.html)
+- Type checking
+    - ![](../../-/1.png) [`instanceof`](js-class-name-example.html)
+    - ![](../../-/1.png) [`typeof`](js-class-name-example.html)
+    - ![](../../-/2.png) [`.prototype.isPrototypeOf()`](js-class-name-example.html)
+- ![](../../-/1.png) [Method](js-class-method-example.html)
 - Inheritance
-    - `extend`
-        - [Example](js-class-inheritance-example.html)
-    - `prototype`
-        - [Example](js-class-prototype-example.html)
-- Override
-    - [Example](js-class-override-example.html)
+    - ![](../../-/1.png) [`extend`](js-class-inheritance-example.html)
+    - ![](../../-/2.png) [`prototype`](js-class-prototype-example.html)
+- ![](../../-/1.png) [Override](js-class-override-example.html)
 - Overload
-    - Method
-        - [Example](js-class-overload-method-example.html)
+    - ![](../../-/2.png) [Method](js-class-overload-method-example.html)
     - Operator
-        - Seems javaScript does not support operator overloading.
+        > Seems javaScript does not support operator overloading.
 - Static
-    - [Attribute](js-class-static-attr-example.html)
-    - [Method](js-class-static-method-example.html)
+    - ![](../../-/1.png) [Attribute](js-class-static-attr-example.html)
+    - ![](../../-/1.png) [Method](js-class-static-method-example.html)
 - Accessor (Access Modifier)
     - Public
     - Private

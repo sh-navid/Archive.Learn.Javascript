@@ -1,42 +1,43 @@
 # JS
 ## String
 - Actions
-    - Access
-    - Assign
+    - ![](../../-/1.png) Access
+    - ![](../../-/1.png) Assign
 - Properties
-    - .length
+    - ![](../../-/1.png) .length
 - Classes
-    - String()
+    - ![](../../-/2.png) String()
 - Methods
     - Change
-        - .replace()
-        - .replaceAll()
+        - ![](../../-/1.png) .replace()
+        - ![](../../-/1.png) .replaceAll()
     - Slicing
-        - .split()
-        - .slice()
-        - .substring()
-        - .substr()
+        - ![](../../-/1.png) .split()
+        - ![](../../-/1.png) .slice()
+        - ![](../../-/2.png) .substring()
+        - ![](../../-/2.png) .substr()
     - Format
-        - .toUpperCase()
-        - .toLowerCase()
-        - .padStart()
-        - .padEnd()
+        - ![](../../-/1.png) .toUpperCase()
+        - ![](../../-/1.png) .toLowerCase()
+        - ![](../../-/2.png) .padStart()
+        - ![](../../-/2.png) .padEnd()
     - Trim
-        - .trim()
-        - .trimStart()
-        - .trimEnd()
+        > Remove spaces
+        - ![](../../-/1.png) .trim()
+        - ![](../../-/2.png) .trimStart()
+        - ![](../../-/2.png) .trimEnd()
     - Char
-        - .charAt()
-        - .charCodeAt()
+        - ![](../../-/2.png) .charAt()
+        - ![](../../-/3.png) .charCodeAt()
     - Search
-        - .search()
-        - .indexOf()
-        - .lastIndexOf()
+        - ![](../../-/1.png) .search()
+        - ![](../../-/2.png) .indexOf()
+        - ![](../../-/2.png) .lastIndexOf()
     - Conditions
-        - .startsWith()
-        - .endsWith()
+        - ![](../../-/2.png) .startsWith()
+        - ![](../../-/2.png) .endsWith()
     - Other
-        - .toString()
-- Escape Chars
+        - ![](../../-/1.png) .toString()
+- ![](../../-/1.png) Escape Chars
 - Template (Format)
-    - `${}`
+    - ![](../../-/1.png) `${}`

@@ -1,12 +1,12 @@
 # JS
 ## Syntax
 - Variable
-    - Define
-    - Variable Naming
+    - ![](../../-/1.png) Define
+    - ![](../../-/1.png) Variable Naming
         > A-Z,a-z,$,_, CamelCase
-    - var, let<sub>ES6</sub>, const<sub>ES6</sub>
-- Literals
+    - ![](../../-/1.png) var, let<sub>ES6</sub>, const<sub>ES6</sub>
+- ![](../../-/1.png) Literals
     > Fixed values
-- Comment
+- ![](../../-/1.png) Comment
     - `//`
     - `/**/`

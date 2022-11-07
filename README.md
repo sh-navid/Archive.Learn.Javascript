@@ -20,14 +20,14 @@
 
 ## JS Headings
 - <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
-- ![](-/i.png) [Syntax](concepts/syntax/README.md)
-- ![](-/i.png) [Output](concepts/output/README.md)
-- ![](-/i.png) [Operators](concepts/operators/README.md)
-- ![](-/i.png) [DataTypes](concepts/datatypes/README.md)
-    - ![](-/n.png) [String](concepts/string/README.md)
+- ![](-/i.png)![](-/d.png) [Syntax](concepts/syntax/README.md)
+- ![](-/i.png)![](-/d.png) [Output](concepts/output/README.md)
+- ![](-/i.png)![](-/d.png) [Operators](concepts/operators/README.md)
+- ![](-/i.png)![](-/d.png) [DataTypes](concepts/datatypes/README.md)
+    - ![](-/i.png)![](-/d.png) [String](concepts/string/README.md)
     - ![](-/f.png) [Array](concepts/array/README.md)
-- ![](-/i.png) [Function](concepts/function/README.md)
-- ![](-/i.png) [Class](concepts/class/README.md)
+- ![](-/i.png)![](-/d.png) [Function](concepts/function/README.md)
+- ![](-/f.png) [Class](concepts/class/README.md)
 - ![](-/i.png) [Order](concepts/order/README.md)
 - ![](-/p.png) [Events](concepts/events/README.md)
 - ![](-/n.png) [Async](concepts/async/README.md)
