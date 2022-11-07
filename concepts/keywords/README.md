@@ -35,8 +35,8 @@
 - Other
     - ![](../../-/1.png) [`delete`](../json/js-json-remove-example.html)
     - ![](../../-/1.png) [`null`](null-example.js)
-    - ![](../../-/1.png) `var`, `let`, `const`
-    - ![](../../-/3.png) `async`, `await`
+    - ![](../../-/1.png) [`var`, `let`, `const`](variable-defenition.js)
+    - ![](../../-/3.png) [`async`, `await`](async-await-example.js)
     - ![](../../-/x.png) ~~`with`~~
     - ![](../../-/1.png) [`of`, `in`](js-keyword-of-in-example.html)
     - ![](../../-/2.png) [`instanceof`, `typeof`](js-keyword-type-example.html)
