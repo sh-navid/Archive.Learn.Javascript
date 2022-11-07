@@ -38,7 +38,7 @@
     - ![](-/f.png) Array [⇧](concepts/array/README.md)
     - ![](-/f.png) [Map](concepts/map/README.md)
     - ![](-/n.png) [Set](concepts/set/README.md)
-    - ![](-/p.png) [JSON](concepts/json/README.md)
+    - ![](-/f.png) [JSON](concepts/json/README.md)
 - ![](-/n.png) [Regex](concepts/regex/README.md)
 - ![](-/n.png) [Document](concepts/document/README.md)
 - ![](-/p.png) [Window](concepts/window/README.md)
