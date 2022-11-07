@@ -5,9 +5,9 @@
         > To exit a function or return a value from it
     - ![](../../-/3.png) [`yield`](js-keyword-yield-example.html)
 - Modules
-    - ![](../../-/2.png) `import`
-    - ![](../../-/2.png) `export`
-        > You need these for example in react
+    - ![](../../-/2.png) [`export`](export_example.js)
+    - ![](../../-/2.png) [`import`](import_example.js)
+        > You need to set [type in package.json](package.json) for example in react
 - Boolean
     - ![](../../-/1.png) [`true`](keyword-bool-true.js)
     - ![](../../-/1.png) [`false`](keyword-bool-true.js)
