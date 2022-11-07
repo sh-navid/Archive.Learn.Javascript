@@ -34,7 +34,7 @@
     - ![](../../-/1.png) [`switch`, `case`, `default`, `break`](js-keyword-switch-case-default-example.html)
 - Other
     - ![](../../-/1.png) [`delete`](../json/js-json-remove-example.html)
-    - ![](../../-/1.png) `null`
+    - ![](../../-/1.png) [`null`](null-example.js)
     - ![](../../-/1.png) `var`, `let`, `const`
     - ![](../../-/3.png) `async`, `await`
     - ![](../../-/x.png) ~~`with`~~
