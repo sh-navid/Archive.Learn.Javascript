@@ -72,8 +72,7 @@
             const ActionButton = () => {return (<div style={ActionButtonStyle}></div>)}
             export default ActionButton
             ~~~
-- ![](../../../-/3.png) Styled Component
-    - [Original Github Repo](https://github.com/styled-components/styled-components)
+- ![](../../../-/3.png) Styled Component ([Github Repo](https://github.com/styled-components/styled-components))
     - Setup
         - `npm install --save styled-components`
     - Usage
