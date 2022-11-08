@@ -32,7 +32,7 @@
             - `ActionButton.jsx`
             ~~~js
             import React from "react"
-            import "./ActionButton.module.css"
+            import "./ActionButton.css"
 
             const ActionButton = () => {
                 return (<div className="button"></div>)
