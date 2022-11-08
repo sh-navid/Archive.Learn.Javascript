@@ -1,4 +1,4 @@
-# JS
+# ReactJS
 - **Helper Links**
     - [Great link to read about 4 ways of styling](https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822)
     - [Documents of styled components](https://styled-components.com/docs/basics)
