@@ -4,30 +4,30 @@
     - Stylesheet
         - ![](../../../-/1.png) First stylesheet method
             - Put your css in `App.css` file
-            ~~~css
-            .button{background-color: tomato !important;}
-            ~~~
-        - Make a `.jsx` file like
-            - `ActionButton.jsx`
-            ~~~js
-            import React from "react"
-            const ActionButton = () => {return (<div className="button"></div>)}
-            export default ActionButton
-            ~~~
+                ~~~css
+                .button{background-color: tomato !important;}
+                ~~~
+            - Make a `.jsx` file like
+                - `ActionButton.jsx`
+                ~~~js
+                import React from "react"
+                const ActionButton = () => {return (<div className="button"></div>)}
+                export default ActionButton
+                ~~~
         - ![](../../../-/1.png) Second stylesheet method
             - Make a `.css` file like
-            - `ActionButton.css`
-            ~~~css
-            .button{background-color: tomato !important;}
-            ~~~
-        - Make a `.jsx` file like
-            - `ActionButton.jsx`
-            ~~~js
-            import React from "react"
-            import "./ActionButton.css"
-            const ActionButton = () => {return (<div className="button"></div>)}
-            export default ActionButton
-            ~~~
+                - `ActionButton.css`
+                ~~~css
+                .button{background-color: tomato !important;}
+                ~~~
+            - Make a `.jsx` file like
+                - `ActionButton.jsx`
+                ~~~js
+                import React from "react"
+                import "./ActionButton.css"
+                const ActionButton = () => {return (<div className="button"></div>)}
+                export default ActionButton
+                ~~~
     - ![](../../../-/2.png) Module
         - Make a `.css` file like
             - `ActionButton.module.css`
