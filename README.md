@@ -37,14 +37,14 @@
 - Collections
     - Array [⇧⇧⇧](concepts/array/README.md)
     - ![](-/f.png) [Map](concepts/map/README.md)
-    - ![](-/n.png) [Set](concepts/set/README.md)
+    - ![](-/p.png) [Set](concepts/set/README.md)
     - ![](-/f.png) [JSON](concepts/json/README.md)
 - ![](-/n.png) [Regex](concepts/regex/README.md)
 - ![](-/n.png) [Document](concepts/document/README.md)
 - ![](-/p.png) [Window](concepts/window/README.md)
 - ![](-/p.png) [SVG](documents/svg/README.md)
 - ![](-/p.png) [DOM](documents/dom/README.md)
-- ![](-/P.png) [Random](concepts/random/README.md)
+- ![](-/p.png) [Random](concepts/random/README.md)
 - ![](-/n.png) [Date](concepts/date/README.md)
 - ![](-/n.png) [Math](concepts/math/README.md)
 - ![](-/i.png)![](-/d.png) [API](concepts/fetch/README.md)
@@ -76,6 +76,23 @@
     - ![](-/n.png) [Intractions](frameworks/jquery/ui/intractions/README.md)
 - JQ Mobile
     - ?
+
+## ReactJS Headings
+- ![](-/n.png) [Introduction](frameworks/reactjs/introduction/README.md)
+- ![](-/n.png) ~~Class Components~~
+- ![](-/n.png) Function Components
+- ![](-/p.png) [Style A Component](frameworks/reactjs/style/README.md)
+- ![](-/n.png) Params
+- ![](-/n.png) Hooks
+- ![](-/n.png) **React Native**
+
+
+## Redux Headings
+- ![](-/n.png) [Introduction](frameworks/redux/introduction/README.md)
+- ![](-/n.png) Store
+- ![](-/n.png) Action
+- ![](-/n.png) Reducer
+
 
 ## NodeJS Headings
 - NodeJS <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
@@ -119,21 +136,6 @@
     - ![](-/n.png) File, Stream
     - ![](-/n.png) Video Stream
 
-
-
-## ReactJS Headings
-- [Introduction](frameworks/reactjs/introduction/README.md)
-- Class Components
-- Function Components
-- Params
-- Hooks
-- **React Native**
-
-## Redux Headings
-- [Introduction](frameworks/redux/introduction/README.md)
-- Store
-- Action
-- Reducer
 
 ## NextJS Headings
 - [Introduction](frameworks/nextjs/introduction/README.md)
