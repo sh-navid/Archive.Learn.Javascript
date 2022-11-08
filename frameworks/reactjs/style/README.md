@@ -5,59 +5,41 @@
         - ![](../../../-/1.png) First stylesheet method
             - Put your css in `App.css` file
             ~~~css
-            .button{
-                background-color: tomato !important;
-            }
+            .button{background-color: tomato !important;}
             ~~~
         - Make a `.jsx` file like
             - `ActionButton.jsx`
             ~~~js
             import React from "react"
-
-            const ActionButton = (props) => {
-                return (<div className="button">{props.children}</div>)
-            }
-
+            const ActionButton = () => {return (<div className="button"></div>)}
             export default ActionButton
             ~~~
         - ![](../../../-/1.png) Second stylesheet method
             - Make a `.css` file like
             - `ActionButton.css`
             ~~~css
-            .button{
-                background-color: tomato !important;
-            }
+            .button{background-color: tomato !important;}
             ~~~
         - Make a `.jsx` file like
             - `ActionButton.jsx`
             ~~~js
             import React from "react"
             import "./ActionButton.css"
-
-            const ActionButton = () => {
-                return (<div className="button"></div>)
-            }
-
+            const ActionButton = () => {return (<div className="button"></div>)}
             export default ActionButton
             ~~~
     - ![](../../../-/2.png) Module
         - Make a `.css` file like
             - `ActionButton.module.css`
             ~~~css
-            .button{
-                background-color: tomato !important;
-            }
+            .button{background-color: tomato !important;}
             ~~~
         - Make a `.jsx` file like
             - `ActionButton.jsx`
             ~~~js
             import React from "react"
             import styles from "./ActionButton.module.css"
-
-            const ActionButton = () => {
-                return (<div className={styles.button}></div>)
-            }
-
+            const ActionButton = () => {return (<div className={styles.button}></div>)}
             export default ActionButton
             ~~~
         
@@ -65,25 +47,14 @@
         - ![](../../../-/1.png) First inline method
             ~~~js
             import React from "react"
-
-            const ActionButton = () => {
-                return (<div style={{backgroundColor:"yellow"}}></div>)
-            }
-
+            const ActionButton = () => {return (<div style={{backgroundColor:"yellow"}}></div>)}
             export default ActionButton
             ~~~
         - ![](../../../-/1.png) Second inline method
             ~~~js
             import React from "react"
-
-            const BtnStyle={
-                backgroundColor:"green"
-            }
-
-            const ActionButton = () => {
-                return (<div style={BtnStyle}></div>)
-            }
-
+            const BtnStyle = {backgroundColor:"green"}
+            const ActionButton = () => {return (<div style={BtnStyle}></div>)}
             export default ActionButton
             ~~~
 - ![](../../../-/3.png) Styled Component
@@ -99,10 +70,6 @@
             background: orangered;
             color: white;
         `
-
-        const ActionButton = () => {
-            return (<ActionCore></ActionCore>)
-        }
-
+        const ActionButton = () => {return (<ActionCore></ActionCore>)}
         export default ActionButton
         ~~~
