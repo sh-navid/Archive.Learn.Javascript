@@ -4,7 +4,7 @@
     - ![](../../../-/1.png) First CSS method
         - Put your css in `App.css` file
             ~~~css
-            .button{background-color: tomato !important;}
+            .button{background-color: tomato;}
             ~~~
         - Make a `.jsx` file like
             - `ActionButton.jsx`
@@ -17,7 +17,7 @@
         - Make a `.css` file like
             - `ActionButton.css`
             ~~~css
-            .button{background-color: tomato !important;}
+            .button{background-color: tomato;}
             ~~~
         - Make a `.jsx` file like
             - `ActionButton.jsx`
@@ -31,7 +31,7 @@
         - Make a `.css` file like
             - `ActionButton.module.css`
             ~~~css
-            .button{background-color: tomato !important;}
+            .button{background-color: tomato;}
             ~~~
         - Make a `.jsx` file like
             - `ActionButton.jsx`
@@ -45,13 +45,13 @@
         - ![](../../../-/1.png) First inline method
             ~~~js
             import React from "react"
-            const ActionButton = () => {return (<div style={{backgroundColor:"yellow"}}></div>)}
+            const ActionButton = () => {return (<div style={{backgroundColor:"tomato"}}></div>)}
             export default ActionButton
             ~~~
         - ![](../../../-/1.png) Second inline method
             ~~~js
             import React from "react"
-            const BtnStyle = {backgroundColor:"green"}
+            const BtnStyle = {backgroundColor:"tomato"}
             const ActionButton = () => {return (<div style={BtnStyle}></div>)}
             export default ActionButton
             ~~~
@@ -65,8 +65,7 @@
         import styled from "styled-components"
 
         const ActionCore = styled.button`
-            background: orangered;
-            color: white;
+            background: tomato;
         `
         const ActionButton = () => {return (<ActionCore></ActionCore>)}
         export default ActionButton
