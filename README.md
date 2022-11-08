@@ -21,7 +21,7 @@
 ## JS Headings
 - <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
 - ![](-/f.png) [Syntax](concepts/syntax/README.md)
-- ![](-/i.png)![](-/d.png) [Output](concepts/output/README.md)
+- ![](-/f.png) [Output](concepts/output/README.md)
 - ![](-/i.png)![](-/d.png) [Operators](concepts/operators/README.md)
 - ![](-/i.png)![](-/d.png) [DataTypes](concepts/datatypes/README.md)
     - ![](-/i.png)![](-/d.png) [String](concepts/string/README.md)
