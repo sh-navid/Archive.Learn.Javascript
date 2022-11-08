@@ -51,8 +51,8 @@
         - ![](../../../-/1.png) Second inline method
             ~~~js
             import React from "react"
-            const BtnStyle = {backgroundColor:"tomato"}
-            const ActionButton = () => {return (<div style={BtnStyle}></div>)}
+            const ActionButtonStyle = {backgroundColor:"tomato"}
+            const ActionButton = () => {return (<div style={ActionButtonStyle}></div>)}
             export default ActionButton
             ~~~
 - ![](../../../-/3.png) Styled Component
