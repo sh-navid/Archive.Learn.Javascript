@@ -49,7 +49,7 @@
         - Think that you have a `ActionButtonUser.jsx` like this; and passed a css class to it
             ~~~js
             ...
-                <ActionButton className="button"></ActionButton>
+            <ActionButton className="button"></ActionButton>
             ...
             ~~~
         - Then in your `ActionButton.jsx` you can use that css class like this
