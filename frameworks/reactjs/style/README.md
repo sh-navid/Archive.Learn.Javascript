@@ -1,8 +1,66 @@
 # JS
 ## Style A Component
 - CSS
-    - ![](../../../-/1.png) Stylesheet
+    - Stylesheet
+        - ![](../../../-/1.png) First stylesheet method
+            - Put your css in `App.css` file
+            ~~~css
+            .button{
+                background-color: tomato !important;
+            }
+            ~~~
+        - Make a `.jsx` file like
+            - `ActionButton.jsx`
+            ~~~js
+            import React from "react"
+
+            const ActionButton = (props) => {
+                return (<div className="button">{props.children}</div>)
+            }
+
+            export default ActionButton
+            ~~~
+        - ![](../../../-/1.png) Second stylesheet method
+            - Make a `.css` file like
+            - `ActionButton.css`
+            ~~~css
+            .button{
+                background-color: tomato !important;
+            }
+            ~~~
+        - Make a `.jsx` file like
+            - `ActionButton.jsx`
+            ~~~js
+            import React from "react"
+            import "./ActionButton.module.css"
+
+            const ActionButton = () => {
+                return (<div className="button"></div>)
+            }
+
+            export default ActionButton
+            ~~~
     - ![](../../../-/2.png) Module
+        - Make a `.css` file like
+            - `ActionButton.module.css`
+            ~~~css
+            .button{
+                background-color: tomato !important;
+            }
+            ~~~
+        - Make a `.jsx` file like
+            - `ActionButton.jsx`
+            ~~~js
+            import React from "react"
+            import styles from "./ActionButton.module.css"
+
+            const ActionButton = () => {
+                return (<div className={styles.button}></div>)
+            }
+
+            export default ActionButton
+            ~~~
+        
     - Inline
         - ![](../../../-/1.png) First inline method
             ~~~js
