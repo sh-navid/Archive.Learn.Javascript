@@ -82,7 +82,7 @@
 - ![](-/n.png) ~~Class Components~~
 - ![](-/n.png) Function Components
 - ![](-/i.png) [Style A Component](frameworks/reactjs/style/README.md)
-- ![](-/n.png) Params
+- ![](-/n.png) [Props](frameworks/reactjs/props/README.md)
 - ![](-/n.png) Hooks
 - ![](-/n.png) **React Native**
 
