@@ -1,5 +1,10 @@
 # JS
 ## Style A Component
+- **Helper Links**
+    - [Great link to read about 4 ways of styling](https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822)
+    - [Documents of styled components](https://styled-components.com/docs/basics)
+    - [Github repository of styled components](https://github.com/styled-components/styled-components)
+    - [How to use inline style css](https://stackoverflow.com/questions/26882177/react-js-inline-style-best-practices)
 - CSS
     - ![](../../../-/1.png) First CSS method
         - Put your css in `App.css` file
