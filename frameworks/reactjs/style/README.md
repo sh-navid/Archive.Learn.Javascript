@@ -5,6 +5,7 @@
     - [Documents of styled components](https://styled-components.com/docs/basics)
     - [Github repository of styled components](https://github.com/styled-components/styled-components)
     - [How to use inline style css](https://stackoverflow.com/questions/26882177/react-js-inline-style-best-practices)
+    - [How to handle CSS Modules in react](https://stackoverflow.com/questions/53062306/css-modules-not-working-for-react-version-16-6-0)
 - CSS
     - ![](../../../-/1.png) First CSS method
         - Put your css in `App.css` file
