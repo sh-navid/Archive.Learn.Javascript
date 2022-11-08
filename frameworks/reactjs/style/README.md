@@ -41,8 +41,7 @@
             const ActionButton = () => {return (<div className={styles.button}></div>)}
             export default ActionButton
             ~~~
-        
-    - Inline
+    - Inline CSS
         - ![](../../../-/1.png) First inline method
             ~~~js
             import React from "react"
