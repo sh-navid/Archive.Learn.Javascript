@@ -3,16 +3,31 @@
 - CSS
     - ![](../../../-/1.png) Stylesheet
     - ![](../../../-/2.png) Module
-    - ![](../../../-/1.png) Inline
-        ~~~js
-        import React from "react"
+    - Inline
+        - ![](../../../-/1.png) First inline method
+            ~~~js
+            import React from "react"
 
-        const ActionButton = () => {
-            return (<div style={{backgroundColor:"yellow"}}></div>)
-        }
+            const ActionButton = () => {
+                return (<div style={{backgroundColor:"yellow"}}></div>)
+            }
 
-        export default ActionButton
-        ~~~
+            export default ActionButton
+            ~~~
+        - ![](../../../-/1.png) Second inline method
+            ~~~js
+            import React from "react"
+
+            const BtnStyle={
+                backgroundColor:"green"
+            }
+
+            const ActionButton = () => {
+                return (<div style={BtnStyle}></div>)
+            }
+
+            export default ActionButton
+            ~~~
 - ![](../../../-/3.png) Styled Component
     - [Original Github Repo](https://github.com/styled-components/styled-components)
     - Setup
