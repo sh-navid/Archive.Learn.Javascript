@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../jquery-ui.min.css">
+    <script src="../../jquery-3.6.1.min.js"></script>
+    <script src="../../jquery-ui.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        
+    </div>
+    <br />
+    <p style="padding: 2em;border:1px solid red;display:inline-block">
+        Effects
+    </p>
+    <script>
+        let p = $("p")
+        let div = $("div")
+
+        EFFECTS = ["blind", "fade", "shake", "size", "slide", "bounce", "fold", "highlight", "puff", "pulsate", "scale", "clip", "drop", "explode"]
+
+        EFFECTS.forEach(effect => {
+            div.append(`
+                <button onclick="p.hide('${effect}')">Hide ${effect}</button>
+                <button onclick="p.show('${effect}')">Show ${effect}</button>
+            `)
+        });
+    </script>
+</body>
+
+</html>
