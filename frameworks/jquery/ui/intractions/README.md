@@ -7,3 +7,4 @@
 - ![](../../../../-/1.png) [`.droppable()`](drop.html)
 - ![](../../../../-/1.png) [`.resizable()`](resize.html)
 - ![](../../../../-/1.png) [`.selectable()`](select.html)
+- ![](../../../../-/1.png) [`.sortable()`](sort.html)

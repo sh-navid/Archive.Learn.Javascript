@@ -6,32 +6,22 @@
     <script src="../../jquery-ui.min.js"></script>
 
     <style>
-        .ui-selecting {
-            background: tomato;
-        }
-
-        .ui-selected {
-            background: royalblue;
-        }
-
-        li {
-            padding: 2em;
+        li{
+            padding:1em
         }
     </style>
 </head>
 
 <body>
     <ul>
-        <li>Record A</li>
-        <li>Record B</li>
-        <li>Record C</li>
-        <li>Record D</li>
-        <li>Record E</li>
+        <li>Sortable Record 1</li>
+        <li>Sortable Record 2</li>
+        <li>Sortable Record 3</li>
+        <li>Sortable Record 4</li>
     </ul>
 
-
     <script>
-        $("ul").selectable();
+        $("ul").sortable();
     </script>
 </body>
 
