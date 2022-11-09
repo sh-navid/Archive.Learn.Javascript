@@ -73,6 +73,7 @@
 - JQ UI
     - ![](-/f.png) [Intractions](frameworks/jquery/ui/intractions/README.md)
     - ![](-/f.png) [UI Effects](frameworks/jquery/ui/ui-effects/README.md)
+    - ![](-/f.png) [Widgets](frameworks/jquery/ui/widgets/README.md)
 ## API
 - ![](-/i.png)![](-/d.png) [Communicate with backend](concepts/fetch/README.md)
 
