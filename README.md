@@ -65,10 +65,10 @@
     - ![](-/f.png) [Collection](frameworks/jquery/collection/README.md)
     - ![](-/f.png) [Form](frameworks/jquery/form/README.md)
     - ![](-/i.png) [Traversing](frameworks/jquery/traversing/README.md)
-    - ![](-/p.png) [Callbacks](frameworks/jquery/callbacks/README.md)
-    - ![](-/n.png) [Deferred Object](frameworks/jquery/deferred/README.md)
+    - ![](-/i.png) [Callbacks](frameworks/jquery/callbacks/README.md)
+    - ![](-/i.png) [Deferred Object](frameworks/jquery/deferred/README.md)
     - ![](-/i.png) [Custom Plugin](frameworks/jquery/examples/jq-rotatable.html)
-    - ![](-/f.png) [Other](frameworks/jquery/uncategorized/README.md)
+    - ![](-/i.png) [Other](frameworks/jquery/uncategorized/README.md)
 - JQ UI
     - ![](-/f.png) [Intractions](frameworks/jquery/ui/intractions/README.md)
     - ![](-/f.png) [UI Effects](frameworks/jquery/ui/ui-effects/README.md)
