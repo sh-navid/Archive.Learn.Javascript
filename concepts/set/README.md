@@ -2,14 +2,14 @@
 ## Set
 > To store unique value
 - Properties
-    - [.size](set.js)
+    - ![](../../-/1.png) [.size](set.js)
 - Class
-    - [Set()](set.js)
+    - ![](../../-/1.png) [Set()](set.js)
 - Methods
-    - [`.add()`](set.js)
-    - [`.clear()`](set.js)
-    - [`.delete()`](set.js)
-    - [`.has()`](set.js)
-    - `.values()`
-    - `.keys()`
-    - [`.forEach()`](set-for-each.js)
+    - ![](../../-/1.png) [`.add()`](set.js)
+    - ![](../../-/1.png) [`.clear()`](set.js)
+    - ![](../../-/1.png) [`.delete()`](set.js)
+    - ![](../../-/1.png) [`.has()`](set.js)
+    - ![](../../-/2.png) [`.values()`](set-keys-values.js)
+    - ![](../../-/2.png) [`.keys()`](set-keys-values.js)
+    - ![](../../-/1.png) [`.forEach()`](set-for-each.js)
