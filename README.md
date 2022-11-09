@@ -47,7 +47,6 @@
 - ![](-/p.png) [Random](concepts/random/README.md)
 - ![](-/n.png) [Date](concepts/date/README.md)
 - ![](-/n.png) [Math](concepts/math/README.md)
-- ![](-/i.png)![](-/d.png) [API](concepts/fetch/README.md)
 - ![](-/n.png) [ES6](concepts/es6/README.md)
 - ![](-/n.png) [Canvas](concepts/canvas/README.md)
 
@@ -68,7 +67,6 @@
     - ![](-/f.png) [Traversing](frameworks/jquery/traversing/README.md)
     - ![](-/p.png) [Callbacks](frameworks/jquery/callbacks/README.md)
     - ![](-/n.png) [Deferred Object](frameworks/jquery/deferred/README.md)
-    - ![](-/p.png) [Ajax](frameworks/jquery/ajax/README.md)
     - ![](-/n.png) [NoConflict](frameworks/jquery/conflict/README.md)
     - ![](-/i.png) [Custom Plugin](frameworks/jquery/examples/jq-rotatable.html)
     - ![](-/n.png) [UNCATEGORIZED](frameworks/jquery/uncategorized/README.md)
@@ -76,6 +74,8 @@
     - ![](-/n.png) [Intractions](frameworks/jquery/ui/intractions/README.md)
 - JQ Mobile
     - ?
+## API
+- ![](-/i.png)![](-/d.png) [Communicate with backend](concepts/fetch/README.md)
 
 ## ReactJS Headings
 - ![](-/n.png) [Introduction](frameworks/reactjs/introduction/README.md)
