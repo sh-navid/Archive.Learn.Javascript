@@ -72,8 +72,7 @@
     - ![](-/n.png) [UNCATEGORIZED](frameworks/jquery/uncategorized/README.md)
 - JQ UI
     - ![](-/n.png) [Intractions](frameworks/jquery/ui/intractions/README.md)
-- JQ Mobile
-    - ?
+    - ![](-/p.png) [UI Effects](frameworks/jquery/ui/ui-effects/README.md)
 ## API
 - ![](-/i.png)![](-/d.png) [Communicate with backend](concepts/fetch/README.md)
 
