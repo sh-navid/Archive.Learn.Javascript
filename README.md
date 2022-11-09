@@ -68,7 +68,7 @@
     - ![](-/p.png) [Callbacks](frameworks/jquery/callbacks/README.md)
     - ![](-/n.png) [Deferred Object](frameworks/jquery/deferred/README.md)
     - ![](-/i.png) [Custom Plugin](frameworks/jquery/examples/jq-rotatable.html)
-    - ![](-/i.png) [Other](frameworks/jquery/uncategorized/README.md)
+    - ![](-/f.png) [Other](frameworks/jquery/uncategorized/README.md)
 - JQ UI
     - ![](-/f.png) [Intractions](frameworks/jquery/ui/intractions/README.md)
     - ![](-/f.png) [UI Effects](frameworks/jquery/ui/ui-effects/README.md)
