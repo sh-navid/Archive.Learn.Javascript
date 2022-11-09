@@ -12,4 +12,4 @@
     - [`.has()`](set.js)
     - `.values()`
     - `.keys()`
-    - `.forEach()`
+    - [`.forEach()`](set-for-each.js)
