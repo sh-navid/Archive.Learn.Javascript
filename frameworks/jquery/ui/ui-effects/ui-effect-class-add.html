@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../jquery-ui.min.css">
+    <script src="../../jquery-3.6.1.min.js"></script>
+    <script src="../../jquery-ui.min.js"></script>
+    <title>Document</title>
+
+    <style>
+        .class1 {
+            background-color: tomato;
+            color: white;
+            font-size: 110%;
+        }
+
+        .class2 {
+            background-color: royalblue;
+            color: black;
+            font-size: 160%;
+        }
+
+        .class3 {
+            background-color: goldenrod;
+            color: black;
+            font-size: 160%;
+        }
+
+        .class4 {
+            background-color: palevioletred;
+            color: white;
+            font-size: 160%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>Hello</div>
+    <button onclick="add()">Add</button>
+    <button onclick="remove()">Remove</button>
+    <button onclick="toggle()">Toggle</button>
+    <button onclick="_switch()">Switch</button>
+    <script>
+        d = $("div")
+        const add = () => {
+            d.addClass("class1", 1000)
+        }
+
+        const remove = () => {
+            d.removeClass("class1", 500)
+        }
+
+        const toggle = () => {
+            d.toggleClass("class2", 500)
+        }
+
+        const _switch = () => {
+            d.switchClass("class1", "class4", 500)
+        }
+    </script>
+</body>
+
+</html>
