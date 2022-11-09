@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="button" value="Fetch Get" id="btn-fetch-get" />
+    <input type="button" value="Fetch Post" id="btn-fetch-post" />
+    <script>
+        //-------------------------------------------------------------------------
+        // Fetch -  GET
+        document.querySelector("#btn-fetch-get").addEventListener("click", (e) => {
+            alert("Fetch - GET - Request")
+            fetch("/api_get/names/5")
+                .then((res) => res.json())
+                .then((res) => {
+                    alert(res)
+                    console.log(res)
+                })
+        })
+
+        //-------------------------------------------------------------------------
+        // Fetch -  POST
+        document.querySelector("#btn-fetch-post").addEventListener("click", (e) => {
+            alert("Fetch - POST - Request")
+            fetch("http://localhost:4000/api_post/names", {
+                method: "POST", headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ length: 5 })
+            })
+                .then((res) => res.json())
+                .then((res) => {
+                    alert(res)
+                    console.log(res)
+                })
+        })
+    </script>
+</body>
+
+</html>
