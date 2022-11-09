@@ -1,9 +1,9 @@
 # JQuery UI
 ## Intractions
-- [ ] TODO: complete this section
-- [`.draggable()`](drag.html)
+- ![](../../../../-/1.png) [`.draggable()`](drag.html)
     - `enable`
     - `disable`
     - [`destroy`](drop.html)
-- [`.droppable()`](drop.html)
-- [`.resizable()`](resize.html)
+- ![](../../../../-/1.png) [`.droppable()`](drop.html)
+- ![](../../../../-/1.png) [`.resizable()`](resize.html)
+- ![](../../../../-/1.png) [`.selectable()`](select.html)

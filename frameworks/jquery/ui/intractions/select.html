@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../jquery-ui.min.css">
+    <script src="../../jquery-3.6.1.min.js"></script>
+    <script src="../../jquery-ui.min.js"></script>
+
+    <style>
+        .ui-selecting {
+            background: tomato;
+        }
+
+        .ui-selected {
+            background: royalblue;
+        }
+
+        li{
+            padding: 2em;
+        }
+
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>Record A</li>
+        <li>Record B</li>
+        <li>Record C</li>
+        <li>Record D</li>
+        <li>Record E</li>
+    </ul>
+
+
+    <script>
+        $(function () {
+            $("ul").selectable();
+        });
+    </script>
+</body>
+
+</html>
