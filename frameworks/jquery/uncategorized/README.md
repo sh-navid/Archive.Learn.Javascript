@@ -1,26 +1,32 @@
-- .escapeSelector()
+# JQuery
+## Other
 
-- .data()
-- .hasData()
-- .removeData()
+- Data
+    - `.data()`
+    - `.hasData()`
+    - `.removeData()`
+- Type
+    - `.type()`
+    - `.isXMLDoc()`
+    - `.isEmptyObject()`
+    - `.isFunction()`
+    - `.isNumeric()`
+    - `.isPlainObject()`
+    - `.isWindow()`
 
-- .extend()
 
-- .type()
-- .isXMLDoc()
-- .isEmptyObject()
-- .isFunction()
-- .isNumeric()
-- .isPlainObject()
-- .isWindow()
+- `.extend()`
+- `.merge()`
 
-- .grep()
-- .merge()
-- .noop()
-- .now()
-- .trim()
-- .unique()
-- .uniqueSort()
+- `.grep()`
+- `.noop()`
+- `.now()`
+- `.trim()`
+- `.unique()`
+- `.uniqueSort()`
 
-- $.cssNumber
-- $.cssHooks
+- `$.cssNumber`
+- `$.cssHooks`
+
+
+- `.escapeSelector()`
