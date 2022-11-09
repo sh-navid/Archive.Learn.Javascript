@@ -37,7 +37,7 @@
 - Collections
     - Array [⇧⇧⇧](concepts/array/README.md)
     - ![](-/f.png) [Map](concepts/map/README.md)
-    - ![](-/p.png) [Set](concepts/set/README.md)
+    - ![](-/f.png) [Set](concepts/set/README.md)
     - ![](-/f.png) [JSON](concepts/json/README.md)
 - ![](-/n.png) [Regex](concepts/regex/README.md)
 - ![](-/n.png) [Document](concepts/document/README.md)
