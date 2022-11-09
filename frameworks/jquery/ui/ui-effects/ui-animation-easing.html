@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../jquery-ui.min.css">
+    <script src="../../jquery-3.6.1.min.js"></script>
+    <script src="../../jquery-ui.min.js"></script>
+    <title>Document</title>
+
+    <style>
+        div {
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="holder"></div>
+    <button onclick="_easing()">Start Easing</button>
+    <script>
+        d = $("div")
+
+        EASE = ["swing", "linear", "easeOutBounce", "easeInOutExpo", "easeOutCirc", "easeOutElastic"]
+
+        const _easing = () => {
+            let _top = 100
+            EASE.forEach(name => {
+                x = $(`<div style="top:${_top}px !important">${name}</div>`)
+                x.delay(500).animate({ left: "200px" }, 1000, name)
+                d.append(x)
+                _top += 50
+            });
+        }
+
+    </script>
+</body>
+
+</html>
