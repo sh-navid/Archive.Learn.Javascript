@@ -45,3 +45,15 @@
         ~~~js
         <ComponentWithChildren>Hello world</ComponentWithChildren>
         ~~~
+- ![](../../../-/1.png) [Component in component](../example/src/components/simple-component/ComponentInComponent.jsx)
+    ~~~js
+    const ComponentInComponent = () => {
+        return (
+            <>
+                <ComponentWithChildren>Child 1</ComponentWithChildren>
+                <ComponentWithChildren>Child 2</ComponentWithChildren>
+                <ComponentWithChildren>Child 3</ComponentWithChildren>
+            </>
+        )
+    }
+    ~~~
