@@ -80,8 +80,8 @@
 - ![](-/f.png) [Introduction](frameworks/reactjs/introduction/README.md)
 - ![](-/x.png) ~~Class Components~~
 - ![](-/f.png) [Function Components](frameworks/reactjs/function/README.md)
-- ![](-/f.png) [Style A Component](frameworks/reactjs/style/README.md)
 - ![](-/f.png) [Props](frameworks/reactjs/props/README.md)
+- ![](-/f.png) [Style A Component](frameworks/reactjs/style/README.md)
 - ![](-/p.png) [Hooks](frameworks/reactjs/hooks/README.md)
 - ![](-/n.png) **React Native**
 
