@@ -5,6 +5,7 @@ import SimpleComponent from './components/simple-component/SimpleComponent';
 import SimpleComponent2 from './components/simple-component/SimpleComponent2';
 import SimpleComponent3 from './components/simple-component/SimpleComponent3';
 import ComponentInComponent from './components/simple-component/ComponentInComponent'
+import ComponentWithEvent from './components/event-component/ComponentWithEvent'
 
 function App() {
   return (
@@ -30,10 +31,14 @@ function App() {
       <hr/>
       
       <ComponentWithChildren>Hello world</ComponentWithChildren>
-      
+
       <hr/>
       
       <ComponentInComponent/>
+
+      <hr/>
+
+      <ComponentWithEvent/>
     </>
   );
 }
