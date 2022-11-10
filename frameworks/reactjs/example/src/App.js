@@ -6,6 +6,7 @@ import SimpleComponent2 from './components/simple-component/SimpleComponent2';
 import SimpleComponent3 from './components/simple-component/SimpleComponent3';
 import ComponentInComponent from './components/simple-component/ComponentInComponent'
 import ComponentWithEvent from './components/event-component/ComponentWithEvent'
+import ComponentWithEventAndArg from './components/event-component/ComponentWithEventAndArg';
 
 function App() {
   return (
@@ -39,6 +40,12 @@ function App() {
       <hr/>
 
       <ComponentWithEvent/>
+
+      <hr/>
+
+      <ComponentWithEventAndArg num="12"/>
+      <ComponentWithEventAndArg num="13"/>
+      <ComponentWithEventAndArg num="14"/>
     </>
   );
 }

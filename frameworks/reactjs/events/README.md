@@ -14,3 +14,23 @@
         )
     }
     ~~~
+
+- ![](../../../-/1.png) [Click](../example/src/components/event-component/ComponentWithEventAndArg.jsx)
+    ~~~js
+    const ComponentWithEventAndArg = (props) => {
+        const clicked = (e, num) => {
+            alert("Clicked on " + num)
+            alert(e.target)
+        }
+
+        return (
+            <div onClick={(e) => clicked(e, props.num)}>
+                <h3>Click Here</h3>
+            </div>
+        )
+    }
+    ~~~
+    - Usage
+        ~~~js
+        <ComponentWithEventAndArg num=12/>
+        ~~~
