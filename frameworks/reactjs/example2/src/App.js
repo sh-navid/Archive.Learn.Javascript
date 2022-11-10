@@ -1,5 +1,6 @@
 import './App.css';
 import GreetingsWithAndComponent from './components/AndOperator';
+import ListComponent from './components/ListComponent';
 import GreetingsComponent from './components/TerneryOperator';
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
       <hr/>
       <GreetingsWithAndComponent value="true"/>
       <GreetingsWithAndComponent value="false"/>
+      <hr/>
+      <ListComponent/>
     </>
   );
 }
