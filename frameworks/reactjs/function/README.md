@@ -57,3 +57,24 @@
         )
     }
     ~~~
+- ![](../../../-/1.png) [Ternary Operator](../example2/src/components/TerneryOperator.jsx)
+    ~~~js
+    const GreetingsComponent = (props) => {
+        return <>{props.value == true ? <HelloComponent /> : <GoodByeComponent />}</>
+    }
+    ~~~
+    - Usage
+        ~~~js
+        <GreetingsComponent value="true"/>
+        ~~~
+
+- ![](../../../-/1.png) [&& Operator](../example2/src/components/AndOperator.jsx)
+    ~~~js
+    const GreetingsWithAndComponent = (props) => {
+        return <>And Operator: {props.value === "true" && <HelloComponent />}</>
+    }
+    ~~~
+    - Usage
+        ~~~js
+        <GreetingsWithAndComponent value="true"/>
+        ~~~
