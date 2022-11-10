@@ -4,6 +4,7 @@ import ComponentWithCondition from './components/simple-component/ComponentWithC
 import SimpleComponent from './components/simple-component/SimpleComponent';
 import SimpleComponent2 from './components/simple-component/SimpleComponent2';
 import SimpleComponent3 from './components/simple-component/SimpleComponent3';
+import ComponentInComponent from './components/simple-component/ComponentInComponent'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ComponentWithCondition num="200"/>
       <ComponentWithCondition num="0"/>
       <ComponentWithChildren>Hello world</ComponentWithChildren>
+      <ComponentInComponent/>
     </>
   );
 }

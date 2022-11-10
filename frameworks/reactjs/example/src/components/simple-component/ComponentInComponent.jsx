@@ -10,4 +10,4 @@ const ComponentInComponent = () => {
     )
 }
 
-return ComponentInComponent
+export default ComponentInComponent
