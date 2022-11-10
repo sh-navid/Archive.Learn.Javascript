@@ -15,7 +15,7 @@
     }
     ~~~
 
-- ![](../../../-/1.png) [Click](../example/src/components/event-component/ComponentWithEventAndArg.jsx)
+- ![](../../../-/1.png) [Click with event object and argument](../example/src/components/event-component/ComponentWithEventAndArg.jsx)
     ~~~js
     const ComponentWithEventAndArg = (props) => {
         const clicked = (e, num) => {
