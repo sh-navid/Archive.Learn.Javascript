@@ -1,8 +1,10 @@
 # Regex
 - Regular Expression
     - Modifire
-        - `//g`
+        - [`//g`](regex-case-sensitivity.js)
             > Global
+        - [`//i`](regex-case-sensitivity.js)
+            > Case-in-sensitive
 ## Regex and Javascript
 - [`.search()`](regex-search.js)
     > Returns first index
