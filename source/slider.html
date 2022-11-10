@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../frameworks/jquery/jquery-3.6.1.min.js"></script>
+    <style>
+        .slider {
+            width: 100%;
+            height: 2em;
+            border: 1px solid black;
+            position: relative;
+        }
+
+        .handle {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2em;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slider">
+        <div class="handle">
+
+        </div>
+    </div>
+    <script>
+        s = $(".slider")
+        h = $(".handle")
+
+        move = false
+
+        h.on("mousedown", (e) => {
+            move = true
+        })
+
+        $(document).on("mousemove", (e) => {
+            if (!move) return
+            $(".handle").css({ left: -s.position().left + e.pageX - h.width() / 2 + "px" })
+        })
+
+        $(document).on("mouseup", (e) => {
+            move = false
+        })
+    </script>
+</body>
+
+</html>

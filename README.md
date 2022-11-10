@@ -182,6 +182,7 @@
         - [ ] How to make a WebView android application (APK) from this project?
         - [ ] How to make a chrome or firefox extension (Addon) from this project?
 - [Snake Game](source/snake-game.html)
+- [Slider](source/slider.html)
 
 ![](assets/spacer.png)
 
