@@ -19,9 +19,9 @@ NAMES = [
 ]
 
 
-@app.route("/api_get/names/<string:word>", methods=['GET'])
+@app.route("/auto/<string:word>", methods=['GET'])
 def get_names(word):
-    return jsonify([n for n in NAMES if n.startswith(word)])
+    return jsonify([n for n in NAMES if word in n])
 
 
 

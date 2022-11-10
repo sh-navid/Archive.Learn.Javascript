@@ -8,9 +8,21 @@
 </head>
 
 <body>
-    <input />
+    <input oninput="update(this)" />
+    <div>
+
+    </div>
     <script>
-        i = document.querySelector("input")
+        d = document.querySelector("div")
+
+        const update = (el) => {
+            d.innerText = ""
+            fetch("/auto/" + el.value)
+                .then((res) => res.json())
+                .then((res) => {
+                    d.innerText = res
+                })
+        }
     </script>
 </body>
 
