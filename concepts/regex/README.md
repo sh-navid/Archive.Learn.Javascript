@@ -6,7 +6,7 @@
         - [`//i`](regex-case-sensitivity.js)
             > Case-in-sensitive
         - `//m`
-            > Milti line
+            > Multi-line
     - [Rules](https://github.com/sh-navid/py-instructor/blob/master/concepts/regex/README.md)
         - `\d` Contains digits
         - `\D` Not Contains digits
