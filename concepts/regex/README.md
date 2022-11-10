@@ -1,5 +1,8 @@
 # Regex
 - Regular Expression
+    - Modifire
+        - `//g`
+            > Global
 ## Regex and Javascript
 - [`.search()`](regex-search.js)
     > Returns first index
