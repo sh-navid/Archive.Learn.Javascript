@@ -82,7 +82,7 @@
 - ![](-/f.png) [Function Components](frameworks/reactjs/function/README.md)
 - ![](-/f.png) [Props](frameworks/reactjs/props/README.md)
 - ![](-/f.png) [Style A Component](frameworks/reactjs/style/README.md)
-- ![](-/p.png) [Events](frameworks/reactjs/events/README.md)
+- ![](-/f.png) [Events](frameworks/reactjs/events/README.md)
 - ![](-/p.png) [Hooks](frameworks/reactjs/hooks/README.md)
 - ![](-/n.png) Integrate with API
 - ![](-/n.png) **React Native**
