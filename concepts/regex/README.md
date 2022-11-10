@@ -4,7 +4,8 @@
 - [`.search()`](regex-search.js)
     > Returns first index
 - [`.replace()`](regex-replace.js)
-- [`.test()`](regex-text)
+    > To replace a substring pattern
+- [`.test()`](regex-text.js)
     > Returns `true` or `false`
-- `.exec()`
+- [`.exec()`](regex-exec.js)
     > Returns object
