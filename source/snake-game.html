@@ -11,6 +11,7 @@
         td {
             width: .75em;
             text-align: center;
+            user-select: none;
         }
     </style>
 </head>
@@ -35,8 +36,8 @@
         X = [1, 1, 1, 1, 1, 1]
         Y = [1, 2, 3, 4, 5, 6]
 
-        dx = 1
-        dy = 0
+        dx = 0
+        dy = -1
 
         d = $("table")
 
@@ -58,14 +59,44 @@
         render()
 
         setInterval(() => {
-            X[0]+=dx
-            Y[0]+=dy
-            for (i in X) {
-                if (i == 0) continue
-                
+            for (i = X.length - 1; i > 0; i--) {
+                X[i] = X[i - 1]
+                Y[i] = Y[i - 1]
             }
+
+            X[0] += dx
+            Y[0] += dy
+
+            if (X[0] > A[0].length - 1) X[0] = 0
+            if (X[0] < 0) X[0] = A[0].length - 1
+            if (Y[0] > A.length - 1) Y[0] = 0
+            if (Y[0] < 0) Y[0] = A.length - 1
+
             render()
-        }, 1000)
+        }, 200)
+
+        $(document).keypress((e) => {
+            switch (e.key) {
+                case "ArrowUp":
+                    dx = 0
+                    dy = -1
+                    break;
+                case "ArrowDown":
+                    dx = 0
+                    dy = +1
+                    break;
+                case "ArrowLeft":
+                    dx = -1
+                    dy = 0
+                    break;
+                case "ArrowRight":
+                    dx = 1
+                    dy = 0
+                    break;
+                default:
+                    break;
+            }
+        })
     </script>
 </body>
 
