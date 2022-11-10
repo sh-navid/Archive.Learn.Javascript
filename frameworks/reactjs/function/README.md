@@ -1,15 +1,16 @@
 # NodeJS
 ## Components
-- Components are reusable
-- [Simple component](../example/src/components/simple-component/SimpleComponent.jsx)
+- Intro
+    - Components are reusable
+- ![](../../../-/1.png) [Simple component](../example/src/components/simple-component/SimpleComponent.jsx)
     ~~~js
     const SimpleComponent = () => <h1>Hello Simple Component</h1>
     ~~~
-- [Usage of Brace](../example/src/components/simple-component/SimpleComponent2.jsx)
+- ![](../../../-/1.png) [Usage of Brace](../example/src/components/simple-component/SimpleComponent2.jsx)
     ~~~js
     const SimpleComponent2 = () => <h1>Hello Simple Component {100 * 2}</h1>
     ~~~
-- [Multiple lines of HTML](../example/src/components/simple-component/SimpleComponent3.jsx)
+- ![](../../../-/1.png) [Multiple lines of HTML](../example/src/components/simple-component/SimpleComponent3.jsx)
     ~~~js
     const SimpleComponent3 = () => (
         <>
@@ -19,7 +20,7 @@
         </>
     )
     ~~~
-- [Condition in component](../example/src/components/simple-component/ComponentWithCondition.jsx)
+- ![](../../../-/1.png) [Condition in component](../example/src/components/simple-component/ComponentWithCondition.jsx)
     ~~~js
     const ComponentWithCondition = (props) => (
         <>
@@ -28,3 +29,19 @@
         </>
     )
     ~~~
+    - Usage
+        ~~~js
+        <ComponentWithCondition num="200"/>
+        ~~~
+- ![](../../../-/1.png) [Component with children](../example/src/components/simple-component/ComponentWithChildren.jsx)
+    ~~~js
+    const ComponentWithChildren = (props) => (
+        <>
+            <h1>Children: {props.children}</h1>
+        </>
+    )
+    ~~~
+    - Usage
+        ~~~js
+        <ComponentWithChildren>Hello world</ComponentWithChildren>
+        ~~~
