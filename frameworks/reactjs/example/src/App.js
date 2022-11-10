@@ -10,11 +10,29 @@ function App() {
   return (
     <>
       <SimpleComponent />
+
+      <hr/>
+
       <SimpleComponent2 />
+
+      <hr/>
+
       <SimpleComponent3 />
+      
+      <hr/>
+      
       <ComponentWithCondition num="200"/>
+      
+      <hr/>
+      
       <ComponentWithCondition num="0"/>
+      
+      <hr/>
+      
       <ComponentWithChildren>Hello world</ComponentWithChildren>
+      
+      <hr/>
+      
       <ComponentInComponent/>
     </>
   );
