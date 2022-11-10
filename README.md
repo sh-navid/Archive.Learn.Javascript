@@ -48,7 +48,7 @@
 - ![](-/n.png) [Date](concepts/date/README.md)
 - ![](-/f.png) [Math](concepts/math/README.md)
 - ![](-/n.png) [ES6](concepts/es6/README.md)
-- ![](-/n.png) [Canvas](concepts/canvas/README.md)
+- ![](-/p.png) [Canvas](concepts/canvas/README.md)
 
 ## JQ Headings
 - JQ <sub>_**Notice**: Categories and the clustering of concepts may be different from **ORIGINAL DOCUMENTATION**_</sub>
@@ -181,6 +181,7 @@
         - [ ] How to make a mobile app with React Native?
         - [ ] How to make a WebView android application (APK) from this project?
         - [ ] How to make a chrome or firefox extension (Addon) from this project?
+- [Snake Game](source/snake-game.html)
 
 ![](assets/spacer.png)
 

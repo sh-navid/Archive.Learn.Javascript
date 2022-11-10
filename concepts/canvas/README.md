@@ -1,0 +1,25 @@
+# JS
+## Canvas
+- Reference
+    - `ctx = canvas.getContext("2d")`
+- Properties
+    - `.fillStyle`
+    - `.lineCap`
+    - `.lineJoin`
+    - `.lineWidth`
+- Methods
+    - `.fillRect()`
+    - `.lineTo()`
+    - `.stroke()`
+    - `.arc()`
+    - Text
+        - `.font = "<size> <name>"`
+        - `.fillText()`
+        - `.strokeText()`
+    - Image
+        - `.drawImage()`
+    - Rect
+        - `.rect()`
+        - `.fillRect()`
+        - `.strokeRect()`
+        - `.clearRect()`
