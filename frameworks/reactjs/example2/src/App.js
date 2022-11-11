@@ -1,5 +1,6 @@
 import './App.css';
 import GreetingsWithAndComponent from './components/AndOperator';
+import ComponentWithUseState from './components/ComponentWithUseState';
 import ListComponent from './components/ListComponent';
 import GreetingsComponent from './components/TerneryOperator';
 
@@ -13,6 +14,8 @@ function App() {
       <GreetingsWithAndComponent value="false"/>
       <hr/>
       <ListComponent/>
+      <hr/>
+      <ComponentWithUseState/>
     </>
   );
 }
