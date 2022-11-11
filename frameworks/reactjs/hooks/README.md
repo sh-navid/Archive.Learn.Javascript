@@ -6,6 +6,7 @@
     >> This is a way to “preserve” some values between the function calls ... Normally, variables “disappear” when the function exits but state variables are preserved by React ... It lets us keep local state in a function component. <small>***<sup>[[ReactJS 11/11/2022](https://reactjs.org/docs/hooks-state.html)]<sup>***</small>
     ~~~js
     const ComponentWithUseState = () => {
+        // Array Destructing
         const [count, setCount] = useState(0)
         return (
             <>
