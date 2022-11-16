@@ -19,3 +19,6 @@
     - Redirect to your project directory
     - Open a terminal and Enter
         - `nodejs <your-script-name>.js`
+- Notice:
+    - Fix new version of nodejs path in ubuntu
+        export PATH=/home/ns/<node folder>/bin/:$PATH

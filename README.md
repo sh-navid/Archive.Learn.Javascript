@@ -187,6 +187,7 @@
         - [ ] How to make a chrome or firefox extension (Addon) from this project?
 - [Snake Game](source/snake-game.html)
 - [Slider](source/slider.html)
+- [NavBar](source/navbar/README.md)
 
 ![](assets/spacer.png)
 
