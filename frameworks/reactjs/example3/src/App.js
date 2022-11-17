@@ -11,8 +11,8 @@ function App() {
         <Routes path="/">
           <Route index element={<HomePage />}></Route>
           <Route path="settings" element={<SettingPage />}></Route>
-          <Route path="admin" element={<AdminPage/>}></Route>
-          <Route path="*" element={<PageNotFound/>}></Route>
+          <Route path="admin" element={<AdminPage />}></Route>
+          <Route path="*" element={<PageNotFound />}></Route>
         </Routes>
       </BrowserRouter>
     </>
