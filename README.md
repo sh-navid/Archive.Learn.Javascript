@@ -85,7 +85,7 @@
 - ![](-/f.png) [Events](frameworks/reactjs/events/README.md)
 - ![](-/n.png) Forms
 - ![](-/i.png) [Hooks](frameworks/reactjs/hooks/README.md)
-- ![](-/n.png) Router
+- ![](-/p.png) [Router](frameworks/reactjs/router/README.md)
 - ![](-/n.png) Integrate with API
 - ![](-/n.png) **React Native**
 
