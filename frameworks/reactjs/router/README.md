@@ -22,10 +22,10 @@
     }
     ~~~
     > To test it
-        - http://localhost:3000/
-        - http://localhost:3000/settings
-        - http://localhost:3000/admin
-        - http://localhost:3000/hello
+    - http://localhost:3000/
+    - http://localhost:3000/settings
+    - http://localhost:3000/admin
+    - http://localhost:3000/hello
 - ![](../../../-/2.png) [Route with shared page](../example3/src/App.js)
     ~~~js
     <BrowserRouter>
