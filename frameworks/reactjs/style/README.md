@@ -93,3 +93,24 @@
         const ActionButton = () => {return (<ActionCore></ActionCore>)}
         export default ActionButton
         ~~~
+- ![](../../../-/1.png) SASS
+    - Setup
+        - `npm i sass`
+    - [Button.jsx](../example3/src/components/sass/Button.jsx)
+    ~~~js
+    import "./Button.sass"
+
+    const Button=()=>{
+        return (<button className="btn">My Button</button>)
+    }
+
+    export default Button
+    ~~~
+    - [Button.sass](../example3/src/components/sass/Button.sass)
+    ~~~sass
+    $color:royalblue
+
+    .btn
+        background-color:$color
+        padding:2em
+    ~~~
