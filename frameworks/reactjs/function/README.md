@@ -1,5 +1,5 @@
 # NodeJS
-## Components
+## Function Components
 - Intro
     - Components are reusable
 - ![](../../../-/1.png) [Simple component](../example/src/components/simple-component/SimpleComponent.jsx)

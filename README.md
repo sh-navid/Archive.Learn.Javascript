@@ -81,9 +81,9 @@
 - ![](-/x.png) ~~Class Components~~
 - ![](-/f.png) [Function Components](frameworks/reactjs/function/README.md)
 - ![](-/f.png) [Props](frameworks/reactjs/props/README.md)
-- ![](-/f.png) [Style A Component](frameworks/reactjs/style/README.md)
+- ![](-/f.png) [Style](frameworks/reactjs/style/README.md)
 - ![](-/f.png) [Events](frameworks/reactjs/events/README.md)
-- ![](-/n.png) Forms
+- ![](-/p.png) [Forms](frameword/reactjs/forms/README.md)
 - ![](-/i.png) [Hooks](frameworks/reactjs/hooks/README.md)
 - ![](-/f.png) [Router](frameworks/reactjs/router/README.md)
 - ![](-/n.png) Integrate with API
