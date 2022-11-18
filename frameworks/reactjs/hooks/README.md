@@ -52,6 +52,7 @@
 
     export default MyForm
     ~~~
+    > Components re-renders when react detect a change in props or states; when a component re-renders, all the childrens re-render as well.
 - `useContext`
 - `useMemo`
 - `useReducer`

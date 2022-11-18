@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-const MyForm = () => {
+const MyForm = (props) => {
     const [name, setName] = useState("First Name")
     const [last, setLast] = useState("Last Name")
 
@@ -22,6 +22,8 @@ const MyForm = () => {
 
     return (
         <form>
+            <span>{props.number}</span>
+            <br/>
             <input type="text" value={name} onInput={(e) => setName(e.target.value)} />
             <br />
             <input type="text" value={last} onInput={(e) => setLast(e.target.value)} />
