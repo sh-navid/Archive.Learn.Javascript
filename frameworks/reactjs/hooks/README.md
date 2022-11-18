@@ -21,4 +21,5 @@
 - `useMemo`
 - `useReducer`
 - `useCallback`
+- `useTransaction`
 
