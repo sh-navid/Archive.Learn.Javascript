@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react"
 
-const MyForm = (props) => {
-    const [name, setName] = useState("Default Value")
-    const [last, setLast] = useState("Default Value")
+const MyForm = () => {
+    const [name, setName] = useState("First Name")
+    const [last, setLast] = useState("Last Name")
 
-    useEffect(() => {
+    useEffect(() => {//its a callback
         console.log("Each Render")
     })
 
@@ -14,11 +14,11 @@ const MyForm = (props) => {
 
     useEffect(() => {
         console.log("Name Changed")
-    }, [props, name])
+    }, [name])
 
     useEffect(() => {
         console.log("Last Changed")
-    }, [props, last])
+    }, [last])
 
     return (
         <form>

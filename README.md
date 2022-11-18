@@ -83,7 +83,6 @@
 - ![](-/f.png) [Props](frameworks/reactjs/props/README.md)
 - ![](-/f.png) [Style](frameworks/reactjs/style/README.md)
 - ![](-/f.png) [Events](frameworks/reactjs/events/README.md)
-- ![](-/p.png) [Forms](frameword/reactjs/forms/README.md)
 - ![](-/i.png) [Hooks](frameworks/reactjs/hooks/README.md)
 - ![](-/f.png) [Router](frameworks/reactjs/router/README.md)
 - ![](-/n.png) Integrate with API

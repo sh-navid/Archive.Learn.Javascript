@@ -16,7 +16,42 @@
     }
     ~~~
     >> When the user clicks, we call `setCount` with a new value. React will then re-render the component, passing the new `count` value to it. <small>***<sup>[[ReactJS 11/11/2022](https://reactjs.org/docs/hooks-state.html)]<sup>***</small>
-- `useEffect()`
+    
+- [`useEffect()`](../example-use-effect/)
+    ~~~js
+    import { useEffect, useState } from "react"
+
+    const MyForm = (props) => {
+        const [name, setName] = useState("First Name")
+        const [last, setLast] = useState("Last Name")
+
+        useEffect(() => {
+            console.log("Each Render")
+        })
+
+        useEffect(() => {
+            console.log("First Render")
+        }, [])
+
+        useEffect(() => {
+            console.log("Name Changed")
+        }, [name])
+
+        useEffect(() => {
+            console.log("Last Changed")
+        }, [last])
+
+        return (
+            <form>
+                <input type="text" value={name} onInput={(e) => setName(e.target.value)} />
+                <br />
+                <input type="text" value={last} onInput={(e) => setLast(e.target.value)} />
+            </form>
+        )
+    }
+
+    export default MyForm
+    ~~~
 - `useContext`
 - `useMemo`
 - `useReducer`
