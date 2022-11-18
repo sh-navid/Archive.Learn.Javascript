@@ -2,7 +2,7 @@
 ## Jquery
 - Setup
     - `npm install jquery`
-- [Usage](src/components/MyTabBar.jsx)
+- ![](../../../-/1.png) [Usage](src/components/MyTabBar.jsx)
     ~~~js
     import $ from "jquery"
 

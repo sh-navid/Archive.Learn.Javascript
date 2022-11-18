@@ -87,7 +87,7 @@
 - ![](-/f.png) [Router](frameworks/reactjs/router/README.md)
 - ![](-/n.png) Integrate with API
 - ![](-/n.png) Forward Ref
-- ![](-/n.png) [React + JQuery](frameworks/reactjs/example-react-jquery/README.md)
+- ![](-/f.png) [React + JQuery](frameworks/reactjs/example-react-jquery/README.md)
 - ![](-/n.png) React + Materialize
 - ![](-/n.png) **React Native**
 
