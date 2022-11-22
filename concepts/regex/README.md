@@ -26,8 +26,8 @@
         - ![](../../-/1.png) Scape Chars
         - ![](../../-/2.png) [`^a`](regex-at-begining.js) start
         - ![](../../-/2.png) [`a$`](regex-at-begining.js) end
-        - ![](../../-/2.png) `?=` follow
-        - ![](../../-/2.png) `?!` not follow
+        - ![](../../-/2.png) [`?=`](regex-follow.js) followed by
+        - ![](../../-/3.png) [`?!`](regex-follow.js) not followed by
 
 ## Regex and Javascript
 - ![](../../-/1.png) [`.search()`](regex-search.js)
