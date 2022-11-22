@@ -3,42 +3,38 @@
     - Modifier
         - ![](../../-/1.png) [`//g`](regex-case-sensitivity.js)
             > Global
-        - [`//i`](regex-case-sensitivity.js)
+        - ![](../../-/1.png) [`//i`](regex-case-sensitivity.js)
             > Case-in-sensitive
-        - `//m`
+        - ![](../../-/2.png) `//m`
             > Multi-line
     - [Rules](https://github.com/sh-navid/py-instructor/blob/master/concepts/regex/README.md)
-        - [`\d`](regex-contains-digits.js) Contains digits
-        - [`\D`](regex-not-contains-digits.js) Not Contains digits
-        - [`\s`](regex-contains-a-white-space.js) Contains a white space
-        - [`\S`](regex-not-contains-a-white-space.js) Not Contains a white space
-        - [`\w`](regex-contains-word.js) Contains A-Z,a-z,0-9,_
-        - [`\W`](regex-not-contains-a-word.js) Not Contains A-Z,a-z,0-9,_
-        - `\A` At Beginning
-        - `\Z` At End
-        - `\b` At Beginning or At End
-        - `\B` Not At Beginning or At End
-        - `[abc]` a,b,c
-        - `[a|b]` a or b
-        - `[a-c]` a to c
-        - `[^abc]` Any except a,b,c
-        - `[357]`  3,5,7
-        - `[123][645]` 16, 14, ..., 35
-        - `[0-9]+` At least One Digit
-        - `[0-9]*` At least Zero Digit like empty string
-        - `[0-9]?` Zero or one
-        - Scape Chars
-        - `^a` start
-        - `a$` end
-        - `?=` follow
-        - `?!` not follow
+        - ![](../../-/1.png) [`\d`](regex-contains-digits.js) Contains digits
+        - ![](../../-/1.png) [`\D`](regex-not-contains-digits.js) Not Contains digits
+        - ![](../../-/1.png) [`\s`](regex-contains-a-white-space.js) Contains a white space
+        - ![](../../-/1.png) [`\S`](regex-not-contains-a-white-space.js) Not Contains a white space
+        - ![](../../-/1.png) [`\w`](regex-contains-word.js) Contains A-Z,a-z,0-9,_
+        - ![](../../-/1.png) [`\W`](regex-not-contains-a-word.js) Not Contains A-Z,a-z,0-9,_
+        - ![](../../-/1.png) `[abc]` a,b,c
+        - ![](../../-/1.png) `[a|b]` a or b
+        - ![](../../-/1.png) `[a-c]` a to c
+        - ![](../../-/1.png) `[^abc]` Any except a,b,c
+        - ![](../../-/1.png) `[357]`  3,5,7
+        - ![](../../-/1.png) `[123][645]` 16, 14, ..., 35
+        - ![](../../-/1.png) `[0-9]+` At least One Digit
+        - ![](../../-/1.png) `[0-9]*` At least Zero Digit like empty string
+        - ![](../../-/1.png) `[0-9]?` Zero or one
+        - ![](../../-/1.png) Scape Chars
+        - ![](../../-/2.png) [`^a`](regex-at-begining.js) start
+        - ![](../../-/2.png) [`a$`](regex-at-begining.js) end
+        - ![](../../-/2.png) `?=` follow
+        - ![](../../-/2.png) `?!` not follow
 
 ## Regex and Javascript
-- [`.search()`](regex-search.js)
+- ![](../../-/1.png) [`.search()`](regex-search.js)
     > Returns first index
-- [`.replace()`](regex-replace.js)
+- ![](../../-/1.png) [`.replace()`](regex-replace.js)
     > To replace a substring pattern
-- [`.test()`](regex-text.js)
+- ![](../../-/2.png) [`.test()`](regex-text.js)
     > Returns `true` or `false`
-- [`.exec()`](regex-exec.js)
+- ![](../../-/2.png) [`.exec()`](regex-exec.js)
     > Returns object
