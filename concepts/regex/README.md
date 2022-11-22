@@ -1,19 +1,19 @@
 # Regex
 - Regular Expression
-    - Modifire
-        - [`//g`](regex-case-sensitivity.js)
+    - Modifier
+        - ![](../../-/1.png) [`//g`](regex-case-sensitivity.js)
             > Global
         - [`//i`](regex-case-sensitivity.js)
             > Case-in-sensitive
         - `//m`
             > Multi-line
     - [Rules](https://github.com/sh-navid/py-instructor/blob/master/concepts/regex/README.md)
-        - `\d` Contains digits
-        - `\D` Not Contains digits
-        - `\s` Contains a white space
-        - `\S` Not Contains a white space
-        - `\w` Contains A-Z,a-z,0-9,_
-        - `\W` Not Contains A-Z,a-z,0-9,_
+        - [`\d`](regex-contains-digits.js) Contains digits
+        - [`\D`](regex-not-contains-digits.js) Not Contains digits
+        - [`\s`](regex-contains-a-white-space.js) Contains a white space
+        - [`\S`](regex-not-contains-a-white-space.js) Not Contains a white space
+        - [`\w`](regex-contains-word.js) Contains A-Z,a-z,0-9,_
+        - [`\W`](regex-not-contains-a-word.js) Not Contains A-Z,a-z,0-9,_
         - `\A` At Beginning
         - `\Z` At End
         - `\b` At Beginning or At End
