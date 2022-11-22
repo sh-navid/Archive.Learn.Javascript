@@ -39,7 +39,7 @@
     - ![](-/f.png) [Map](concepts/map/README.md)
     - ![](-/f.png) [Set](concepts/set/README.md)
     - ![](-/f.png) [JSON](concepts/json/README.md)
-- ![](-/i.png)![](-/d.png) [Regex](concepts/regex/README.md)
+- ![](-/f.png) [Regex](concepts/regex/README.md)
 - ![](-/n.png) [Document](concepts/document/README.md)
 - ![](-/p.png) [Window](concepts/window/README.md)
 - ![](-/p.png) [SVG](documents/svg/README.md)

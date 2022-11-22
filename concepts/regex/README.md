@@ -14,16 +14,16 @@
         - ![](../../-/1.png) [`\S`](regex-not-contains-a-white-space.js) Not Contains a white space
         - ![](../../-/1.png) [`\w`](regex-contains-word.js) Contains A-Z,a-z,0-9,_
         - ![](../../-/1.png) [`\W`](regex-not-contains-a-word.js) Not Contains A-Z,a-z,0-9,_
-        - ![](../../-/1.png) `[abc]` a,b,c
-        - ![](../../-/1.png) `[a|b]` a or b
-        - ![](../../-/1.png) `[a-c]` a to c
-        - ![](../../-/1.png) `[^abc]` Any except a,b,c
-        - ![](../../-/1.png) `[357]`  3,5,7
-        - ![](../../-/1.png) `[123][645]` 16, 14, ..., 35
-        - ![](../../-/1.png) `[0-9]+` At least One Digit
-        - ![](../../-/1.png) `[0-9]*` At least Zero Digit like empty string
-        - ![](../../-/1.png) `[0-9]?` Zero or one
-        - ![](../../-/1.png) Scape Chars
+        - ![](../../-/1.png) [`[abc]`](regex-abc.js) a,b,c
+        - ![](../../-/1.png) [`[a|b]`](regex-or.js) a or b
+        - ![](../../-/1.png) [`[a-c]`](regex-range.js) a to c
+        - ![](../../-/1.png) [`[^abc]`](regex-except.js) Any except a,b,c
+        - ![](../../-/1.png) [`[357]`](regex-just-these-ones.js)  3,5,7
+        - ![](../../-/1.png) [`[123][645]`](regex-combine.js) 16, 14, ..., 35
+        - ![](../../-/1.png) [`[0-9]+`](regex-at-least-one.js) At least one digit
+        - ![](../../-/1.png) [`[0-9]*`](regex-at-least-one.js) Zero or more digits
+        - ![](../../-/1.png) [`[0-9]?`](regex-at-least-one.js) Zero or one digit
+        - ![](../../-/1.png) [Scape Chars](regex-scape-chars.js)
         - ![](../../-/2.png) [`^a`](regex-at-begining.js) start
         - ![](../../-/2.png) [`a$`](regex-at-begining.js) end
         - ![](../../-/2.png) [`?=`](regex-follow.js) followed by
