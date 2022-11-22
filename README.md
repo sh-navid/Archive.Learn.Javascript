@@ -24,7 +24,7 @@
 - ![](-/f.png) [Output](concepts/output/README.md)
 - ![](-/i.png)![](-/d.png) [Operators](concepts/operators/README.md)
 - ![](-/i.png)![](-/d.png) [DataTypes](concepts/datatypes/README.md)
-    - ![](-/i.png)![](-/d.png) [String](concepts/string/README.md)
+    - ![](-/f.png) [String](concepts/string/README.md)
     - ![](-/f.png) [Array](concepts/array/README.md)
 - ![](-/i.png)![](-/d.png) [Function](concepts/function/README.md)
 - ![](-/f.png) [Class](concepts/class/README.md)
