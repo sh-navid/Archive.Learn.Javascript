@@ -37,10 +37,15 @@
         canvas = document.querySelector("canvas")
         ctx = canvas.getContext("2d")
 
-        x = 0, y = 0, draw = false, size = 1
+        x = 0, y = 0, draw = false, size = 4, color = "black"
 
         const changeSize = (el) => {
             size = parseInt(el.innerText)
+        }
+
+        const changeColor = (el) => {
+            color=el.style.backgroundColor
+            //alert(color)
         }
 
         document.addEventListener("mousedown", (e) => {
@@ -57,6 +62,7 @@
             if (!draw) return
 
             ctx.lineWidth = size
+            ctx.strokeStyle = color
             ctx.beginPath();
             ctx.moveTo(x, y);
             ctx.lineTo(e.x, e.y);
