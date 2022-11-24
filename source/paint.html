@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../frameworks/jquery/jquery-3.6.1.min.js"></script>
+    <style>
+        canvas {
+            border: 1px solid gold;
+        }
+
+        .color,
+        .size {
+            display: inline-block;
+            width: 2em;
+            height: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas width="400px" height="400px"></canvas>
+    <hr />
+    <button class="color" style="background-color: black;" onclick="changeColor(this)"></button>
+    <button class="color" style="background-color: tomato;" onclick="changeColor(this)"></button>
+    <button class="color" style="background-color: seagreen;" onclick="changeColor(this)"></button>
+    <button class="color" style="background-color: slateblue;" onclick="changeColor(this)"></button>
+    <hr />
+    <button class="size" onclick="changeSize(this)">1</button>
+    <button class="size" onclick="changeSize(this)">4</button>
+    <button class="size" onclick="changeSize(this)">8</button>
+    <button class="size" onclick="changeSize(this)">16</button>
+    <script>
+        canvas = document.querySelector("canvas")
+        ctx = canvas.getContext("2d")
+
+        x = 0, y = 0, draw = false, size = 1
+
+        const changeSize = (el) => {
+            size = parseInt(el.innerText)
+        }
+
+        document.addEventListener("mousedown", (e) => {
+            x = e.x
+            y = e.y
+            draw = true
+        })
+
+        document.addEventListener("mouseup", (e) => {
+            draw = false
+        })
+
+        document.addEventListener("mousemove", (e) => {
+            if (!draw) return
+
+            ctx.lineWidth = size
+            ctx.beginPath();
+            ctx.moveTo(x, y);
+            ctx.lineTo(e.x, e.y);
+            ctx.stroke();
+
+            x = e.x
+            y = e.y
+        })
+    </script>
+</body>
+
+</html>
