@@ -190,6 +190,7 @@
 - [Snake Game](source/snake-game.html)
 - [Slider](source/slider.html)
 - [NavBar](source/navbar/README.md)
+- [Paint](source/paint.html)
 
 ![](assets/spacer.png)
 
