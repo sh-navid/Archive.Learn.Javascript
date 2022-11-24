@@ -1,0 +1,31 @@
+*{
+    user-select: none;
+}
+.answer {
+    display: block;
+    color: tomato;
+    border: 1px solid tomato;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.answer.active{
+    background-color: tomato;
+    color: white;
+}
+
+.control {
+    padding: 1em;
+    border: 2px solid tomato;
+    border-radius: 2em;
+    margin: .5em;
+    cursor: pointer;
+}
+
+hr{
+    border: 0;
+    height: .1em;
+    background-color: #efefef;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
