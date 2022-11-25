@@ -30,5 +30,5 @@ if(stripos($_SERVER['REQUEST_URI'], '/data' )!==false){
     //echo file_get_contents("./index.html");
     echo json_encode($data);
 }else{
-    echo "Hello from PHP server";
+    echo "<h1>Hello from PHP server</h1>";
 }
