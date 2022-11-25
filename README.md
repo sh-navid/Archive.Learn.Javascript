@@ -191,6 +191,7 @@
 - [Slider](source/slider.html)
 - [NavBar](source/navbar/README.md)
 - [Paint](source/paint.html)
+- [Question with JQ](source/question-jq.html)
 
 ![](assets/spacer.png)
 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../frameworks/jquery/jquery-3.6.1.min.js"></script>
+    <style>
+        * {
+            user-select: none;
+        }
+
+        .answer {
+            display: block;
+            color: tomato;
+            border: 1px solid tomato;
+            padding: 1em;
+            cursor: pointer;
+        }
+
+        .answer.active {
+            background-color: tomato;
+            color: white;
+        }
+
+        .control {
+            padding: 1em;
+            border: 2px solid tomato;
+            border-radius: 2em;
+            margin: .5em;
+            cursor: pointer;
+        }
+
+        hr {
+            border: 0;
+            height: .1em;
+            background-color: #efefef;
+            margin-top: 2em;
+            margin-bottom: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="holder">
+
+    </div>
+    <script>
+        const data = [
+            {
+                "question": "What is the capital of Iran?",
+                "answers": ["Tehran", "Paris", "London"],
+                "correct": 0,
+                "selected": -1
+            }, {
+                "question": "What is the capital of England?",
+                "answers": ["Manhatan", "Tokio", "London"],
+                "correct": 2,
+                "selected": -1
+            }
+        ]
+    </script>
+</body>
+
+</html>
