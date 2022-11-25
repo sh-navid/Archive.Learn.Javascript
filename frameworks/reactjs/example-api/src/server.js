@@ -19,7 +19,7 @@ data = [
     }
 ]
 
-const requestListener = (req, res) => {
+const listener = (req, res) => {
     res.writeHead(200);
     if (req.url == "/data") {
         res.end(JSON.stringify(data));
@@ -28,5 +28,5 @@ const requestListener = (req, res) => {
     }
 }
 
-const server = http.createServer(requestListener);
+const server = http.createServer(listener);
 server.listen(4000);
