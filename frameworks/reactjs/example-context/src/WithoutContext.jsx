@@ -9,7 +9,7 @@ const A = () => {
             {data}
             <button onClick={() => { setData(data + 1) }}>UP</button>
             <hr />
-            <B data={data} handle={() => { setData(data + 2) }}/>
+            <B data={data} handle={() => { setData(data + 2) }} />
         </>
     )
 }
