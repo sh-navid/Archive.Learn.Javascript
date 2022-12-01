@@ -12,15 +12,9 @@
     const Component = () => {
         const ref = React.createRef()
 
-        const handleClick=()=>{
-            ref.current.innerHTML="HI HI"
-        }
+        const handleClick=()=>{ref.current.innerHTML="HI HI"}
 
-        return (
-            <>
-                <MyButton ref={ref} handle={handleClick}/>
-            </>
-        )
+        return (<><MyButton ref={ref} handle={handleClick}/></>)
     }
     ~~~
 - [`useState()`](../example2/src/components/ComponentWithUseState.jsx)
@@ -75,6 +69,7 @@
     ~~~
     > Components re-renders when react detect a change in props or states; when a component re-renders, all the childrens re-render as well.
 - `useContext`
+    > To share state globlly
 - `useMemo`
 - `useReducer`
 - `useCallback`
