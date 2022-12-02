@@ -31,8 +31,9 @@
             }
 
             t = Math.abs(x - 150)
-            off = 20 / (t) * 100
-            y = L + off
+            t = 150 - t
+            console.log(t)
+            y = L + t/3
         }
 
         const render = () => {
