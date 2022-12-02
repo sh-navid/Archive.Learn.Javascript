@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas width="300px" height="300px"></canvas>
+    <script>
+        canvas = document.querySelector("canvas")
+        ctx = canvas.getContext("2d")
+
+        x = 0
+        y = -1
+        L = 150
+        r = 10
+        d = 5
+
+        const update = () => {
+            x += d
+            if (x > 300 || x < 0) {
+                d = -d
+            }
+
+            t = Math.abs(x - 150)
+            off = 20 / (t) * 100
+            y = L + off
+        }
+
+        const render = () => {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            ctx.lineWidth = 2
+            ctx.strokeStyle = "black"
+
+            ctx.beginPath();
+            ctx.moveTo(150, 0);
+            ctx.lineTo(x, y);
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.arc(x, y, r, 0, 2 * Math.PI);
+            ctx.stroke();
+        }
+
+        setInterval(() => {
+            update()
+            render()
+        }, 30)
+    </script>
+</body>
+
+</html>
