@@ -192,6 +192,7 @@
 - [NavBar](source/navbar/README.md)
 - [Paint](source/paint.html)
 - [Question with JQ](source/question-jq.html)
+- [CutTheRope](source/cut-the-rope.html)
 
 ![](assets/spacer.png)
 
