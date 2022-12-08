@@ -6,7 +6,6 @@ class BookClass extends React.Component {
         //must call super constructor before using 'this' in derived class constructor
         super()
         this.state = { name: "ReactBook" }
-
         this.handleClick = this.handleClick.bind(this)
     }
 
