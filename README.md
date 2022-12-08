@@ -78,7 +78,7 @@
 
 ## ReactJS Headings
 - ![](-/f.png) [Introduction](frameworks/reactjs/introduction/README.md)
-- ![](-/x.png) ~~Class Components~~
+- ![](-/x.png) [~~Class Components~~](frameworks/reactjs/example2-class/README.md)
 - ![](-/f.png) [Function Components](frameworks/reactjs/function/README.md)
 - ![](-/f.png) [Props](frameworks/reactjs/props/README.md)
 - ![](-/f.png) [Style](frameworks/reactjs/style/README.md)
@@ -86,7 +86,7 @@
 - ![](-/i.png) [Hooks](frameworks/reactjs/hooks/README.md)
 - ![](-/f.png) [Router](frameworks/reactjs/router/README.md)
 - ![](-/p.png) [Integrate with API](frameworks/reactjs/example-api/README.md)
-- ![](-/n.png) Forward Ref
+<!-- - ![](-/n.png) Forward Ref -->
 - ![](-/f.png) [React + JQuery](frameworks/reactjs/example-react-jquery/README.md)
 - ![](-/n.png) React + Materialize
 - ![](-/n.png) **React Native**
