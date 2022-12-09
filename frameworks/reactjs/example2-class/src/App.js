@@ -5,6 +5,7 @@ import { Book4, Book4Function } from "./components/Book4";
 import { Book5, Book5Function } from "./components/Book5";
 import Book6 from "./components/Book6";
 import { Book7 } from "./components/Book7";
+import { Book8 } from "./components/Book8";
 
 function App() {
   return (
@@ -26,8 +27,10 @@ function App() {
       <hr/>
       <Book6/>
       <hr/>
-      <Book7/>
-      <Book7 num="90"/>
+      {/* <Book7/> */}
+      {/* <Book7 num="90"/> */}
+      <hr/>
+      <Book8 num="10"/>
     </>
   );
 }
