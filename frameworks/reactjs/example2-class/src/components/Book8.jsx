@@ -43,7 +43,7 @@ class BookClass extends React.Component {
 
     render() {
         console.log("render")
-        return <h4>Book Class Component {this.props.num} <button onClick={() => { this.setState({ num: this.state.num + 1 }) }}>Update</button></h4>
+        return <h4>Book Class Component {this.props.num} {this.state.num} <button onClick={() => { this.setState({ num: this.state.num + 1 }) }}>Update</button></h4>
     }
 
     getSnapshotBeforeUpdate() {
