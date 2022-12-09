@@ -18,12 +18,12 @@ import React from "react"
 class BookClass extends React.Component {
     constructor(props) {
         super(props)
-        this.state = { num: 0 }
+        this.state = { num: null }
     }
 
     static getDerivedStateFromProps(props, state) {
         console.log("getDerivedStateFromProps", props, state)
-        return props.num ? { num: props.num } : state
+        return state.num == null ? { num: parseInt(props.num) } : state
     }
 
     shouldComponentUpdate() {
