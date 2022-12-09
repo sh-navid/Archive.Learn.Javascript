@@ -4,6 +4,7 @@ import { Book3, Book3Function } from "./components/Book3";
 import { Book4, Book4Function } from "./components/Book4";
 import { Book5, Book5Function } from "./components/Book5";
 import Book6 from "./components/Book6";
+import { Book7 } from "./components/Book7";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
       <Book5Function>CONTENT</Book5Function>
       <hr/>
       <Book6/>
+      <hr/>
+      <Book7/>
+      <Book7 num="90"/>
     </>
   );
 }

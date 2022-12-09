@@ -16,17 +16,20 @@ import React from "react"
 
 class BookClass extends React.Component {
     constructor(props) {
-        super(props)
+        super(props) // mandatory
+
+        this.state = { num: 12 } // Good place to init state
         console.log("constructor")
     }
 
-    getDerivedStateFromProps() {
-        console.log("getDerivedStateFromProps")
+    static getDerivedStateFromProps(props, state) {// Good place to set state based on props values
+        console.log("getDerivedStateFromProps", props, state)
+        return props.num ? { num: props.num } : state
     }
 
     render() {
         console.log("render")
-        return <h4>Book Class Component {this.props.children}</h4>
+        return <h4>Book Class Component {this.props.num} {this.state.num}</h4>
     }
 
     componentDidMount() {
