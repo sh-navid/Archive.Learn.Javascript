@@ -7,24 +7,29 @@ import React from "react"
 // - Update
 // ------------------------------
 // - Unmount
-// ---- When props or state changes
+// ---- Component removed from DOM
 // ----
+// ---- componentWillUnmount()
+
+class Book extends React.Component {
+    render() {
+        return <h1>Book</h1>
+    }
+
+    componentWillUnmount() {
+        console.log("componentWillUnmount")
+    }
+}
 
 class BookClass extends React.Component {
     constructor(props) {
         super(props)
-        this.state = { num: null }
+        this.state = { flag: true }
     }
-
-    static getDerivedStateFromProps(props, state) {
-        console.log("getDerivedStateFromProps", props, state)
-        return state.num == null ? { num: parseInt(props.num) } : state
-    }
-
 
     render() {
-        console.log("render")
-        return <h4>Book Class Component {this.props.num} {this.state.num} <button onClick={() => { this.setState({ num: this.state.num + 1 }) }}>Update</button></h4>
+        console.log("render", this.props)
+        return <h4>{this.state.flag ? <Book />:<h1>NONE</h1>} <button onClick={() => { this.setState({ flag: false }) }}>Unmount</button></h4>
     }
 }
 

@@ -32,7 +32,6 @@ function App() {
       <Book7 num="90"/>
       <hr/>
       <Book8 num="10"/> */}
-      <Book8 num="40"/>
       <Book9/>
     </>
   );
