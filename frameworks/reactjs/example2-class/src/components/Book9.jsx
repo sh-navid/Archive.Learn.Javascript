@@ -5,15 +5,10 @@ import React from "react"
 // - Mount
 // ------------------------------
 // - Update
-// ---- When props or state changes
-// ----
-// ---- getDerivedStateFromProps()
-// ---- shouldComponentUpdate()
-// ---- render()
-// ---- getSnapshotBeforeUpdate()
-// ---- componentDidUpdate()
 // ------------------------------
 // - Unmount
+// ---- When props or state changes
+// ----
 
 class BookClass extends React.Component {
     constructor(props) {

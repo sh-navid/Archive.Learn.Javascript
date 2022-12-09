@@ -22,7 +22,7 @@ class BookClass extends React.Component {
     }
 
     static getDerivedStateFromProps(props, state) {
-        console.log("getDerivedStateFromProps", props, state)
+        console.log("getDerivedStateFromProps", "Props", props, "State", state)
         return state.num == null ? { num: parseInt(props.num) } : state
     }
 
@@ -46,12 +46,14 @@ class BookClass extends React.Component {
         return <h4>Book Class Component {this.props.num} {this.state.num} <button onClick={() => { this.setState({ num: this.state.num + 1 }) }}>Update</button></h4>
     }
 
-    getSnapshotBeforeUpdate() {
-        console.log("getSnapshotBeforeUpdate")
-        return null
+    getSnapshotBeforeUpdate(oldProps, oldState) { // You can access to props and state before update
+        console.log("getSnapshotBeforeUpdate", "OldProps", oldProps, "OldState", oldState)
+        return null // Check what is this
     }
 
     componentDidUpdate() {
+        // This method needs the existance of "getSnapshotBeforeUpdate()" method
+        // Component is updated completely in the DOM
         console.log("componentDidUpdate")
     }
 }
