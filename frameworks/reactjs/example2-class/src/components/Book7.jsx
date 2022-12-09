@@ -32,8 +32,12 @@ class BookClass extends React.Component {
         return <h4>Book Class Component {this.props.num} {this.state.num}</h4>
     }
 
-    componentDidMount() {
+    componentDidMount() { // called after the component rendered
         console.log("componentDidMount")
+
+        setTimeout(() => {
+            this.setState({ num: this.state.num + 1 })
+        }, 500)
     }
 }
 
